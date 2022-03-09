@@ -1,0 +1,168 @@
+{
+	"name": "@types/mdx",
+	"versions": {
+		"2.0.0": {
+			"name": "@types/mdx",
+			"version": "2.0.0",
+			"description": "TypeScript definitions for mdx",
+			"homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/mdx",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Christian Murphy",
+					"url": "https://github.com/ChristianMurphy",
+					"githubUsername": "ChristianMurphy"
+				},
+				{
+					"name": "Remco Haszing",
+					"url": "https://github.com/remcohaszing",
+					"githubUsername": "remcohaszing"
+				},
+				{
+					"name": "Titus Wormer",
+					"url": "https://github.com/wooorm",
+					"githubUsername": "wooorm"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/mdx"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "eaec60d3fac43bf4c92de09e54f8e7ec97ccd6afa1c7ef9604fab8498c615172",
+			"typeScriptVersion": "3.9",
+			"_id": "@types/mdx@2.0.0",
+			"dist": {
+				"integrity": "sha512-O6JJl7WG29wGJajbvvN0nLCHlS9/rGAoB1NMmQDPBVqI8R04wAt3P3DqzKCZK+UxOpRHwJu5S6xKT+Amqed8NQ==",
+				"shasum": "1402ca7b950e5da234ddb3da936c4638d5626b5f",
+				"tarball": "https://registry.npmjs.org/@types/mdx/-/mdx-2.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8124
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mdx_2.0.0_1634068914107_0.9902795242747255"
+			},
+			"_hasShrinkwrap": false
+		},
+		"2.0.1": {
+			"name": "@types/mdx",
+			"version": "2.0.1",
+			"description": "TypeScript definitions for mdx",
+			"homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/mdx",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Christian Murphy",
+					"url": "https://github.com/ChristianMurphy",
+					"githubUsername": "ChristianMurphy"
+				},
+				{
+					"name": "Remco Haszing",
+					"url": "https://github.com/remcohaszing",
+					"githubUsername": "remcohaszing"
+				},
+				{
+					"name": "Titus Wormer",
+					"url": "https://github.com/wooorm",
+					"githubUsername": "wooorm"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/mdx"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "b7ee723a8e8a51357fdba1928d23f2f6d00238c340cc18b185941482b711ee00",
+			"typeScriptVersion": "3.9",
+			"_id": "@types/mdx@2.0.1",
+			"dist": {
+				"integrity": "sha512-JPEv4iAl0I+o7g8yVWDwk30es8mfVrjkvh5UeVR2sYPpZCK44vrAPsbJpIS+rJAUxLgaSAMKTEH5Vn5qd9XsrQ==",
+				"shasum": "e4c05d355d092d7b58db1abfe460e53f41102ac8",
+				"tarball": "https://registry.npmjs.org/@types/mdx/-/mdx-2.0.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8184
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mdx_2.0.1_1634499105217_0.09592540616576484"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"created": "2021-10-12T20:01:54.047Z",
+		"2.0.0": "2021-10-12T20:01:54.301Z",
+		"modified": "2022-02-14T08:24:38.190Z",
+		"2.0.1": "2021-10-17T19:31:45.364Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.0.1",
+		"ts3.9": "2.0.1",
+		"ts4.0": "2.0.1",
+		"ts4.1": "2.0.1",
+		"ts4.2": "2.0.1",
+		"ts4.3": "2.0.1",
+		"ts4.4": "2.0.1",
+		"ts4.5": "2.0.1",
+		"ts4.6": "2.0.1",
+		"ts4.7": "2.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"e228079fa731016c32f271fdffff14df\"",
+			"fetched": 1646836863746
+		}
+	},
+	"_distfiles": {
+		"mdx-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/mdx/-/mdx-2.0.0.tgz",
+			"sha": "1402ca7b950e5da234ddb3da936c4638d5626b5f",
+			"registry": "npmjs"
+		},
+		"mdx-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/mdx/-/mdx-2.0.1.tgz",
+			"sha": "e4c05d355d092d7b58db1abfe460e53f41102ac8",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"mdx-2.0.1.tgz": {
+			"shasum": "e4c05d355d092d7b58db1abfe460e53f41102ac8"
+		}
+	},
+	"_rev": "4-cff9eedabb269f3c",
+	"_id": "@types/mdx",
+	"readme": "# Installation\r\n> `npm install --save @types/mdx`\r\n\r\n# Summary\r\nThis package contains type definitions for mdx (https://github.com/mdx-js/mdx).\r\n\r\n# Details\r\nFiles were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/mdx.\r\n\r\n### Additional Details\r\n * Last updated: Sun, 17 Oct 2021 19:31:17 GMT\r\n * Dependencies: none\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by [Christian Murphy](https://github.com/ChristianMurphy), [Remco Haszing](https://github.com/remcohaszing), and [Titus Wormer](https://github.com/wooorm)."
+}

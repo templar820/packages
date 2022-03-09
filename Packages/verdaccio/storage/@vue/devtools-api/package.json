@@ -1,0 +1,2999 @@
+{
+	"name": "@vue/devtools-api",
+	"versions": {
+		"6.0.0-beta.2": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.2",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "./lib/index.js",
+			"types": "./lib/index.d.ts",
+			"author": "",
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn ts",
+				"build:watch": "yarn ts -w",
+				"ts": "tsc -d -outDir lib"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.2",
+			"_nodeVersion": "14.3.0",
+			"_npmVersion": "6.14.5",
+			"dist": {
+				"integrity": "sha512-5k0A8ffjNNukOiceImBdx1e3W5Jbpwqsu7xYHiZVu9mn4rYxFztIt+Q25mOHm7nwvDnMHrE7u5KtY2zmd+81GA==",
+				"shasum": "833ad3335f97ae9439e26247d97f9baf7b5a6116",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.2.tgz",
+				"fileCount": 39,
+				"unpackedSize": 22603,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfUAWiCRA9TVsSAnZWagAASK8QAJrlbs6wZKAoeyvy817A\nsFID7+bddc9/KIA0ZKq6hEoQuQVsDEtJDmnVes57YK7TqoqCoPw4HmbVNCxH\nHqiUYNSto4OSkjwdVCJLHZi/wkwjF8SOO6uVjALZXChzXPmjtCmFfyRTy9U+\ny/tZW+StNoJLySjF4ZwEcvSXE7Z9gEe9kk7yR36bAIe4/m8hqJ4Bqz32p5Db\nu4r4/P/mBAXg3WS6ZS0f+d0C4ZqwDEJ2zpz9WJGgHTuD6toswUfDrenS30WE\n0FRenTMCY4Zj5Hr1+9ypCXgHyd/Y39czuUfHCsyj1y/gro3cDVKrE03pyE1M\nW3vnTUS3p4TG3WlxEk25dVHm7cY409KaoT3grn7NKON+2lBIXidwy30XwLiz\nRzkPpPmWdLMWe7J5bXyZ3oWKm549Rqk9ItM3N6h+MCZ3LuFGYJ0F3X+0E3rA\nNHU9YGt1WLinQXfTd8GM0tHTqCtXNlTxPGocK6xYbVNYKSFxpmYQKJLc8whd\n8SXlLeh073pMjsuWqXLoeC9i0PLgbPLPJN+MY1vyBYP4ytMp0w2HXNasxBB3\n2VfnU2NgZRwn+Qe6fDz6zmCHWc2JFadmbtw/+rl5TZNBF1QYuNMbhqqajAs0\nmwa50Lm6P1xNwDI6X3RVKqssUF/rjv5krNF4bQ/eNpvKLHUvtmnsJkMX+RHL\n6q0G\r\n=u39I\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "amour1688",
+					"email": "lcz_1996@foxmail.com"
+				},
+				{
+					"name": "pikax",
+					"email": "david-181@hotmail.com"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "linusborg",
+					"email": "t.luenborg@googlemail.com"
+				},
+				{
+					"name": "lmiller1990",
+					"email": "lachlan.miller.1990@outlook.com"
+				},
+				{
+					"name": "dobromir-hristov",
+					"email": "dobromir92@gmail.com"
+				},
+				{
+					"name": "liximomo",
+					"email": "liximomo@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				},
+				{
+					"name": "znck",
+					"email": "rahulkdn@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "eddyerburgh",
+					"email": "edward.yerburgh@gmail.com"
+				},
+				{
+					"name": "ktsn",
+					"email": "ktsn55@gmail.com"
+				},
+				{
+					"name": "nickmessing",
+					"email": "dot.nick.dot.messing@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "mysticatea",
+					"email": "public@mysticatea.dev"
+				}
+			],
+			"_npmUser": {
+				"name": "yyx990803",
+				"email": "yyx990803@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.2_1599079842098_0.6628039664072316"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.3": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.3",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/cjs/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs -d",
+				"build:watch": "yarn tsc --module commonjs --outDir lib/cjs -d -w --sourceMap",
+				"ts": "yarn build:esm"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.3",
+			"_nodeVersion": "14.12.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-iJQhVyWzWIJxYIMjbZpljZQfU4gL2IMD5YQm3HXO8tQRU7RqqnD3f1WHn+vrqvrSvM8Qw2BeNugwdBBmbK8Oxg==",
+				"shasum": "5a66cc8beed688fe18c272ee7a8bd8ed7e35a54c",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.3.tgz",
+				"fileCount": 31,
+				"unpackedSize": 15912,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf49AMCRA9TVsSAnZWagAA7/sP/2gCu/VPP3BhJqK2Ddgx\nPRxGKt4Ad0eAljc1YOqptP3G6xPGYWrH0ZEeQFJg7toEM/no7SeAAB2sPT8l\nTcQvEZt5fbymvhUzJUIjMUDRri/3MkiNKVWy8cfXklZCW9B1dPFlZ3LVd83K\nE1jxoa/0BNyTWVIg11b0gU+LDi6tjfG0Wst/yTogkvJ5EyjoPixtDgex2XWF\nCZPUilOm1CCcph6f/N2TnrrOY8hoHk+KglhtnPI65zspsQF+ltOEXz1LQv1f\nzE1j4HJY9mnAYDfmXSaZ3nqAd+9rnKfFtwY+7snnM4efWu4+a/ynodVQLjDS\ndk6xnSSilIKT4QgU7CvYTCXXuMlQxHfFb2xtesUDKPsObhQpjZIGOCWEHLA5\nI3o02xK5Tb/BYxivmPom83jWW0zCQMAzpRa0wWz6WfBDDPOmP9zGW/b1D8Fe\nFv7qnUXX/jcgXq63ZKXp6Yuy1Dkg2i1WZe+veU+U8ttLSqXlYTFBc72EtTKh\nQjS0h3h1+T3a3+4gtEgx+JYy10cpuXU6Bz48JSwRBFE/N1PGYF+AaAdkcEmu\nz2nbNkos4n1EuuublObcymExKAR+TSJuZ90ZZODmwqBWJCE0UcCbAfdF7Uft\nqjRoeGpEZxaKheYWac4+mFDH3Cb3dzJXNCNaK58bFLZ/tgeqSUY6DV0PtV4V\nSRjY\r\n=HOgF\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.3_1608765452329_0.24429479641944596"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.4": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.4",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/cjs/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs -d",
+				"build:watch": "yarn tsc --module commonjs --outDir lib/cjs -d -w --sourceMap",
+				"ts": "yarn build:esm"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.4",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "6.14.10",
+			"dist": {
+				"integrity": "sha512-cIpWHDwyAnbElILI4jdv1G2koRjTbTVr7yluqY1mB7+xjT8HxUmPd/JD+cFfWDSEqvdA+BAKcXRVUtg90gBCfQ==",
+				"shasum": "10fdb3ed98593ccc3ef45d2d66d4d9a983e75936",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.4.tgz",
+				"fileCount": 31,
+				"unpackedSize": 15999,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgF1SuCRA9TVsSAnZWagAA91EP/3SGbtaCa4j//z13PJZF\nlIwKD5K10b1mqGvmHfb6cXYxeIiMdyF603ponEV9RB/806DD11tui07gjqpr\nAtiB//+CQmpjZMUFXnT7HEZyWeXnLP8n3t5FG8tFYzVYxsVCPpaiCXLtDkzU\nuuXrFzXmBW2CpXy2llTzHUcpxo95MbB4FCK7nTPiIeqtDssc1TOwDrB3Dr2J\njC+IibQp1qFRoc5K9WfWxONXE97u5vzTh7PiZuPEYhOftp/lcuGRj+fSBLSu\nqarsJdsin3nM5f4ATnFLZCmy4OWTfIEVp10GE7hSVZBZ/X1UpbL+Zyg6jd+y\nWCYKOj9iDTDYF6Lpw39CQASBBbzzEJnVAbKqf3pQrwN2JNiaxgPyvyAJM/6y\nOdIfDfRewn7/kklgXsm81Kv7pq1Ce9BwhRboOLNk2s4Nwn/lGPg5lvK6yvjD\noQ65qd8/Yf++ehLrsVqSBOGK7TbBNztcbVDwMnYlin3eZdRHU9zUYnOGRwXJ\nuzzQpyEq30gwn8wmrjFmcl00MslNKDyKSZ1MLkoSal4kFj9PKV2VGffwkrXJ\nS/EsQooaVtSKuqkYYMRepibiTqyUgOxj/DtPdeXP+coJ9CDKBXm40Pexnpyn\nI/yFrzpU6dhTF9TSCq93tDSPSFyZIPKMX5v8pslEmLKTvWtFmZnlA9k7nE3y\nj+fG\r\n=Fd2r\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.4_1612141741376_0.6999065956805088"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.5": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.5",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/cjs/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs -d",
+				"build:watch": "yarn tsc --module commonjs --outDir lib/cjs -d -w --sourceMap",
+				"ts": "yarn build:esm"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.5",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "6.14.10",
+			"dist": {
+				"integrity": "sha512-Xik8/zF+cu1lQmhJy2djGudZ2OmSGGB25mjtTIGhMsNN7jvvwnn44kD6qSN22+PdnX6sAK+2EQ51WDCXWmitwg==",
+				"shasum": "722296bb0b93c4d0018b6a2beda1e781a3ff8789",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.5.tgz",
+				"fileCount": 31,
+				"unpackedSize": 15999,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgF1wvCRA9TVsSAnZWagAAHkYP/RsP2LsrJR5Eerq0fBvM\n8jGFxrEgoupmp8O6V08C5c0yMZdjeOITJfXdQ3k60sppDkk5A1wKHOFKXvKn\nSZibLKSxQ7n0RnYr7YnIKGlKSvw/zqsZ05+fUly6GRO1fwDc0LwztPo8nVxd\nPXzFiZhBafNGBcd/Uu2SoBGoI0FFHFd6jSxtdVKw7o+QwUNBHxf1L8L5Kmvw\nAQdiF+oTTq15Sb0CL9S5qE1JpXfk4fYlrUqRsvavURMg7w1LMYOp6JfFg+0p\ndWarYcwQB6xPNaS+xYhmscle0kH8mcvMQNl0q3NTDo3iNsDlDWVcVe0J+3Ne\nXkWXOP9i2obE8ZVpFY7CPgkD2MsVV/1iZTATypwfjmvbl6OXYnEf0cN/yLZe\n2EMbGS2t3dzr1d+ZDIYu5cpDbMkO5Yo77eIRAsbDAne6pM9XLc8VwDxr8HGJ\nUlFc50Q7+eLYqOXqXyyCme6Fl/Oxgelnh2/0zu8JhaW4SQe7Jq4QHxdlZbNP\nMq68053x6C05JKqcC1fCqqKJo4TLMxEwJgkVdMgJjUZvjLkD1dYkl1uL3m4t\nZzLCGNxCpktc/Q06i3Untk7gfe9j+OlLO4f+Oy1Z9v+qtoPm6KIHw3u+EgJL\n7yxLTHY75L9CcPWexRVAigGxvLVzY0rg0nN2dpa9mzR+HbvlR64vbre1Z6eN\nGit/\r\n=4IRl\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.5_1612143663251_0.6306073025852934"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.6": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.6",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/cjs/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs -d",
+				"build:watch": "yarn tsc --module commonjs --outDir lib/cjs -d -w --sourceMap",
+				"ts": "yarn build:esm"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.6",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "6.14.10",
+			"dist": {
+				"integrity": "sha512-BRQOUjncqTRmYRXH76TWYYzi3O+Xhto2/wD6GN30pbFoYimgJHCwfYaeL8iSZ2aBTNHgO9Rd73qXt1kn9p3S8g==",
+				"shasum": "bceabad6631156c57bdf790bfbbd5df27545e2a2",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.6.tgz",
+				"fileCount": 31,
+				"unpackedSize": 15999,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgGZprCRA9TVsSAnZWagAAMywP/jsxZhz8WTBBa7utDtGs\nvuJVOzuVybzmChsehtcQUOJoF3hSKRsm1aHKiFGwf5M8RcoQWxaR5cSVRmXS\nBTteUltSEI4l62ZLeetkzamnGiomuV1B7bOKLuasDGTauROUuzNYQf4eGQo+\nvUZteqdP8Ds5ZW3yqrk80KSfVhcpfQoLUUnKKJUCTo2sb96zQeAK3Yn8xyh3\nV/8bVIO2nC2MVnPj69NOCzXjDf2mRJhXrJCNyqOl2jh2O9TCQteQl0ibIfl5\nvMr9QJIyiQQtgFRQjWFasqjeYL2vTajeeQ3MQHmwWnSV+oSiyjWb9HLMLUP4\nM7tYdhsigU7Id9QQhXAPslSCdMGiV898CSDp3SHpiI23LtjCv6uUe71dQ7Bs\nF587Pn4m2S9ZkNnijkRDpoKdm9E/xGIL7RKcRNtr9k38W7g22l8OeDRtoxEa\niEHdXYUxLaFoKf9nq3n8DD6csPqG69RBrR2+Eu0kMWklEWxKZS0W1XmMnFCB\nlNbPsXzslY0FeO4nhuRavVfMcsAgQjMqjfYHkDT2nmSUjtInJ1aHIokc3Xat\nPw1R9jZ6Iv71cgJ+J0tYVQp0747MDFXyfah1JPMXeUjD0Gvce9qQgu7WmrcC\npB1hRuboAHVfWlWhhDiIrYcyx/3eOLpuK4o721q+8MqXb7cGJWHiapjFXkqq\nWxKT\r\n=hdwq\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.6_1612290667214_0.3776193974252313"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.7": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.7",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/cjs/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs -d",
+				"build:watch": "yarn tsc --module commonjs --outDir lib/cjs -d -w --sourceMap",
+				"ts": "yarn build:esm"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.7",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "7.5.2",
+			"dist": {
+				"integrity": "sha512-mIfqX8ZF6s2ulelIzfxGk9sFoigpoeK/2/DlWrtBGWfvwaK3kR1P2bxNkZ0LbJeuKHfcRP6hGZtGist7nxUN9A==",
+				"shasum": "1d306613c93b9a837a3776b1b9255502662f850f",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.7.tgz",
+				"fileCount": 31,
+				"unpackedSize": 16321,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgL411CRA9TVsSAnZWagAAH64P/13qXP8ihMtEqm5zdBBr\n1hbmYTQA6yuGnDx0whdlKbeQ55mgIgO2pSGHKLrTtPJjDXyljNBO2auGuNsr\nMmb2T8sCUq/NWvvfr/26G89GA4FBMtGMlirjeFx+6VJ9OTcAiMZBw6DtP5Js\ng5i5ZsJ748uyMvGbLx+4z39MaBeJpbn7vlHy/VGXetc4EVq6LS1tk1niz+2T\nrhamUZfTWh9t7J/6KP4XAjgfFO0gKptVrJbq3SuDNB2eNo1fdfPPsyWsC+DD\niMHF3GXKAsAVD1yXX6HrP0mkelqiq6f8KMx4xpgjAZfE5X4O0zNCBCs3KW41\nmJ8oeiP5QIBnXKI9uoULEfMDYbCp04cC5tj/d39Rf5RJdd9sT46rSbfDroMc\nOH4Q1Uy6ASlkZVIeKpQDibRr21wAJS6UlmLeH4sv1q9XzrVeYl5MXebzW8QL\nVo2BG/UpGsQGRImreC95fP1/Qa6B5TvLfbauOsPtssRMf07WfgvljOfwMf4t\naQ9SOZD3O/SWnz5nJ6bhUclO60ENgRd5KW22B2JNa0mvUr/WZMnlrMqHhPDV\n90rhPHO+AwPZUw966iTv23DQ5U1AJxoAqOSFkdW/bJ3ewi7zLncBFFN7nxaW\nMPLWy4G6KHEyHfZyafgSpBrzpMvC7lQ6BL3RYQWcfcK31xnWfcSK9i5rOY3z\nJZLO\r\n=hFmU\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.7_1613729140863_0.16136414371167884"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.8": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.8",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/cjs/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs -d",
+				"build:watch": "yarn tsc --module commonjs --outDir lib/cjs -d -w --sourceMap",
+				"ts": "yarn build:esm"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.8",
+			"_nodeVersion": "15.13.0",
+			"_npmVersion": "7.7.6",
+			"dist": {
+				"integrity": "sha512-I2QYmUYvuJnMMX/4/i+fbCf2nlAkjfw58siw0whFlUT7LTvTc5Xv7jcLP5XS3+8LkHd7UtVhU7EBGMfA7jkXXg==",
+				"shasum": "0dbb2d21b13818c04b7f70b1b0c3f7aae95e4fb4",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.8.tgz",
+				"fileCount": 31,
+				"unpackedSize": 17287,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJggzasCRA9TVsSAnZWagAAFzQP+QFfT3evBdV05JMR/Mex\nqNZM/YkOHwLTYNudy+vKn9H65Ju9rf0xeEpBfyFj03b6+Un59/LDwAGAzUbi\nB8bMy/LUfLuxvoGh3Zg12/V2V3APB/9RGk8TxcNeeYi64g2dP6bYG1qQTa8E\n+aGk6uq93GXVZ8zO6EMaP1xKUev1d14bVLu8CZz6UAxxsYCXD5D8YPdoUZpP\nikTBX0PyQ+Y1O/0hJwwHEhfY/GNuq+B6bu+Zok5zzpbYETL/y29e2Fi0heIl\nN5mTuNBtusJvCJqBKFLFG46G373yK7qhibUqLEB+WTZKjXTZAX/I6yk0To6B\nTVurcx5v8zOYYhBUrXsP0lzlzAb5ARV/mPZVImxQaoiB8TVw+j3ZtxEb9E5A\nx8Aev56mySkXzIW+BxTsb6ZtFveZ9AsEXezNT2dsPTp+WmiV84kugmWiP31M\noWFw+wUhIY88pr5o7S3NDyyzNqIFozBpfhd5Ay7L/KmCK/qVibKdEfocgnn8\n+I+kRli49kFN5zVGGnGKn4FoVp0Ky/AJtwMBYOBlyG9rluVjEfCRs0C/k+dY\nRTrUbSYlVn+0xDgohmqE2zJ6pkdjlu4/Zf3E7azbQeqFpJy+3uLJHD1lfl7T\n5Y+7z/H++NJhV4lVhb52dtUjZkYGH4wkQsyahjjNDWtybAAlDFHpus0577HH\n423k\r\n=ewGh\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.8_1619211948027_0.7845855637784389"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.9": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.9",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/cjs/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs -d",
+				"build:watch": "yarn tsc --module commonjs --outDir lib/cjs -d -w --sourceMap",
+				"ts": "yarn build:esm"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.9",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-Qo5OXPt/+k26ffg/ZbyR3Ldlmp5uttfPP3B1G3Uo1Ha/DmnqeUlvwebVGDT3EXM6RNL5SoW2gvVLyFq58+8nZg==",
+				"shasum": "7231f173c9b91cb2f3d4a209c7c0e380a7f5e417",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.9.tgz",
+				"fileCount": 31,
+				"unpackedSize": 17287,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgk+a5CRA9TVsSAnZWagAAonEP+QFGqcC8VWgurQ/Y0nQO\nyP+KIRW7WRI7nH6pFHRL1HhaUaISh1jpf5zTEBK3GhsA1DxMvOrJA30n1RO0\nbnQlyYSa3vy9aOwby3l8/fRpqfLLt2tlNbkRHAf1tQu7F6oqB07x8hi0nWlB\n6Zow5G3I2rfEs3/Nyy4ldT4jeuC7cpHUSOF1hA4GY39KGT8p8VLYHkxE6jIy\n98Uokxaeu0mqJNmjKzQlpz4ucCEE6XFBEuRFgY/+DqZsV9NOXn8X3GOgXQ3x\n6k3adBq6oMelcyZEWlsE3Ik2x7CMAdsiE7YPQ4K9eC8JwsOcEOZMptHp34Co\nW0gH76C0SZre5yPma+dq4UL5/tluOQqpfAUzQtYLWvQQF52Y4S2TXrlg5yw0\nx6XgsxKEJ4J1lBHuV3vCBAVlhdt6NOLofELsd8xrXlm9Mn5RUkRJV/wTDqsQ\n6XIGsQSMhYrxes5HVDsYbUVxnFXh9b+fMgEpN4YRBHPOIKD9Fr1AOMP++vNU\nKT2/6bsBB7R7B0ZFxzrxaL6x8U6B7+wIMxOJB9A5YJgQSmiqp+F6PHVHBRPL\nm0L0XXXaVZXalf/hOYtF/uwJxn9nYGZlbSXfc8FCtCBVJzojVsemrDk3M38w\n59W3IPU18MJQjVIvYMEVlSdiVI5jaa9TkM8sUCwMKMVynwyC99yeZsAd1RfI\nN4Ka\r\n=frH8\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.9_1620305593132_0.12280205935269861"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.10": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.10",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/cjs/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs -d",
+				"build:watch": "yarn tsc --module commonjs --outDir lib/cjs -d -w --sourceMap",
+				"ts": "yarn build:esm"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.10",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-nktQYRnIFrh4DdXiCBjHnsHOMZXDIVcP9qlm/DMfxmjJMtpMGrSZCOKP8j7kDhObNHyqlicwoGLd+a4hf4x9ww==",
+				"shasum": "f39da7618cee292e39c7274227c34163e30eb3ca",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.10.tgz",
+				"fileCount": 31,
+				"unpackedSize": 17550,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgnGu6CRA9TVsSAnZWagAAsGsP/RFkxm2m+z8+UhZzhzQ1\nHD+05nDSS19G8ueUhsdwRi3UlBR1k46ygdAjFZNV1+e+PJaHZ0kbNT3r2rVN\nXlfVLIKDYG1UiZVIA1pSJ/Fit/9RoAdQbBmGJ3yWGuKnhcgtevCek63ZSFAH\nSBMYtEezKq9iIgyf3ZPIuKNQEdHRUU3wJvCdzQWHb95WXQ/TSoD0nU+u9gPt\nlMMcou8Pzuz2t3tDnp4uUxiWWU7eX5JifPIJhCzaDf91fAcxyVV6k1n3kqSC\nBfhebGN5qaIanhIf/hC9ZKPrtVjLiHWT9Qykcfac7q26kuFrvZa3Mn7KS2Bw\nXzUjls5WC/7hzG3jFAWVUbqRu2MwgBy8DO5pGYMJcfOAcUSmBdhBkEZ0BxKT\nxGj5P8FLpS6zrNvIUW/k5LtgZgHunNNrxTjcaAW/XokqMCEzQOacjFtu037g\nC/fcF8hLv0fWkspH4JbEGCljos2oLN211mMq8FHr7Fly+FivrSmkBKPYOnRF\nV4JWJnRX6Dcwb7U9ClUQNKeYb9sxo3jp/hAavZrBWgnno3eC7yaDIQay2VGx\nZRCzo9zjP+NDODbqA3Q6ALegDlEh2osF6k8FAwCB/NnnJQZnbEIxyBokTW/V\nusXnA6UBtVVl/RysruY+6mYJat+mzmTFVxjKE9iZzOuhPVXjdAJGlalOXaqj\ntafL\r\n=QS8n\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.10_1620863930454_0.9085572469120102"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.11": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.11",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/cjs/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs -d",
+				"build:watch": "yarn tsc --module commonjs --outDir lib/cjs -d -w --sourceMap",
+				"ts": "yarn build:esm"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.11",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-vpw61AkW9U8c2upjJCljHq9eh1KkD4FJ7DYbRzIETpj9WAw2VESudJZosAk4M+7npBo1Zu1jNQY03HUMVO/czQ==",
+				"shasum": "4fb4161ee41ba75f3f5198d4bfd80e4ffb7f2462",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.11.tgz",
+				"fileCount": 31,
+				"unpackedSize": 17667,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgp+OgCRA9TVsSAnZWagAAqVoP/RszbkzVtfGfW1EH4WQm\nyIyKG9k2EaH9VoX+cnR2bu2I8XPEytwqYppYbv7x7qn7sE20nnRTUQ1Y5P8V\nSJt6XfqH2K8lwK/rPA1P6e3ka0LRMT7CNtjcVRtgznbx6B3togLMCyNovY+F\nxhnqKNVn5P/AJO1V0F0QI9ADZk3Q95omuYVE8mWZd7g7VI6+vIU+BYNbrZtQ\nAm4IvF8zBxal+jsEeNU53RhSlnM6kS466vU+CXv0/EP+z5h9JkBdIijihcZz\nZbWWeeByGcNACAk/TTouDbt45LfMY7dkTSDb/gF2bTvIrJem3xZYH9ucCLz8\n3lAjbegT97ynF5u/b4ntcm0jJdrmgrvy8oyrIj/ksTWb/SDqm8afRpKgcheK\n412tEfcRxSGw3vPcYvVh11iJo2JdxcqRoPZIFlrWu958ZHrW+JLVnAQozcT6\neXlyZ27sRGtMCtC0PK+xYrD2aEteZMmhvWM+5QGoHydEQHEitdNWa87wKeRC\nqHZLFkbWXdqEn/dQ6Cjp5ty8tZqwd7DLOwuoagfau7bmGof5Ra1ykTD42iwI\nqLVn0eXdR9i9YxlaF7slO+4tARR7uDJGtDXPOGS0GQ4hAeZlCYIVKFpmgyuf\nPMCRyO3IkBd97KoNSYWgun1uPLCEB5mueUZ5bWr2YNpmOWSl0rBz5D99RBvY\nxT8L\r\n=Odzf\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.11_1621615520201_0.114711135140531"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.12": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.12",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/cjs/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs -d",
+				"build:watch": "yarn tsc --module commonjs --outDir lib/cjs -d -w --sourceMap",
+				"ts": "yarn build:esm"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.12",
+			"_nodeVersion": "15.11.0",
+			"_npmVersion": "7.6.0",
+			"dist": {
+				"integrity": "sha512-PtHmAxFmCyCElV7uTWMrXj+fefwn4lCfTtPo9fPw0SK8/7e3UaFl8IL7lnugJmNFfeKQyuTkSoGvTq1uDaRF6Q==",
+				"shasum": "693ffc77bfb66b080e5c9576abb5786c85470a32",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.12.tgz",
+				"fileCount": 31,
+				"unpackedSize": 18331,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgsdwxCRA9TVsSAnZWagAAYbMQAIgxC418dJWnS9jxmxTc\nhMOc66hont4WvNfAXWi8kC93oRG9kMZSTiGK2CvHSTkkGN311dgEtj9CHgWT\ncDcXYGTgQaTv6Mo2vAh6twLwUz7iAj2/Pe1IVI62WJZRAUCipMbYHtdeCgvT\nXIkIkTBChAJvSfP+1p1uj/2TMW+Hi1jBgImyK6gbA3dh1vb1wtAbw5uQT24r\njmuowDYXTltAmzgNnoynQXGak5gorTzaMJlEiUmGdVx/+RgPsOP3GAaC2Yk+\ntbMAWflXOFNkMa7fwjMnx25dd3sH4wyR9mh9Az1Qt5u0PxIgLaDr+d/t8uIU\n2wjMUJMxqKC8ymH3WFVsghVz2eHOWPj+dRy6k+w7DZzz+3M84aKG8eKuJrpP\nM2vYiSOqi+gX16meFQp02alBuP7PLcQreCwzcx4HjLY8Sq6M+FNBqeu56SJI\nZO3HYblkspFddnI/KTNj17ToeTlymLOuD4U91AExCylsRpcQ5DRF/XteIILk\nQWtr2WLtkl8Jj9kGIeKwxfDJGlZdQ8e8Q+7zm55CWoA0UepmEo3bEX0Zw01B\nZZohoZLKn4gPFuGPnOxg66g9LxIrLWH/wC440fDyjOrejowOfTTGJTlffChz\nXfBHYHIpPZLvdkMluTgXQyLmb0HqYyaCfD7DKpFrMZnjKL9SYTkfCJGFDBAK\n2kDS\r\n=6XHJ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.12_1622268977168_0.3527571542406247"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.13": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.13",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/cjs/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs -d",
+				"build:watch": "yarn tsc --module commonjs --outDir lib/cjs -d -w --sourceMap",
+				"ts": "yarn build:esm"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.13",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-oZ0n/N4UWpkMvbR1OrBtu+YhaVADo+bYX5lxo9tou7h10p0+v2K9yzzaZATVr0lqHb7iY1wALfO8yojwg0MTHw==",
+				"shasum": "ff31e552ae3e99b5f2c0af0ca81f0889dbfb2155",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.13.tgz",
+				"fileCount": 31,
+				"unpackedSize": 18353,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgvqPDCRA9TVsSAnZWagAAjLQP/07rgswpykzvC2f5Cd26\nJZAk+lFKi1QRBlF/SpppVBsjdcpkU3eG7P0/Nc+OXHdlBtRXae7RX+FnEEui\nyP/FHnINXzf4sDaX1lQ6YR/DD62iyREjInSJQD8Q8gDiI4GcPohQEauNr1uj\n61WNEVD8wMAdvdoTFtfUEnibDVIk3lxoKf/iZQ186AoUb2Q2vGAarYKE5dDi\nsAvGCiL9vts7xCVV+RP7fIUuNvrpZr+T4asOfX1seM0A2YB5zUwT7kbmeEWL\nbUjmrOfSC9XIokXfAe84GZdJ0odW2jaW5NvUXFmhwvZa7Vpsy5ubtcfC2cBw\nY3Sh9rCiMeIUlfgrUp2lhZXwuQTZKTUO7Pdh1CslpovDxXVZjx5oclS97cA2\nakRBcntUKhQzKo5BVU4WQNxMngNdgtlOjdV8CC+Oo+SMU6/ixsPudXhQND1+\nKFjZPvsNn0reaeTbxZuAmIAVXxK/wEr0smwiHBy2L6VWnxS15FaeT9YoUvic\nZql486NtZJEpWpcpdhv1kI8GJwPXtGpdmprBC2259P49bir9kdxKgDiLP5KS\nLVKMUc8InaBGGXqhyvFSkfpXq8IZhn7xu5CD1tf4wMGE+t4oT70qtqzSGiyj\n+97VORCN+s7d8YUrjzUiiWSrRZhMzij08l4fPBwBB7Cwjp8UwiGKrRZSfTjA\n33DK\r\n=u86B\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.13_1623106499016_0.35901417975450234"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.14": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.14",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/cjs/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs -d",
+				"build:watch": "yarn tsc --module commonjs --outDir lib/cjs -d -w --sourceMap",
+				"ts": "yarn build:esm"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.14",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-44fPrrN1cqcs6bFkT0C+yxTM6PZXLbR+ESh1U1j8UD22yO04gXvxH62HApMjLbS3WqJO/iCNC+CYT+evPQh2EQ==",
+				"shasum": "6ed2d6f8d66a9256c9ad04bfff08309ba87b9723",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.14.tgz",
+				"fileCount": 31,
+				"unpackedSize": 18353,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgwKqLCRA9TVsSAnZWagAAy7gQAI+sPKRv/NC280tZ5lpg\nggghoMmWj1QjM4O/+cs0Pz8JeHuS1BuGA4fBDFyZNyEvNM/BLMneE3bc3Puh\nPG56cCjwRNFhYhf8gKdeFIt2gXQOgzjsDu5DX0VgPHDpAG4oyg8Rs3uZj4qC\nBXU4yqw8Bztct0rZHggBuB3Wih18BFC6NavCqyI0+TlrIfFTGjB27VcsToRg\nOddqx1BqfAzFxCrBWI489PMgWpxKdXvGc5j7U4jFdQ6w3gYsOAsDvCfDiOz2\nsEt9/RBcc9obPa+gxNVFhTSMDvesXdmnySUNGG1M5eEvvte/RwdTaSRI/ALO\n31ffI6bH0kJIcCt+VxJjJ1znQhkfnuiFMwARMQiyqs0mDO3yb88pGgox7srZ\nDwI7+ztgDZpxW5Bf02dxdrTJNMqtQjQ26oEtB9e8LC6c9gE+apWl3wr7Onzh\nj6s87W/qSE2s4PMBuZCbLxTOZ0ZvAiwKoj+xVH10Yt3lanKSVla4kl/i8EnM\nRxgGOtQMw5yh24pBlvJYUCvbuba0JcZwo4bf11nNETsAFfc+p0EoxUL9daSj\nxic6ftYPhksJ8Nm7t4/sMUtyT2hfvZ/aonvOtlc/sEHU+4+ydKaHv2maZXWI\nA4XVUCmA/+tlxBaAORlVjo7MESHamFPW3CoBVgL8K+DFl6CT55A2hV3Avja5\nxwQP\r\n=UmzJ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.14_1623239307321_0.8548625122254243"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.15": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.15",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/cjs/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs -d",
+				"build:watch": "yarn tsc --module commonjs --outDir lib/cjs -d -w --sourceMap",
+				"ts": "yarn build:esm"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.15",
+			"_nodeVersion": "16.3.0",
+			"_npmVersion": "7.15.1",
+			"dist": {
+				"integrity": "sha512-quBx4Jjpexo6KDiNUGFr/zF/2A4srKM9S9v2uHgMXSU//hjgq1eGzqkIFql8T9gfX5ZaVOUzYBP3jIdIR3PKIA==",
+				"shasum": "ad7cb384e062f165bcf9c83732125bffbc2ad83d",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.15.tgz",
+				"fileCount": 31,
+				"unpackedSize": 18544,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg2gDyCRA9TVsSAnZWagAALXYQAKTIJjOSTKK4bIys8MOR\nDP1MTJPbAAD1XX4XyYzYreKkZkSTzmkElA1NcOw9x43c6JaGzDh4A+s+Iifi\nPK3YeHNFkK14k2XxgJz1HF7myIHLtqkReHvVsRNsgnPjEG3HXJXtAPRnqnrc\nvuKsODM4I1mza6z2pFrotAqgN20VxGl41KihNnQESeZU80cuvV90cAnETYge\nZc7jFbRreY6M+VzQUZ2gOcqxWv8evZqRksuB9bfyIKLnNZpShIGstOK3Rtor\nMujwikmY22fHx6Ifq2Zbom6LiMxd+CeFKlWuW3UK3lRqGwWHlrsp9cw/yM0E\nqC0aLTUUjEaFwYGG+ay8dZGCBbItR7aQvey7GoCSlxheUAsz56rnRgsx9Nbj\n9oix9G+isNwgKEZf2KHhMvLjJdIALYfS8Je2l2HYyTUWM8zrgt+NCQ7Ypg9i\nspaAwqwIdyxfzkQUMbVI2SZFAZeqTHrUqGqq0es+ztqIjJ//fUcifbaqJlAN\nI6vkOr9FB+5k2x1LI7AmxHP4ilpXZ3mrMKwOuKkD3uGk14L4mENfUwwAjNQY\nMTkSkINSNOnBfbYIf98gGlyiC96kp6XCIHLG2mIh3cSLQDUZli8ifSt0i1+N\ntksiQh8f3xhuihhSCBzLw7foIkFS8xP//P/fUiNfTcpSciEzFgM8HijO6/zb\nBiga\r\n=iE9g\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.15_1624899825645_0.06899054444330299"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.16": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.16",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.16",
+			"_nodeVersion": "16.8.0",
+			"_npmVersion": "7.21.0",
+			"dist": {
+				"integrity": "sha512-pDkJZhNIeh59ezxQoTou7i7RW8gvOIW16l5oiC+/+Ye0X7cYv7HjJbDLlZrlFpVVe/EDVX6iVkfbyXTue58/Ag==",
+				"shasum": "a114f113974507f5a0d922def7407e3be8da7855",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.16.tgz",
+				"fileCount": 37,
+				"unpackedSize": 28659
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.16_1632001315150_0.6970197642824525"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.17": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.17",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.17",
+			"_nodeVersion": "16.8.0",
+			"_npmVersion": "7.21.0",
+			"dist": {
+				"integrity": "sha512-hwGY4Xxc2nl34OyNH7l2VO8/ja3R78B8bcbaBQnZljSju5Z0Bm9HTt+/fQao+TUrs3gfNrrQrY3euWqiaG8chw==",
+				"shasum": "d4b9eb02c670d39a4532f4bb3c8517abce3fcb82",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.17.tgz",
+				"fileCount": 37,
+				"unpackedSize": 28540
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.17_1632038973528_0.7809340166132366"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.18": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.18",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.18",
+			"_nodeVersion": "16.8.0",
+			"_npmVersion": "7.21.0",
+			"dist": {
+				"integrity": "sha512-56vRhO7nXWWFYTx520BQSDlQH5VYpwy62hFDEqi2yHHEBpEqseOP5WYQusq7BEW3DXSY9E9cfPVR5CFtJbKuMg==",
+				"shasum": "84c0aff9289a57294cb97490811f69e8a0a67f8a",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.18.tgz",
+				"fileCount": 37,
+				"unpackedSize": 28540
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.18_1632351989471_0.451197724661647"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.19": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.19",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.19",
+			"_nodeVersion": "16.8.0",
+			"_npmVersion": "7.21.0",
+			"dist": {
+				"integrity": "sha512-ObzQhgkoVeoyKv+e8+tB/jQBL2smtk/NmC9OmFK8UqdDpoOdv/Kf9pyDWL+IFyM7qLD2C75rszJujvGSPSpGlw==",
+				"shasum": "f8e88059daa424515992426a0c7ea5cde07e99bf",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.19.tgz",
+				"fileCount": 37,
+				"unpackedSize": 28917
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.19_1633376373159_0.20313628441185472"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.20": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.20",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.20",
+			"_nodeVersion": "16.8.0",
+			"_npmVersion": "7.21.0",
+			"dist": {
+				"integrity": "sha512-21u2jFOk8jbAneeGpDwZQ0W66RJa0IBDUyVl6SgKnn2cRFjLWzKj+ukXjpLhYr1KASyCe5E5U4jXwChVo0YUAw==",
+				"shasum": "b5405c9a84fb44687d05e7c4c7854b1639141106",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.20.tgz",
+				"fileCount": 37,
+				"unpackedSize": 29015
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.20_1635944878459_0.9234170142537794"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.20.1": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.20.1",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^3.8.3"
+			},
+			"gitHead": "838f1f235184e8371843e51f7548001d1d670149",
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.20.1",
+			"_nodeVersion": "16.13.0",
+			"_npmVersion": "8.1.0",
+			"dist": {
+				"integrity": "sha512-R2rfiRY+kZugzWh9ZyITaovx+jpU4vgivAEAiz80kvh3yviiTU3CBuGuyWpSwGz9/C7TkSWVM/FtQRGlZ16n8Q==",
+				"shasum": "5b499647e929c35baf2a66a399578f9aa4601142",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.20.1.tgz",
+				"fileCount": 37,
+				"unpackedSize": 29017
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.20.1_1636562193932_0.25828735105855816"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.21": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.21",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^4.5.2"
+			},
+			"gitHead": "1a32ba2d819006e71baa2893147bf8c078ec29c5",
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.21",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-97C2evr7bKxtXEmgMiSuidKyW0fjdGJ6UBIAnUIH7vu5AHgp15u5h4USkeT1qj/jxl0wyOOfcnvevPapyDGAmQ==",
+				"shasum": "74d78f15d61e7da31b3ed918e955c42aa94fbf6d",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.21.tgz",
+				"fileCount": 37,
+				"unpackedSize": 29414,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhwIZ5CRA9TVsSAnZWagAAPrwQAJERrizoxQOy9VrdHRaN\nqq5Ui3w5OdUlcxxehIoFRxh17noIUCT9djtiV0b1IruZwInqwBh2kCEVRDUB\niUYIoOICm8wwzL15vgeQHqcaKMmo/MEKr8ry1D9TMyy632zEaRwNTEnfw9fy\nzbw2rzDj30QmVhShFvr/A+ZcO5lGEOMCaVHLRCsfUAm2uSpPejv8jicGdowt\nYiaO4HZ8N9K+dvb9NQbOmBh3tBgQSnfi/+ZGDYa83Z+yrbbXcZkuREbIj65j\nTJVL+/HEHEi2UQJr55HGooHtuELu1GbQzYiRhtLaw1S5t8l4eFO/oFh6C2pt\nteDXorBn6pCC33sDGn0RCwY0aOB5f4ftikDBaW8ULNAlpMiafeKbWoMoTrTO\nIsReEenU0M4qkafyOMnZR0EIq6lH6tIHU+btl/if0xnp7xnfMwvANtUMjeL3\nEWaziIx/ox/bHto2WXuSzGj4TPHMwK6avIm6fRaFndtvzqFD1D6k7Rydze4m\nIFngL8wgZn5D4+QlzCk99HromQ0lzbJ1B9jNdQ9f7iTo0wdiPz3P160pw/kQ\niDPthJstC9eoD4DWAtr5SNT4icxevx9/fGVtSs239MPFT1eFuTM9z4uPcfeU\n9PsKyenSzukMhv93MEhnp2BM9XorIrsEINuCXq30XfXDnzIY5HwesISc8F1b\ngTQK\r\n=TlaY\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.21_1640007289641_0.4412726314066864"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-beta.21.1": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0-beta.21.1",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^4.5.2"
+			},
+			"gitHead": "09352751921540500cb15dea26e7b634523ed70c",
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0-beta.21.1",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-FqC4s3pm35qGVeXRGOjTsRzlkJjrBLriDS9YXbflHLsfA9FrcKzIyWnLXoNm+/7930E8rRakXuAc2QkC50swAw==",
+				"shasum": "f1410f53c42aa67fa3b01ca7bdba891f69d7bc97",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.21.1.tgz",
+				"fileCount": 37,
+				"unpackedSize": 29190,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhwM+uCRA9TVsSAnZWagAAmVcQAIxPmvmKYxzK+qxO53LO\n5qW0CS0iqtMMlTvNXrKl7URLb7VNj89TFKkDhYQVqDgFZeLD89oWj9Pj0ufZ\nFo9081b1A73hxoTxhqQxS+GBPggsLP3wsSBkGFwJsGsSvn8m6T/SUihwPxxP\nec00r4rHYaN3Mu9QI/6SmnP47y1c/Q6ATsA+K/Y/liQclAIl+p7SHm9OpwRo\nrHD5Pm9+jvoOZ27PFm8e4QsMdBBTF32uLiSni39h3H4vVUu5R+QpIgMc+Ycm\nQBtKwmYfPjpbqgztTEfJBBYwh/RtlfDzL7GugqLBtM+Tzl6iWwPJrU1eMOpa\nXaPr7Vj/RtLo4rpTFUlzfYvUlPcH+IA/lDHzh/igd8gw/98Ha1wXv0bGmeZT\nAovnd7ZVKXMeYF6aEEx0xNhOrvtG/nNNB8NBaCtNFHRG8fzV2l5cCj8EdhyE\nRVXN2G2sR7b2UDDIxfbcOzEzDBoKon2nCTbboVoQJLrdeeUs+C8okf950xqt\ntS+AXps8ELNaeXVFHVwjbluqK5lar3hUKQK6A7FX6m7UqOcPZjrzUqmkCskm\nLCwfSIdCoVzi0iijdCe+7GuOQhbPPV6B3Ejn1qiQNffdm6MyXl/OFNyFBMXQ\nIe0DrBsZFFtfbg0KaCIbN3k20/q8gpAal6r5GdoXGJ11j5wYrIKd0xrR1tfj\nPj16\r\n=2V3Z\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0-beta.21.1_1640026030186_0.8938510819052317"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.0",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^4.5.2"
+			},
+			"gitHead": "3820c8a4a75bc0df34c6c428cd3cee5f55d826d6",
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.0",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-v6i9kWtUZ3iiOGOj43tkisp0o5RJ9jOG3/tDA48J51TZt31DG4sr49mjaZOG8CkWFVE52bkzyozZmwcNrGNviQ==",
+				"shasum": "f690a9776ab3c19f5605f4b10daf31a10221a405",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0.tgz",
+				"fileCount": 37,
+				"unpackedSize": 29180,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiAOfmCRA9TVsSAnZWagAAQ5QP/A5j15MzqqEo0pw8YEan\nHJ76iFwgY/9VVMW/6XC1amLrimlu4pm4eKM0hfEKTF/I1okHy232yfDX4Hcb\nzYrmCxKMto8uaR+z1x/qOsPGczao/OXoOF2sF4pjXdbL8VRKY84iE4OqkMRw\nPq+izrhopFv1hbAf65YimFIPIO48CYxrmC3gQtYw7HrW6RVCDi3M97cSj5IM\nbYHNgTLZeCsoFuin9m0b89oqa5EkPY08wTrhdpIzpgfgviqbX631GFy5TPrS\nF7SArdJpWsytq27UDe0YPM3/hWF83MSyGzsaDRmEvPIneSw69ULvcyOeS0Of\nYpU+EDmLwRvO8nxWBHZ1z61r47pS2b7nSWjwsqD28WbAH4hRJwPRHuA4JVEx\nO2kqoTGrDX9bsCwDo5C3zCrhJRjzDaxi2JJaEuDQiuUjTE7X7O6ju7FyEFHh\nVY+0hWkVZnLfGUM2cW7L62EtHgzCIBu5F2xRYt6pbeuSW/Kr1M9RA6OaCUza\nqpFGliEQyD2zaSVwOOdiMqRA8LPdXjy+2CRNBpDEizXdqVBnesxWtI6P8cXK\nWVv+8gREOII7Sf7WZAJtomYkrZf++aeoVzvC+D6kfzzqhKr1A3zMAZ5XKRG0\nayLvxcyUlvE6iMSviUoTEyhNBAzmHjq1/7SGOCAVpcdVDkh4BLh7eQB+XSmP\nRA05\r\n=iLMt\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.0_1644226534401_0.27295738447398765"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.1": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.1",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^4.5.2"
+			},
+			"gitHead": "085585b5ed0f2ae7569207378ae82146cdb07eca",
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.1",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-V2BKGa9pHf/sY2oBUr4uO8yF5MtgL2X96uJq2cBPxPqEUEkLfhJrbpU7t34JRjnanp2tkDJQrQsrsoMltHnFNQ==",
+				"shasum": "c198200b9f84c7b6f7c4976b0206cbe1e7f61dc9",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.1.tgz",
+				"fileCount": 37,
+				"unpackedSize": 29180,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiAU51CRA9TVsSAnZWagAAwGoQAKDSugd5eGBg8VHPQJP/\nD2MUSMAKaN2QPFJR8p+5YdEskvA18YJJ52NeP4nGQx488omeKyXF17ER+FSd\n9NwjI+swHh58XPyDefMlHjXF7dlMqywiUmSmfGAYwJWCeMVc3JAv8j0Oo79W\nkqIauGLqHvj6Q7Vaq39ybsPxGHiMzfWcMRd25uYD8B6/AtMpROtFB18ulTm5\nr0bGcLk68/LhCMOma2ORW+u4fjGQBX5SJ6BB6vZwAdksfHwxGOvuzvvE7NVa\nMNoe+IZLjiWNylsMnL3YGVho1bgaNEyheTaxhdpq3zqEUi3AKGSMnu1VYjWt\nmEVXEVXZAsW5yeHOc/VJQZX3yMM36kEm9hvM+hlOJO+d8Vlj8wxWs9h0nyQs\nniRKjkCLk2fZIH+vUIru742fN98HpKzgSIBIf/AVUv741wSkoQKtvatQLPdF\n7KS7dXnTCMbCvr+JoBUTaSkrLoWik2MP/V12hTgRjatmGRuoenSx0l65j0ha\nDczOwVLWcpZllf2/GGsKJ7Jv3OokzeZ9sI2yU9lIsBGfmNRABblgtRBoAhYu\nH/PFEXkLoDoskL9Lj1WziS1xycNEFsiBBuBf/R4joOmSdVQyULScyL0rItD3\nMNUk08AEElB/uDpHLQVJUvl0mbvHkpk81oHpAAAFXdMeMwSBHJsSADdQ897d\nQ62j\r\n=CkSI\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.1_1644252789562_0.5690842935501539"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.2": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.2",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^4.5.2"
+			},
+			"gitHead": "daee8840d869043fae5223e15fefc7008ffc7a0b",
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.2",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-1W8ylfudTFepNgpgY1Dp29iVPlseIy+0+4xXoMkxKmdnxWx8vm8dNgz4F83zML46hHb9aP382JURFfqLuJcWYQ==",
+				"shasum": "92267911dd2772c5a7641d2889051c6193a7c6aa",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.2.tgz",
+				"fileCount": 37,
+				"unpackedSize": 29182,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiAl3UCRA9TVsSAnZWagAAeTIP/Rl3j2PAUY3CWgEHvHY9\ngnbBs7tCIkoyr6oNlSEI3HUthDTanT4Y3Q/jexhK6ct3XtN3Ug6dCsynlju8\nHG3Xyp7XFO2M//HKPa7rpWWplv4XW9Al6JHpMQkKgieNxFoa/t5nG/4IOQfX\nY0z22CneITV6gW8GP0A7ho2y60NeVNKeFI/HVLPs3Sf8G+PcSawS4ZI3Xc13\nwYI4c5UPtyjE06Zm0zeYr2oSS8j0Dj3kYpGd3GeMLaUXQ6tz5h3FommejYi8\nJQMeSp4LqFlpoJFQzXmihyWMucqx294UGxUKvdtadceHBfwNFDt62K0D3e4g\nXeLeS+Yn3JYrjqbW6Js2kDwPwuF4p10fofZybJEyfI+qjc2Eoulxkef+GD99\nPPRlLDtbzh9a6KK9GL/KkJbAamUNSC6KNhi/6m/ABjLkY0w7SPQttVcijBIP\nOKq4qjt7rIBqkS2032OxPH15NIxKRHRhuvY/iGFTFyrTfyA3Mrzhq03Lctnj\nq3N3RSgVC9aUcjFVoLczXB3EL+tUPqF0KCxWl/PAeuVJU48Da0rY0+jfYY5U\np+2Erhz079wsDIUDPprGMVgoYV/anrrcw0YWXcUrhOlf+02LD/n5Y9M0bIGA\n4PiPkIIGtImmujYDZGpE5wqsJqxi/Kxg5Vi3Q+ITuF36/BDd5i+dj98S0pyv\nLxnl\r\n=i5bl\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.2_1644322259999_0.5266066422881404"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.3": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.3",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^4.5.2"
+			},
+			"gitHead": "d35a998fc0edfc2545484048162be955531ddc30",
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.3",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-KSVo6rqmaVCdzMBE3ZLz7AFNnWrqAwk7BJ3uYuzFi8kQqwuaGWY6QH8ToVw7QlqFrqkUbMq2kyvzRURrQZN0Iw==",
+				"shasum": "490354134a39474ee110738355a4acd946b21180",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.3.tgz",
+				"fileCount": 37,
+				"unpackedSize": 29182,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiA9NRCRA9TVsSAnZWagAAJTsQAKIzMP7X48SvpW6TCTDT\n31F4HtWhZHnyJdrKQaJUClMVippBHwej7C2vfy8MQLldG+/jzQiy2Gttj+Rk\nfFXS4qZCo1rwKQF3XIs7R191KkTR+PctDK52mogJyBBSs68hZnVa0BYnTvBW\nkbpIimo/fx6yq+5xxhPHyCrpCJJC9PxLY+ixMyXxF0Rz4m5tCbxtIrD2/HJ2\nZOe5iVGO3/tEE9Uy6FCqcFyGiMqiJXBzL2bLjIoSSCFQ2iXYBUXx1OBVLKoU\ngyJwRWbgrzZayNylRrjeUQezaPdbBLqMwqLnh+E8vnWDQwo+yM5Txauwn/pn\nJkP9Qrb3BJfOinyp+M9N3fw/f58BpBU7IY85eU9o7/F2O5wv+HYv1QADTiNR\n/Vf24jEjeKSxHHAfFkesEdCwg3S7rSh81tudJp3da4dVsgQbp/UMDdtRkWyp\nHz1DscL8Px4q4aMH7c1VR2cWMHA135En2iabErntsO223xkxMcKh/bDDkQKB\nHOD7gn5/GCPYpezfgOdUVtTy9NK7q88M0Bs7gwV6h1gj48zySKhSUfWJAqgS\nkBSydQLeK81RNxt1ENVXvBv+SI1c8vzRSL5OzsNyRhpub3zxnx7So9C9pBeW\nZT1Ol71DVD+HBJuOcuwBY5+mAiMlXRx9n4b9WQ3qs7eRVtgU022opWFlDswE\nR504\r\n=FU1l\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.3_1644417873462_0.6732845159231271"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.4": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.4",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^4.5.2"
+			},
+			"gitHead": "dc0f5de11c73c953140fade6aa97bf278d6315b3",
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.4",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-vk+gHlZCyMwLVwon4gnk8HY1dTU6xyNmxuv36QvVfNxw2sOMof6lD7yKH0KTelPpxCypMAQ3DxxHsEl9zEMYUA==",
+				"shasum": "d183c513a26d72178218717efa70f7f981956bf5",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.4.tgz",
+				"fileCount": 37,
+				"unpackedSize": 29182,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiA/sDCRA9TVsSAnZWagAAl1MP/R9xnHdo3Ezb57MwJayw\nZZYKr2cIQVqxkNLTc7sJ4wV6jR61fcuL5EbqP4EiiVnunLXPBdGi3VZSqpMm\nxDf697dfDlGJ3Zwu6DQv1nz//sWNGMoVWwprZCYUuY5bzbO8H/WiGAYLTOhL\nkOw9e69PDQEZVkoY5IjbLAGEQpZ632F+qCZustWkPEf5gZujYeJds7M5izNn\nCPdtXALOn9IXtjWj4NKW5Vy7RsdPyL79v5VU4/jE5WOroXJ8OXjiNOqdjfki\nPiZ0DC9SzpMza305DYEitXBS7/HADP5GCkad7lil8lOVDUmg4VzBdlXryW89\nTkBI/DCINOUEgvcnuHi6HZ0D/ahjjBPyxtI+AMUTjDLs2si+NBoXzYL0EcJ+\n7rg7JRPkuJSpljpwxcRJ8J+ALGWE5/yWMrIw9teIAYluBBgZOjhlKFL+Sorz\np86a4V21tPhgT2LZ0EaZqbHKqGNJlmWdrQD5Oa8zxP/PJ1tL/NP+QOiW8825\nVaTiSf/Ardboz+cQs2PgB5kqBeMxYWUhSUUJqZISXzOTzhQcEZ2KpWx6/DWp\nOH2uWRY7f3NeJdJmMulSpZLg4k+4eActn08vV2CFVZzTzxZ0nkib2rHC5yPm\nCQUYVmQJg8vi/xxgs7xOCSCMu5Otrr0QNq+uXTuIc3CSnFFTY8RGUEpM9nb0\nZB6a\r\n=Pc0J\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.4_1644428035094_0.3111612160678958"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.5": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.5",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^4.5.2"
+			},
+			"gitHead": "8aaef261a0a42a3b532247b2d341baac48641134",
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.5",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-2nM84dzo3B63pKgxwoArlT1d/yqSL0y2lG2GiyyGhwpyPTwkfIuJHlCNbputCoSCNnT6MMfenK1g7nv7Mea19A==",
+				"shasum": "7e35cfee4f44ada65cde0d19341fbaeb0ae353f4",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.5.tgz",
+				"fileCount": 37,
+				"unpackedSize": 29182,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiBEInCRA9TVsSAnZWagAAeYUQAJQHmi6jxyDlI76kicY5\ncUDi7iGauNEtN/7BsT3lVCkTLMvI5CjFV1UNDAmiNUlg0Gfurw3hxpvlkgPf\nOzzBYqrA1RIx0MEEx5sWjO4TgGopnHxB4JmH8fg5/Vhbx9hn+/UkvPBt5Xg0\na4crIw6Cx+s+lE4ETqWurqkgipM9ALRnb9H7r2r724q8IXFtEVWZfgE4DW39\ny5Ok5MCVtJi3+wE93UFAW12jU3kpORLbz6VGJEZ/s0zlssKY71IdIjkFcq2U\nY4YAd/gBMULHu14WDwH3ddwZO1vvZMwRgFTZlpICITVrmfFS2v/yHnIK+1ob\nhK2YoZ0Q3SGJdpHR5o99RBJphfLDZGiqjR/buFqydqICwAid/0uvafMN7alD\n1lrY0eYnohpI+MRHZ0mErWAKEKzTi71tB/tyqxX8bQSMvXJWhiuJMwu2heXk\nhN8fscp5AlTLckw8m/n90JaCwQkWwHV0yaGppzWHXfPJYbHVaOVDOc7Nhsbu\nq6TI+1xkFzeNDHplnHX5mzyF45oQHShdq80niZwVUc55wP0WgovCzvD4pCML\nttmjESEBkWw4ZubsyCnjUQZ/ePPRKcEH48r1CmKEK6XFW70nSNOrIziPriox\nQvT6yYGXfDF2XWl3YFOpYYNaPtFF3B3Sc330XCgOlGegajMVRMvf3TNRt3QW\noHit\r\n=4ipD\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.5_1644446247566_0.7996756084226779"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.6": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.6",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^4.5.2"
+			},
+			"gitHead": "3cce6f3bfd61b7840d6ba9f9446379a70d0b6c53",
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.6",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-QxGATXEuANiVhnc+8PrddyZsyOjMa8ftBXJohl9X7fG0CnlUK2kmKaRfHsKagmkfEpBg74xMkqrkVTEMJYdAWQ==",
+				"shasum": "4bf8bfe8f14f73c614d9baeaa275fe3cd1c799d6",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.6.tgz",
+				"fileCount": 37,
+				"unpackedSize": 30298,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiBbwfCRA9TVsSAnZWagAAHSYP/2+UAhXsvz4xq0ZYxwaZ\nlraLL+7eHfkROoU6CPRuWnFUHjQGOZOZKb4NXhEdB8l+S/sVIk7Arq1x1RIn\nChDSh+2FmaNP3pLVchNdCFtLyW4WNUo+w1ccI8OUllVI+uuoTd6u50roDKPH\nqLsiQ+T4vJFInXXuup04rAg4xFQy5M7VVhqdzDdp/3otJW0yUkwdjev/Gexs\nEDkMTMzcvq1W3kjfWX2UC0eqvlW66nHH4RzWj1Z9aJYxonyo+bxHK34eEkhl\nPxWxRIrGt5n0GwWyFqbZIYbHJDUb4ocTE/JUP6GGW4+So3FjBip3485tBmIB\niTDzyziLAyI7bLcKqBaSs4bkrc4gI54nBb8/au24rh2ClUJxsmfwfnocar64\nlWRBbyguhd2KwiShR0jG9DzKAkUc567hKYAbJzWtvB9DDrBFgNrJktn3ziGx\nJnsXzcq4YBm46JKTVrDxqk0eyDqcuY6BUDcINt9mlCjMBr4hcGIhX2/3mECM\n5OD3H9V91pX+5ixRd5jAVrQi6ixGgGYXvYKpihnImN1QHgIoyMQLBbSXEJbM\nGFhkr6GkAWBhwC531blZfz/3zj/bZqxnf5w+DxZuItoP7ykop+cQ3lXke2Uk\n4rcOVWOCPwoi5P0SgtrcCIAG+YE/pMjk+q4+mzB3CwkPmbwf3uao1z/2LRDU\nZ2tY\r\n=RLJg\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.6_1644543007837_0.23840582871193794"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.7": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.7",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^4.5.2"
+			},
+			"gitHead": "a7bde71073796ed938d4b793f4ab838320a07820",
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.7",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-i7vgWvkzP7n2L9yCH7hh+JZOYZYylrd6Pw4mwzZyk8CVYzy8Vm/Kl3bEmurgFg7n2kGV8pnm/qgegNIak8UomQ==",
+				"shasum": "a54b3b99b19ab71e96d40d005e9b1cec19eae5f1",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.7.tgz",
+				"fileCount": 37,
+				"unpackedSize": 30298,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiBpbzCRA9TVsSAnZWagAAz30P/2sFR8vgHEufZCYt+MMd\nHHmlFCMnaBoLU8P3mlbE7TgH7QGaWIpFLP0dl+XwrCBT+zk6kVhM/sdnpFOh\nh2XLZUYFieWwgTFlr/Hqe5LJIgg1pEpeM5NHNodIgYG4gxxaCP5QF306L6WL\n/nxfq0rHhnaHR4NnBdOyuVT2U3BdKJJzfvt33er1fzCQ8tFZP8f0u+3oaX8i\n7Nn+wlBDX6DdzDwN6KteOMqs9kspAK6ARWlxxyWSKKDUINe4Te7jA4SVY2zE\nutLOQsl6GYUkKCcTZWsI7dyriyR4RORYaGqMDXRtCP3q//iv9Q+UKangF3S7\n37TT3eN2ZlapHHyzzuXBPudRrRSEehkOteIK4ogrtK6Br7ndREC8dWLpgADe\n2hq75OCN0laEzLJh9MPsGLnynIkkWyedsQwk8iM4KFEABR9kgWal3qDHuhbA\nYuBNkNt3YQQVdEEHJobo7+RtQl8OYPF4Kn51yU2CL9DFYCE7lLa0x+PbVr5Y\nFxC8vDa7Ta1/w3rmtYtjLAwPf0zKRyEVE/QiwxrVClFNoOw1pQQ7lqxc+0jd\nsXsbYXj6V1vTZCjYc8VyugZ7JfJlzNtTvLCJAv0ubFixnaPqg7ssRlJeU53Q\nZXHEKIeavbqQqnv0DWcFPVT9m3MNp0CfoSCVX34U9cVjRvdxUuLuMc9+E12k\nSZz0\r\n=04HK\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.7_1644599026942_0.3500988929128621"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.8": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.8",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^4.5.2"
+			},
+			"gitHead": "3674f29495dd1c3b3703fe90f9324ac58a3cd1f1",
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.8",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-bzei608bPVQE2yq9Ghrjn/dnpf27mWfrr0q0ZQiuZoO3LQqFG0T1xSGz+9vw1j9KAZM2Cu9vdQMkddDxqzZGNg==",
+				"shasum": "78708d2d437093224f00b775f8808e2c35d024a3",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.8.tgz",
+				"fileCount": 37,
+				"unpackedSize": 30298,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiBuy5CRA9TVsSAnZWagAA5DUP/0z11TiQLx5ID/qhqhMc\n+oqObCrQiJNPOGkLi6g5MtDaBavjzv2a+buvJYJZQAEPg+fNrdXXgvVvBXDn\n8Y20krE6NfyRMyM/pSz5/tKO8QMYPKRM+XmDEdB09pFHblkZoQ974f7UtHl/\nWXZuQr5RWjCj22mHIpVYZcTv3avEZgzefQw1AbdDcGz/ixLVEUiuTilV4Buw\nRG/tePkWq7e6bw/6Z+cvzRLQFMRsveTeDKFz2dC9B5/7sZDnHA61aekt+i5n\nbyu+4Y1gaJHlD9jN8YIYNmjB/JBYC5NXSWIr4cDMp5lmjjndbTxG4c4Rjcz8\nBW8qeClygqmRpSiJV/t923tNv9cE2Iljb90JtOf1WsCjZf9utMStzf2lI4Uj\n3Cx2B/P4RXMuXPwMQtmy5EgwAS80XI/DHEewJnScH5APnZDG+IiQ2bssIP+/\n59GD9/S/qBVzC+H5HdI5b1culDlPgKBfbHcy6RpPw/dmdMUfp8+tJIINCuBw\nO2eGBTseUzus3jzXOxRy3bx+EmNfxyCFE07xGDpwoEsZYbNA3MFePpXBB+XW\nrMptNvVq+yQo4psyi9U5gF4EPa8Xzd8IZ6srofnGBhX9vQkDdbu6fxV4ymGH\noKj/fH+gZpA6cZH0wcjBOUwNP6+Gy0xqhvk6kHiMOSxEVZQOL5MSOhr8xy4T\nVQol\r\n=JIEy\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.8_1644620985392_0.5108555777118995"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.9": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.9",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^4.5.2"
+			},
+			"gitHead": "77f4cff01ced77793b22d286f145dd842a69f6e9",
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.9",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-O9tAMBMNMAMzgvbSS3OZlTpfgKCGjvjo5LTjWNtQ/M6A/SKWghJfvoMKuQL/vykLb6rjB/AkaQVFg9yDHprN6w==",
+				"shasum": "d2a82ece1ed2e66970c0611e47ca8af9875a3cc2",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.9.tgz",
+				"fileCount": 37,
+				"unpackedSize": 30298,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiCjdfCRA9TVsSAnZWagAAr8EP/RMuDAp5AqNQq2KL25VU\ny3EAzCq5eV9CfdfXzX9LxHDRA5BgwmcvjeA3FRZHBH8QXI/TrHd6rqhGyK/7\npZr86RSydQiBL2Lf03Oox/BNKr/bvQzOKSEOg2BAvILnngfBxXI6BGciqiX3\nh6bime3KXPOk0UGcrWutvkFS9mdeDSB6G6CfnzoAe7BCB/dBA58Cpxodg+8q\nLVz+vSTJ98jc+LtguzPxR2Ls0Q3VLVW9Mx1YH7w3ERKoiP9rj4ehl8LDvnys\nTNZcFRx0NpYAMelbtoo/soJIDb3MTfwPKevCz4YZQKfZmcwXncQLfULHwsNE\nng19ys+O5CO5MNyZT3XKhGnPZr3c2zjruKxoGgbZzclwwiokgp0/jZtOfb4j\ng7y74EbOnYKN+w0LDyQvYbh8dvlVAEe/e/DqlCVUVDueu00Sa/lvQxWJI5I+\nco22KOYiAtVhxVyqQTaz0guvbUno35dRgpDr6JSPCc77AMlvcU1tpqH23reN\n8W8avrjOsfE4r5DLb/Rcs2mZxYKnz71ir2dF/O4qL+8OeOAahr6aQeylrwME\nA/u1f3w3H2KKcrjJFuFr7mZ8RW3dnDe5iluXVvGoI0qjK/5Jm3ZlSvKG0120\nGKb1Q+9TuHn5Y24oQjR/uGQL86e/MFtdHTaGkF+vpRENwnddM71Sph4NBzLO\ndhLE\r\n=RHJE\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.9_1644836703268_0.2310480582947565"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.10": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.10",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^4.5.2"
+			},
+			"gitHead": "56f57e4f09f273300e0def47de5d941cd08c7124",
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.10",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-PxZDEDYOHX7rEdrZohA+6yUv0AOL/7IRzW4nbpWDlnwsmcyP5nAfV1yODYaConjL8HBxB/tIC6QmHu1ApW2muA==",
+				"shasum": "097cbc453e76e37f5ae2c5b508058113f9855571",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.10.tgz",
+				"fileCount": 37,
+				"unpackedSize": 30299,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiCl31CRA9TVsSAnZWagAA/OMP/09ACiAJHKwX8teS0L1m\n6ny06J7TbsfKRvz26ufmxaKHB+68al9+ouL0xgEVzvjd/z81oJY8v0tYlcpv\nXyTtz2GziTsLBLmqxefRR760JZCaXYejzqBMQ2O2j3GIhxP1LR8L9O1Lr0zi\n0B7D5J3Ez//D05IQVn7WJ+ThV9O7MXVF2b7mYsRI+hWJFQkSrylEbVn/Wq9m\n8NTMfVyvtBGbt46AsGqIWrjXWCbORmab5qfbDBF1200w21Zf4ZshfdyWhgC6\n5uolLKobnmDPVzrjuVNIlpowT3bY73L4DjXjDxUFLNAbQ3SHEItRrfd8xD1w\ne4LFi1u246m6J8lUWQR8qIisRTtIOYcoSkmO/omZhr14JlwIhNtVfVb9216H\nynCHGzEuin53mUhPyh+sLuCijX+cUFE3XLKEwLDAs2K8F1uGpyXPnj+U2bNU\n64fPvmLevYI6OEewSrkg35VwoDqXUByTEUpIudLdjwr1BmhZQUoCc2jtpBMr\nyRZccyq0+4Y1A7eouxkXHIG1JZ3fpU27yniNpiiufL9Pg7EpYsK+y9zae0s+\n4iA0JwT/TTBRNFR1cklFXBruBMk+CcwzfoRG09rselWx48aqWldPqKTS44y5\neRx3cTmgmgfHkthMmXGzbPRllaCa4tBZpMpfkKbgvE1TxDK7D9MBfjYAOBSM\n+8EE\r\n=euH4\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.10_1644846581048_0.5775285029697996"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.11": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.11",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^4.5.2"
+			},
+			"gitHead": "384901ce3d77b29cb3c9d1e4273e7a28f43e70f6",
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.11",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-0X7/3plmtdBFAG0dS5u1utBsA2++E/TJxWQlnlUydP/21q71CCn/F4b0ir49us/Cn8mzemednIL8ZMjX/boiQw==",
+				"shasum": "f855e49fb4dc8b4f368488d300dde793f434dcbe",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.11.tgz",
+				"fileCount": 37,
+				"unpackedSize": 30299,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiCp7hCRA9TVsSAnZWagAAA7UP/0QNCRbNlr2WZTmVAHuq\nzyxuGA9Y6G7LzIXqCrIyWKJ0VOl/Uby+2JLcCyhq8a7mQcvnFRpA/2oMKj/v\nQZ9g7d8solEbOL3i9oJFvZ+SwuKJ2I1a+2CVbFP6A+Xrrf0bgShno0CDY1zB\nH5i5JEJfFZG5zfY0PJovc923rwfF7kO1/NeVGbM+GPIvLYQT7OsyrS3yACAV\nM82FFDLznjfzfvAtxvqKf9qhqaO/+8DdjwBv0i3i04d4L2oZpo6R7GbyAk8A\nZ1q4KwMMDJE79iF2yzILMKtxhqsr7dCPlxfl1n5GnV9a3A7Rs2BBX4o83iYL\n4EpUkRmZecX5eBZh7eYI4poVi8oBlQ/2HpAYhA1Y4y/XrqS0roOoozzKzsRv\nUsm7ohwGjIZTQ5ec266hwfoi/T0bTfVxkvN3weutGyReGhc/a6Tk6MMPFAnF\n33sJLhYQ4O88lGHJeOL9GuknZ3jPDTTRY216OyKhHC77ZPHql8sKNnh5+F+P\nW/zsIjX5sJJznLXLdUd4LVaDEJsh0F9PDvD6LTAH/N5MW/zQXtxg+J/Eevnw\nVdKOelLIjOoweI2cnhaZ0EnXTzp8AGiyv9x+xYKwlIGkX98nZ7X8QgHCWDF4\n0uXnMSvawRhYhnnwJANI64gX8hzMiGUX4rVrbFNr+nVa9eZUPRRu2O4eLU+p\nNfWb\r\n=adrO\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.11_1644863200917_0.3178243200448576"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.12": {
+			"name": "@vue/devtools-api",
+			"version": "6.0.12",
+			"description": "Interact with the Vue devtools from the page",
+			"main": "lib/cjs/index.js",
+			"browser": "lib/esm/index.js",
+			"module": "lib/esm/index.js",
+			"types": "lib/esm/index.d.ts",
+			"sideEffects": false,
+			"author": {
+				"name": "Guillaume Chau"
+			},
+			"license": "MIT",
+			"repository": {
+				"url": "git+https://github.com/vuejs/vue-devtools.git",
+				"type": "git",
+				"directory": "packages/api"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"build": "rimraf lib && yarn build:esm && yarn build:cjs",
+				"build:esm": "tsc --module es2015 --outDir lib/esm -d",
+				"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+				"build:watch": "yarn tsc --module es2015 --outDir lib/esm -d -w --sourceMap"
+			},
+			"devDependencies": {
+				"@types/node": "^13.9.1",
+				"@types/webpack-env": "^1.15.1",
+				"typescript": "^4.5.2"
+			},
+			"gitHead": "33211b33564bbfc0b3da7ab464adac41b7940382",
+			"bugs": {
+				"url": "https://github.com/vuejs/vue-devtools/issues"
+			},
+			"homepage": "https://github.com/vuejs/vue-devtools#readme",
+			"_id": "@vue/devtools-api@6.0.12",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-iO/4FIezHKXhiDBdKySCvJVh8/mZPxHpiQrTy+PXVqJZgpTPTdHy4q8GXulaY+UKEagdkBb0onxNQZ0LNiqVhw==",
+				"shasum": "7b57cce215ae9f37a86984633b3aa3d595aa5b46",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.12.tgz",
+				"fileCount": 37,
+				"unpackedSize": 30299,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiC/q9CRA9TVsSAnZWagAAB9UP/R2NX2Etr3dPrjgp+4EN\npeQQleOh2CTbNM7XfJhx9uf9cr2i6kufT+pWczBN0c6W1kAxZ1BS5OjpUBi+\nw6r63ecfIaKl/g3NOR/JqmWReI1yNIpkueqpB9OvIT8uHVM9X7SPgUmEhptE\nXNk04bp6cO02iZrWkhApHDQ9LBCfIT9ccZesWgKWVNsAwKa3A5SI/IDMnLQn\nma2DX6TWDWU66zDSdOO0o6oyW/P+l8RM2+XLNC9wMbDuK5SKliH4EdHaW/mR\nf+Mke4cG80lMC3EDn2tm9LrdJiLebQyPa/7s+ArFfXq3252WjASOEQQdId16\nRtCHZjCoBrbrDTqTCIwQBBjVUyL9yPQhUdWqH8xzscnke7/i7cFFBa8I94M+\nM7KuWPBbuJ9/iAmhbb9NW6VooX8n9j5x4eDmvlOdT7PQcmCnUiFtz3MmvV0g\nOVgjR+Ms3LX+sLlIm6ge0uryg6GPfmA2Wx9wf671oJf9iZDroYjqc2xWvPQ6\nlqS4DOTMTLl5pMFXqQlYtjeVVwn8u1GGFjD+95sKKMbNAOneXkTc/Sk7z/DM\nucK9Ms1xl58OzXXT/wSgVmS63tjM69KcDFbc/vUq0bpWg//Uk7HrfKDmEWPB\nHrcySBgTzXEudda14+R9df69hRemHJBrf3oUKOArfkBZCeqj/I3F0xuC9bDn\nBPdZ\r\n=Khqb\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "michalsnik",
+					"email": "msajnog93@gmail.com"
+				},
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				},
+				{
+					"name": "yyx990803",
+					"email": "yyx990803@gmail.com"
+				},
+				{
+					"name": "soda",
+					"email": "haoqunjiang+npm@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-api_6.0.12_1644952253589_0.5052115161775541"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2020-09-02T20:50:41.929Z",
+		"6.0.0-beta.2": "2020-09-02T20:50:42.242Z",
+		"modified": "2022-02-15T19:10:55.690Z",
+		"6.0.0-beta.3": "2020-12-23T23:17:32.454Z",
+		"6.0.0-beta.4": "2021-02-01T01:09:01.510Z",
+		"6.0.0-beta.5": "2021-02-01T01:41:03.387Z",
+		"6.0.0-beta.6": "2021-02-02T18:31:07.366Z",
+		"6.0.0-beta.7": "2021-02-19T10:05:41.071Z",
+		"6.0.0-beta.8": "2021-04-23T21:05:48.209Z",
+		"6.0.0-beta.9": "2021-05-06T12:53:13.244Z",
+		"6.0.0-beta.10": "2021-05-12T23:58:50.594Z",
+		"6.0.0-beta.11": "2021-05-21T16:45:20.334Z",
+		"6.0.0-beta.12": "2021-05-29T06:16:17.409Z",
+		"6.0.0-beta.13": "2021-06-07T22:54:59.133Z",
+		"6.0.0-beta.14": "2021-06-09T11:48:27.680Z",
+		"6.0.0-beta.15": "2021-06-28T17:03:45.790Z",
+		"6.0.0-beta.16": "2021-09-18T21:41:55.316Z",
+		"6.0.0-beta.17": "2021-09-19T08:09:33.695Z",
+		"6.0.0-beta.18": "2021-09-22T23:06:29.613Z",
+		"6.0.0-beta.19": "2021-10-04T19:39:33.370Z",
+		"6.0.0-beta.20": "2021-11-03T13:07:58.583Z",
+		"6.0.0-beta.20.1": "2021-11-10T16:36:34.087Z",
+		"6.0.0-beta.21": "2021-12-20T13:34:49.790Z",
+		"6.0.0-beta.21.1": "2021-12-20T18:47:10.357Z",
+		"6.0.0": "2022-02-07T09:35:34.527Z",
+		"6.0.1": "2022-02-07T16:53:09.710Z",
+		"6.0.2": "2022-02-08T12:11:00.129Z",
+		"6.0.3": "2022-02-09T14:44:33.597Z",
+		"6.0.4": "2022-02-09T17:33:55.251Z",
+		"6.0.5": "2022-02-09T22:37:27.732Z",
+		"6.0.6": "2022-02-11T01:30:07.953Z",
+		"6.0.7": "2022-02-11T17:03:47.082Z",
+		"6.0.8": "2022-02-11T23:09:45.530Z",
+		"6.0.9": "2022-02-14T11:05:03.453Z",
+		"6.0.10": "2022-02-14T13:49:41.228Z",
+		"6.0.11": "2022-02-14T18:26:41.061Z",
+		"6.0.12": "2022-02-15T19:10:53.739Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.0.12"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"e6e419cb37ace32bf6551f33a2ee31e4\"",
+			"fetched": 1646834714508
+		}
+	},
+	"_distfiles": {
+		"devtools-api-6.0.0-beta.2.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.2.tgz",
+			"sha": "833ad3335f97ae9439e26247d97f9baf7b5a6116",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.3.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.3.tgz",
+			"sha": "5a66cc8beed688fe18c272ee7a8bd8ed7e35a54c",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.4.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.4.tgz",
+			"sha": "10fdb3ed98593ccc3ef45d2d66d4d9a983e75936",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.5.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.5.tgz",
+			"sha": "722296bb0b93c4d0018b6a2beda1e781a3ff8789",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.6.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.6.tgz",
+			"sha": "bceabad6631156c57bdf790bfbbd5df27545e2a2",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.7.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.7.tgz",
+			"sha": "1d306613c93b9a837a3776b1b9255502662f850f",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.8.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.8.tgz",
+			"sha": "0dbb2d21b13818c04b7f70b1b0c3f7aae95e4fb4",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.9.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.9.tgz",
+			"sha": "7231f173c9b91cb2f3d4a209c7c0e380a7f5e417",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.10.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.10.tgz",
+			"sha": "f39da7618cee292e39c7274227c34163e30eb3ca",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.11.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.11.tgz",
+			"sha": "4fb4161ee41ba75f3f5198d4bfd80e4ffb7f2462",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.12.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.12.tgz",
+			"sha": "693ffc77bfb66b080e5c9576abb5786c85470a32",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.13.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.13.tgz",
+			"sha": "ff31e552ae3e99b5f2c0af0ca81f0889dbfb2155",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.14.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.14.tgz",
+			"sha": "6ed2d6f8d66a9256c9ad04bfff08309ba87b9723",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.15.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.15.tgz",
+			"sha": "ad7cb384e062f165bcf9c83732125bffbc2ad83d",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.16.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.16.tgz",
+			"sha": "a114f113974507f5a0d922def7407e3be8da7855",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.17.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.17.tgz",
+			"sha": "d4b9eb02c670d39a4532f4bb3c8517abce3fcb82",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.18.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.18.tgz",
+			"sha": "84c0aff9289a57294cb97490811f69e8a0a67f8a",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.19.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.19.tgz",
+			"sha": "f8e88059daa424515992426a0c7ea5cde07e99bf",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.20.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.20.tgz",
+			"sha": "b5405c9a84fb44687d05e7c4c7854b1639141106",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.20.1.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.20.1.tgz",
+			"sha": "5b499647e929c35baf2a66a399578f9aa4601142",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.21.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.21.tgz",
+			"sha": "74d78f15d61e7da31b3ed918e955c42aa94fbf6d",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0-beta.21.1.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.21.1.tgz",
+			"sha": "f1410f53c42aa67fa3b01ca7bdba891f69d7bc97",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0.tgz",
+			"sha": "f690a9776ab3c19f5605f4b10daf31a10221a405",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.1.tgz",
+			"sha": "c198200b9f84c7b6f7c4976b0206cbe1e7f61dc9",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.2.tgz",
+			"sha": "92267911dd2772c5a7641d2889051c6193a7c6aa",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.3.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.3.tgz",
+			"sha": "490354134a39474ee110738355a4acd946b21180",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.4.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.4.tgz",
+			"sha": "d183c513a26d72178218717efa70f7f981956bf5",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.5.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.5.tgz",
+			"sha": "7e35cfee4f44ada65cde0d19341fbaeb0ae353f4",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.6.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.6.tgz",
+			"sha": "4bf8bfe8f14f73c614d9baeaa275fe3cd1c799d6",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.7.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.7.tgz",
+			"sha": "a54b3b99b19ab71e96d40d005e9b1cec19eae5f1",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.8.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.8.tgz",
+			"sha": "78708d2d437093224f00b775f8808e2c35d024a3",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.9.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.9.tgz",
+			"sha": "d2a82ece1ed2e66970c0611e47ca8af9875a3cc2",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.10.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.10.tgz",
+			"sha": "097cbc453e76e37f5ae2c5b508058113f9855571",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.11.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.11.tgz",
+			"sha": "f855e49fb4dc8b4f368488d300dde793f434dcbe",
+			"registry": "npmjs"
+		},
+		"devtools-api-6.0.12.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.12.tgz",
+			"sha": "7b57cce215ae9f37a86984633b3aa3d595aa5b46",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"devtools-api-6.0.12.tgz": {
+			"shasum": "7b57cce215ae9f37a86984633b3aa3d595aa5b46"
+		}
+	},
+	"_rev": "5-2a37111f20772d2e",
+	"_id": "@vue/devtools-api",
+	"readme": "ERROR: No README data found!"
+}

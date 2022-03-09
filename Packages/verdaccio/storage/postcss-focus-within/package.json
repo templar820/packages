@@ -1,0 +1,1045 @@
+{
+	"name": "postcss-focus-within",
+	"versions": {
+		"1.0.0": {
+			"name": "postcss-focus-within",
+			"version": "1.0.0",
+			"description": "[![NPM Version][npm-img]][npm-url] [![Build Status][cli-img]][cli-url] [![Windows Build Status][win-img]][win-url] [![Gitter Chat][git-img]][git-url]",
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-focus-within.git"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-focus-within#readme",
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-focus-within/issues"
+			},
+			"main": "index.bundle.js",
+			"module": "index.js",
+			"files": [
+				"index.js",
+				"index.bundle.js"
+			],
+			"scripts": {
+				"prepublishOnly": "npm test",
+				"pretest": "rollup -c .rollup.js --silent",
+				"test": "echo 'Running tests...'; npm run test:ec && npm run test:js && npm run test:tape",
+				"test:ec": "echint --ignore index.bundle.js test",
+				"test:js": "eslint *.js --cache --ignore-path .gitignore --quiet",
+				"test:tape": "postcss-tape"
+			},
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"dependencies": {
+				"postcss": "^6.0"
+			},
+			"devDependencies": {
+				"babel-core": "^6.26",
+				"babel-eslint": "^8.2",
+				"babel-preset-env": "^1.6",
+				"echint": "^4.0",
+				"eslint": "^4.18",
+				"eslint-config-dev": "2.0",
+				"postcss-tape": "2.2",
+				"pre-commit": "^1.2",
+				"rollup": "^0.56",
+				"rollup-plugin-babel": "^3.0"
+			},
+			"eslintConfig": {
+				"extends": "dev",
+				"parser": "babel-eslint"
+			},
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugin",
+				"focus",
+				"within",
+				"polyfill",
+				"pseudos",
+				"selectors",
+				"accessibility",
+				"a11y",
+				"descendants",
+				"ancestors"
+			],
+			"gitHead": "ee63ee4246a8107b64f65afa4e13d047839c2593",
+			"_id": "postcss-focus-within@1.0.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.5.0",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-iGLg941dX/e8zVCr6V6OhF+K23/KxgENwDlIYd6w9mcO26AKgvEUZs4kYB2b6ku7G93KI9p14SuCdez5tWKP+g==",
+				"shasum": "dbaa2e5c2f599cce6384d4afc0073414f2203546",
+				"tarball": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-1.0.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 13354
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-focus-within_1.0.0_1518910058056_0.7729713731156693"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "postcss-focus-within",
+			"version": "2.0.0",
+			"description": "Ise the :focus-within pseudo-selector in CSS",
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-focus-within.git"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-focus-within#readme",
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-focus-within/issues"
+			},
+			"main": "index.cjs.js",
+			"module": "index.es.js",
+			"files": [
+				"index.cjs.js",
+				"index.es.js"
+			],
+			"scripts": {
+				"prepublishOnly": "npm test",
+				"pretest": "rollup -c .rollup.js --silent",
+				"test": "echo 'Running tests...'; npm run test:js && npm run test:tape",
+				"test:js": "eslint *.js --cache --ignore-path .gitignore --quiet",
+				"test:tape": "postcss-tape"
+			},
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"dependencies": {
+				"postcss": "^6.0.21"
+			},
+			"devDependencies": {
+				"babel-core": "^6.26.0",
+				"babel-eslint": "^8.2.2",
+				"babel-preset-env": "^1.6.1",
+				"eslint": "^4.19.1",
+				"eslint-config-dev": "2.0.0",
+				"postcss-tape": "2.2.0",
+				"pre-commit": "^1.2.2",
+				"rollup": "^0.57.1",
+				"rollup-plugin-babel": "^3.0.3"
+			},
+			"eslintConfig": {
+				"extends": "dev",
+				"parser": "babel-eslint"
+			},
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugin",
+				"focus",
+				"within",
+				"polyfill",
+				"pseudos",
+				"selectors",
+				"accessibility",
+				"a11y",
+				"descendants",
+				"ancestors"
+			],
+			"gitHead": "1596182fbd0d23a936bcd6389b360f4e0afd5cef",
+			"_id": "postcss-focus-within@2.0.0",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "9.11.1",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-LTbT/dxZ3FahpOv1XZMyRLNnBk5QWVU4HL/p82iFkzoPNVhNQazaYIujHXTOAKea5clgjbj6GdFj7mU7qzy1kQ==",
+				"shasum": "7ff76ad8b5e9a000c0123d9690a76752c36c0c52",
+				"tarball": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-2.0.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 14736
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-focus-within_2.0.0_1523152522342_0.6922532908309977"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "postcss-focus-within",
+			"version": "3.0.0",
+			"description": "Use the :focus-within pseudo-selector in CSS",
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-focus-within.git"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-focus-within#readme",
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-focus-within/issues"
+			},
+			"main": "index.cjs.js",
+			"module": "index.es.mjs",
+			"scripts": {
+				"prepublishOnly": "npm test",
+				"pretest": "rollup -c .rollup.js --silent",
+				"test": "echo 'Running tests...'; npm run test:js && npm run test:tape",
+				"test:js": "eslint *.js --cache --ignore-path .gitignore --quiet",
+				"test:tape": "postcss-tape"
+			},
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"dependencies": {
+				"postcss": "^7.0.2"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.0.0",
+				"@babel/preset-env": "^7.0.0",
+				"babel-eslint": "^9.0.0",
+				"eslint": "^5.6.0",
+				"eslint-config-dev": "2.0.0",
+				"postcss-tape": "2.2.0",
+				"pre-commit": "^1.2.2",
+				"rollup": "^0.66.0",
+				"rollup-plugin-babel": "^4.0.1"
+			},
+			"eslintConfig": {
+				"extends": "dev",
+				"parser": "babel-eslint"
+			},
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugin",
+				"focus",
+				"within",
+				"polyfill",
+				"pseudos",
+				"selectors",
+				"accessibility",
+				"a11y",
+				"descendants",
+				"ancestors"
+			],
+			"gitHead": "382ed07404b3665e1d31bd795a0c028033bc8276",
+			"_id": "postcss-focus-within@3.0.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.10.0",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-W0APui8jQeBKbCGZudW37EeMCjDeVxKgiYfIIEo8Bdh5SpB9sxds/Iq8SEuzS0Q4YFOlG7EPFulbbxujpkrV2w==",
+				"shasum": "763b8788596cee9b874c999201cdde80659ef680",
+				"tarball": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-3.0.0.tgz",
+				"fileCount": 8,
+				"unpackedSize": 17197,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJboHcPCRA9TVsSAnZWagAASs4P/0gGNCJS6HHqtOBIpPWK\nZ74a/qcYE9KamXVkUDoJQLjiIExTxH5RLbrV2sVLGZLL4xR/3QwUb5PxWLkR\nLIyCsduEhcUNpvNJMD9lG/YYXE6eLqVz1CPWH52Ea2QDVFNahKHf1vELcey9\nfTxDgW5506pddk1YsNBbvoB+kO0/8M1abtkQ/8PfDUv5gBGhHjhz0bvZRRaf\n8J5jvUheT0dDmMqUllZEEYra1LNF1YrwrI7/b1y52OM3FCe41aePucVLB9Fn\nm1Z+tFgII9H8keXOmtqqW6FmiSISx+a0cNq8gQj7JZO4UckcooyL5YDvxGSw\nFZxjifcQscMwl7m1YJtt2qPiT7sY/iV0cVEQSSoLYoiEyXTDxI1A0Nn4vu72\nh6cWPXzg/SxWU7Q35kbzlK8vcucP0EClk1UDGwtwTlNN/y2vbMwGrWHVP/uo\nYHFTvACP1UxvtY2ZsF3DsZ40zmTwTcr05GIzQI67qNmXqyTcNb7yT8N2ZC0O\nqRDt1l0pkTV1Y1aAT03GAB9GvmNAz5NfnqelVTztZ4UmGztfoVEfU/V6bLJU\n2qmuq31ajgp3vwcwz3ypnbdWEXOdTPEv5ZMaL8ijQFSaDLurP5bBTYWQKp60\niVEVd8GBIvCszbC3KHo32ZP8vKHtjaBhGH8SycMm96tyLxj9Tch//MTYan1r\nsyXk\r\n=4pk9\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-focus-within_3.0.0_1537242894675_0.266156652750438"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "postcss-focus-within",
+			"version": "4.0.0",
+			"description": "Use the :focus-within pseudo-selector in CSS",
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/csstools/postcss-focus-within.git"
+			},
+			"homepage": "https://github.com/csstools/postcss-focus-within#readme",
+			"bugs": {
+				"url": "https://github.com/csstools/postcss-focus-within/issues"
+			},
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.esm.mjs",
+			"scripts": {
+				"build": "npx rollup -c .rollup.js",
+				"build:watch": "npx rollup -c .rollup.js --watch",
+				"lint": "npx eslint --cache src",
+				"lint:fix": "npx eslint --cache --fix",
+				"pretest": "npm install && npm run build",
+				"test": "npm run lint && npm run tape",
+				"tape": "npx postcss-tape"
+			},
+			"engines": {
+				"node": ">=10.0.0"
+			},
+			"dependencies": {
+				"postcss": "^7.0.27"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^6.8.0",
+				"postcss-tape": "5.0.2",
+				"pre-commit": "^1.2.2",
+				"rollup": "^2.6.1",
+				"rollup-plugin-babel": "^4.4.0"
+			},
+			"babel": {
+				"presets": [
+					[
+						"@babel/env",
+						{
+							"targets": "maintained node versions"
+						}
+					]
+				]
+			},
+			"eslintConfig": {
+				"env": {
+					"es6": true,
+					"node": true
+				},
+				"extends": "eslint:recommended",
+				"parser": "babel-eslint"
+			},
+			"rollup": {
+				"input": "src/index.js",
+				"plugins": [
+					"rollup-plugin-babel"
+				],
+				"output": [
+					{
+						"file": "dist/index.cjs.js",
+						"format": "cjs"
+					},
+					{
+						"file": "dist/index.esm.js",
+						"format": "esm"
+					}
+				]
+			},
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugin",
+				"focus",
+				"within",
+				"polyfill",
+				"pseudos",
+				"selectors",
+				"accessibility",
+				"a11y",
+				"descendants",
+				"ancestors"
+			],
+			"gitHead": "d82b739c98fae042d2520c52643028f5be74bc26",
+			"_id": "postcss-focus-within@4.0.0",
+			"_nodeVersion": "13.12.0",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-fO+5/StoHEswmdDQ7V3rhlx4i1cUOjQItae3scu8Nki5h35/fvr8J1vakFnSN4gZ7zzthflpedVsMZPDXNzxaA==",
+				"shasum": "c6b428e13403ba053704ce338514584b6cd880c3",
+				"tarball": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-4.0.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 14658,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJelGvRCRA9TVsSAnZWagAA4RgP+wQd2v65mJmZU77uZ2GC\nCua1sqf7/9H98RjJ6uj7/vcuTSxZdJtx0Xv+v+jan4feGWauoMFa+zfGAiLG\nJ3+QunXqu/19YLM6F8gZpwAXVQNY2RVtdsd75TTcRrClkH7nnZo+aDQXmMLj\nY+lyxiy1rR4bFSXsCz7/gOaLTyQaAChhh9jm9cVD0ZJKyuefodul0+/tTxDb\n5HfFKfcuh6qNi1Uule/vxrf5YT5nfKxWN+cdNnhRFCg7AOfapETBs3gcLaO+\nAZIA8XlgTpcdevYqQdiWBS+OZb5tuLTucJ+ctEm4GrdIajTiE3KEzzlKh+cs\n6mzDMFpjJ49hEN3gmdCP6VdJKyThp3eVBczmLLRHKsOFyRkmmr+OdAizo8uF\nFyubyDSLNmN7AfQG7N0NaE+uvtWt1QA/R1cC+VyHwzLzq5nRIuMp7Va+yRpt\nA9mZ8YtnG0L7ZiPKxREemMCoHgTHyb/n6amYEBCZYXEty7hjQ080YDKxC6XB\nbB2epTTm0eZOaoVMYlG47bwusqjKr6WRiJpCEojpEl9TYkPne+4RqduQ5A8b\ndEz40ESrrvC9LYVY0Wjrow31wj81GgVA9TUkHGGPiJq8SgkRQgdcgTX4s9be\nhNPUmntATZO9ylrevTcd0YaM16uoubtjmger9tBtZzIhyVjjMG+J5xl9KPnV\napUV\r\n=YOXX\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-focus-within_4.0.0_1586785233377_0.8103446826494147"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.0": {
+			"name": "postcss-focus-within",
+			"version": "5.0.0",
+			"description": "Use the :focus-within pseudo-selector in CSS",
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/csstools/postcss-focus-within.git"
+			},
+			"homepage": "https://github.com/csstools/postcss-focus-within#readme",
+			"bugs": {
+				"url": "https://github.com/csstools/postcss-focus-within/issues"
+			},
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.esm.mjs",
+			"scripts": {
+				"build": "npx rollup -c .rollup.js",
+				"build:watch": "npx rollup -c .rollup.js --watch",
+				"lint": "npx eslint --cache src",
+				"lint:fix": "npx eslint --cache --fix",
+				"pretest": "npm install && npm run build",
+				"test": "npm run lint && npm run tape",
+				"tape": "npx postcss-tape"
+			},
+			"engines": {
+				"node": ">=12"
+			},
+			"peerDependencies": {
+				"postcss": "^8.3"
+			},
+			"devDependencies": {
+				"@babel/core": "7.15.5",
+				"@babel/preset-env": "7.15.6",
+				"eslint": "7.32.0",
+				"postcss": "8.3.6",
+				"postcss-tape": "6.0.1",
+				"pre-commit": "1.2.2",
+				"rollup": "2.56.3",
+				"rollup-plugin-babel": "4.4.0"
+			},
+			"babel": {
+				"presets": [
+					[
+						"@babel/env",
+						{
+							"targets": "maintained node versions"
+						}
+					]
+				]
+			},
+			"eslintConfig": {
+				"env": {
+					"es6": true,
+					"node": true
+				},
+				"extends": "eslint:recommended",
+				"parserOptions": {
+					"ecmaVersion": 2020,
+					"sourceType": "module"
+				}
+			},
+			"rollup": {
+				"input": "src/index.js",
+				"plugins": [
+					"rollup-plugin-babel"
+				],
+				"output": [
+					{
+						"exports": "default",
+						"file": "dist/index.cjs.js",
+						"format": "cjs"
+					},
+					{
+						"file": "dist/index.esm.js",
+						"format": "esm"
+					}
+				]
+			},
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugin",
+				"focus",
+				"within",
+				"polyfill",
+				"pseudos",
+				"selectors",
+				"accessibility",
+				"a11y",
+				"descendants",
+				"ancestors"
+			],
+			"gitHead": "40906659a2c651c0e2affdc6b1c4f411e875abb6",
+			"_id": "postcss-focus-within@5.0.0",
+			"_nodeVersion": "16.6.1",
+			"_npmVersion": "7.20.3",
+			"dist": {
+				"integrity": "sha512-JR/7QBImEtfOanMU/rZJrs4a+MLE7gzsQaTgLY7oVATj+YMJuTsHBLhceknCLTIj6xS4TkRJX8eaL3pr4PKN4g==",
+				"shasum": "6356b6e204b868f80613ad694bea5f5dac6bfd68",
+				"tarball": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-5.0.0.tgz",
+				"fileCount": 3,
+				"unpackedSize": 12714
+			},
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-focus-within_5.0.0_1631886064608_0.46239666550162184"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.1": {
+			"name": "postcss-focus-within",
+			"version": "5.0.1",
+			"description": "Use the :focus-within pseudo-selector in CSS",
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/csstools/postcss-focus-within.git"
+			},
+			"homepage": "https://github.com/csstools/postcss-focus-within#readme",
+			"bugs": {
+				"url": "https://github.com/csstools/postcss-focus-within/issues"
+			},
+			"main": "dist/index.cjs",
+			"module": "dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs",
+					"types": "./dist/index.d.ts"
+				}
+			},
+			"scripts": {
+				"build": "npx rollup -c .rollup.js",
+				"build:watch": "npx rollup -c .rollup.js --watch",
+				"lint": "npx eslint --cache src",
+				"lint:fix": "npx eslint --cache --fix",
+				"prepublishOnly": "npm test",
+				"pretest": "npm install && npm run build",
+				"test": "npm run lint && npm run tape",
+				"tape": "npx postcss-tape"
+			},
+			"engines": {
+				"node": ">=12"
+			},
+			"peerDependencies": {
+				"postcss": "^8.3"
+			},
+			"devDependencies": {
+				"@babel/core": "7.15.5",
+				"@babel/preset-env": "7.15.6",
+				"eslint": "7.32.0",
+				"postcss": "8.3.6",
+				"postcss-tape": "6.0.1",
+				"pre-commit": "1.2.2",
+				"rollup": "2.57.0",
+				"rollup-plugin-babel": "4.4.0",
+				"rollup-plugin-copy": "^3.4.0"
+			},
+			"babel": {
+				"presets": [
+					[
+						"@babel/env",
+						{
+							"targets": "maintained node versions"
+						}
+					]
+				]
+			},
+			"eslintConfig": {
+				"env": {
+					"es6": true,
+					"node": true
+				},
+				"extends": "eslint:recommended",
+				"parserOptions": {
+					"ecmaVersion": 2020,
+					"sourceType": "module"
+				}
+			},
+			"rollup": {
+				"input": "src/index.js",
+				"plugins": [
+					"rollup-plugin-babel",
+					[
+						"rollup-plugin-copy",
+						{
+							"targets": [
+								{
+									"src": "./src/index.d.ts",
+									"dest": "./dist"
+								}
+							]
+						}
+					]
+				],
+				"output": [
+					{
+						"exports": "default",
+						"file": "dist/index.cjs",
+						"format": "cjs"
+					},
+					{
+						"file": "dist/index.mjs",
+						"format": "esm"
+					}
+				]
+			},
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugin",
+				"focus",
+				"within",
+				"polyfill",
+				"pseudos",
+				"selectors",
+				"accessibility",
+				"a11y",
+				"descendants",
+				"ancestors"
+			],
+			"gitHead": "cd8eb6e4eb2d394c61056c85b426f99f6e21d1bf",
+			"_id": "postcss-focus-within@5.0.1",
+			"_nodeVersion": "16.6.1",
+			"_npmVersion": "7.20.3",
+			"dist": {
+				"integrity": "sha512-50v1AZVlFSVzLTNdBQG521Aa54VABf/X1RkhR8Fm/9dDQby0W0XdwOnuo8Juvf0ZZXbKkxyTkyyQD0QaNVZVGg==",
+				"shasum": "615659122325d86e00bc8ed84ab6129d0b3a0f62",
+				"tarball": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-5.0.1.tgz",
+				"fileCount": 6,
+				"unpackedSize": 15405
+			},
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-focus-within_5.0.1_1632319327532_0.5727158051188852"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.2": {
+			"name": "postcss-focus-within",
+			"version": "5.0.2",
+			"description": "Use the :focus-within pseudo-selector in CSS",
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"homepage": "https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-focus-within#readme",
+			"bugs": {
+				"url": "https://github.com/csstools/postcss-plugins/issues"
+			},
+			"main": "dist/index.cjs",
+			"module": "dist/index.mjs",
+			"types": "dist/index.d.ts",
+			"bin": {
+				"postcss-focus-within": "dist/cli.mjs"
+			},
+			"scripts": {
+				"build": "rollup -c ../../rollup/default.js",
+				"clean": "node -e \"fs.rmSync('./dist', { recursive: true, force: true });\"",
+				"lint": "eslint ./src --ext .js --ext .ts --ext .mjs --no-error-on-unmatched-pattern",
+				"prepublishOnly": "npm run clean && npm run build && npm run test",
+				"stryker": "stryker run --logLevel error",
+				"test": "postcss-tape --ci"
+			},
+			"engines": {
+				"node": "^12 || ^14 || >=16"
+			},
+			"dependencies": {
+				"postcss-selector-parser": "^6.0.7"
+			},
+			"devDependencies": {
+				"postcss": "^8.3.6",
+				"postcss-tape": "^6.0.1"
+			},
+			"peerDependencies": {
+				"postcss": "^8.3"
+			},
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugin",
+				"focus",
+				"within",
+				"polyfill",
+				"pseudos",
+				"selectors",
+				"accessibility",
+				"a11y",
+				"descendants",
+				"ancestors"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/csstools/postcss-plugins.git",
+				"directory": "plugins/postcss-focus-within"
+			},
+			"gitHead": "74c36798aa03dbc1927fc2dd7e2f94e48db98fa4",
+			"_id": "postcss-focus-within@5.0.2",
+			"_nodeVersion": "16.13.0",
+			"_npmVersion": "8.1.0",
+			"dist": {
+				"integrity": "sha512-0zm8gM/fpFZtWM8drbj5M6HKVztHgLqtHygCMB494SOkudtnePpq5nv0ie2Jx/BrD+A5nhj0uK3tuMnEpjKonA==",
+				"shasum": "ba9229b68c03ad65aa4ead81ca29717b5b4dbf62",
+				"tarball": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-5.0.2.tgz",
+				"fileCount": 12,
+				"unpackedSize": 108781,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhtxOJCRA9TVsSAnZWagAAIiAP/RKoIhHQKcm5bQQ6TQEI\n0FmtDm9eVkj6qOLxNLvjkeBoWeCXLfZRPyN0fY7exwsutZq2UECKXVs7HDBm\naREZDO7nsEgtZtj7ZbFwe+VrbkT9/sZ1ZaRVLoi2uPcHFDunT/SIIz0S7T1P\ni7YWeiLwZU8pTehsABVfwpymGInfa6MyOvuJPt47i9H1dfuykDIL8Xlab2Kf\n1ypQ8wg9duH4UxcDJH11jIrfP/Rn2wORiGPehn4Mq5bmfXjzu1T0+hTwJwkN\nVEgxn+G+z5pMu2LLj0zP9t6ZYoTO0yVWOWKUR7RMgRioul2cRNc2GF0OKQUb\n5eNmNhEn/1lj5Sq/J7mBgVf70tGyX3V/AKkvY/TIynfVIADBtvZbIyhzPWzJ\nktQMAAQpXmXjv26H9IebVPWKZnd0NafP1/uYMD8KK3975mNrVgjCXYd5S+4/\nTSFTkL5x/Uv1bFEdCHJVQhjNBHvueFKx94SR93F5wdF8BhR7+LptpJiiB8+M\nC3qUaaAq+OxTor1MsUqf5ocpqY7QoLXyhdXUSErjHOh2MLcogMYPzUpYoBYB\n06Pte6r/u66GezJa3uVRIh8ogYOoGmkXiYCFu3QGMfYz2O0tnap1Y/7/rSRn\nCKYRCXsyPtZO51CNZYFe+9QKfAu7Q9gQ7VkdrGMDhpXxYpjYqmPgGJSPilzz\nLB53\r\n=eG24\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "alaguna",
+				"email": "sombragriselros@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "alaguna",
+					"email": "sombragriselros@gmail.com"
+				},
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-focus-within_5.0.2_1639388041450_0.37313706969188876"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.3": {
+			"name": "postcss-focus-within",
+			"version": "5.0.3",
+			"description": "Use the :focus-within pseudo-selector in CSS",
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"homepage": "https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-focus-within#readme",
+			"bugs": {
+				"url": "https://github.com/csstools/postcss-plugins/issues"
+			},
+			"main": "dist/index.cjs",
+			"module": "dist/index.mjs",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "rollup -c ../../rollup/default.js",
+				"clean": "node -e \"fs.rmSync('./dist', { recursive: true, force: true });\"",
+				"lint": "eslint ./src --ext .js --ext .ts --ext .mjs --no-error-on-unmatched-pattern",
+				"prepublishOnly": "npm run clean && npm run build && npm run test",
+				"stryker": "stryker run --logLevel error",
+				"test": "postcss-tape --ci && npm run test:exports",
+				"test:exports": "node ./test/_import.mjs && node ./test/_require.cjs"
+			},
+			"engines": {
+				"node": "^12 || ^14 || >=16"
+			},
+			"dependencies": {
+				"postcss-selector-parser": "^6.0.8"
+			},
+			"devDependencies": {
+				"postcss": "^8.3.6",
+				"postcss-tape": "^6.0.1"
+			},
+			"peerDependencies": {
+				"postcss": "^8.3"
+			},
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugin",
+				"focus",
+				"within",
+				"polyfill",
+				"pseudos",
+				"selectors",
+				"accessibility",
+				"a11y",
+				"descendants",
+				"ancestors"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/csstools/postcss-plugins.git",
+				"directory": "plugins/postcss-focus-within"
+			},
+			"volta": {
+				"extends": "../../package.json"
+			},
+			"gitHead": "efdb08fc17440a541431696f6d2587eabf4d352c",
+			"_id": "postcss-focus-within@5.0.3",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-fk9y2uFS6/Kpp7/A9Hz9Z4rlFQ8+tzgBcQCXAFSrXFGAbKx+4ZZOmmfHuYjCOMegPWoz0pnC6fNzi8j7Xyqp5Q==",
+				"shasum": "0b0bf425f14a646bbfd973b463e2d20d85a3a841",
+				"tarball": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-5.0.3.tgz",
+				"fileCount": 7,
+				"unpackedSize": 15220,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh0cbHCRA9TVsSAnZWagAAPOIQAJDuVW+QLHtTHyvfjL2V\nTHsqh2xwhA7qfk4KWgD+5uUhZWikAdB5rTgCrc/0YXR1a2YYx30Z4XTVlnf4\n6rN0QxeZP3pLcFJ4+r8J7HqzmrGR10i9jWdP2F2/sjBZ9AB67SXsjhPAWC9g\nwhPNNBdum1PqIj6zBGZ5hHx8vaumawugiOuVX45NDv9XryyY3tbex1nWwFGI\nxYdmr3C9gmDj7ctthp/0/y9gb+2ssv5BtjvYye69mLfL2NHpzofxKnthR2on\niaCTwHiWmrWGzEb39tDZMlga4y/wFLUouhhKl0XmD7w+cJe56Nyr5ODDlbaS\n+C0zSdn6DFNuIx7MJoqmJxlJHGkHKsbRSTtKreaGOjwHDiBFE5vkqfZCWYpT\ngmrBRyTUdFLOiIZH4gK2kVuIUW8YiIpaiHf9HhODPvHXDObLVFpiOhhpeQL2\nGDv+FWmZXtRqP8m8gnWoBdQTNefXFeLvKP8IHT+/pM1ehptTaEvso1ugjgI6\n3p+GGwu9K7E2L+SnIibcClXzImqt+Dz16BQMUWWm4oDWJftBMJQpAlr8UAYJ\ncuF2+DANh+8jWTOKF3E0ng+FDmNY60Z5sFozlG2Ml9z+nga+pHlf9vI/XWYf\nuEA9ffQNypTXpYC/UXw6nyzaqlxUU87SwgVLnRF96bCf/zlvCVCC+3tgJQfT\nTFA5\r\n=NctV\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "alaguna",
+				"email": "sombragriselros@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "alaguna",
+					"email": "sombragriselros@gmail.com"
+				},
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-focus-within_5.0.3_1641137863464_0.10671048966684782"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.4": {
+			"name": "postcss-focus-within",
+			"version": "5.0.4",
+			"description": "Use the :focus-within pseudo-selector in CSS",
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"homepage": "https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-focus-within#readme",
+			"bugs": {
+				"url": "https://github.com/csstools/postcss-plugins/issues"
+			},
+			"main": "dist/index.cjs",
+			"module": "dist/index.mjs",
+			"types": "dist/index.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs",
+					"default": "./dist/index.mjs"
+				}
+			},
+			"scripts": {
+				"build": "rollup -c ../../rollup/default.js",
+				"clean": "node -e \"fs.rmSync('./dist', { recursive: true, force: true });\"",
+				"lint": "eslint ./src --ext .js --ext .ts --ext .mjs --no-error-on-unmatched-pattern",
+				"prepublishOnly": "npm run clean && npm run build && npm run test",
+				"stryker": "stryker run --logLevel error",
+				"test": "postcss-tape --ci && npm run test:exports",
+				"test:exports": "node ./test/_import.mjs && node ./test/_require.cjs"
+			},
+			"engines": {
+				"node": "^12 || ^14 || >=16"
+			},
+			"dependencies": {
+				"postcss-selector-parser": "^6.0.9"
+			},
+			"devDependencies": {
+				"postcss": "^8.3.6",
+				"postcss-tape": "^6.0.1"
+			},
+			"peerDependencies": {
+				"postcss": "^8.4"
+			},
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugin",
+				"focus",
+				"within",
+				"polyfill",
+				"pseudos",
+				"selectors",
+				"accessibility",
+				"a11y",
+				"descendants",
+				"ancestors"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/csstools/postcss-plugins.git",
+				"directory": "plugins/postcss-focus-within"
+			},
+			"volta": {
+				"extends": "../../package.json"
+			},
+			"gitHead": "1a1a983df7404d906219cbeba5443ccb9c47b228",
+			"_id": "postcss-focus-within@5.0.4",
+			"_nodeVersion": "16.13.1",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-vvjDN++C0mu8jz4af5d52CB184ogg/sSxAFS+oUJQq2SuCe7T5U2iIsVJtsCp2d6R4j0jr5+q3rPkBVZkXD9fQ==",
+				"shasum": "5b1d2ec603195f3344b716c0b75f61e44e8d2e20",
+				"tarball": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-5.0.4.tgz",
+				"fileCount": 7,
+				"unpackedSize": 15454,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh/q8RCRA9TVsSAnZWagAAlMMQAJ5LxXpJIUUC8yehxNYq\nBt6AXqtrLOmBIH4DADgZPlwcswvi1D5XTURDz3qfpYY/Dxu1oC6DZ1DL3BSc\nOMGAXc3RbCxBymRhzBJktMfelyefZX8FbiJzC4TAW+U+CHBFGC6/trEuJ7qK\nXRCu9futzQsi5R+IcT2Icr4Nd2q1TAFLHjIcFKjZY+BjEYw45eub+ATzBES2\ngjjiQxmH5C+DzI7m1HD2nPEI5aKstkMbRfMgDSY/l30jaxU9UAT9r59M5+dM\npLmN7e96cmdzzRwykrll+DcwZRB6VjJ7VS4n+5tqiXH/Ur/9LYDUzqJNwnLp\n2wHCUbyzaDTtpbv2UOxTqtww2gMqJAP0PlYe5kETZw1iTf8jjOglmaTS/5b8\nKc0SZLPrlIk9ia/ogJ9HrIv0fBGN/OcNN1JoiMGMFN7wsx9qBxs3yfp1RsPV\nBW5jNjY5pYiasUJfO9hgRkc6+W/0JS5mD/2gXK1bcHVWbXBRZz5a6w7XPAMz\nRsFgmd1zlyEBUAXuPOWzh6I0FR3qTU1yVgVMmE63qdfff0NGARbl2iOpYgN4\nuqW5A0/j780Kxq2gkTJRhnAWCPMwjn1XTYhRnDK55FsD0HI473mlONzDwXtA\ntT37ZIMQqp4UHH9yRUM1lF0XpEOXBXPT7NHZZ+XqdEo60nT5Zf9Ml2j4Mkhz\nWvbd\r\n=e77D\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "alaguna",
+				"email": "sombragriselros@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "alaguna",
+					"email": "sombragriselros@gmail.com"
+				},
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-focus-within_5.0.4_1644080913220_0.6430127035303979"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-02-17T23:27:38.056Z",
+		"1.0.0": "2018-02-17T23:27:38.113Z",
+		"modified": "2022-02-05T17:08:35.189Z",
+		"2.0.0": "2018-04-08T01:55:22.443Z",
+		"3.0.0": "2018-09-18T03:54:54.810Z",
+		"4.0.0": "2020-04-13T13:40:33.531Z",
+		"5.0.0": "2021-09-17T13:41:04.763Z",
+		"5.0.1": "2021-09-22T14:02:07.708Z",
+		"5.0.2": "2021-12-13T09:34:01.627Z",
+		"5.0.3": "2022-01-02T15:37:43.614Z",
+		"5.0.4": "2022-02-05T17:08:33.361Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "5.0.4"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"bf967bbae73a0810a4356f2bd7245a10\"",
+			"fetched": 1646834724699
+		}
+	},
+	"_distfiles": {
+		"postcss-focus-within-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-1.0.0.tgz",
+			"sha": "dbaa2e5c2f599cce6384d4afc0073414f2203546",
+			"registry": "npmjs"
+		},
+		"postcss-focus-within-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-2.0.0.tgz",
+			"sha": "7ff76ad8b5e9a000c0123d9690a76752c36c0c52",
+			"registry": "npmjs"
+		},
+		"postcss-focus-within-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-3.0.0.tgz",
+			"sha": "763b8788596cee9b874c999201cdde80659ef680",
+			"registry": "npmjs"
+		},
+		"postcss-focus-within-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-4.0.0.tgz",
+			"sha": "c6b428e13403ba053704ce338514584b6cd880c3",
+			"registry": "npmjs"
+		},
+		"postcss-focus-within-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-5.0.0.tgz",
+			"sha": "6356b6e204b868f80613ad694bea5f5dac6bfd68",
+			"registry": "npmjs"
+		},
+		"postcss-focus-within-5.0.1.tgz": {
+			"url": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-5.0.1.tgz",
+			"sha": "615659122325d86e00bc8ed84ab6129d0b3a0f62",
+			"registry": "npmjs"
+		},
+		"postcss-focus-within-5.0.2.tgz": {
+			"url": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-5.0.2.tgz",
+			"sha": "ba9229b68c03ad65aa4ead81ca29717b5b4dbf62",
+			"registry": "npmjs"
+		},
+		"postcss-focus-within-5.0.3.tgz": {
+			"url": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-5.0.3.tgz",
+			"sha": "0b0bf425f14a646bbfd973b463e2d20d85a3a841",
+			"registry": "npmjs"
+		},
+		"postcss-focus-within-5.0.4.tgz": {
+			"url": "https://registry.npmjs.org/postcss-focus-within/-/postcss-focus-within-5.0.4.tgz",
+			"sha": "5b1d2ec603195f3344b716c0b75f61e44e8d2e20",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"postcss-focus-within-5.0.4.tgz": {
+			"shasum": "5b1d2ec603195f3344b716c0b75f61e44e8d2e20"
+		}
+	},
+	"_rev": "7-814570cb1a7287c0",
+	"_id": "postcss-focus-within",
+	"readme": "# PostCSS Focus Within [<img src=\"https://postcss.github.io/postcss/logo.svg\" alt=\"PostCSS Logo\" width=\"90\" height=\"90\" align=\"right\">][postcss]\n\n[<img alt=\"npm version\" src=\"https://img.shields.io/npm/v/postcss-focus-within.svg\" height=\"20\">][npm-url]\n[<img alt=\"CSS Standard Status\" src=\"https://cssdb.org/images/badges/focus-within-pseudo-class.svg\" height=\"20\">][css-url]\n[<img alt=\"Build Status\" src=\"https://github.com/csstools/postcss-plugins/tree/main/postcss-focus-within/workflows/test/badge.svg\" height=\"20\">][cli-url]\n[<img alt=\"Discord\" src=\"https://shields.io/badge/Discord-5865F2?logo=discord&logoColor=white\">][discord]\n\n[PostCSS Focus Within] lets you use the `:focus-within` pseudo-class in CSS,\nfollowing the [Selectors Level 4 specification].\n\nIt is the companion to the [focus-within polyfill].\n\n[!['Can I use' table](https://caniuse.bitsofco.de/image/css-focus-within.png)](https://caniuse.com/#feat=css-focus-within)\n\n```css\n.my-form-field:focus-within label {\n  background-color: yellow;\n}\n\n/* becomes */\n\n.my-form-field[focus-within] label {\n  background-color: yellow;\n}\n\n.my-form-field:focus-within label {\n  background-color: yellow;\n}\n```\n\n[PostCSS Focus Within] duplicates rules using the `:focus-within` pseudo-class\nwith a `[focus-within]` attribute selector, the same selector used by the\n[focus-within polyfill]. This replacement selector can be changed using the\n`replaceWith` option. Also, the preservation of the original `:focus-within`\nrule can be disabled using the `preserve` option.\n\n## Usage\n\nAdd [PostCSS Focus Within] to your project:\n\n```bash\nnpm install postcss postcss-focus-within --save-dev\n```\n\nUse [PostCSS Focus Within] to process your CSS:\n\n```js\nconst postcssFocusWithin = require('postcss-focus-within');\n\npostcssFocusWithin.process(YOUR_CSS /*, processOptions, pluginOptions */);\n```\n\nOr use it as a [PostCSS] plugin:\n\n```js\nconst postcss = require('postcss');\nconst postcssFocusWithin = require('postcss-focus-within');\n\npostcss([\n  postcssFocusWithin(/* pluginOptions */)\n]).process(YOUR_CSS /*, processOptions */);\n```\n\n[PostCSS Focus Within] runs in all Node environments, with special\ninstructions for:\n\n| [Node](INSTALL.md#node) | [PostCSS CLI](INSTALL.md#postcss-cli) | [Webpack](INSTALL.md#webpack) | [Create React App](INSTALL.md#create-react-app) | [Gulp](INSTALL.md#gulp) | [Grunt](INSTALL.md#grunt) |\n| --- | --- | --- | --- | --- | --- |\n\n## Options\n\n### preserve\n\nThe `preserve` option defines whether the original selector should remain. By\ndefault, the original selector is preserved.\n\n```js\nfocusWithin({ preserve: false });\n```\n\n```css\n.my-form-field:focus-within label {\n  background-color: yellow;\n}\n\n/* becomes */\n\n.my-form-field[focus-within] label {\n  background-color: yellow;\n}\n```\n\n### replaceWith\n\nThe `replaceWith` option defines the selector to replace `:focus-within`. By\ndefault, the replacement selector is `[focus-within]`.\n\n```js\nfocusWithin({ replaceWith: '.focus-within' });\n```\n\n```css\n.my-form-field:focus-within label {\n  background-color: yellow;\n}\n\n/* becomes */\n\n.my-form-field.focus-within label {\n  background-color: yellow;\n}\n\n.my-form-field:focus-within label {\n  background-color: yellow;\n}\n```\n\n[css-url]: https://cssdb.org/#focus-within-pseudo-class\n[cli-url]: https://github.com/csstools/postcss-plugins/tree/main/postcss-focus-within/actions/workflows/test.yml?query=workflow/test\n[discord]: https://discord.gg/bUadyRwkJS\n[npm-url]: https://www.npmjs.com/package/postcss-focus-within\n\n[focus-within polyfill]: https://github.com/jsxtools/focus-within\n[Gulp PostCSS]: https://github.com/postcss/gulp-postcss\n[Grunt PostCSS]: https://github.com/nDmitry/grunt-postcss\n[PostCSS]: https://github.com/postcss/postcss\n[PostCSS Focus Within]: https://github.com/csstools/postcss-plugins/tree/main/postcss-focus-within\n[PostCSS Loader]: https://github.com/postcss/postcss-loader\n[Selectors Level 4 specification]: https://www.w3.org/TR/selectors-4/#the-focus-within-pseudo"
+}

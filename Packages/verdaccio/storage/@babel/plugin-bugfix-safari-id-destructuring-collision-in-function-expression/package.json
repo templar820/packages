@@ -1,0 +1,305 @@
+{
+	"name": "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression",
+	"versions": {
+		"7.16.0": {
+			"name": "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression",
+			"version": "7.16.0",
+			"description": "Rename destructuring parameter to workaround https://bugs.webkit.org/show_bug.cgi?id=220517",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel.git",
+				"directory": "packages/babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression"
+			},
+			"homepage": "https://babel.dev/docs/en/next/babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression",
+			"license": "MIT",
+			"publishConfig": {
+				"access": "public"
+			},
+			"main": "./lib/index.js",
+			"exports": {
+				".": [
+					"./lib/index.js"
+				]
+			},
+			"keywords": [
+				"babel-plugin",
+				"bugfix"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "^7.14.5"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.16.0",
+				"@babel/helper-plugin-test-runner": "^7.16.0",
+				"@babel/traverse": "^7.16.0"
+			},
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"author": "The Babel Team (https://babel.dev/team)",
+			"_id": "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.16.0",
+			"dist": {
+				"shasum": "efb7f147042aca34ce8156a055906a7abaadeaf0",
+				"integrity": "sha512-djyecbGMEh4rOb/Tc1M5bUW2Ih1IZRa9PoubnPOCzM+DRE89uGUHR1Y+3aDdTMW4drjGRZ2ol8dt1JUFg6hJLQ==",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/-/plugin-bugfix-safari-id-destructuring-collision-in-function-expression-7.16.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7753
+			},
+			"_npmUser": {
+				"name": "nicolo-ribaudo",
+				"email": "nicolo.ribaudo@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "danez",
+					"email": "npm@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "nicolo-ribaudo",
+					"email": "nicolo.ribaudo@gmail.com"
+				},
+				{
+					"name": "jlhwung",
+					"email": "i@jhuang.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-bugfix-safari-id-destructuring-collision-in-function-expression_7.16.0_1635551242152_0.7747665909465222"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.16.2": {
+			"name": "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression",
+			"version": "7.16.2",
+			"description": "Rename destructuring parameter to workaround https://bugs.webkit.org/show_bug.cgi?id=220517",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel.git",
+				"directory": "packages/babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression"
+			},
+			"homepage": "https://babel.dev/docs/en/next/babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression",
+			"license": "MIT",
+			"publishConfig": {
+				"access": "public"
+			},
+			"main": "./lib/index.js",
+			"exports": {
+				".": [
+					"./lib/index.js"
+				]
+			},
+			"keywords": [
+				"babel-plugin",
+				"bugfix"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "^7.14.5"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.16.0",
+				"@babel/helper-function-name": "^7.16.0",
+				"@babel/helper-plugin-test-runner": "^7.16.0",
+				"@babel/traverse": "^7.16.0"
+			},
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"author": "The Babel Team (https://babel.dev/team)",
+			"_id": "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.16.2",
+			"dist": {
+				"shasum": "2977fca9b212db153c195674e57cfab807733183",
+				"integrity": "sha512-h37CvpLSf8gb2lIJ2CgC3t+EjFbi0t8qS7LCS1xcJIlEXE4czlofwaW7W1HA8zpgOCzI9C1nmoqNR1zWkk0pQg==",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/-/plugin-bugfix-safari-id-destructuring-collision-in-function-expression-7.16.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7664,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhzHEOCRA9TVsSAnZWagAAckIP/jLdlBgYQwOULLHmae89\nx+5M46wjAwv2Ri7rpI20lLtCTpCxPBoWao5y39aqB7PT3LAHVHb5YeHj/2S6\nYdBUSELK4HJvTI+Ob0+oBHmMnF5ZUSD4chCeCvF4Cjo2urFRCSav+LOhrJy1\nXv7HNeRZoK8bzoFQJVXi/+a9chrERFCEb7GIvcNBkX0o3muapJkri4q1/ZnT\ntEUZJ8I8yl2yXVxXartKViGDzpesoLdcd8CSCrfLCWsra9QrENe48lIPBjOm\nb3c3bZeq/2MQQmqPQt956fllXrxtG/pBBXiq5ZKF23epcOnvkJV/bJetJuDh\n+xHS5G0Gb7eWHc84feZygCaKmn37l6HVyJUiXbILt7lmf9wnhd0sPerVRKwe\nGsyC6JX/nyQhhalInhw6FLUBkxTjbgWx0jaEovEst9j3cykRvl8eatk9lD+E\n/WiUW8oCiy3rXmxKqpZ40peumrFuRpceJg+7/cJDa0ppk0CPQgu2G3cntPgF\nJR8Vt6E5gGl170MvkVTaA83DXRbrPxyuLS+QUY2t4G87QwtzHkZyD2RWJi4p\nd1hHGC27LEi2Y7PGn5MB/7qLU9HK9avI8GgtE1fIaOn8u4pZLJyi+HSEENpF\n6ybq0qaizTPSkZHf5K+O4XgTnTeeqgpqGEFR2I8xBEb0y+q6SUy7EAtqcERu\nYM5S\r\n=2qdw\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "nicolo-ribaudo",
+				"email": "nicolo.ribaudo@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "danez",
+					"email": "npm@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "nicolo-ribaudo",
+					"email": "nicolo.ribaudo@gmail.com"
+				},
+				{
+					"name": "jlhwung",
+					"email": "i@jhuang.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-bugfix-safari-id-destructuring-collision-in-function-expression_7.16.2_1635803814744_0.7315774730403819"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.16.7": {
+			"name": "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression",
+			"version": "7.16.7",
+			"description": "Rename destructuring parameter to workaround https://bugs.webkit.org/show_bug.cgi?id=220517",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel.git",
+				"directory": "packages/babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression"
+			},
+			"homepage": "https://babel.dev/docs/en/next/babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression",
+			"license": "MIT",
+			"publishConfig": {
+				"access": "public"
+			},
+			"main": "./lib/index.js",
+			"exports": {
+				".": "./lib/index.js",
+				"./package.json": "./package.json"
+			},
+			"keywords": [
+				"babel-plugin",
+				"bugfix"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "^7.16.7"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.16.7",
+				"@babel/helper-function-name": "^7.16.7",
+				"@babel/helper-plugin-test-runner": "^7.16.7",
+				"@babel/traverse": "^7.16.7"
+			},
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"author": "The Babel Team (https://babel.dev/team)",
+			"_id": "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.16.7",
+			"dist": {
+				"shasum": "4eda6d6c2a0aa79c70fa7b6da67763dfe2141050",
+				"integrity": "sha512-anv/DObl7waiGEnC24O9zqL0pSuI9hljihqiDuFHC8d7/bjr/4RLGPWuc8rYOff/QPzbEPSkzG8wGG9aDuhHRg==",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/-/plugin-bugfix-safari-id-destructuring-collision-in-function-expression-7.16.7.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7673,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhzk0KCRA9TVsSAnZWagAAt1IP/2xKI+n4bWYkiLIQjZfL\nUHKN1CsI1klhlwUO0tS1iotZF9oE0SqjO5X524AqotVxFjY84P11OwB47AAe\niMYEPtn2TrIY7HoHpNjGEcIoa11aJZwnSiBvth+RCGNbiOlnOIX0sJhCMDHW\nDv+e0EhFvgGCFrFjz1CHb270rttOOf/nsnaRg4zg9Lvn1Ay1McACIXQcwN6p\nLrrt4H+zGpyf4F6T3xvwGydRSToMv/k8CQ5yqXHPdMpP66nBFUq1JJISLM0M\nLHDqYS2U/zCZ7THAODqaZkhvLro2DQYQPI6lZ7SJj6Ci2UEhhpRufAhDvOsO\n9nTlW/6phKXiBW0Ny4VVTEQJqnUtsrzHAg1aYPAlZn5R9JGrIx5HtfZgzwIv\nkvVZ1Clg3T079firUhdOO1Ke7Z0r6x+/njMIFFfL2hY0NHyLiRGCe2l5OehQ\n9PUGwOgkLN/2OSJz9AIIw/rz1JIWj7NaEkN4GsAdE2lb1jZd1X+IUeZqrzwd\ngyQJ9Q6wxb6vgTWODxxTbPPClMzVlzNfDFjmc262t+ShfiYfgx/bueTi8NXi\nnn9VPhwQGW1eiE47AWRpCq7ndDz8R11+i+xfMRFa6H56VwS1YVXV8nzPPyY1\nrTCejRlw7iPU1cHr6BHUWac7WZMhNDlmqqJlz22VMdcr0Yi5RIf+cWbPyi1b\nfpfn\r\n=HAGP\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "nicolo-ribaudo",
+				"email": "nicolo.ribaudo@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "danez",
+					"email": "npm@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "nicolo-ribaudo",
+					"email": "nicolo.ribaudo@gmail.com"
+				},
+				{
+					"name": "jlhwung",
+					"email": "i@jhuang.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-bugfix-safari-id-destructuring-collision-in-function-expression_7.16.7_1640910090354_0.3477863515323356"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2021-10-29T23:47:22.090Z",
+		"7.16.0": "2021-10-29T23:47:22.269Z",
+		"modified": "2022-02-09T05:00:55.417Z",
+		"7.16.2": "2021-11-01T21:56:54.957Z",
+		"7.16.7": "2021-12-31T00:21:30.491Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "7.16.7"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"30eba647ea1b2cc8b25a3cbb807ad9f2\"",
+			"fetched": 1646834710246
+		}
+	},
+	"_distfiles": {
+		"plugin-bugfix-safari-id-destructuring-collision-in-function-expression-7.16.0.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/-/plugin-bugfix-safari-id-destructuring-collision-in-function-expression-7.16.0.tgz",
+			"sha": "efb7f147042aca34ce8156a055906a7abaadeaf0",
+			"registry": "npmjs"
+		},
+		"plugin-bugfix-safari-id-destructuring-collision-in-function-expression-7.16.2.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/-/plugin-bugfix-safari-id-destructuring-collision-in-function-expression-7.16.2.tgz",
+			"sha": "2977fca9b212db153c195674e57cfab807733183",
+			"registry": "npmjs"
+		},
+		"plugin-bugfix-safari-id-destructuring-collision-in-function-expression-7.16.7.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/-/plugin-bugfix-safari-id-destructuring-collision-in-function-expression-7.16.7.tgz",
+			"sha": "4eda6d6c2a0aa79c70fa7b6da67763dfe2141050",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"plugin-bugfix-safari-id-destructuring-collision-in-function-expression-7.16.7.tgz": {
+			"shasum": "4eda6d6c2a0aa79c70fa7b6da67763dfe2141050"
+		}
+	},
+	"_rev": "6-e5910483147ff639",
+	"_id": "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression",
+	"readme": ""
+}

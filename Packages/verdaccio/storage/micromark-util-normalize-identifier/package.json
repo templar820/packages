@@ -1,0 +1,522 @@
+{
+	"name": "micromark-util-normalize-identifier",
+	"versions": {
+		"1.0.0-alpha.1": {
+			"name": "micromark-util-normalize-identifier",
+			"version": "1.0.0-alpha.1",
+			"description": "micromark utility normalize identifiers (as found in references, definitions)",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"normalize",
+				"id",
+				"identifier"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"type": "module",
+			"main": "index.js",
+			"types": "dev/index.d.ts",
+			"exports": {
+				"development": "./dev/index.js",
+				"default": "./index.js"
+			},
+			"dependencies": {
+				"micromark-util-symbol": "^1.0.0-alpha.1"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" \"{dev/,lib/}**/*.d.ts\" && tsc && micromark-build && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-normalize-identifier@1.0.0-alpha.1",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.15.1",
+			"dist": {
+				"integrity": "sha512-dn9tN+oCMaRri8Mg5NgJmD3WAzGMpSxrsH3yestPzn6BeIOw1JaUh0uTMaRz50HP484JrBf/5sZF60gLlb+v9Q==",
+				"shasum": "7f5f6df5d15b0f29b9ab1f401568d11ddafd15e3",
+				"tarball": "https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-1.0.0-alpha.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 5926,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgveZGCRA9TVsSAnZWagAAZRsP/1pSyr3jD9xMkCgM1+SS\nL4Q5MByrsP+2kFHTlGf0ALEvVUlGP8zVhKGTXLTxzxJ/oHE2Xqu9geMEfPT+\nMGUgrNhHsow4Q1Oh4gte5XoSFAqWlE9ZazmtL/tI1nXk/tgQqqXhF8n++R4D\nZx+0tPI8sFnDo+ej2sSOTLlccgN9KaqPorDzxr2b86nlEEMMA4t5tZuDgsKl\nMu4h1YKwoNHspFRi4C7D3msNDI39oGP7g8+VNM3h+Pb5seSMoOqfhHcmlVua\ntdfEUJqPaLl/94mGPIBDKy1tc8hmz+7wG7ibsGL/f9VxIQFI9Q7LY0KVE2IC\nEZ/s+75jmTo8ja01hU/Z4AmbT9lQS6y9r0SgdnX8vTDHxqurfgX9tjjre0ly\nylc1GT++uNbI4YLgwGLah0U+FOIeIPCGKltKvQPQtHC3LqWO2fg5bQSlxH7A\naUWA36oqTEiBz14ZR4UAiPaqsmB9XHbK72j1mBtb40Dg4GN5XzPi/RZXTsqQ\n4GWBoTX8znXrsO/5o9FpDgiPlXzrQ4bsNT4I6xCIQL+gQL0QQWD08iBwHt40\n3fz0rflk2YKoGkyysFGVPqftcZx1Ko0zaQMMgy1EUJv+Woaz9sOm+1BsNBAe\n2JlEZFH9h1bd/ZuX6UoC2oRMQSagatvMLE93lVuYttCTTMHHAIgYs/Tu+Azl\nRZma\r\n=QIdc\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-normalize-identifier_1.0.0-alpha.1_1623057990825_0.5559971364121763"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.0-alpha.2": {
+			"name": "micromark-util-normalize-identifier",
+			"version": "1.0.0-alpha.2",
+			"description": "micromark utility normalize identifiers (as found in references, definitions)",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"normalize",
+				"id",
+				"identifier"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "dev/index.d.ts",
+			"exports": {
+				"development": "./dev/index.js",
+				"default": "./index.js"
+			},
+			"dependencies": {
+				"micromark-util-symbol": "^1.0.0-alpha.2"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" \"{dev/,lib/}**/*.d.ts\" && tsc && micromark-build && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"readmeFilename": "readme.md",
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-normalize-identifier@1.0.0-alpha.2",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.15.1",
+			"dist": {
+				"integrity": "sha512-oNqbqzQJZvaMjf8DjaBSyGbMH6AQU4Nem5CheQYim0c22jPrPpxKGwhJOfUUyzuIlSOcUC2hsUYVRZlkp2v4BA==",
+				"shasum": "b5d848af0deac96cb8b32e31322c97f25e24e8a7",
+				"tarball": "https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-1.0.0-alpha.2.tgz",
+				"fileCount": 6,
+				"unpackedSize": 6912,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgviDHCRA9TVsSAnZWagAAgLMP/iN2x6D4iIAjfPLSzQp1\nT30nJqMtCJFEJ7jjo+RmZ14sUJCXsM8H8xaAGoe+ROwA1EerXx+MmSP6pam2\nQERiUME4jzUSEmKEINLB9g5l2VF3VW3m79ZhA5I5mWS9yDGkdtDfYJ1uzXTE\nRMCaQpLh5JDs6QFuhR+jWcA2paxDM6HcnqRl83C+z/6qweC4/c7j8bKbpQw9\n+qOniOhKn0m8mMvRv0hbMBzyBN4rayK/ATpftyvO0cqBNom/SZJ5pSeNcc2G\nZfG9/X8jKkle/Lm9zpwP0+IdxC2qVuCXuVPCa7sNCQ8z28JxUChhQRvp+ShX\nY9yhoNTRYYc4yCN7ulLErwFzN6BhTPCiiF1hd8Ni7CBQ0U+N4JAr5CAfzfAP\nuZWEvFvSr/0+eLY39w7RX7rdl6n849hkrfbcRBpbvvrJEnPj+tQtw7Poxqtl\n3oIkIqBJaEDusVDZUSshvQU9WZpYta+ufzuGTAO5tm4+jvp63CYQ9iUhI2KP\nU9hVYVJ48S1YN9DmZHbqqoFx3L6db4b5PNcdjqe0BzpAsiLluNQZl5bn2SP6\nQlUyDOOR8ErXq2SBg/ka7PVJPvhAlVHfPReBaIVyQlN8VL3c2fPTR0Ugznex\nm99STIPO5Xz8Z+wjVfxie7TBcF8ZpsIcQhVGf10P+jmu4U9OL+hxXRfcXU+I\nOIET\r\n=reF7\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-normalize-identifier_1.0.0-alpha.2_1623072967287_0.5198570575425892"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.0-alpha.3": {
+			"name": "micromark-util-normalize-identifier",
+			"version": "1.0.0-alpha.3",
+			"description": "micromark utility normalize identifiers (as found in references, definitions)",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"normalize",
+				"id",
+				"identifier"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "dev/index.d.ts",
+			"exports": {
+				"development": "./dev/index.js",
+				"default": "./index.js"
+			},
+			"dependencies": {
+				"micromark-util-symbol": "^1.0.0-alpha.3"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" \"{dev/,lib/}**/*.d.ts\" && tsc && micromark-build && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"readmeFilename": "readme.md",
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-normalize-identifier@1.0.0-alpha.3",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.16.0",
+			"dist": {
+				"integrity": "sha512-mhOwjfdyj7i27MV0uD7FdTT3tSUliCeaX6HQXhLN12Imoaa0LA8B49DbDGi+lwsQpgx0qOYO59YkF7wSFMWytw==",
+				"shasum": "1aaa93c325726fa969fd9a301b9bd47e516d483f",
+				"tarball": "https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-1.0.0-alpha.3.tgz",
+				"fileCount": 6,
+				"unpackedSize": 6912,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgyjJ2CRA9TVsSAnZWagAAIFAP/jTgERRHBdUYp2w+EGI1\ntO5c1SjebzPLzZ9cZL3wFMxiP8VOTHuJdsjp2H9kl+LzThhHN+PCucKRG/EF\n6fdFUNfIEIkXMDujXSLNyWYbyA5+cf5PDaN8X4ql4qvl5BF0AfCy1lhoCp5f\nxL8qGKU9L8qVRh9V4hxQNGKU8srDo2I1jO0NbTrgh6mRVro1Ku0CboQDqch8\nvxAbiyWlgnGsnQ9RsP7f2QDBDCmW36jq9AlTUU/TkkVf0XbAYDqClZbpNHzR\nZNLooYtYtKrqVyUUSQzwVsuqM7BvpqCqlqKfCioAzW+CSLIY34zd4UCfwQuV\nDEPJunVNwcjK4K9WAFTvU1qCyQeuCLP1UD12Erx85DW1dvOpnr597luvGXs7\n7QhM2Tg6iiwonMd2fdwtrJSoLXy1xazYjNiRQkqDKjFb8AgFTe19m+BPQYB5\nUeXK6AGFGAI+JeaVdu4bS+1NJK/IUdXeA9w+OD5R6H/we8KCCQcl0Mm3Qj2N\nMoX5Xy/PiMrrTaACvKLF+VA5O2NAvihOcJBTiT8sqSXFrsq/jXCgxsAyFm1J\n6eh3Q1+l6hsiwfSKsz1L0SdLCr8FtGSJGPsZeuWjvuNVKRGeEQY+MvNisb4L\n3qFXcSQUeM+0TiZee1ZLcMfy0zVdDBUXMbXgAtRJzfJ3sF4j7Ea7lJpt7KzA\n760d\r\n=313I\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-normalize-identifier_1.0.0-alpha.3_1623863925598_0.18226950490965388"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.0-beta.1": {
+			"name": "micromark-util-normalize-identifier",
+			"version": "1.0.0-beta.1",
+			"description": "micromark utility normalize identifiers (as found in references, definitions)",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"normalize",
+				"id",
+				"identifier"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "dev/index.d.ts",
+			"exports": {
+				"development": "./dev/index.js",
+				"default": "./index.js"
+			},
+			"dependencies": {
+				"micromark-util-symbol": "^1.0.0-beta.1"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" \"{dev/,lib/}**/*.d.ts\" && tsc && micromark-build && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"readmeFilename": "readme.md",
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-normalize-identifier@1.0.0-beta.1",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.18.1",
+			"dist": {
+				"integrity": "sha512-RXXDMl6L2MCk4dJkLZObCFNTUoLUmPhmLRT/4R51Qo327TB3RoHcuT6i5Y+LQMPjJku4W5Va9xEmBw0WkMZRrA==",
+				"shasum": "5cc262e8c182204487c1aca4c9c74cce4d27e986",
+				"tarball": "https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-1.0.0-beta.1.tgz",
+				"fileCount": 6,
+				"unpackedSize": 6910,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgzzDrCRA9TVsSAnZWagAAHysQAJnQmRTHgG/8Xo8iED6B\ncVe2KtYk5smsr8TbmWhLI1YFoWWFdElPzU1eDNssD9658Umke5pdobpAtQsK\nMG/7NX2eQIr4dEIdAO1djf0RRBf44JdfoZ7uGdnSdZPt+LRFXBHtXBD7VBAI\n8HbHXKeUE2DJ1R0pNDW660KKTKDsnfbaoGQBTqPth66OAxqUUb+JnSPK4mSY\nHOR5ab+nY5G+/fDW3AFsfLRuLolGQe9Qs+R3fDPffa4D0crdB14CJZK4eBpM\nKZHy9vNhyohwayoK4Rno1roUuiMS/5Du8truTfYnZBDK6kZyN+4NLjIl3XLz\nxhq0GM/p05TnRDRpW3OMqTYbrlbjSCL7XadpFPUBwI/hVuF11tSxQlyiK68u\nd1k7B+aJtcn706kkSL202tY0Xmhs4bc32rF+eDmpzGmRoOIZ+ecYBq7Q7zNu\nQdFGC6ltX7BYxVhLCRXDIPYPuOGJZ3s19GzVPgbOvY24nv2HaljKKgcQS8sU\nYCfn419pyAR/T/p47hpYdA0wXi+iFHsEKsEwm2D/1FDN6l0jzN2W+VQL33FK\nnowDH3Wmn8v4VZcUW8IWFn+S9whRlV5dzvhEhult4Zvp5gDfe0Uh+gBvEUdn\nMAtdTihHvcA3YEDWcG8mD7Zd0dkCITZC6aq9UI6krdVKXdOJpNnePSWEfzGE\nMiPB\r\n=nOYM\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-normalize-identifier_1.0.0-beta.1_1624191211019_0.08247018225578384"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.0": {
+			"name": "micromark-util-normalize-identifier",
+			"version": "1.0.0",
+			"description": "micromark utility normalize identifiers (as found in references, definitions)",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"normalize",
+				"id",
+				"identifier"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "dev/index.d.ts",
+			"exports": {
+				"development": "./dev/index.js",
+				"default": "./index.js"
+			},
+			"dependencies": {
+				"micromark-util-symbol": "^1.0.0"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" \"{dev/,lib/}**/*.d.ts\" && tsc && micromark-build && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-normalize-identifier@1.0.0",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.18.1",
+			"dist": {
+				"integrity": "sha512-yg+zrL14bBTFrQ7n35CmByWUTFsgst5JhA4gJYoty4Dqzj4Z4Fr/DHekSS5aLfH9bdlfnSvKAWsAgJhIbogyBg==",
+				"shasum": "4a3539cb8db954bbec5203952bfe8cedadae7828",
+				"tarball": "https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-1.0.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 6896,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg0jQyCRA9TVsSAnZWagAAZvcP/3Uq8O4Cwuc3GuuVTbQh\n1fH/g/KY5NFlskL5dCknTum7CAcNaLN/8yLM7/4bnk6LRk2E3kLwXeQZS0IV\n3gOPjPX/iZkAfnS/2uMK1wpcRmaSa1CI6BQeIe61VN+VU7/fvqjAfrRPiG9o\nG/JZrPQCzORgtPiVL4olHOlWXV0ydczwiuUhwgtTSp3sdRGvWqNufrPIYJ0t\nUZ9xvx4vZWxnq7WNiE2LKdrY4jJXKgZQVR0GHQ8LGNzEuMWX1ON0g2KG8q0X\n33jzh2n8XMWCvoaS9PjjRvEzKRmZ+y78ZiAKUTTR1cgwPB5xS/g9xmGb59bh\nbxPgPB6tYpsy7ESy24OP9avuKXrC1X6bgjnxotXKelztaMK8Rx8i0uwNO5JS\nb6dYxI1/X1SWC+lAe7IC6ip7/rsYeJkcY5cKV/uIUJzd819HVEGe6PuulwAG\nTeyyaYN40A9wZxfTHJgI3uySE4jgYa/NqQt83Ezjk36XTj4GTQgpaBdTYA2w\niE8Dd1ygnj2DSR+On4SMLQLz0VE2tVSXqxLyXVTj+Hu1SuJ00JzCbgUvKdsh\nOUpuLWw5Aeq4/j/LfFFBb9+MxRAEmSEkf2eQMYDHnOzTKXudgBAKNioFnJZ7\nimKUYo0PsfdY0M9fPmaoDLT8wsO5E/TnSrJfXLVC4zoRnTuFc7yfRnh3srZE\ng/Zy\r\n=OMBC\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-normalize-identifier_1.0.0_1624388658548_0.47434878613576736"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"created": "2021-06-07T09:26:30.825Z",
+		"1.0.0-alpha.1": "2021-06-07T09:26:30.974Z",
+		"modified": "2021-06-22T19:04:20.811Z",
+		"1.0.0-alpha.2": "2021-06-07T13:36:07.399Z",
+		"1.0.0-alpha.3": "2021-06-16T17:18:45.735Z",
+		"1.0.0-beta.1": "2021-06-20T12:13:31.145Z",
+		"1.0.0": "2021-06-22T19:04:18.688Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"next": "1.0.0-beta.1",
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"79c1b520817184ef16e5f8df6b935cae\"",
+			"fetched": 1646835681812
+		}
+	},
+	"_distfiles": {
+		"micromark-util-normalize-identifier-1.0.0-alpha.1.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-1.0.0-alpha.1.tgz",
+			"sha": "7f5f6df5d15b0f29b9ab1f401568d11ddafd15e3",
+			"registry": "npmjs"
+		},
+		"micromark-util-normalize-identifier-1.0.0-alpha.2.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-1.0.0-alpha.2.tgz",
+			"sha": "b5d848af0deac96cb8b32e31322c97f25e24e8a7",
+			"registry": "npmjs"
+		},
+		"micromark-util-normalize-identifier-1.0.0-alpha.3.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-1.0.0-alpha.3.tgz",
+			"sha": "1aaa93c325726fa969fd9a301b9bd47e516d483f",
+			"registry": "npmjs"
+		},
+		"micromark-util-normalize-identifier-1.0.0-beta.1.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-1.0.0-beta.1.tgz",
+			"sha": "5cc262e8c182204487c1aca4c9c74cce4d27e986",
+			"registry": "npmjs"
+		},
+		"micromark-util-normalize-identifier-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-1.0.0.tgz",
+			"sha": "4a3539cb8db954bbec5203952bfe8cedadae7828",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"micromark-util-normalize-identifier-1.0.0.tgz": {
+			"shasum": "4a3539cb8db954bbec5203952bfe8cedadae7828"
+		}
+	},
+	"_rev": "3-06c74e32ac0d7e18",
+	"_id": "micromark-util-normalize-identifier",
+	"readme": "# micromark-util-normalize-identifier\n\n[![Build][build-badge]][build]\n[![Coverage][coverage-badge]][coverage]\n[![Downloads][downloads-badge]][downloads]\n[![Size][bundle-size-badge]][bundle-size]\n[![Sponsors][sponsors-badge]][opencollective]\n[![Backers][backers-badge]][opencollective]\n[![Chat][chat-badge]][chat]\n\nmicromark utility normalize identifiers (as found in references, definitions).\n\n## Contents\n\n*   [Install](#install)\n*   [Use](#use)\n*   [API](#api)\n    *   [`normalizeIdentifier(value)`](#normalizeidentifiervalue)\n*   [Security](#security)\n*   [Contribute](#contribute)\n*   [License](#license)\n\n## Install\n\n[npm][]:\n\n```sh\nnpm install micromark-util-normalize-identifier\n```\n\n## Use\n\n```js\nimport {normalizeIdentifier} from 'micromark-util-normalize-identifier'\n\nnormalizeIdentifier(' a ') // 'A'\nnormalizeIdentifier('a\\t\\r\\nb') // 'A B'\nnormalizeIdentifier('ТОЛПОЙ') // 'ТОЛПОЙ'\nnormalizeIdentifier('Толпой') // 'ТОЛПОЙ'\n```\n\n## API\n\nThis module exports the following identifiers: `normalizeIdentifier`.\nThere is no default export.\n\n### `normalizeIdentifier(value)`\n\nNormalize an identifier (such as used in definitions).\nCollapse Markdown whitespace, trim, and then lower- and uppercase.\n\nSome characters are considered “uppercase”, such as U+03F4 (`ϴ`), but if their\nlowercase counterpart (U+03B8 (`θ`)) is uppercased will result in a different\nuppercase character (U+0398 (`Θ`)).\nHence, to get that form, we perform both lower- and uppercase.\n\nUsing uppercase last makes sure keys will not interact with default prototypal\nmethods: no method is uppercase.\n\n###### Parameters\n\n*   `value` (`string`) — Identifier to normalize.\n\n###### Returns\n\n`string` — Normalized value.\n\n## Security\n\nSee [`security.md`][securitymd] in [`micromark/.github`][health] for how to\nsubmit a security report.\n\n## Contribute\n\nSee [`contributing.md`][contributing] in [`micromark/.github`][health] for ways\nto get started.\nSee [`support.md`][support] for ways to get help.\n\nThis project has a [code of conduct][coc].\nBy interacting with this repository, organisation, or community you agree to\nabide by its terms.\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[build-badge]: https://github.com/micromark/micromark/workflows/main/badge.svg\n\n[build]: https://github.com/micromark/micromark/actions\n\n[coverage-badge]: https://img.shields.io/codecov/c/github/micromark/micromark.svg\n\n[coverage]: https://codecov.io/github/micromark/micromark\n\n[downloads-badge]: https://img.shields.io/npm/dm/micromark-util-normalize-identifier.svg\n\n[downloads]: https://www.npmjs.com/package/micromark-util-normalize-identifier\n\n[bundle-size-badge]: https://img.shields.io/bundlephobia/minzip/micromark-util-normalize-identifier.svg\n\n[bundle-size]: https://bundlephobia.com/result?p=micromark-util-normalize-identifier\n\n[sponsors-badge]: https://opencollective.com/unified/sponsors/badge.svg\n\n[backers-badge]: https://opencollective.com/unified/backers/badge.svg\n\n[opencollective]: https://opencollective.com/unified\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[chat-badge]: https://img.shields.io/badge/chat-discussions-success.svg\n\n[chat]: https://github.com/micromark/micromark/discussions\n\n[license]: https://github.com/micromark/micromark/blob/main/license\n\n[author]: https://wooorm.com\n\n[health]: https://github.com/micromark/.github\n\n[securitymd]: https://github.com/micromark/.github/blob/HEAD/security.md\n\n[contributing]: https://github.com/micromark/.github/blob/HEAD/contributing.md\n\n[support]: https://github.com/micromark/.github/blob/HEAD/support.md\n\n[coc]: https://github.com/micromark/.github/blob/HEAD/code-of-conduct.md"
+}

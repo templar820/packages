@@ -1,0 +1,1095 @@
+{
+	"name": "charcodes",
+	"versions": {
+		"0.0.1": {
+			"name": "charcodes",
+			"version": "0.0.1",
+			"description": "Char codes constants",
+			"main": "lib/index.js",
+			"scripts": {
+				"build": "BABEL_ENV=production babel --out-dir lib src/",
+				"watch": "babel --out-dir lib src/ --watch",
+				"prepublish": "npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xtuc/charcodes.git"
+			},
+			"keywords": [
+				"charcodes",
+				"ascii",
+				"constants"
+			],
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xtuc/charcodes/issues"
+			},
+			"homepage": "https://github.com/xtuc/charcodes#readme",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0-beta.5",
+				"@babel/core": "^7.0.0-beta.5",
+				"@babel/preset-env": "^7.0.0-beta.5",
+				"@babel/preset-flow": "^7.0.0-beta.5"
+			},
+			"babel": {
+				"presets": [
+					"@babel/preset-flow",
+					"@babel/preset-env"
+				]
+			},
+			"gitHead": "8a58011c4ac70ba14b49543abb8054aa274541a5",
+			"_id": "charcodes@0.0.1",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "6.11.4",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-XoFmNrE1XA2UIoIMdOLNxS4IMX8DxGauIDtiepk4kFPM/UfV4wMemH3gW151yWNs1fyCdTXrNi6wopQGHyFyIw==",
+				"shasum": "0b29f7eec3117c195c4e8d6e44ae4bb991be6f25",
+				"tarball": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/charcodes-0.0.1.tgz_1509697640363_0.686342905741185"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.2": {
+			"name": "charcodes",
+			"version": "0.0.2",
+			"description": "Char codes constants",
+			"main": "lib/index.js",
+			"module": "src/index.js",
+			"scripts": {
+				"build": "BABEL_ENV=production babel --out-dir lib src/",
+				"watch": "babel --out-dir lib src/ --watch",
+				"prepublish": "npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xtuc/charcodes.git"
+			},
+			"keywords": [
+				"charcodes",
+				"ascii",
+				"constants"
+			],
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xtuc/charcodes/issues"
+			},
+			"homepage": "https://github.com/xtuc/charcodes#readme",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0-beta.5",
+				"@babel/core": "^7.0.0-beta.5",
+				"@babel/preset-env": "^7.0.0-beta.5",
+				"@babel/preset-flow": "^7.0.0-beta.5"
+			},
+			"babel": {
+				"presets": [
+					"@babel/preset-flow",
+					"@babel/preset-env"
+				]
+			},
+			"gitHead": "c72cf122b5f2cd87885bbd63e39a49cb4af95911",
+			"_id": "charcodes@0.0.2",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "6.11.4",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-KcOig4hdZqtyLXAfPG5/N2kl3IS3OR+l9Kza4i5kqBMSpBPuO5CHdEJdJEWWf0waaIVjMKZKz2xi7vq8u+cpNQ==",
+				"shasum": "d0bf472a2af7ee283cd9f9d530b66dd3091a085b",
+				"tarball": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/charcodes-0.0.2.tgz_1509698304778_0.8373725323472172"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.3-0": {
+			"name": "charcodes",
+			"version": "0.0.3-0",
+			"description": "Char codes constants",
+			"main": "lib/index.js",
+			"module": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xtuc/charcodes.git"
+			},
+			"keywords": [
+				"charcodes",
+				"ascii",
+				"constants"
+			],
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xtuc/charcodes/issues"
+			},
+			"homepage": "https://github.com/xtuc/charcodes#readme",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0-beta.5",
+				"@babel/core": "^7.0.0-beta.5",
+				"@babel/preset-env": "^7.0.0-beta.5",
+				"@babel/preset-flow": "^7.0.0-beta.5"
+			},
+			"babel": {
+				"presets": [
+					"@babel/preset-flow",
+					"@babel/preset-env"
+				]
+			},
+			"_id": "charcodes@0.0.3-0",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "6.11.4",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-BaBv/agig3krz4Ls8lEHFUZTeFmXM+EF/4GQUt+jkWneRal6uaw+YXv4s7hX9RfPo5n2Am8ylmumRePDPEeCEQ==",
+				"shasum": "7491980471b4feb11f8320861bf246dc21f4182f",
+				"tarball": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.3-0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/charcodes-0.0.3-0.tgz_1510074103890_0.23604460712522268"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.3-1": {
+			"name": "charcodes",
+			"version": "0.0.3-1",
+			"description": "Char codes constants",
+			"main": "lib/index.js",
+			"module": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xtuc/charcodes.git"
+			},
+			"keywords": [
+				"charcodes",
+				"ascii",
+				"constants"
+			],
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xtuc/charcodes/issues"
+			},
+			"homepage": "https://github.com/xtuc/charcodes#readme",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0-beta.5",
+				"@babel/core": "^7.0.0-beta.5",
+				"@babel/preset-env": "^7.0.0-beta.5",
+				"@babel/preset-flow": "^7.0.0-beta.5"
+			},
+			"babel": {
+				"presets": [
+					"@babel/preset-flow",
+					"@babel/preset-env"
+				]
+			},
+			"_id": "charcodes@0.0.3-1",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "6.11.4",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-FrD9nzfttiGCE88q9+M52dTmEGQPS4SU3hDOxzN5V1sQP70NAzyfI6zn2teUW3GLPhQ75zuPLsp/a2GJ/hoNNw==",
+				"shasum": "5c44f458088883452944624ce3f3c40b70c0c2f2",
+				"tarball": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.3-1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/charcodes-0.0.3-1.tgz_1510074981868_0.533162452513352"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.3-2": {
+			"name": "charcodes",
+			"version": "0.0.3-2",
+			"description": "Char codes constants",
+			"main": "lib/index.js",
+			"module": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xtuc/charcodes.git"
+			},
+			"keywords": [
+				"charcodes",
+				"ascii",
+				"constants"
+			],
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xtuc/charcodes/issues"
+			},
+			"homepage": "https://github.com/xtuc/charcodes#readme",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0-beta.5",
+				"@babel/core": "^7.0.0-beta.5",
+				"@babel/preset-env": "^7.0.0-beta.5",
+				"@babel/preset-flow": "^7.0.0-beta.5"
+			},
+			"babel": {
+				"presets": [
+					"@babel/preset-flow",
+					"@babel/preset-env"
+				]
+			},
+			"_id": "charcodes@0.0.3-2",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "6.11.4",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-nTpk0ibuBKgGlRBlq4khEVhwPfcSV/XQEUerjM6+Ufvalj2g6hnyUDySRMYIGsAADeA3t+PrPT7UenCglXqDCg==",
+				"shasum": "aa6cf1b3ff88e5be8745a847c5cb7286ebf331ac",
+				"tarball": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.3-2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/charcodes-0.0.3-2.tgz_1510075386899_0.5718443545047194"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.3-3": {
+			"name": "charcodes",
+			"version": "0.0.3-3",
+			"description": "Char codes constants",
+			"main": "lib/index.js",
+			"module": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xtuc/charcodes.git"
+			},
+			"keywords": [
+				"charcodes",
+				"ascii",
+				"constants"
+			],
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xtuc/charcodes/issues"
+			},
+			"homepage": "https://github.com/xtuc/charcodes#readme",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0-beta.5",
+				"@babel/core": "^7.0.0-beta.5",
+				"@babel/preset-env": "^7.0.0-beta.5",
+				"@babel/preset-flow": "^7.0.0-beta.5"
+			},
+			"babel": {
+				"presets": [
+					"@babel/preset-flow",
+					"@babel/preset-env"
+				]
+			},
+			"_id": "charcodes@0.0.3-3",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "6.11.4",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-LqSFwsGQh7cbq9RnRnA2hO8QzeHaps1l4o/fMAEN2M+LLG/1JERU5thIwI+YSIk4eBkty+ps6PQnc3RgXIYdqQ==",
+				"shasum": "090264eeff1e3b86d6ca587d1f2c5ee2626169fe",
+				"tarball": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.3-3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/charcodes-0.0.3-3.tgz_1510075905032_0.7777816597372293"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.3-4": {
+			"name": "charcodes",
+			"version": "0.0.3-4",
+			"description": "Char codes constants",
+			"main": "lib/index.js",
+			"module": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xtuc/charcodes.git"
+			},
+			"keywords": [
+				"charcodes",
+				"ascii",
+				"constants"
+			],
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xtuc/charcodes/issues"
+			},
+			"homepage": "https://github.com/xtuc/charcodes#readme",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0-beta.5",
+				"@babel/core": "^7.0.0-beta.5",
+				"@babel/preset-env": "^7.0.0-beta.5",
+				"@babel/preset-flow": "^7.0.0-beta.5"
+			},
+			"babel": {
+				"presets": [
+					"@babel/preset-flow",
+					"@babel/preset-env"
+				]
+			},
+			"_id": "charcodes@0.0.3-4",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "6.11.4",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-OKwMd/XQh/2wGxZRAIgjKy620ZVR5ScCkrFPuBQ0usEFrR4hLyEf4bHGFvnq+Ra37Sp70KRqvChazcSp03XbgA==",
+				"shasum": "7a046f41565dbef6a4a04a88714bdc232c80bbc2",
+				"tarball": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.3-4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/charcodes-0.0.3-4.tgz_1510077426097_0.33587455353699625"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.3-5": {
+			"name": "charcodes",
+			"version": "0.0.3-5",
+			"description": "Char codes constants",
+			"main": "lib/index.js",
+			"module": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xtuc/charcodes.git"
+			},
+			"keywords": [
+				"charcodes",
+				"ascii",
+				"constants"
+			],
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xtuc/charcodes/issues"
+			},
+			"homepage": "https://github.com/xtuc/charcodes#readme",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0-beta.5",
+				"@babel/core": "^7.0.0-beta.5",
+				"@babel/preset-env": "^7.0.0-beta.5",
+				"@babel/preset-flow": "^7.0.0-beta.5"
+			},
+			"babel": {
+				"presets": [
+					"@babel/preset-flow",
+					"@babel/preset-env"
+				]
+			},
+			"_id": "charcodes@0.0.3-5",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "6.11.4",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-FzJ38+k0us+l9Yw9jXyzieKhQhe8zqBC9LSS9ZT6SJHSwGsdx2R9+Y032ai/lei/2DXXI1K89PxV1uLXR7EaWQ==",
+				"shasum": "4b2a716c6fe3c9378778c9299f42eeeaca1d1692",
+				"tarball": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.3-5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/charcodes-0.0.3-5.tgz_1510078078608_0.6902476823888719"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.3": {
+			"name": "charcodes",
+			"version": "0.0.3",
+			"description": "Char codes constants",
+			"main": "lib/index.js",
+			"module": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xtuc/charcodes.git"
+			},
+			"keywords": [
+				"charcodes",
+				"ascii",
+				"constants"
+			],
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xtuc/charcodes/issues"
+			},
+			"homepage": "https://github.com/xtuc/charcodes#readme",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0-beta.5",
+				"@babel/core": "^7.0.0-beta.5",
+				"@babel/preset-env": "^7.0.0-beta.5",
+				"@babel/preset-flow": "^7.0.0-beta.5"
+			},
+			"babel": {
+				"presets": [
+					"@babel/preset-flow",
+					"@babel/preset-env"
+				]
+			},
+			"_id": "charcodes@0.0.3",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "6.11.4",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-rB//WlLugKnLXlfpI9EkSq/ZsUR0z7lFGJWs4tE9rQ/nURN5HytlcZEvUIJTYCop2qicr1bgZMlqjRPKSPkt3w==",
+				"shasum": "1e89acbf93ae9d583b968cf767a1eec9501fbf34",
+				"tarball": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/charcodes-0.0.3.tgz_1510078445556_0.06430970854125917"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.6": {
+			"name": "charcodes",
+			"version": "0.0.6",
+			"description": "Char codes constants",
+			"main": "lib/index.js",
+			"module": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xtuc/charcodes.git"
+			},
+			"keywords": [
+				"charcodes",
+				"ascii",
+				"constants"
+			],
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xtuc/charcodes/issues"
+			},
+			"homepage": "https://github.com/xtuc/charcodes#readme",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0-beta.5",
+				"@babel/core": "^7.0.0-beta.5",
+				"@babel/preset-env": "^7.0.0-beta.5",
+				"@babel/preset-flow": "^7.0.0-beta.5"
+			},
+			"babel": {
+				"presets": [
+					"@babel/preset-flow",
+					"@babel/preset-env"
+				]
+			},
+			"_id": "charcodes@0.0.6",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "6.11.4",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-OanELcgojOFc7haDbbItm4OCNYqjtTX4BeKxfac1AEr2vqJivdG1FTAVTSxPVEAlknRyZTpwt7UBGzZn18hQtQ==",
+				"shasum": "a27cabdfaaa3daf6317ee065ee80766083c76685",
+				"tarball": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/charcodes-0.0.6.tgz_1510158951008_0.48333822656422853"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.8": {
+			"name": "charcodes",
+			"version": "0.0.8",
+			"description": "Char codes constants",
+			"main": "lib/index.js",
+			"module": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xtuc/charcodes.git"
+			},
+			"keywords": [
+				"charcodes",
+				"ascii",
+				"constants"
+			],
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xtuc/charcodes/issues"
+			},
+			"homepage": "https://github.com/xtuc/charcodes#readme",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0-beta.5",
+				"@babel/core": "^7.0.0-beta.5",
+				"@babel/preset-env": "^7.0.0-beta.5",
+				"@babel/preset-flow": "^7.0.0-beta.5"
+			},
+			"babel": {
+				"presets": [
+					"@babel/preset-flow",
+					"@babel/preset-env"
+				]
+			},
+			"_id": "charcodes@0.0.8",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "6.11.4",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-iWpMiq6IrMUk79CrPpXWWa1C68xOdyUHoTNYM6Ne2w30IaUltc/N9VDiG8ywH3uyKyPDmoq2fb3E2976BktAhw==",
+				"shasum": "b96482304f8aa491bc232613b75163881a0bfca1",
+				"tarball": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.8.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/charcodes-0.0.8.tgz_1510564970977_0.8000609478913248"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.9": {
+			"name": "charcodes",
+			"version": "0.0.9",
+			"description": "Char codes constants",
+			"main": "lib/index.js",
+			"module": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xtuc/charcodes.git"
+			},
+			"keywords": [
+				"charcodes",
+				"ascii",
+				"constants"
+			],
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xtuc/charcodes/issues"
+			},
+			"homepage": "https://github.com/xtuc/charcodes#readme",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0-beta.5",
+				"@babel/core": "^7.0.0-beta.5",
+				"@babel/preset-env": "^7.0.0-beta.5",
+				"@babel/preset-flow": "^7.0.0-beta.5"
+			},
+			"babel": {
+				"presets": [
+					"@babel/preset-flow",
+					"@babel/preset-env"
+				]
+			},
+			"_id": "charcodes@0.0.9",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "6.11.4",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-2dRek7nMvrAqJsxi9ooZxIAT04w8arMLlDeq9sXAfyhL7L4Qje9Dc4abZCj/Sov4sMTgpN0hWTG/8WkxGhCAww==",
+				"shasum": "52da04336b9cc4c00d12960fdf14f0ea777b4ec8",
+				"tarball": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.9.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/charcodes-0.0.9.tgz_1510771524265_0.7315720794722438"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.10": {
+			"name": "charcodes",
+			"version": "0.0.10",
+			"description": "Char codes constants",
+			"main": "lib/index.js",
+			"module": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xtuc/charcodes.git"
+			},
+			"keywords": [
+				"charcodes",
+				"ascii",
+				"constants"
+			],
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xtuc/charcodes/issues"
+			},
+			"homepage": "https://github.com/xtuc/charcodes#readme",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0-beta.5",
+				"@babel/core": "^7.0.0-beta.5",
+				"@babel/preset-env": "^7.0.0-beta.5",
+				"@babel/preset-flow": "^7.0.0-beta.5"
+			},
+			"babel": {
+				"presets": [
+					"@babel/preset-flow",
+					"@babel/preset-env"
+				]
+			},
+			"_id": "charcodes@0.0.10",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "6.11.4",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-ct/lhVI8xaMevThHHnNM04no9IuXfIUpWQTRQqCgaIDEVCTQMO8hiYHEm7icyZ91FUrZfo+UXBK3jLqgO+++Hw==",
+				"shasum": "98d67a7a1e17ce154d1faafd01e72e9a6cff54f5",
+				"tarball": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.10.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/charcodes-0.0.10.tgz_1510822386323_0.1561873583123088"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.0": {
+			"name": "charcodes",
+			"version": "0.1.0",
+			"description": "Char codes constants",
+			"main": "lib/index.js",
+			"module": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xtuc/charcodes.git"
+			},
+			"keywords": [
+				"charcodes",
+				"ascii",
+				"constants"
+			],
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xtuc/charcodes/issues"
+			},
+			"homepage": "https://github.com/xtuc/charcodes#readme",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0-beta.5",
+				"@babel/core": "^7.0.0-beta.5",
+				"@babel/preset-env": "^7.0.0-beta.5",
+				"@babel/preset-flow": "^7.0.0-beta.5"
+			},
+			"babel": {
+				"presets": [
+					"@babel/preset-flow",
+					"@babel/preset-env"
+				]
+			},
+			"_id": "charcodes@0.1.0",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "6.11.4",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-m4ne5Zw6XsdHhM5teBUHvu5s1SeJnwP0ljQ+IrGyZZ6U1TMohi+pVtsvgSgEsj5CPY6PLd/vMknFRuXdifdk+g==",
+				"shasum": "61f8c244fc7f94f186fe74f31078901a3ed7928e",
+				"tarball": "https://registry.npmjs.org/charcodes/-/charcodes-0.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/charcodes-0.1.0.tgz_1515611739298_0.8932585436850786"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "charcodes",
+			"version": "0.1.1",
+			"description": "Char codes constants",
+			"main": "lib/index.js",
+			"module": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xtuc/charcodes.git"
+			},
+			"keywords": [
+				"charcodes",
+				"ascii",
+				"constants"
+			],
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xtuc/charcodes/issues"
+			},
+			"homepage": "https://github.com/xtuc/charcodes#readme",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0-beta.5",
+				"@babel/core": "^7.0.0-beta.5",
+				"@babel/preset-env": "^7.0.0-beta.5",
+				"@babel/preset-flow": "^7.0.0-beta.5"
+			},
+			"babel": {
+				"presets": [
+					"@babel/preset-flow",
+					"@babel/preset-env"
+				]
+			},
+			"_id": "charcodes@0.1.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.11.0",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-6aaMfQtn61TsnFc7rQ9RXZ2LqMoLlWr0kJWvPMtH1n+XArQByvZEaIwwUmeGPoutvJOr0qGa3/NL/hqM4BI+uQ==",
+				"shasum": "c463f6506cdb3b26a7f2d3fd4399abd363dd632a",
+				"tarball": "https://registry.npmjs.org/charcodes/-/charcodes-0.1.1.tgz",
+				"fileCount": 6,
+				"unpackedSize": 82988,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcElsoCRA9TVsSAnZWagAA2fQQAJZqHc8G8Z2z4uCsV5zT\nCFfDEyj9yhPRpJG52Rt/ngWHGcWbubRHcq+QQUvp4mDaGCZdcAtte+5aiHvL\nGVW3/75CT+IlaNFgJLNI6q6QVoL6OcY0/i+hmBm+LXyTVhU1rm6Q1JQgrfuk\nLXyfl73B664E8kPzY4tI9+xEFwZLl60XE3tlz31lxle8+OjgCWRh8r+jUOVl\nV57gO9vQYrshpkMyoahCHlSqNvYJiyrpVhSd6Xn1ZjojaAC+X6fK/bLkLipI\nHYAGsEEIjiv32llxCraoPMDQealAyOYCyFXUw8+6b12QHm8qjAL9jifJVA3n\nVw7+oNyY1Iw3D5ElhvILAvgL9hZ/C0pOHLrmvWHVXPTvK347ZbqAij3iYtRd\n7vb0zOsTbAwyKGeos8ELQxLXnr3H9sWSjSa4cM1WIDN70Aah/1igl74qU7Gh\nRfuDtIMb+6YnalZ+ephiUwgw7Kvu6Nw4Xs9IACq9R5sT701O91a/6RuVqBfP\nuUBBrz7+LfwTKqy89ziTeZCwqTYFdyGbacr0wGLVM6+haTbea+t+3NLxcL60\nb0fU1j6W06JMS5m9Nj/VyUZoEVCRMySxavCko7BEcwa4QZAqyDUjvNmyhOSJ\n66mvkGsB9Q1yhEJhZj9Ak3c63aq/6T3qJM+AFU7UqNsAc4DYioPcEJuPeWSf\nKukC\r\n=ANBO\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/charcodes_0.1.1_1544706856024_0.1262853415823033"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "charcodes",
+			"version": "0.2.0",
+			"description": "Char codes constants",
+			"main": "lib/index.js",
+			"module": "lib/index.mjs",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xtuc/charcodes.git"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"keywords": [
+				"charcodes",
+				"ascii",
+				"constants"
+			],
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xtuc/charcodes/issues"
+			},
+			"homepage": "https://github.com/xtuc/charcodes#readme",
+			"_id": "charcodes@0.2.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.11.0",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-Y4kiDb+AM4Ecy58YkuZrrSRJBDQdQ2L+NyS1vHHFtNtUjgutcZfx3yp1dAONI/oPaPmyGfCLx5CxL+zauIMyKQ==",
+				"shasum": "5208d327e6cc05f99eb80ffc814707572d1f14e4",
+				"tarball": "https://registry.npmjs.org/charcodes/-/charcodes-0.2.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 28001,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcRuy+CRA9TVsSAnZWagAAaFwQAJdGvToqz+1oulx9mbqB\nfJpH9Ky+gZrnqBbf39GFB0AnPx35wFiVb2sBuS1ApdMB0IncV9jc8vV3M/XV\nmWuU2/aiSJwHKplacDQsM/2RbNLgZNWgTNsI7B1KTSmMXexE/thJgX9lHtdg\nB4IfBv7i1Ms0WInfXpaZJSJf8JK6qnJZKLVYDf0YP5tWMc3hDWod9THZW22B\nxCGjddS+5WitJmJFJlAdaV8EGdq337O4FSZVchpBQxcw8dYzYzU300aiWwFR\nv+jRnzpX5GHG2qemzit5xUlj/Ucd54WrlXLJNMGj4gAgtz1kSlNwPBNKryGr\nyed08/7H7yn9i3OdaNKsZ9gh4gEUiEzjdDKmsV9kS7TN/Rz7Cwcn87EqDA7r\nuJnwhE9Wx0XruF+rIF4xHbnMHzxwUu/vCC5GKQV/WdjVf8QciUSQGZKvcBEV\nRX8h4foePieL1nRuJGMM1zTLy0pzvx8IHje1dpaa9H4dUnj3tLLAvfBj+ODU\nwTiIXeVo5p2+Ki2mu1ExdgOx54LI6/7WK6c1rSZFcwo1th99F5iUlzsqoI5O\nZcRI5xnVsL56cR4tnaKmC5yHPIKGMQVGzv9XnXeqHpr1MKQpx6dGl3o8YHQe\nRaNF3NvS1BN42SfEMz8lsWWztydnDcYKKZL+urZxa7VbrEk3xN0SyQIq33Wz\nCmTJ\r\n=WcgD\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/charcodes_0.2.0_1548151998178_0.34973744334252377"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2019-01-22T10:13:22.998Z",
+		"created": "2017-11-03T08:27:21.275Z",
+		"0.0.1": "2017-11-03T08:27:21.275Z",
+		"0.0.2": "2017-11-03T08:38:25.715Z",
+		"0.0.3-0": "2017-11-07T17:01:44.791Z",
+		"0.0.3-1": "2017-11-07T17:16:22.757Z",
+		"0.0.3-2": "2017-11-07T17:23:07.902Z",
+		"0.0.3-3": "2017-11-07T17:31:45.933Z",
+		"0.0.3-4": "2017-11-07T17:57:06.972Z",
+		"0.0.3-5": "2017-11-07T18:07:59.532Z",
+		"0.0.3": "2017-11-07T18:14:06.421Z",
+		"0.0.6": "2017-11-08T16:35:51.895Z",
+		"0.0.8": "2017-11-13T09:22:52.029Z",
+		"0.0.9": "2017-11-15T18:45:25.270Z",
+		"0.0.10": "2017-11-16T08:53:07.418Z",
+		"0.1.0": "2018-01-10T19:15:40.314Z",
+		"0.1.1": "2018-12-13T13:14:16.229Z",
+		"0.2.0": "2019-01-22T10:13:18.297Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.2.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"e1f31876caa36d0b0b0eece171390128\"",
+			"fetched": 1646834727417
+		}
+	},
+	"_distfiles": {
+		"charcodes-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.1.tgz",
+			"sha": "0b29f7eec3117c195c4e8d6e44ae4bb991be6f25",
+			"registry": "npmjs"
+		},
+		"charcodes-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.2.tgz",
+			"sha": "d0bf472a2af7ee283cd9f9d530b66dd3091a085b",
+			"registry": "npmjs"
+		},
+		"charcodes-0.0.3-0.tgz": {
+			"url": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.3-0.tgz",
+			"sha": "7491980471b4feb11f8320861bf246dc21f4182f",
+			"registry": "npmjs"
+		},
+		"charcodes-0.0.3-1.tgz": {
+			"url": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.3-1.tgz",
+			"sha": "5c44f458088883452944624ce3f3c40b70c0c2f2",
+			"registry": "npmjs"
+		},
+		"charcodes-0.0.3-2.tgz": {
+			"url": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.3-2.tgz",
+			"sha": "aa6cf1b3ff88e5be8745a847c5cb7286ebf331ac",
+			"registry": "npmjs"
+		},
+		"charcodes-0.0.3-3.tgz": {
+			"url": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.3-3.tgz",
+			"sha": "090264eeff1e3b86d6ca587d1f2c5ee2626169fe",
+			"registry": "npmjs"
+		},
+		"charcodes-0.0.3-4.tgz": {
+			"url": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.3-4.tgz",
+			"sha": "7a046f41565dbef6a4a04a88714bdc232c80bbc2",
+			"registry": "npmjs"
+		},
+		"charcodes-0.0.3-5.tgz": {
+			"url": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.3-5.tgz",
+			"sha": "4b2a716c6fe3c9378778c9299f42eeeaca1d1692",
+			"registry": "npmjs"
+		},
+		"charcodes-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.3.tgz",
+			"sha": "1e89acbf93ae9d583b968cf767a1eec9501fbf34",
+			"registry": "npmjs"
+		},
+		"charcodes-0.0.6.tgz": {
+			"url": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.6.tgz",
+			"sha": "a27cabdfaaa3daf6317ee065ee80766083c76685",
+			"registry": "npmjs"
+		},
+		"charcodes-0.0.8.tgz": {
+			"url": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.8.tgz",
+			"sha": "b96482304f8aa491bc232613b75163881a0bfca1",
+			"registry": "npmjs"
+		},
+		"charcodes-0.0.9.tgz": {
+			"url": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.9.tgz",
+			"sha": "52da04336b9cc4c00d12960fdf14f0ea777b4ec8",
+			"registry": "npmjs"
+		},
+		"charcodes-0.0.10.tgz": {
+			"url": "https://registry.npmjs.org/charcodes/-/charcodes-0.0.10.tgz",
+			"sha": "98d67a7a1e17ce154d1faafd01e72e9a6cff54f5",
+			"registry": "npmjs"
+		},
+		"charcodes-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/charcodes/-/charcodes-0.1.0.tgz",
+			"sha": "61f8c244fc7f94f186fe74f31078901a3ed7928e",
+			"registry": "npmjs"
+		},
+		"charcodes-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/charcodes/-/charcodes-0.1.1.tgz",
+			"sha": "c463f6506cdb3b26a7f2d3fd4399abd363dd632a",
+			"registry": "npmjs"
+		},
+		"charcodes-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/charcodes/-/charcodes-0.2.0.tgz",
+			"sha": "5208d327e6cc05f99eb80ffc814707572d1f14e4",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"charcodes-0.2.0.tgz": {
+			"shasum": "5208d327e6cc05f99eb80ffc814707572d1f14e4"
+		}
+	},
+	"_rev": "7-71a36bbdb2ea8e2a",
+	"_id": "charcodes",
+	"readme": "## Exports\n\n- Constant number `backSpace`\n- Constant number `tab`\n- Constant number `lineFeed`\n- Constant number `carriageReturn`\n- Constant number `shiftOut`\n- Constant number `space`\n- Constant number `exclamationMark`\n- Constant number `quotationMark`\n- Constant number `numberSign`\n- Constant number `dollarSign`\n- Constant number `percentSign`\n- Constant number `ampersand`\n- Constant number `apostrophe`\n- Constant number `leftParenthesis`\n- Constant number `rightParenthesis`\n- Constant number `asterisk`\n- Constant number `plusSign`\n- Constant number `comma`\n- Constant number `dash`\n- Constant number `dot`\n- Constant number `slash`\n- Constant number `digit0`\n- Constant number `digit1`\n- Constant number `digit2`\n- Constant number `digit3`\n- Constant number `digit4`\n- Constant number `digit5`\n- Constant number `digit6`\n- Constant number `digit7`\n- Constant number `digit8`\n- Constant number `digit9`\n- Constant number `colon`\n- Constant number `semicolon`\n- Constant number `lessThan`\n- Constant number `equalsTo`\n- Constant number `greaterThan`\n- Constant number `questionMark`\n- Constant number `atSign`\n- Constant number `uppercaseA`\n- Constant number `uppercaseB`\n- Constant number `uppercaseC`\n- Constant number `uppercaseD`\n- Constant number `uppercaseE`\n- Constant number `uppercaseF`\n- Constant number `uppercaseG`\n- Constant number `uppercaseH`\n- Constant number `uppercaseI`\n- Constant number `uppercaseJ`\n- Constant number `uppercaseK`\n- Constant number `uppercaseL`\n- Constant number `uppercaseM`\n- Constant number `uppercaseN`\n- Constant number `uppercaseO`\n- Constant number `uppercaseP`\n- Constant number `uppercaseQ`\n- Constant number `uppercaseR`\n- Constant number `uppercaseS`\n- Constant number `uppercaseT`\n- Constant number `uppercaseU`\n- Constant number `uppercaseV`\n- Constant number `uppercaseW`\n- Constant number `uppercaseX`\n- Constant number `uppercaseY`\n- Constant number `uppercaseZ`\n- Constant number `leftSquareBracket`\n- Constant number `backslash`\n- Constant number `rightSquareBracket`\n- Constant number `caret`\n- Constant number `underscore`\n- Constant number `graveAccent`\n- Constant number `lowercaseA`\n- Constant number `lowercaseB`\n- Constant number `lowercaseC`\n- Constant number `lowercaseD`\n- Constant number `lowercaseE`\n- Constant number `lowercaseF`\n- Constant number `lowercaseG`\n- Constant number `lowercaseH`\n- Constant number `lowercaseI`\n- Constant number `lowercaseJ`\n- Constant number `lowercaseK`\n- Constant number `lowercaseL`\n- Constant number `lowercaseM`\n- Constant number `lowercaseN`\n- Constant number `lowercaseO`\n- Constant number `lowercaseP`\n- Constant number `lowercaseQ`\n- Constant number `lowercaseR`\n- Constant number `lowercaseS`\n- Constant number `lowercaseT`\n- Constant number `lowercaseU`\n- Constant number `lowercaseV`\n- Constant number `lowercaseW`\n- Constant number `lowercaseX`\n- Constant number `lowercaseY`\n- Constant number `lowercaseZ`\n- Constant number `leftCurlyBrace`\n- Constant number `verticalBar`\n- Constant number `rightCurlyBrace`\n- Constant number `tilde`\n- Constant number `nonBreakingSpace`\n- Constant number `oghamSpaceMark`\n- Constant number `lineSeparator`\n- Constant number `paragraphSeparator`\n- function `isDigit(code)`"
+}

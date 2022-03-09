@@ -1,0 +1,762 @@
+{
+	"name": "wildcard",
+	"versions": {
+		"0.0.1": {
+			"name": "wildcard",
+			"description": "Wildcard matching tools",
+			"author": {
+				"name": "Damon Oehlman",
+				"email": "damon.oehlman@sidelab.com"
+			},
+			"tags": [
+				"string",
+				"wildcard"
+			],
+			"version": "0.0.1",
+			"main": "./wildcard.js",
+			"engines": {
+				"node": ">= 0.4.x < 0.7.0"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"mocha": "*",
+				"expect.js": "0.1.x"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/DamonOehlman/wild.git"
+			},
+			"bugs": {
+				"url": "http://github.com/DamonOehlman/wild/issues"
+			},
+			"contributors": [],
+			"_npmUser": {
+				"name": "damonoehlman",
+				"email": "damon.oehlman@sidelab.com"
+			},
+			"_id": "wildcard@0.0.1",
+			"_engineSupported": true,
+			"_npmVersion": "1.1.0-beta-10",
+			"_nodeVersion": "v0.6.7",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "59bd7157156a039c318223b135e6f0d9c389b326",
+				"tarball": "https://registry.npmjs.org/wildcard/-/wildcard-0.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "damonoehlman",
+					"email": "damon.oehlman@sidelab.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.2": {
+			"name": "wildcard",
+			"description": "Wildcard matching tools",
+			"author": {
+				"name": "Damon Oehlman",
+				"email": "damon.oehlman@sidelab.com"
+			},
+			"tags": [
+				"string",
+				"wildcard"
+			],
+			"version": "0.1.2",
+			"main": "dist/commonjs/wildcard",
+			"engines": {
+				"node": ">= 0.6.x < 0.9.0"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"mocha": "*",
+				"expect.js": "0.1.x"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/DamonOehlman/wildcard.git"
+			},
+			"bugs": {
+				"url": "http://github.com/DamonOehlman/wildcard/issues"
+			},
+			"scripts": {
+				"test": "./node_modules/mocha/bin/mocha --reporter spec"
+			},
+			"contributors": [],
+			"_id": "wildcard@0.1.2",
+			"dist": {
+				"shasum": "704b7639baea4dd805532fa22fca84f6bf45e595",
+				"tarball": "https://registry.npmjs.org/wildcard/-/wildcard-0.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "damonoehlman",
+					"email": "damon.oehlman@sidelab.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.3": {
+			"name": "wildcard",
+			"description": "Wildcard matching tools",
+			"author": {
+				"name": "Damon Oehlman",
+				"email": "damon.oehlman@sidelab.com"
+			},
+			"tags": [
+				"string",
+				"wildcard"
+			],
+			"version": "0.1.3",
+			"main": "wildcard",
+			"engines": {
+				"node": ">= 0.6.x < 0.9.0"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"mocha": "1.6.x",
+				"expect.js": "0.1.x"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/DamonOehlman/wildcard.git"
+			},
+			"bugs": {
+				"url": "http://github.com/DamonOehlman/wildcard/issues"
+			},
+			"scripts": {
+				"test": "./node_modules/mocha/bin/mocha --reporter spec"
+			},
+			"contributors": [],
+			"_id": "wildcard@0.1.3",
+			"dist": {
+				"shasum": "581963b5c937bc1f0c624372079a04a3d6d9a35c",
+				"tarball": "https://registry.npmjs.org/wildcard/-/wildcard-0.1.3.tgz"
+			},
+			"_npmVersion": "1.1.62",
+			"_npmUser": {
+				"name": "damonoehlman",
+				"email": "damon.oehlman@sidelab.com"
+			},
+			"maintainers": [
+				{
+					"name": "damonoehlman",
+					"email": "damon.oehlman@sidelab.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.4": {
+			"name": "wildcard",
+			"description": "Wildcard matching tools",
+			"author": {
+				"name": "Damon Oehlman",
+				"email": "damon.oehlman@gmail.com"
+			},
+			"tags": [
+				"string",
+				"wildcard"
+			],
+			"version": "0.1.4",
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "1.0.x"
+			},
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/9",
+					"ie/10",
+					"chrome/latest",
+					"firefox/latest",
+					"safari/latest",
+					"opera/latest"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/DamonOehlman/wildcard.git"
+			},
+			"bugs": {
+				"url": "http://github.com/DamonOehlman/wildcard/issues"
+			},
+			"scripts": {
+				"test": "./node_modules/.bin/tape test/*.js"
+			},
+			"contributors": [],
+			"_id": "wildcard@0.1.4",
+			"dist": {
+				"shasum": "f14bd497676e80098122cc3ce91b2401f18450df",
+				"tarball": "https://registry.npmjs.org/wildcard/-/wildcard-0.1.4.tgz"
+			},
+			"_npmVersion": "1.1.62",
+			"_npmUser": {
+				"name": "damonoehlman",
+				"email": "damon.oehlman@sidelab.com"
+			},
+			"maintainers": [
+				{
+					"name": "damonoehlman",
+					"email": "damon.oehlman@sidelab.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.5": {
+			"name": "wildcard",
+			"description": "Wildcard matching tools",
+			"author": {
+				"name": "Damon Oehlman",
+				"email": "damon.oehlman@gmail.com"
+			},
+			"keywords": [
+				"string",
+				"wildcard"
+			],
+			"version": "0.1.5",
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "^2"
+			},
+			"testling": {
+				"files": "test/all.js",
+				"browsers": {
+					"ie": [
+						"latest"
+					],
+					"ff": [
+						"latest",
+						"nightly"
+					],
+					"chrome": [
+						"latest",
+						"canary"
+					],
+					"opera": [
+						"latest",
+						"next"
+					],
+					"safari": [
+						"latest"
+					]
+				}
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/DamonOehlman/wildcard.git"
+			},
+			"bugs": {
+				"url": "http://github.com/DamonOehlman/wildcard/issues"
+			},
+			"scripts": {
+				"test": "$(npm bin)/tape test/all.js",
+				"gendocs": "gendocs > README.md"
+			},
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"license": "MIT",
+			"gitHead": "2bfc84f73f5c06f6b991360d83fef0ff367c4634",
+			"homepage": "https://github.com/DamonOehlman/wildcard",
+			"_id": "wildcard@0.1.5",
+			"_shasum": "408513bc14f58cd3aacc7098a6820b2ef25b3dd0",
+			"_from": ".",
+			"_npmVersion": "1.4.13",
+			"_npmUser": {
+				"name": "damonoehlman",
+				"email": "damon.oehlman@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "damonoehlman",
+					"email": "damon.oehlman@sidelab.com"
+				}
+			],
+			"dist": {
+				"shasum": "408513bc14f58cd3aacc7098a6820b2ef25b3dd0",
+				"tarball": "https://registry.npmjs.org/wildcard/-/wildcard-0.1.5.tgz"
+			},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "wildcard",
+			"description": "Wildcard matching tools",
+			"author": {
+				"name": "Damon Oehlman",
+				"email": "damon.oehlman@gmail.com"
+			},
+			"keywords": [
+				"string",
+				"wildcard"
+			],
+			"version": "1.0.0",
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "^2"
+			},
+			"testling": {
+				"files": "test/all.js",
+				"browsers": {
+					"ie": [
+						"latest"
+					],
+					"ff": [
+						"latest",
+						"nightly"
+					],
+					"chrome": [
+						"latest",
+						"canary"
+					],
+					"opera": [
+						"latest",
+						"next"
+					],
+					"safari": [
+						"latest"
+					]
+				}
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/DamonOehlman/wildcard.git"
+			},
+			"bugs": {
+				"url": "http://github.com/DamonOehlman/wildcard/issues"
+			},
+			"scripts": {
+				"test": "$(npm bin)/tape test/all.js",
+				"gendocs": "gendocs > README.md"
+			},
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"license": "MIT",
+			"gitHead": "e5c5df16ca0fc991afc1317b601fb75f23ee5997",
+			"homepage": "https://github.com/DamonOehlman/wildcard",
+			"_id": "wildcard@1.0.0",
+			"_shasum": "5d39a502e17c0664ef9b2f2a02cc8213b12aab13",
+			"_from": ".",
+			"_npmVersion": "1.4.16",
+			"_npmUser": {
+				"name": "damonoehlman",
+				"email": "damon.oehlman@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "damonoehlman",
+					"email": "damon.oehlman@sidelab.com"
+				}
+			],
+			"dist": {
+				"shasum": "5d39a502e17c0664ef9b2f2a02cc8213b12aab13",
+				"tarball": "https://registry.npmjs.org/wildcard/-/wildcard-1.0.0.tgz"
+			},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "wildcard",
+			"description": "Wildcard matching tools",
+			"author": {
+				"name": "Damon Oehlman",
+				"email": "damon.oehlman@gmail.com"
+			},
+			"keywords": [
+				"string",
+				"wildcard"
+			],
+			"version": "1.1.0",
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "^3.0.0"
+			},
+			"testling": {
+				"files": "test/all.js",
+				"browsers": {
+					"ie": [
+						"latest"
+					],
+					"ff": [
+						"latest",
+						"nightly"
+					],
+					"chrome": [
+						"latest",
+						"canary"
+					],
+					"opera": [
+						"latest",
+						"next"
+					],
+					"safari": [
+						"latest"
+					]
+				}
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/DamonOehlman/wildcard.git"
+			},
+			"bugs": {
+				"url": "http://github.com/DamonOehlman/wildcard/issues"
+			},
+			"scripts": {
+				"test": "$(npm bin)/tape test/all.js",
+				"gendocs": "gendocs > README.md"
+			},
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"license": "MIT",
+			"gitHead": "ffa0ecef1db3fba79544e635753291300d8f924d",
+			"homepage": "https://github.com/DamonOehlman/wildcard",
+			"_id": "wildcard@1.1.0",
+			"_shasum": "05cbabca1949373ab9ec87434d8b7209145b68cd",
+			"_from": ".",
+			"_npmVersion": "1.4.23",
+			"_npmUser": {
+				"name": "damonoehlman",
+				"email": "damon.oehlman@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "damonoehlman",
+					"email": "damon.oehlman@sidelab.com"
+				}
+			],
+			"dist": {
+				"shasum": "05cbabca1949373ab9ec87434d8b7209145b68cd",
+				"tarball": "https://registry.npmjs.org/wildcard/-/wildcard-1.1.0.tgz"
+			},
+			"contributors": []
+		},
+		"1.1.1": {
+			"name": "wildcard",
+			"description": "Wildcard matching tools",
+			"author": {
+				"name": "Damon Oehlman",
+				"email": "damon.oehlman@gmail.com"
+			},
+			"keywords": [
+				"string",
+				"wildcard"
+			],
+			"version": "1.1.1",
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "^3.0.0"
+			},
+			"testling": {
+				"files": "test/all.js",
+				"browsers": {
+					"ie": [
+						"latest"
+					],
+					"ff": [
+						"latest",
+						"nightly"
+					],
+					"chrome": [
+						"latest",
+						"canary"
+					],
+					"opera": [
+						"latest",
+						"next"
+					],
+					"safari": [
+						"latest"
+					]
+				}
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/DamonOehlman/wildcard.git"
+			},
+			"bugs": {
+				"url": "http://github.com/DamonOehlman/wildcard/issues"
+			},
+			"scripts": {
+				"test": "$(npm bin)/tape test/all.js",
+				"gendocs": "gendocs > README.md"
+			},
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"license": "MIT",
+			"gitHead": "818074d1430e42db5fc08c09428cc98d7abed7b1",
+			"homepage": "https://github.com/DamonOehlman/wildcard",
+			"_id": "wildcard@1.1.1",
+			"_shasum": "692bffc4d2cff00035c6b662c0f0baa6e72f6112",
+			"_from": ".",
+			"_npmVersion": "2.7.5",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "damonoehlman",
+				"email": "damon.oehlman@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "damonoehlman",
+					"email": "damon.oehlman@sidelab.com"
+				}
+			],
+			"dist": {
+				"shasum": "692bffc4d2cff00035c6b662c0f0baa6e72f6112",
+				"tarball": "https://registry.npmjs.org/wildcard/-/wildcard-1.1.1.tgz"
+			},
+			"contributors": []
+		},
+		"1.1.2": {
+			"name": "wildcard",
+			"description": "Wildcard matching tools",
+			"author": {
+				"name": "Damon Oehlman",
+				"email": "damon.oehlman@gmail.com"
+			},
+			"keywords": [
+				"string",
+				"wildcard"
+			],
+			"version": "1.1.2",
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "^3.0.0"
+			},
+			"testling": {
+				"files": "test/all.js",
+				"browsers": {
+					"ie": [
+						"latest"
+					],
+					"ff": [
+						"latest",
+						"nightly"
+					],
+					"chrome": [
+						"latest",
+						"canary"
+					],
+					"opera": [
+						"latest",
+						"next"
+					],
+					"safari": [
+						"latest"
+					]
+				}
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/DamonOehlman/wildcard.git"
+			},
+			"bugs": {
+				"url": "http://github.com/DamonOehlman/wildcard/issues"
+			},
+			"scripts": {
+				"test": "node test/all.js",
+				"gendocs": "gendocs > README.md"
+			},
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"license": "MIT",
+			"gitHead": "d844aaa3ac09f35c79036178040c85b97ce74c54",
+			"homepage": "https://github.com/DamonOehlman/wildcard",
+			"_id": "wildcard@1.1.2",
+			"_shasum": "a7020453084d8cd2efe70ba9d3696263de1710a5",
+			"_from": ".",
+			"_npmVersion": "2.7.5",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "damonoehlman",
+				"email": "damon.oehlman@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "damonoehlman",
+					"email": "damon.oehlman@sidelab.com"
+				}
+			],
+			"dist": {
+				"shasum": "a7020453084d8cd2efe70ba9d3696263de1710a5",
+				"tarball": "https://registry.npmjs.org/wildcard/-/wildcard-1.1.2.tgz"
+			},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "wildcard",
+			"description": "Wildcard matching tools",
+			"author": {
+				"name": "Damon Oehlman",
+				"email": "damon.oehlman@gmail.com"
+			},
+			"keywords": [
+				"string",
+				"wildcard"
+			],
+			"version": "2.0.0",
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "^4.6.3"
+			},
+			"testling": {
+				"files": "test/all.js",
+				"browsers": {
+					"ie": [
+						"latest"
+					],
+					"ff": [
+						"latest",
+						"nightly"
+					],
+					"chrome": [
+						"latest",
+						"canary"
+					],
+					"opera": [
+						"latest",
+						"next"
+					],
+					"safari": [
+						"latest"
+					]
+				}
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/DamonOehlman/wildcard.git"
+			},
+			"bugs": {
+				"url": "http://github.com/DamonOehlman/wildcard/issues"
+			},
+			"scripts": {
+				"test": "node test/all.js",
+				"gendocs": "gendocs > README.md"
+			},
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"license": "MIT",
+			"gitHead": "becc50830de8a919b236dd53611dfaab24214946",
+			"homepage": "https://github.com/DamonOehlman/wildcard#readme",
+			"_id": "wildcard@2.0.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.3",
+			"_npmUser": {
+				"name": "damonoehlman",
+				"email": "damon.oehlman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-JcKqAHLPxcdb9KM49dufGXn2x3ssnfjbcaQdLlfZsL9rH9wgDQjUtDxbo8NE0F6SFvydeu1VhZe7hZuHsB2/pw==",
+				"shasum": "a77d20e5200c6faaac979e4b3aadc7b3dd7f8fec",
+				"tarball": "https://registry.npmjs.org/wildcard/-/wildcard-2.0.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 21670,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdEJzuCRA9TVsSAnZWagAAbksP/1GZq5W2mVHhvBY8p/ex\nFOHkBvE2OfQDGVc7qF9Haer6OGlyx2QzFhEE/OGLcV5ytVFQGRdiqysEAHTE\nz55YnIzUT/gA0ACKyWv5HqRBIFrPJJ5hJ235JEomEmenh95fuUP8SoR5mIFO\nW3o5kCWuy2WsCL7WwubewTsXbwoQwVcz1UDIgd5ZWtdQPtphOuOjk4rClIDg\nOB+9f3VJplPWvHZ/ArDiv0x8hrozORsyZmZPCFWGkNPsV+JWxfL9bg0Sr1eS\nUJ8mHXdc9r/xjjwBZfki+2Ul9byF/Osv6QrwO5PLK+ZteiOxNuo+NPihXTjz\nPMGkmqp6g3G17bYi3zBi1Po4FX++Vohu5s5331BePP/pyM0nH5teLNbrvJvw\nxQAz/dg86PX8V8yv2Kkn10hYjr8hF+P4GAJaT22pxgHgsTRjlb0cGjaBbWR1\nBI6y5YFj0egyeS6EAUb5x9SFn77+sMKmmAVZAufUhjsvJFcu0/+gTsdeUmTS\nuLDLpHNQOhVdHphEAEBRXq2A97/H3a1f1KpWQfZhbeSNZ1tqVy+33mXrD1YX\nF+dt27zh+JKfEcNlrmsxNT+bHIQrXcUlkSqVYLnVXhRaXZfj0WhIrQAXpHiW\nqJfdC7uYVLsw+NhT9Rlj8qdmfaB9kXnlJK4yZaEHIKgTAdHn4Zz9d2s1LE3w\nVVqG\r\n=ivsv\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "damonoehlman",
+					"email": "damon.oehlman@sidelab.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/wildcard_2.0.0_1561369838168_0.7496851544388645"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2019-06-24T09:50:40.879Z",
+		"created": "2012-03-13T10:02:00.601Z",
+		"0.0.1": "2012-03-13T10:02:05.426Z",
+		"0.1.2": "2012-07-24T00:48:58.549Z",
+		"0.1.3": "2012-10-29T22:40:53.915Z",
+		"0.1.4": "2013-05-05T10:48:30.859Z",
+		"0.1.5": "2014-06-08T09:11:05.338Z",
+		"1.0.0": "2014-09-07T23:10:25.977Z",
+		"1.1.0": "2014-10-02T07:00:19.301Z",
+		"1.1.1": "2015-04-20T00:05:42.043Z",
+		"1.1.2": "2015-04-21T23:36:50.006Z",
+		"2.0.0": "2019-06-24T09:50:38.320Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"230d05ecd9ecb748d40e5f79f557f70d\"",
+			"fetched": 1646835556368
+		}
+	},
+	"_distfiles": {
+		"wildcard-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/wildcard/-/wildcard-0.0.1.tgz",
+			"sha": "59bd7157156a039c318223b135e6f0d9c389b326",
+			"registry": "npmjs"
+		},
+		"wildcard-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/wildcard/-/wildcard-0.1.2.tgz",
+			"sha": "704b7639baea4dd805532fa22fca84f6bf45e595",
+			"registry": "npmjs"
+		},
+		"wildcard-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/wildcard/-/wildcard-0.1.3.tgz",
+			"sha": "581963b5c937bc1f0c624372079a04a3d6d9a35c",
+			"registry": "npmjs"
+		},
+		"wildcard-0.1.4.tgz": {
+			"url": "https://registry.npmjs.org/wildcard/-/wildcard-0.1.4.tgz",
+			"sha": "f14bd497676e80098122cc3ce91b2401f18450df",
+			"registry": "npmjs"
+		},
+		"wildcard-0.1.5.tgz": {
+			"url": "https://registry.npmjs.org/wildcard/-/wildcard-0.1.5.tgz",
+			"sha": "408513bc14f58cd3aacc7098a6820b2ef25b3dd0",
+			"registry": "npmjs"
+		},
+		"wildcard-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/wildcard/-/wildcard-1.0.0.tgz",
+			"sha": "5d39a502e17c0664ef9b2f2a02cc8213b12aab13",
+			"registry": "npmjs"
+		},
+		"wildcard-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/wildcard/-/wildcard-1.1.0.tgz",
+			"sha": "05cbabca1949373ab9ec87434d8b7209145b68cd",
+			"registry": "npmjs"
+		},
+		"wildcard-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/wildcard/-/wildcard-1.1.1.tgz",
+			"sha": "692bffc4d2cff00035c6b662c0f0baa6e72f6112",
+			"registry": "npmjs"
+		},
+		"wildcard-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/wildcard/-/wildcard-1.1.2.tgz",
+			"sha": "a7020453084d8cd2efe70ba9d3696263de1710a5",
+			"registry": "npmjs"
+		},
+		"wildcard-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/wildcard/-/wildcard-2.0.0.tgz",
+			"sha": "a77d20e5200c6faaac979e4b3aadc7b3dd7f8fec",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"wildcard-2.0.0.tgz": {
+			"shasum": "a77d20e5200c6faaac979e4b3aadc7b3dd7f8fec"
+		}
+	},
+	"_rev": "4-ca5ff5499f0fe21b",
+	"_id": "wildcard",
+	"readme": "# wildcard\n\nVery simple wildcard matching, which is designed to provide the same\nfunctionality that is found in the\n[eve](https://github.com/adobe-webplatform/eve) eventing library.\n\n\n[![NPM](https://nodei.co/npm/wildcard.png)](https://nodei.co/npm/wildcard/)\n\n[![Build Status](https://api.travis-ci.org/DamonOehlman/wildcard.svg?branch=master)](https://travis-ci.org/DamonOehlman/wildcard) [![stable](https://img.shields.io/badge/stability-stable-green.svg)](https://github.com/dominictarr/stability#stable)\n\n## NOTE\n\nWork on this project is largely inactive, now so I'd recommend checking out\nthe wonderful [`matcher`](https://github.com/sindresorhus/matcher) package\nas a solid alternative.\n\n## Usage\n\nIt works with strings:\n\n```js\nvar wildcard = require('wildcard');\n\nconsole.log(wildcard('foo.*', 'foo.bar'));\n// --> true\n\nconsole.log(wildcard('foo.*', 'foo'));\n// --> true\n\n```\n\nArrays:\n\n```js\nvar wildcard = require('wildcard');\nvar testdata = [\n  'a.b.c',\n  'a.b',\n  'a',\n  'a.b.d'\n];\n\nconsole.log(wildcard('a.b.*', testdata));\n// --> ['a.b.c', 'a.b', 'a.b.d']\n\n```\n\nObjects (matching against keys):\n\n```js\nvar wildcard = require('wildcard');\nvar testdata = {\n  'a.b.c' : {},\n  'a.b'   : {},\n  'a'     : {},\n  'a.b.d' : {}\n};\n\nconsole.log(wildcard('a.*.c', testdata));\n// --> { 'a.b.c': {} }\n\n```\n\n## Alternative Implementations\n\n- <https://github.com/isaacs/node-glob>\n\n  Great for full file-based wildcard matching.\n\n- <https://github.com/sindresorhus/matcher>\n\n   A well cared for and loved JS wildcard matcher.\n\n## License(s)\n\n### MIT\n\nCopyright (c) 2017 Damon Oehlman <damon.oehlman@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+}

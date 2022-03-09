@@ -1,0 +1,6674 @@
+{
+	"name": "rc-steps",
+	"versions": {
+		"1.0.0": {
+			"name": "rc-steps",
+			"version": "1.0.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-tabs"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.1",
+				"precommit-hook": "^1.0.7",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"dependencies": {
+				"rc-css-transition-group": "^2.0.0"
+			},
+			"gitHead": "fd0bb2a712bee215952aa18824464a7c82cb52cb",
+			"_id": "rc-steps@1.0.0",
+			"_shasum": "7a742b71f155598a3d6e57276726bd6ef3e8ac7c",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "yuhangge",
+				"email": "abeyuhang@gmail.com"
+			},
+			"dist": {
+				"shasum": "7a742b71f155598a3d6e57276726bd6ef3e8ac7c",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.0.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "rc-steps",
+			"version": "1.0.1",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-tabs"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.1",
+				"precommit-hook": "^1.0.7",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"dependencies": {
+				"rc-css-transition-group": "^2.0.0"
+			},
+			"gitHead": "fd0bb2a712bee215952aa18824464a7c82cb52cb",
+			"_id": "rc-steps@1.0.1",
+			"_shasum": "84f4c2d05198d7094fc74d3fd04bfaf7eb5790d6",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "yuhangge",
+				"email": "abeyuhang@gmail.com"
+			},
+			"dist": {
+				"shasum": "84f4c2d05198d7094fc74d3fd04bfaf7eb5790d6",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.0.1.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "rc-steps",
+			"version": "1.0.2",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-tabs"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.1",
+				"precommit-hook": "^1.0.7",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"dependencies": {
+				"rc-css-transition-group": "^2.0.0"
+			},
+			"gitHead": "3f64969b3d30eaf607d8f3d93acbe0ec0dfb0ace",
+			"_id": "rc-steps@1.0.2",
+			"_shasum": "c855e7961863b151e351d06c3385159466159479",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "yuhangge",
+				"email": "abeyuhang@gmail.com"
+			},
+			"dist": {
+				"shasum": "c855e7961863b151e351d06c3385159466159479",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.0.2.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.3": {
+			"name": "rc-steps",
+			"version": "1.0.3",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-tabs"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.1",
+				"precommit-hook": "^1.0.7",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"dependencies": {
+				"rc-css-transition-group": "^2.0.0"
+			},
+			"gitHead": "629f1f6819cdefaaa3f74bb451f3e4ab112df77a",
+			"_id": "rc-steps@1.0.3",
+			"_shasum": "a2a2969bdb6a30a4c258b55cc9837133d21b80d4",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "yuhangge",
+				"email": "abeyuhang@gmail.com"
+			},
+			"dist": {
+				"shasum": "a2a2969bdb6a30a4c258b55cc9837133d21b80d4",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.0.3.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "rc-steps",
+			"version": "1.1.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-tabs"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.1",
+				"precommit-hook": "^1.0.7",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"dependencies": {
+				"rc-css-transition-group": "^2.0.0"
+			},
+			"gitHead": "462fa4beef3b5a6e5ab72fd115f4f610d818f207",
+			"_id": "rc-steps@1.1.0",
+			"_shasum": "bd52957fad5401148c4eab3dba48a88cb5167e00",
+			"_from": ".",
+			"_npmVersion": "2.11.3",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "yuhangge",
+				"email": "abeyuhang@gmail.com"
+			},
+			"dist": {
+				"shasum": "bd52957fad5401148c4eab3dba48a88cb5167e00",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.1.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.1": {
+			"name": "rc-steps",
+			"version": "1.1.1",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-tabs"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.1",
+				"precommit-hook": "^1.0.7",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"dependencies": {
+				"rc-css-transition-group": "^2.0.0"
+			},
+			"gitHead": "c49e951eee244dd99611c6c76531c8c60ae68024",
+			"_id": "rc-steps@1.1.1",
+			"_shasum": "2de9e94ea144629b77c7d3392fd919404b77eb59",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "yuhangge",
+				"email": "abeyuhang@gmail.com"
+			},
+			"dist": {
+				"shasum": "2de9e94ea144629b77c7d3392fd919404b77eb59",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.1.1.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.2": {
+			"name": "rc-steps",
+			"version": "1.1.2",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-tabs"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.1",
+				"precommit-hook": "^1.0.7",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "30c5234a4a44fcaa9a078496d5446f06d2c1f2d7",
+			"_id": "rc-steps@1.1.2",
+			"_shasum": "e9ecc97ea0ee845493494d11f5504d83f67ce7cd",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "yuhangge",
+				"email": "abeyuhang@gmail.com"
+			},
+			"dist": {
+				"shasum": "e9ecc97ea0ee845493494d11f5504d83f67ce7cd",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.1.2.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.3": {
+			"name": "rc-steps",
+			"version": "1.1.3",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.1",
+				"precommit-hook": "^1.0.7",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "0bd0d401403fd5c2558b269b2672ff94814d6498",
+			"_id": "rc-steps@1.1.3",
+			"_shasum": "98a263776cad7a8282941fea9bf0a6e979e82f96",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "yuhangge",
+				"email": "abeyuhang@gmail.com"
+			},
+			"dist": {
+				"shasum": "98a263776cad7a8282941fea9bf0a6e979e82f96",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.1.3.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.4": {
+			"name": "rc-steps",
+			"version": "1.1.4",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.1",
+				"precommit-hook": "^1.0.7",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "15e443ae4f225d21f36265835a52c9d14883025b",
+			"_id": "rc-steps@1.1.4",
+			"_shasum": "66361dd8747ec018d99a37e7c9cd2d157192ebfe",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "yuhangge",
+				"email": "abeyuhang@gmail.com"
+			},
+			"dist": {
+				"shasum": "66361dd8747ec018d99a37e7c9cd2d157192ebfe",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.1.4.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.0": {
+			"name": "rc-steps",
+			"version": "1.2.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.1",
+				"precommit-hook": "^1.0.7",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "35a052c64d2a03f5130f2658b84f635511dbe79a",
+			"_id": "rc-steps@1.2.0",
+			"_shasum": "7b317bdfecd9752dd39daa8ba71dbe00904fe9b3",
+			"_from": ".",
+			"_npmVersion": "2.11.2",
+			"_nodeVersion": "0.12.6",
+			"_npmUser": {
+				"name": "zhujun24",
+				"email": "zhujun87654321@gmail.com"
+			},
+			"dist": {
+				"shasum": "7b317bdfecd9752dd39daa8ba71dbe00904fe9b3",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.2.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.1": {
+			"name": "rc-steps",
+			"version": "1.2.1",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.1",
+				"precommit-hook": "^1.0.7",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "fad5cb13f70c5458c02747d7b156ee960696569e",
+			"_id": "rc-steps@1.2.1",
+			"_shasum": "bfb5d741b493ca1777657efc6211673794c81dc3",
+			"_from": ".",
+			"_npmVersion": "2.11.2",
+			"_nodeVersion": "0.12.6",
+			"_npmUser": {
+				"name": "zhujun24",
+				"email": "zhujun87654321@gmail.com"
+			},
+			"dist": {
+				"shasum": "bfb5d741b493ca1777657efc6211673794c81dc3",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.2.1.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.2": {
+			"name": "rc-steps",
+			"version": "1.2.2",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "fad5cb13f70c5458c02747d7b156ee960696569e",
+			"_id": "rc-steps@1.2.2",
+			"_shasum": "53e97cccfc77168c3fb67588d0334d1442baff43",
+			"_from": ".",
+			"_npmVersion": "2.11.2",
+			"_nodeVersion": "0.12.6",
+			"_npmUser": {
+				"name": "zhujun24",
+				"email": "zhujun87654321@gmail.com"
+			},
+			"dist": {
+				"shasum": "53e97cccfc77168c3fb67588d0334d1442baff43",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.2.2.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.3": {
+			"name": "rc-steps",
+			"version": "1.2.3",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "721446a158aedf1156d4bccc86b68fc21cec0c32",
+			"_id": "rc-steps@1.2.3",
+			"_shasum": "27ed613da8289f107d17b749b0a5b2516fd19d82",
+			"_from": ".",
+			"_npmVersion": "2.11.2",
+			"_nodeVersion": "0.12.6",
+			"_npmUser": {
+				"name": "zhujun24",
+				"email": "zhujun87654321@gmail.com"
+			},
+			"dist": {
+				"shasum": "27ed613da8289f107d17b749b0a5b2516fd19d82",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.2.3.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.4": {
+			"name": "rc-steps",
+			"version": "1.2.4",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "666d862f485d5a57e5115470da8e6ad31b29e56e",
+			"_id": "rc-steps@1.2.4",
+			"_shasum": "ec5f618e302a7b127ea79e4fcba662d53d3e6ec9",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "yuhangge",
+				"email": "abeyuhang@gmail.com"
+			},
+			"dist": {
+				"shasum": "ec5f618e302a7b127ea79e4fcba662d53d3e6ec9",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.2.4.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.3.0": {
+			"name": "rc-steps",
+			"version": "1.3.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "fc7e42b05daab94baf73a1b4fe9f74f737a96369",
+			"_id": "rc-steps@1.3.0",
+			"_shasum": "9239b08660f2731e257a979abe4dbecd4f007ac1",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "yuhangge",
+				"email": "abeyuhang@gmail.com"
+			},
+			"dist": {
+				"shasum": "9239b08660f2731e257a979abe4dbecd4f007ac1",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.3.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.3.2": {
+			"name": "rc-steps",
+			"version": "1.3.2",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "8af60ae858835b66625cee29949ed2996371b312",
+			"_id": "rc-steps@1.3.2",
+			"_shasum": "63e8f16bf7faa9832fdc72b52abf1b9a0862c235",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "yuhangge",
+				"email": "abeyuhang@gmail.com"
+			},
+			"dist": {
+				"shasum": "63e8f16bf7faa9832fdc72b52abf1b9a0862c235",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.3.2.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.3.3": {
+			"name": "rc-steps",
+			"version": "1.3.3",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "ea90ce158c1a32dc7c460a4f12b9f9122653bbce",
+			"_id": "rc-steps@1.3.3",
+			"_shasum": "530e6d0da5786ec26853d82b766112231ac0f896",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "yuhangge",
+				"email": "abeyuhang@gmail.com"
+			},
+			"dist": {
+				"shasum": "530e6d0da5786ec26853d82b766112231ac0f896",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.3.3.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.4.0": {
+			"name": "rc-steps",
+			"version": "1.4.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "~4.2.6",
+				"react": "~0.14.0",
+				"react-dom": "~0.14.0"
+			},
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "e99fff7c18fff6bce59e73fba696a8342204e42a",
+			"_id": "rc-steps@1.4.0",
+			"_shasum": "68c975f0c936392bee97c2fa958b0b984b960346",
+			"_from": ".",
+			"_npmVersion": "2.14.4",
+			"_nodeVersion": "4.1.1",
+			"_npmUser": {
+				"name": "yuhangge",
+				"email": "abeyuhang@gmail.com"
+			},
+			"dist": {
+				"shasum": "68c975f0c936392bee97c2fa958b0b984b960346",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.4.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.4.1": {
+			"name": "rc-steps",
+			"version": "1.4.1",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "~4.2.6",
+				"react": "~0.14.0",
+				"react-dom": "~0.14.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"gitHead": "dd1592479a9ca90a524c73aba9a495ce5af494b6",
+			"_id": "rc-steps@1.4.1",
+			"_shasum": "468badb4d067da45fdd606eeeda55bbba4f6e427",
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"dist": {
+				"shasum": "468badb4d067da45fdd606eeeda55bbba4f6e427",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.4.1.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.4.2": {
+			"name": "rc-steps",
+			"version": "1.4.2",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "~4.2.6",
+				"react": "~0.14.0",
+				"react-dom": "~0.14.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "e16fb802963aa25a260d6f055c1a5ff7eb91b37f",
+			"_id": "rc-steps@1.4.2",
+			"_shasum": "1f126b148add93f9bc12dee60b45fc68d0d9520e",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.1.1",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "1f126b148add93f9bc12dee60b45fc68d0d9520e",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.4.2.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.4.3": {
+			"name": "rc-steps",
+			"version": "1.4.3",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "~4.2.6",
+				"react": "~0.14.0",
+				"react-dom": "~0.14.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "8792a1c061c0df267805f9016672f337b676381d",
+			"_id": "rc-steps@1.4.3",
+			"_shasum": "395f09d5fd87ae262f6de26cf1138496b34e1463",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.1.1",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "395f09d5fd87ae262f6de26cf1138496b34e1463",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.4.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-6-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-1.4.3.tgz_1456474110631_0.675878474721685"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.4.4": {
+			"name": "rc-steps",
+			"version": "1.4.4",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "~4.2.6",
+				"react": "~0.14.0",
+				"react-dom": "~0.14.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "4b85298ad460bd3494dcd82e4e9db150252784d8",
+			"_id": "rc-steps@1.4.4",
+			"_shasum": "4ab8de18582c8d299362ef99eb87c0a5098aa0d2",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.1.1",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "4ab8de18582c8d299362ef99eb87c0a5098aa0d2",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.4.4.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-1.4.4.tgz_1457064953703_0.6391617939807475"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.5.0": {
+			"name": "rc-steps",
+			"version": "1.5.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "~0.14.0",
+				"react-dom": "~0.14.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "83e84d12aa4812b3a26816521374fbaa6cd518bc",
+			"_id": "rc-steps@1.5.0",
+			"_shasum": "ffaf37c96664eb9a62d4a6b680c392df72e6c6bb",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.1.1",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "ffaf37c96664eb9a62d4a6b680c392df72e6c6bb",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.5.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-1.5.0.tgz_1459933078173_0.10325158829800785"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.5.1": {
+			"name": "rc-steps",
+			"version": "1.5.1",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "~0.14.0",
+				"react-dom": "~0.14.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "3fab3f72ef404e638a6ce858ac49f4faf66e1000",
+			"_id": "rc-steps@1.5.1",
+			"_shasum": "f3099508983d5ccccfd9a37052e5e58a3ac93651",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.1.1",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "f3099508983d5ccccfd9a37052e5e58a3ac93651",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.5.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-1.5.1.tgz_1459935536119_0.26456339890137315"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.5.2": {
+			"name": "rc-steps",
+			"version": "1.5.2",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "~0.14.0",
+				"react-dom": "~0.14.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "5ff7af673d739f2046233573a2c981ccab0df0f2",
+			"_id": "rc-steps@1.5.2",
+			"_shasum": "372597b07efadc89087aed3b05e248ea7380f245",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.1.1",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "372597b07efadc89087aed3b05e248ea7380f245",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.5.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-1.5.2.tgz_1459936057839_0.43267822288908064"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.5.3": {
+			"name": "rc-steps",
+			"version": "1.5.3",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "~0.14.0",
+				"react-dom": "~0.14.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "a4910dbc70d65497105b186cc244f1fffb549bf4",
+			"_id": "rc-steps@1.5.3",
+			"_shasum": "193a90d1a7aa1f24ef169fbb751216f4f1941ccf",
+			"_from": ".",
+			"_npmVersion": "2.15.0",
+			"_nodeVersion": "4.4.2",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "193a90d1a7aa1f24ef169fbb751216f4f1941ccf",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.5.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-1.5.3.tgz_1460711881555_0.22811117093078792"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.5.4": {
+			"name": "rc-steps",
+			"version": "1.5.4",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "~0.14.0",
+				"react-dom": "~0.14.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "d5b21b3c1fbed3653267a087a784b9b4b017ae9a",
+			"_id": "rc-steps@1.5.4",
+			"_shasum": "8b02347a640bbda74c2adb05dfa2146d25d3f2c9",
+			"_from": ".",
+			"_npmVersion": "2.15.0",
+			"_nodeVersion": "4.4.2",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "8b02347a640bbda74c2adb05dfa2146d25d3f2c9",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.5.4.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-1.5.4.tgz_1460731006962_0.3739943406544626"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "rc-steps",
+			"version": "2.0.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "~0.14.0",
+				"react-dom": "~0.14.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "b62b9d1686943d086fbe1a502583a23e92bababf",
+			"_id": "rc-steps@2.0.0",
+			"_shasum": "47f5708f418a9140c0b49deb85f6c58c8e725979",
+			"_from": ".",
+			"_npmVersion": "2.15.0",
+			"_nodeVersion": "4.4.2",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "47f5708f418a9140c0b49deb85f6c58c8e725979",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.0.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.0.0.tgz_1460732102085_0.1884900275617838"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "rc-steps",
+			"version": "2.1.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "~0.14.0",
+				"react-dom": "~0.14.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "7273a69dc6b835e54c6af58b49031ff6c92be2e6",
+			"_id": "rc-steps@2.1.0",
+			"_shasum": "b154b4a4f2808d86a7a108008f459da6c97412a8",
+			"_from": ".",
+			"_npmVersion": "2.15.0",
+			"_nodeVersion": "4.4.2",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "b154b4a4f2808d86a7a108008f459da6c97412a8",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.1.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.1.0.tgz_1461832263712_0.2184245279058814"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.1": {
+			"name": "rc-steps",
+			"version": "2.1.1",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "~0.14.0",
+				"react-dom": "~0.14.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "a49992ba32cf40931dabc190dbbb83bf1ffe1169",
+			"_id": "rc-steps@2.1.1",
+			"_shasum": "5691faed328883548a6cde96437cda60af23f668",
+			"_from": ".",
+			"_npmVersion": "2.15.0",
+			"_nodeVersion": "4.4.2",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "5691faed328883548a6cde96437cda60af23f668",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.1.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.1.1.tgz_1463469000716_0.8149166547227651"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.2": {
+			"name": "rc-steps",
+			"version": "2.1.2",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "1abccbc5896eeb511c2e1213b7b3269f4d1d71fd",
+			"_id": "rc-steps@2.1.2",
+			"_shasum": "bd5cda0819ac59fd16c809a83c7a4167311ab7ba",
+			"_from": ".",
+			"_npmVersion": "2.15.0",
+			"_nodeVersion": "4.4.2",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "bd5cda0819ac59fd16c809a83c7a4167311ab7ba",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.1.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.1.2.tgz_1463647098157_0.3074210099875927"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.3": {
+			"name": "rc-steps",
+			"version": "2.1.3",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "38448902c784bb0aef58008f39fa6405fed81bc1",
+			"_id": "rc-steps@2.1.3",
+			"_shasum": "f95885d5e6eafdc13594871e56a07f42bd57fe67",
+			"_from": ".",
+			"_npmVersion": "2.15.0",
+			"_nodeVersion": "4.4.2",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "f95885d5e6eafdc13594871e56a07f42bd57fe67",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.1.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.1.3.tgz_1464183577691_0.08272900059819221"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.4": {
+			"name": "rc-steps",
+			"version": "2.1.4",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "375e50f65479e8f1cc435216b33899a012b74673",
+			"_id": "rc-steps@2.1.4",
+			"_shasum": "21be9077f79d81f089cdf065aba7fab05cd2e3d9",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "5.12.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "21be9077f79d81f089cdf065aba7fab05cd2e3d9",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.1.4.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.1.4.tgz_1467624963751_0.4453080524690449"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.5": {
+			"name": "rc-steps",
+			"version": "2.1.5",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "a90e586715734f144dd5d8e4ac93870e81062d1e",
+			"_id": "rc-steps@2.1.5",
+			"_shasum": "72d50c46c4e37a7beecba939fa6ce86ded9829fe",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "5.12.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "72d50c46c4e37a7beecba939fa6ce86ded9829fe",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.1.5.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.1.5.tgz_1467877243375_0.0010036106687039137"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.2.0": {
+			"name": "rc-steps",
+			"version": "2.2.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "dd6aa9445b5eef64d27dfe0ec0cbc84e6f08a509",
+			"_id": "rc-steps@2.2.0",
+			"_shasum": "fa8ae6c05e9b63da4c060f2bd05333bc16adbf98",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "5.12.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "fa8ae6c05e9b63da4c060f2bd05333bc16adbf98",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.2.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.2.0.tgz_1475063223108_0.7775766781996936"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.2.1": {
+			"name": "rc-steps",
+			"version": "2.2.1",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "f01731eebe5aa095b5e6dc222015d2eb0d6e8b0e",
+			"_id": "rc-steps@2.2.1",
+			"_shasum": "db72599d865e6cd5455809e92a7aa5dbdf27c916",
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "db72599d865e6cd5455809e92a7aa5dbdf27c916",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.2.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.2.1.tgz_1480600863405_0.20760733261704445"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.2.2": {
+			"name": "rc-steps",
+			"version": "2.2.2",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "8df9eba3af6dfb6979e90e1f927c445ee8b07a33",
+			"_id": "rc-steps@2.2.2",
+			"_shasum": "69bf4796de27ab3f3464e6790c642284b8e9de92",
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "69bf4796de27ab3f3464e6790c642284b8e9de92",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.2.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.2.2.tgz_1481009121126_0.9039839683100581"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.2.3": {
+			"name": "rc-steps",
+			"version": "2.2.3",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "b1f640667c88b657c4d22748bc83841410181049",
+			"_id": "rc-steps@2.2.3",
+			"_shasum": "d5bb7127e44f3d5412a0f6201fc63c72a9d5bea7",
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "d5bb7127e44f3d5412a0f6201fc63c72a9d5bea7",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.2.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.2.3.tgz_1481027297580_0.9690787729341537"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.2.4": {
+			"name": "rc-steps",
+			"version": "2.2.4",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "bc78bb6eece42538acf83a31e3186440aff0ee55",
+			"_id": "rc-steps@2.2.4",
+			"_shasum": "f1630e2d13e5b1810bd966bed413c52ac53952cf",
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "f1630e2d13e5b1810bd966bed413c52ac53952cf",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.2.4.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.2.4.tgz_1481027440872_0.7647102121263742"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.3.0": {
+			"name": "rc-steps",
+			"version": "2.3.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "4c11a6d160a4b9b79f1cffadb8c7ae6cee920f6c",
+			"_id": "rc-steps@2.3.0",
+			"_shasum": "78f29b12dca35a76b2ebda00f9bd6efab8297ad9",
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "78f29b12dca35a76b2ebda00f9bd6efab8297ad9",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.3.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.3.0.tgz_1484646537981_0.9361347397789359"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.4.0": {
+			"name": "rc-steps",
+			"version": "2.4.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "9936f1b2767aded4b97ffe61c78b4ce1974873b0",
+			"_id": "rc-steps@2.4.0",
+			"_shasum": "7b85d24ede8e1016d66c05188168c02998d620d1",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "7b85d24ede8e1016d66c05188168c02998d620d1",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.4.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.4.0.tgz_1488264928886_0.6944407876580954"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.4.1": {
+			"name": "rc-steps",
+			"version": "2.4.1",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3"
+			},
+			"gitHead": "635745021aaa043c8bdce8b3c8649b0d21497d0d",
+			"_id": "rc-steps@2.4.1",
+			"_shasum": "7cb100ff9275ad5db6cd7205f2219228ed9adc1f",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "7cb100ff9275ad5db6cd7205f2219228ed9adc1f",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.4.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.4.1.tgz_1488275215704_0.5153037763666362"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.4.2": {
+			"name": "rc-steps",
+			"version": "2.4.2",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3",
+				"lodash.debounce": "^4.0.8"
+			},
+			"gitHead": "2a4395038354231f8f23a7eeea8a083c5ef9786b",
+			"_id": "rc-steps@2.4.2",
+			"_shasum": "9e66cf24f17a884c8bed1c038e0708cc7b1ddb57",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "9e66cf24f17a884c8bed1c038e0708cc7b1ddb57",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.4.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.4.2.tgz_1489390197028_0.8141899616457522"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.4.3": {
+			"name": "rc-steps",
+			"version": "2.4.3",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3",
+				"lodash.debounce": "^4.0.8"
+			},
+			"gitHead": "b54b0f6069ef35216dc2cbca69a2057a14f4c17c",
+			"_id": "rc-steps@2.4.3",
+			"_shasum": "1f1d3a4def335e53c626416b62bdf6f55bcd9a3b",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "1f1d3a4def335e53c626416b62bdf6f55bcd9a3b",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.4.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.4.3.tgz_1490704726239_0.9290771076921374"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.5.0": {
+			"name": "rc-steps",
+			"version": "2.5.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3",
+				"lodash.debounce": "^4.0.8"
+			},
+			"gitHead": "3af693afdca73009fb5a04b3dc3bc0516b1c2a1e",
+			"_id": "rc-steps@2.5.0",
+			"_shasum": "ef7288a2c9de118fa0fe890926d81a53fb774fd0",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "ef7288a2c9de118fa0fe890926d81a53fb774fd0",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.5.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.5.0.tgz_1491363957121_0.5687951352447271"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.5.1": {
+			"name": "rc-steps",
+			"version": "2.5.1",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3",
+				"lodash.debounce": "^4.0.8",
+				"prop-types": "^15.5.7"
+			},
+			"gitHead": "1a8888f38921148ed748cacfdb92ae30c93d150d",
+			"_id": "rc-steps@2.5.1",
+			"_shasum": "c3969aea3fb984cecb977a4a96ab634d756a6dc4",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"shasum": "c3969aea3fb984cecb977a4a96ab634d756a6dc4",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.5.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-steps-2.5.1.tgz_1492141595775_0.9004250131547451"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.5.2": {
+			"name": "rc-steps",
+			"version": "2.5.2",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"files": [
+				"lib",
+				"assets/*.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.x",
+				"pre-commit": "1.x",
+				"rc-tools": "^5.3.3",
+				"react": "^15.0.0",
+				"react-dom": "^15.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"classnames": "^2.2.3",
+				"lodash.debounce": "^4.0.8",
+				"prop-types": "^15.5.7"
+			},
+			"gitHead": "21d6446e7f4dc76916252d3f4c187036b78ff2de",
+			"_id": "rc-steps@2.5.2",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "6.11.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-FsKpogxMaF2GYX3G9pn0pwTm9XTS+fAge/7F9uN0sDRPULUODBaUtlVUAOrDXIFOcIxxeku2UWBA6WfUvmcfTw==",
+				"shasum": "2ff2e03348ba8cc4114f0568e420add6ee273fae",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.5.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps-2.5.2.tgz_1504519971036_0.4820537152700126"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "rc-steps",
+			"version": "3.0.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"files": [
+				"lib",
+				"assets/iconfont.css",
+				"assets/index.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "benjycui",
+					"email": "benjytrys@gmail.com"
+				},
+				{
+					"name": "ddcat1115",
+					"email": "418150596@qq.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile --babel-runtime",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"lint:fix": "rc-tools run lint --fix",
+				"test": "jest",
+				"prepublish": "rc-tools run guard",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/**/*"
+				],
+				"snapshotSerializers": [
+					"enzyme-to-json/serializer"
+				],
+				"transform": {
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"enzyme": "^2.6.0",
+				"enzyme-to-json": "^1.5.0",
+				"jest": "^20.0.4",
+				"pre-commit": "1.x",
+				"querystring": "^0.2.0",
+				"rc-dialog": "6.x",
+				"rc-tools": "6.x",
+				"react": "15.x",
+				"react-dom": "15.x",
+				"react-test-renderer": "^15.3.2"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"classnames": "^2.2.3",
+				"lodash.debounce": "^4.0.8",
+				"prop-types": "^15.5.7"
+			},
+			"gitHead": "5992ec99c4d106647be3469a7ec3036a63f137e3",
+			"_id": "rc-steps@3.0.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "6.11.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-pikZIjckoAc5Cu84ij7V6nOb+v/5aIV3XCHHZmvK05DPf6yZWZqQ/hQW7kWM5vLCvsRwjxu+f++QRv6tw+w2BQ==",
+				"shasum": "d53f2314f0677463e54877df63c1d68d21178728",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.0.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps-3.0.0.tgz_1504604063335_0.07050710800103843"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.1": {
+			"name": "rc-steps",
+			"version": "3.0.1",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"files": [
+				"lib",
+				"es",
+				"assets/iconfont.css",
+				"assets/index.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "benjycui",
+					"email": "benjytrys@gmail.com"
+				},
+				{
+					"name": "ddcat1115",
+					"email": "418150596@qq.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile --babel-runtime",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"lint:fix": "rc-tools run lint --fix",
+				"test": "jest",
+				"prepublish": "rc-tools run guard",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"jest": {
+				"setupFiles": [
+					"./tests/setup.js"
+				],
+				"collectCoverageFrom": [
+					"src/**/*"
+				],
+				"snapshotSerializers": [
+					"enzyme-to-json/serializer"
+				],
+				"transform": {
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.0.0",
+				"jest": "^20.0.4",
+				"pre-commit": "1.x",
+				"querystring": "^0.2.0",
+				"rc-dialog": "6.x",
+				"rc-tools": "7.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-test-renderer": "^16.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"classnames": "^2.2.3",
+				"lodash.debounce": "^4.0.8",
+				"prop-types": "^15.5.7"
+			},
+			"gitHead": "24f60dc55067246a58bc14219d5a3ba0c4501768",
+			"_id": "rc-steps@3.0.1",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "9.0.0",
+			"_npmUser": {
+				"name": "yesmeck",
+				"email": "yesmeck@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-P7xkDnHwgKVRFlt09nQQim6ScYFcwfAxuJmPnH0t09AlVt/mvuUU+KEKlkaBsBPNeEB00u04dohHs0YDkGuMJQ==",
+				"shasum": "fa886eb93d223173ef9a05396f32186992549535",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.0.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps-3.0.1.tgz_1511772782412_0.8767766668461263"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.1.0": {
+			"name": "rc-steps",
+			"version": "3.1.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"files": [
+				"lib",
+				"es",
+				"assets/iconfont.css",
+				"assets/index.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "benjycui",
+					"email": "benjytrys@gmail.com"
+				},
+				{
+					"name": "ddcat1115",
+					"email": "418150596@qq.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile --babel-runtime",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"lint:fix": "rc-tools run lint --fix",
+				"test": "jest",
+				"prepublish": "rc-tools run guard",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"jest": {
+				"setupFiles": [
+					"./tests/setup.js"
+				],
+				"collectCoverageFrom": [
+					"src/**/*"
+				],
+				"snapshotSerializers": [
+					"enzyme-to-json/serializer"
+				],
+				"transform": {
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.0.0",
+				"jest": "^20.0.4",
+				"pre-commit": "1.x",
+				"querystring": "^0.2.0",
+				"rc-dialog": "6.x",
+				"rc-tools": "7.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-test-renderer": "^16.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"classnames": "^2.2.3",
+				"lodash.debounce": "^4.0.8",
+				"prop-types": "^15.5.7"
+			},
+			"gitHead": "7986bd31136db7c3d7110e5f32209b1a8f89cde4",
+			"_id": "rc-steps@3.1.0",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.3",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-MT9fiBs1YhJ+ndxSNLzbCNYi+n0IXXl1F1la5ewXpkUYeOaHWBYwP1wTCtUHWJ7ovJ7I2i03XXHzfU1d2zMN/g==",
+				"shasum": "b204c9ef066287c5cc30dcbe485b2c1bf86e01c6",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.1.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps-3.1.0.tgz_1514946795134_0.13719569914974272"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.1.1": {
+			"name": "rc-steps",
+			"version": "3.1.1",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"files": [
+				"lib",
+				"es",
+				"assets/iconfont.css",
+				"assets/index.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "benjycui",
+					"email": "benjytrys@gmail.com"
+				},
+				{
+					"name": "ddcat1115",
+					"email": "418150596@qq.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile --babel-runtime",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"lint:fix": "rc-tools run lint --fix",
+				"test": "jest",
+				"prepublish": "rc-tools run guard",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"jest": {
+				"setupFiles": [
+					"./tests/setup.js"
+				],
+				"collectCoverageFrom": [
+					"src/**/*"
+				],
+				"snapshotSerializers": [
+					"enzyme-to-json/serializer"
+				],
+				"transform": {
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.0.0",
+				"jest": "^20.0.4",
+				"pre-commit": "1.x",
+				"querystring": "^0.2.0",
+				"rc-dialog": "6.x",
+				"rc-tools": "7.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-test-renderer": "^16.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"classnames": "^2.2.3",
+				"lodash": "^4.17.5",
+				"prop-types": "^15.5.7"
+			},
+			"gitHead": "fd762643d7ebcaf6fc7a5126ab3c6a859eaed40a",
+			"_id": "rc-steps@3.1.1",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-oon2VdAHWrZmkB07MUMhq7k2IazFmtOi+6CCPn1ao3ZJ/89/aArP9/3pDQBm88FBQBcDh1E04kSHufbdY1kxfw==",
+				"shasum": "79583ad808309d82b8e011676321d153fd7ca403",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.1.1.tgz",
+				"fileCount": 14,
+				"unpackedSize": 54271
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps_3.1.1_1521440898895_0.048092646257373195"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.2.0": {
+			"name": "rc-steps",
+			"version": "3.2.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"files": [
+				"lib",
+				"es",
+				"assets/iconfont.css",
+				"assets/index.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "benjycui",
+					"email": "benjytrys@gmail.com"
+				},
+				{
+					"name": "ddcat1115",
+					"email": "418150596@qq.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile --babel-runtime",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"lint:fix": "rc-tools run lint --fix",
+				"test": "jest",
+				"prepublish": "rc-tools run guard",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"jest": {
+				"setupFiles": [
+					"./tests/setup.js"
+				],
+				"collectCoverageFrom": [
+					"src/**/*"
+				],
+				"snapshotSerializers": [
+					"enzyme-to-json/serializer"
+				],
+				"transform": {
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.0.0",
+				"jest": "^20.0.4",
+				"pre-commit": "1.x",
+				"querystring": "^0.2.0",
+				"rc-dialog": "6.x",
+				"rc-tools": "7.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-test-renderer": "^16.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"classnames": "^2.2.3",
+				"lodash": "^4.17.5",
+				"prop-types": "^15.5.7"
+			},
+			"gitHead": "b7f493a611f87faf961dc392be3c7a628279d217",
+			"_id": "rc-steps@3.2.0",
+			"_npmVersion": "6.3.0",
+			"_nodeVersion": "10.8.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-eh19My5FpOqhQwdUpmfY6QPfuI3lmF7w01I3UefODQmuYBe1FMi/ksS8VvRX9iEvQNUay4wabtHAW3ud5ZPFmw==",
+				"shasum": "cc3f1706437d35011a3f8700511a7e226acbf2db",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.2.0.tgz",
+				"fileCount": 14,
+				"unpackedSize": 52321,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbfPnwCRA9TVsSAnZWagAAjDQQAJM1LIF8R6vZPmUA5MZm\nwlAI1OsyWWLlV+l77R+635lAwXgiLp+8dSVP8txZzJ8aLeTur6TtPREdOnuG\nf6hNYplKkAe8hBJ//OoGWRGtGlogxSZ50Vbqs7Dw/SqGTS509WE5k0EHr0IT\nYwIDysH2jlGUUKKJ0zBmtnaqLp535W0/4RmVzQdHK4MQDboFaYYDhspuPyot\n/UrwhFXsfPfqkUjn/ZrmV3Jkmei200v8Qq38SQhvFj1cjb2bxFDjPwUsFoRj\nEuv7ZzkcAcs3LomLiatFV5qB7IJxO/WoGKjPRaO4L9tN63AcDG5sX+nlNdqR\nbHHKAqGEEexi0Nbh2snQ7gH74imil157B4xR0AxtPlRajtM9k29J+A0Ht/BD\nKVR1osJMdaWvuvNkbgPHmX+4ZNK6LdQzibQZHIwctqU5VPtsuJNH/26VfO1h\nmnb3NK9bh7fM9nFYh3FFEmneuDghZIcLfPRDYvN7TEPEWvwyem5UxPZks/Hg\nK+I0gmS6RIIa9AkqSM2Gp3QFlVDIQ7S19e95hJuL4n1suph2UPs9OLZGhh8F\nK8VyAfoc57iJ1IqVON5OcZbslPSqHgO5J6dwshcHjtvOfqvISBC1+JQyC8UB\nKwaoha7YWdeTb/9kzZP/qied3HAAK31gQzCiXnA5lUw0o5L/aHIffqYHa9vu\nwLF2\r\n=wVjk\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps_3.2.0_1534917103765_0.9585561649541758"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.2.1": {
+			"name": "rc-steps",
+			"version": "3.2.1",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"files": [
+				"lib",
+				"es",
+				"assets/iconfont.css",
+				"assets/index.css"
+			],
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "benjycui",
+					"email": "benjytrys@gmail.com"
+				},
+				{
+					"name": "ddcat1115",
+					"email": "418150596@qq.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile --babel-runtime",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"lint:fix": "rc-tools run lint --fix",
+				"test": "jest",
+				"prepublish": "rc-tools run guard",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"jest": {
+				"setupFiles": [
+					"./tests/setup.js"
+				],
+				"collectCoverageFrom": [
+					"src/**/*"
+				],
+				"snapshotSerializers": [
+					"enzyme-to-json/serializer"
+				],
+				"transform": {
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.0.0",
+				"jest": "^20.0.4",
+				"pre-commit": "1.x",
+				"querystring": "^0.2.0",
+				"rc-dialog": "6.x",
+				"rc-tools": "7.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-test-renderer": "^16.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"classnames": "^2.2.3",
+				"lodash": "^4.17.5",
+				"prop-types": "^15.5.7"
+			},
+			"gitHead": "9e62045c58ce7a9edcfd281db912fa11e28ac920",
+			"_id": "rc-steps@3.2.1",
+			"_npmVersion": "6.3.0",
+			"_nodeVersion": "10.8.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-BEwUsjOQgQr9tpticzsLL3U8Yn9APAw6aZhvj6c4+a2Xu6PAhG9/41Z4g/GLDIinwMzJTs0C1OUMp5jnBsvkaQ==",
+				"shasum": "0af066d7c695b6c409f94007ce293249dd3e29cf",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.2.1.tgz",
+				"fileCount": 14,
+				"unpackedSize": 52289,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbf7SkCRA9TVsSAnZWagAAhigP/2XDs/Bnrle4zu4NXSML\nhD4aH8hNrdYByMEdAdC1+wnl5J797/ezHGR2fairlwF4Yd9/RtN+qnwy/Vtp\nHzo368PYzfz6uVRoFVF9jTtK772gDw1fzs16/IZ/sQf/5oTj2hIbvuXmhs9Y\nzHj/rQ56+ZQCHS4pXOue9lJxl3dvD/31vnEf372wKy5esSsTijOl0VwD197J\ngkXIaKYdv+CDPEjrYHIC4/4JexRigV32qs/HM5ws8j4Iuf3uwFhO9vw4xQSl\n+0M0am83nFSwOnNLQOUBu4dHHBjm7hNBwguxEpYGzEwYZ4RQw5PkNJkjSyPa\nxcXYD+K6nJPk33Kf1ZjBou9MQBwnqfxS+aBYeo/JGimXqI7SRpFN0SJSaGXl\nUJwm5TBnk9QSwPA5beykO2flxICY2fJpFB72cUlU3TX/Y+D7xllPLqMckVn4\nDLhiZAV0XOn9TwHmDDtOtxNqtL5sASLTiJ0LFXEC4PkNGEMOSsZnxO+Y9UQF\n2QOTurSXhUWRiMOPfOiUMPzSu6Xvh9fsAPfnNlmxk73hH4YIRc6DzNuZtl9F\nAUhbotmQ4n+hUsJkmOUzE0sAqednCxYZ5rzoH6Iz+RpSBkVtgK39GSbKwfkS\nxSqXbcr6VGOJDbqB00bwkWatCyvhCueqIQIegjsrwBukk+x1HHWasMvGUcnS\n2vTD\r\n=OJXo\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps_3.2.1_1535095971790_0.21577734850899688"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.3.0": {
+			"name": "rc-steps",
+			"version": "3.3.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "benjycui",
+					"email": "benjytrys@gmail.com"
+				},
+				{
+					"name": "ddcat1115",
+					"email": "418150596@qq.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile --babel-runtime",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"lint:fix": "rc-tools run lint --fix",
+				"test": "jest",
+				"prepublish": "rc-tools run guard",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"jest": {
+				"setupFiles": [
+					"./tests/setup.js"
+				],
+				"collectCoverageFrom": [
+					"src/**/*"
+				],
+				"snapshotSerializers": [
+					"enzyme-to-json/serializer"
+				],
+				"transform": {
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.0.0",
+				"jest": "^20.0.4",
+				"pre-commit": "1.x",
+				"querystring": "^0.2.0",
+				"rc-dialog": "6.x",
+				"rc-tools": "7.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-test-renderer": "^16.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"classnames": "^2.2.3",
+				"lodash": "^4.17.5",
+				"prop-types": "^15.5.7"
+			},
+			"gitHead": "33c48a8d9dcd5e61eecc44ba207d38f3badf805f",
+			"_id": "rc-steps@3.3.0",
+			"_npmVersion": "6.3.0",
+			"_nodeVersion": "10.8.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-a4TjKu27Nmgo7CbT/Rx17G24yL/FYfv7tDBptuw3JixCMNs6H935vQvsYIdyO9k/l02uGXd/DGVAqUIDHJEBeA==",
+				"shasum": "8817c438a6a5648997c7edb51bde727e6f32e132",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.3.0.tgz",
+				"fileCount": 14,
+				"unpackedSize": 54096,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbiPbDCRA9TVsSAnZWagAANkQP/25y5XPsk3rweN+GSHn0\nYapTNfO8nkfTEvLk4Teq1CeTE338t0c0Lim+Y/Ch0LUKGznRce/VaJhD6Hpb\nkLIFF3Vu/YQ0T9b/xIIIO5dRdVp2OUmKbXXhKBPW9vAotR1zh1XL/BO3crne\nSGzH0OfXV8L/pj45VflW+YCJ6/i9RBJI/CeKOOBpiOok7y6boV7lr5XGQ+pZ\njHxjRvENz9kChLCQrlGS7LQamXZI9S1RmGKfp4AcGVoUJ4TyVryqH3LLKZ5o\nmUToKcRLUuPIfAh3uaGXiWPiZdRTqh0ei0nRSfc6HCfzfp7w5RnphnV7+ZoC\nu7h/UTDVPyAXxXPCBAsGhOZnCm35EWcuoM2wWnb9eA5ZCHkQddw4KhOM0CVd\nDIvrTCqrreM13vAaP9HnYORFTeTACqOmkjz7W6dtIuvrGrNC1HazkdzjRbDC\nd/H4NDn+8F1RdZLnohOokJOJjWyDTVB7cDRSpQXinkIZTXwwB9UIyEG4saZ2\nukWxNcY+a91DbBv05Zbzxlb59vTLgxuCBm5WmwCzy7HykC2b0v0vEEJq9r8a\n213Gr476ElFUIQV49S2nTMCOkIL+qoCcj4TMF4pjyNT6msuSs4kDkFfjhLNl\n7w2wurk85wKfuxxPh1OTboUZYy0Wt+vqJ4sYjo9OiUBWcXsgjGQMoKOUIFqV\n6dWL\r\n=kN6n\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps_3.3.0_1535702722839_0.14470612306157005"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.3.1": {
+			"name": "rc-steps",
+			"version": "3.3.1",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "benjycui",
+					"email": "benjytrys@gmail.com"
+				},
+				{
+					"name": "ddcat1115",
+					"email": "418150596@qq.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile --babel-runtime",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"lint:fix": "rc-tools run lint --fix",
+				"test": "jest",
+				"prepublish": "rc-tools run guard",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"jest": {
+				"setupFiles": [
+					"./tests/setup.js"
+				],
+				"collectCoverageFrom": [
+					"src/**/*"
+				],
+				"snapshotSerializers": [
+					"enzyme-to-json/serializer"
+				],
+				"transform": {
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.0.0",
+				"jest": "^20.0.4",
+				"pre-commit": "1.x",
+				"querystring": "^0.2.0",
+				"rc-dialog": "6.x",
+				"rc-tools": "7.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-test-renderer": "^16.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"classnames": "^2.2.3",
+				"lodash": "^4.17.5",
+				"prop-types": "^15.5.7"
+			},
+			"gitHead": "7b3d706dab8543d30448c427d538b82c91f6f939",
+			"_id": "rc-steps@3.3.1",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.12.0",
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-LGzmPYS9ETePo+6YbHlFukCdcKppeBZXO49ZxewaC7Cba00q0zrMXlexquZ4fm+9iz0IkpzwgmenvjsVWCmGOw==",
+				"shasum": "4877e2897331e3bfdb6b789e88aea78f4f15f732",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.3.1.tgz",
+				"fileCount": 14,
+				"unpackedSize": 54226,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcLItyCRA9TVsSAnZWagAACnYQAIpudE9GTu4/FH77Uf9Z\nwT3Fg8fl0BcUcSwF7jk3Dr5zuQ/PI4wHSQWVeoNENzG1vHiBo1OvEZGKGllg\np99tc/XBfEE9jaN+9NaDzDTmAekIMjRWwEfU1thY2B17EyDhDpmkZ5RDamI0\nSD+/m8wuta9piMhvATlvkU2dv29uAEyqn7fVsp8WSt6iu+LUC2SrWdfaaSqD\nrzjvfdzbmc5XerI2QFKuJC98XohwTUzWFMxYiLsggqEV38NmbafvKJD2cFIV\nPQdc5EFeRcu84/t0D3VCXL4yv3LgKc3iwFluy/UlDMy7s9vCDm9SG6LDVOEr\nf5R2Vx92TDlLGYZMTfUxiAiuJQOd0N9QSTJk9rBjaMKQwrAJ1QR4ZhAD9aH8\nPZjEjzi+5Cg+JnL4JBQvVazXqR3B7EJbwB5RGdgpihWvgLaBOfVV1KON04RG\neXkpdmi35OvM7XDZyhGWM8B2H5zSCUFAUwPROI1gz0yQ1qxx8zvK4b3SWxkn\n9b4zSXLRk4sTid+aol9bmNjJM+kmdDX1W4H6suUscl23BMBZHyFiP3F2RFcA\ny4f2tYqAqwRvqFexHlGgkK1404OBzIpy+ojUn7Sw6xeFS376qpznv6Z2Zv8w\niyZzmvH54SioR+4s65NrNd1EW7CDcift4JEvWSs6zMLgzeNESplEPz9O4eFc\nlceJ\r\n=W2F8\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps_3.3.1_1546423154196_0.04272638646243787"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.4.0": {
+			"name": "rc-steps",
+			"version": "3.4.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"email": "afc163@gmail.com",
+					"name": "afc163"
+				},
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "418150596@qq.com",
+					"name": "ddcat1115"
+				},
+				{
+					"email": "yesmeck@gmail.com",
+					"name": "yesmeck"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				},
+				{
+					"email": "abeyuhang@gmail.com",
+					"name": "yuhangge"
+				},
+				{
+					"email": "zhujun87654321@gmail.com",
+					"name": "zhujun24"
+				},
+				{
+					"email": "smith3816@gmail.com",
+					"name": "zombiej"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile --babel-runtime",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"lint:fix": "rc-tools run lint --fix",
+				"test": "jest",
+				"prepublish": "rc-tools run guard",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+				"now-build": "npm run build"
+			},
+			"jest": {
+				"setupFiles": [
+					"./tests/setup.js"
+				],
+				"collectCoverageFrom": [
+					"src/**/*"
+				],
+				"snapshotSerializers": [
+					"enzyme-to-json/serializer"
+				],
+				"transform": {
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.0.0",
+				"jest": "^20.0.4",
+				"pre-commit": "1.x",
+				"querystring": "^0.2.0",
+				"rc-dialog": "6.x",
+				"rc-tools": "7.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-test-renderer": "^16.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"classnames": "^2.2.3",
+				"lodash": "^4.17.5",
+				"prop-types": "^15.5.7"
+			},
+			"gitHead": "6e2174865d62fd8f16b5c7055ecd60004e9ac0e1",
+			"_id": "rc-steps@3.4.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-lUWU9zDoFxKPwNI/xI9ptM1eEn5z4qilMZeneyeqHiZguQQ6/XD3g6bdk17JBRI34v8ssQs5DtTjUox7+n7faA==",
+				"shasum": "367b11348a97afbfa998fa80c7b78e97f4664ce5",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.4.0.tgz",
+				"fileCount": 14,
+				"unpackedSize": 57638,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc54cICRA9TVsSAnZWagAAttUQAIE8hLwVmrIjR1jG7JcR\nRSuh2K2o7ofASHXUzIerSbF6LCFMrgF3TaxbJ+yx4Mcz+BKU3rL3H+APJJcy\nHSi7JgfYewu3dC4KayS0S6jmhIgNvGPaPK7TylOxAfxFJOQslHiujaZBhpyy\nFnkxLCFW8A09NxoOI5WSsjzoWI1YPL212Ocnkf1Q5XFsK1SIQIULpX4C8Z1m\nZhmVy+uwRSiXway701aF9p6oxLmFdg3115qKjOE/VwFt1o53IGgc483+mHYu\nF0T+huiLPfIPrca6By9blMHaestrNQrfL2+49RweibTM06uXPrWOkD+nUwZg\nkFvdMFf9LrgL6qWkGRwDAedSECsSkc2YyYngD0lnaOmePrjeYSH9UMkbNo4v\nei5yLI0He+RoFrsLI03yXMyGM32vx7cxTJQhW0hTzvXTxmDM/t+u3UdZLn5e\nUQ2U5eo+6BGhUv8vophxjtci3A/zH7zhZn/71hX7W/Rww30dVNYo/ZEQ7MV/\nZRQinG63cDFrGNZiHA6YqBf3IFglEew1EoGfMK159dsd/PcD6VzI1pSNNQsV\nHH4e0HXMbOq4sQAWTwNtcfYrwVcjSLJE29kw20lvsWyU3Ocw+/mGXpM+iIvD\nabhCkque0lefQMFh5MRvILQmPLkEm8kUI4o+/+nLYwMk/MrPRX6juth2Q2//\nFueB\r\n=FVkg\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps_3.4.0_1558677256291_0.9761837569135705"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.4.1": {
+			"name": "rc-steps",
+			"version": "3.4.1",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"email": "afc163@gmail.com",
+					"name": "afc163"
+				},
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "418150596@qq.com",
+					"name": "ddcat1115"
+				},
+				{
+					"email": "yesmeck@gmail.com",
+					"name": "yesmeck"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				},
+				{
+					"email": "abeyuhang@gmail.com",
+					"name": "yuhangge"
+				},
+				{
+					"email": "zhujun87654321@gmail.com",
+					"name": "zhujun24"
+				},
+				{
+					"email": "smith3816@gmail.com",
+					"name": "zombiej"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile --babel-runtime",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"lint:fix": "rc-tools run lint --fix",
+				"test": "jest",
+				"prepublish": "rc-tools run guard",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+				"now-build": "npm run build"
+			},
+			"jest": {
+				"setupFiles": [
+					"./tests/setup.js"
+				],
+				"collectCoverageFrom": [
+					"src/**/*"
+				],
+				"snapshotSerializers": [
+					"enzyme-to-json/serializer"
+				],
+				"transform": {
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.0.0",
+				"jest": "^20.0.4",
+				"pre-commit": "1.x",
+				"querystring": "^0.2.0",
+				"rc-dialog": "6.x",
+				"rc-tools": "7.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-test-renderer": "^16.0.0"
+			},
+			"pre-commit": [
+				"lint"
+			],
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"classnames": "^2.2.3",
+				"lodash": "^4.17.5",
+				"prop-types": "^15.5.7"
+			},
+			"gitHead": "4abc8ea050a3c152f408fb1d03d6eae9c99f4409",
+			"_id": "rc-steps@3.4.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-zdeOFmFqiXlXCQyHet1qrDDbGKZ7OQTrlzn8DP5N6M/WqN7HaYoUDy1fZ+NY2htL5WzzVFQpDRKzjiOiHaSqgw==",
+				"shasum": "7f7d127dd60f9fa92ece27c06035c9319c5cab8e",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.4.1.tgz",
+				"fileCount": 14,
+				"unpackedSize": 57822,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc543DCRA9TVsSAnZWagAAvUEP/0V+KxDfPFdOU2mmd/rE\nC88/HDT3RODy1ijC8yUwpLh+b7ywQDlDuJe2boYBy600IKAn7az7ZOOvuY70\ntkpDbjCHJrRtI2fJoWPt8mso9QzCrxf1kG3MR1OEXPf47a827iL0CT3kfVZD\n19zp/C/vTfj0LddylX4zs8vz7nf0xlPehtRyttwYgi2hS0dsJtW8nPQWS727\nO6IlpZCKObD+bgziHmXwyq0Au6+kYk0KxGLs/PoGxYKBr82URek3O2ByKfGv\nB/eoIwWKgC/vxKXZ2zfGols468Ww2/QvtpyiqT7VquW12Bxg1m8s6IIr/0Uz\nEHKZUlpLGUMNavXLUgBWmX+XN8Ewp3YkvalnedF1LTVpvT39tDO45yJ4NbK4\nPwNDub1QwtSuY0h08/EGPf22QPiEjxgRRGQ6u5hod2AypaMU+RqZGME1Ra49\ne6KqYb4CDifVF4XlZ7+xk2F2I7wtjLE82ec93170Ik+E/0hOgl2Qn5Qr6DIo\ntKbZwJcO3aVagpqvDCqrdAh7kHz5c/hdx91MmgJ2NuFx1X5DhT4wuCeljByy\nZLNL85vhQQuLbZ9Y6tlpvTf8+V8kbZggnwhnNFFPxZElflpPXWfaoGPRejC2\nXvTvZnH4E8nuKtH6vLXyBuAOmZWRxCazmoEK4GtcYSa97h2SXAdmhF1r8lmA\n9AjW\r\n=1f5v\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps_3.4.1_1558678979207_0.8932027243887264"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.5.0": {
+			"name": "rc-steps",
+			"version": "3.5.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"email": "afc163@gmail.com",
+					"name": "afc163"
+				},
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "418150596@qq.com",
+					"name": "ddcat1115"
+				},
+				{
+					"email": "yesmeck@gmail.com",
+					"name": "yesmeck"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				},
+				{
+					"email": "abeyuhang@gmail.com",
+					"name": "yuhangge"
+				},
+				{
+					"email": "zhujun87654321@gmail.com",
+					"name": "zhujun24"
+				},
+				{
+					"email": "smith3816@gmail.com",
+					"name": "zombiej"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile --babel-runtime",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"lint:fix": "rc-tools run lint --fix",
+				"test": "jest",
+				"prepublish": "rc-tools run guard",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+				"now-build": "npm run build",
+				"pre-commit": "rc-tools run pre-commit",
+				"lint-staged": "lint-staged"
+			},
+			"jest": {
+				"setupFiles": [
+					"./tests/setup.js"
+				],
+				"collectCoverageFrom": [
+					"src/**/*"
+				],
+				"snapshotSerializers": [
+					"enzyme-to-json/serializer"
+				],
+				"transform": {
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"devDependencies": {
+				"coveralls": "^3.0.4",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.0.0",
+				"jest": "^20.0.4",
+				"pre-commit": "1.x",
+				"querystring": "^0.2.0",
+				"rc-dialog": "6.x",
+				"rc-tools": "9.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-test-renderer": "^16.0.0",
+				"lint-staged": "^9.0.0"
+			},
+			"pre-commit": [
+				"lint-staged"
+			],
+			"lint-staged": {
+				"*.{js,jsx,ts,tsx}": [
+					"npm run pre-commit",
+					"git add"
+				]
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"classnames": "^2.2.3",
+				"lodash": "^4.17.5",
+				"prop-types": "^15.5.7"
+			},
+			"gitHead": "72d1487a2ee43c38798fb6ddfc182bccdf877469",
+			"_id": "rc-steps@3.5.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-2Vkkrpa7PZbg7qPsqTNzVDov4u78cmxofjjnIHiGB9+9rqKS8oTLPzbW2uiWDr3Lk+yGwh8rbpGO1E6VAgBCOg==",
+				"shasum": "36b2a7f1f49907b0d90363884b18623caf9fb600",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.5.0.tgz",
+				"fileCount": 14,
+				"unpackedSize": 78414,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdQ/kfCRA9TVsSAnZWagAAdigP/RgbAkmpAQfbdSkDn6no\n2LZQiatsaH1szys5jPKa8jhtZiShRWxblXRLFgh3bxg1w3QwIWvDGcqZUs8q\nijl0gAbA9ygMmEqxAoTDUgmGN+46pd+4FmzZ70gut1LFk+kAmoon6Gj8Y2rk\n9L7awvCFC1KCanffK/1GkbR9C1a2S/JpVoRq2YXiLUakWJRQgj7FtqszpkiU\nJOy6O5n0pDAaZg9ywQwBlmqvsm7T8stiPSvjdUI7uvpSi1V4FLwWF/8RJL3T\nR/792HrqrkaTjQQjJAEoyMlEFs2C1p/DJyoiMHcXz0PjACnJu4W8kyzWHl54\nDJ+3HCb5CiusBzSRpnCjxyzUcSZL1JhHX+I4pzXicsLWdQEqtyvQ25mzUNjC\nUTU2bJjOLAaoXNOLipaxyPlE9m6+4wqlUEd+4RiChbmBMJvRHLmyIy0Br7s9\njkNei0sS2WdpoR7L9rofsnhPWGiUZYmSyBZ+e4ftYg624utJwU1hcLuaocE9\nkijhV1b9ATWojBDdEcfWUqWhwT318OraRrbEsSfCwqe1+SAo/2kdJ2ioEZDw\nmuv2B7iGX/5AZyw6ZjSqfh2YRh6r4T7sVPrY1Qgj7NikMKSvbcueVfRg5qd/\n97zejlVBJl43IZkjndjTeEGAYfQJjUhlycMNc+J58EV9XzkKbrb/rwxexEG0\nBkeI\r\n=PhSo\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps_3.5.0_1564735774901_0.20026498076657995"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.6.0": {
+			"name": "rc-steps",
+			"version": "3.6.0",
+			"description": "steps ui component for react",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"email": "afc163@gmail.com",
+					"name": "afc163"
+				},
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "418150596@qq.com",
+					"name": "ddcat1115"
+				},
+				{
+					"email": "yesmeck@gmail.com",
+					"name": "yesmeck"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				},
+				{
+					"email": "abeyuhang@gmail.com",
+					"name": "yuhangge"
+				},
+				{
+					"email": "zhujun87654321@gmail.com",
+					"name": "zhujun24"
+				},
+				{
+					"email": "smith3816@gmail.com",
+					"name": "zombiej"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"licenses": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"lint:fix": "rc-tools run lint --fix",
+				"test": "jest",
+				"prepublish": "rc-tools run guard",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+				"now-build": "npm run build",
+				"pre-commit": "rc-tools run pre-commit",
+				"lint-staged": "lint-staged"
+			},
+			"jest": {
+				"setupFiles": [
+					"./tests/setup.js"
+				],
+				"collectCoverageFrom": [
+					"src/**/*"
+				],
+				"snapshotSerializers": [
+					"enzyme-to-json/serializer"
+				],
+				"transform": {
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"devDependencies": {
+				"babel-core": "^7.0.0-bridge.0",
+				"coveralls": "^3.0.4",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.0.0",
+				"jest": "^26.0.0",
+				"lint-staged": "^10.0.1",
+				"pre-commit": "1.x",
+				"querystring": "^0.2.0",
+				"rc-dialog": "7.x",
+				"rc-tools": "^9.6.1",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-test-renderer": "^16.0.0"
+			},
+			"pre-commit": [
+				"lint-staged"
+			],
+			"lint-staged": {
+				"*.{js,jsx,ts,tsx}": [
+					"npm run pre-commit"
+				]
+			},
+			"dependencies": {
+				"classnames": "^2.2.3",
+				"lodash": "^4.17.5"
+			},
+			"gitHead": "06063323c2fface6ebf064d815b758facd78b01c",
+			"_id": "rc-steps@3.6.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.13.1",
+			"dist": {
+				"integrity": "sha512-UH0ggF5UB4QBoAXeJH6JUSnPVg3H9z3o3nyf6yZ5QYXcsFn4tIJyjtnE9h+yhQIBQDVzwNY1r5yhW2PYrzO1tw==",
+				"shasum": "5a377f6a0a7eacd3152bb96bdf425b654b4a552e",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.6.0.tgz",
+				"fileCount": 14,
+				"unpackedSize": 79322,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJetjh0CRA9TVsSAnZWagAAdoIQAIdtQZD2iGc6moTtUn+8\n4wGto4GJ0mgJ/TJ036mAivskMc/BrdmdONkSULWlh9OMrsemhkJ8mMt3zYPR\nr9mXLaoGwNcB7XmLfbeE9gDA5VQSVpKQcA4a/Km+f8W3AJzMJkXg/KLNBC2m\nJ85Zbs/KnMT/fW8wgaw2BC67Q636nQr1N2EUak4khF9yB7ccKpkksq/LEAit\ncmwDIU/Pz8oM9urL1+rSNKf3RX3Y7hHJgjyAsNGicmMIHNFPHHaPsSWm5pfb\nxG57heM3gzyDV5+SJL4mD46RJPCe5hzs39lt6d20aqU1nCSMrZXqziLCzoPF\nEZxDf8E/kUwZ1156UQkjG4EHFuCvlj7ZfAcrNz7XR96Q17tS+xS3xw0vc403\n5gbd3TDiAxnIqPFwnMWVEfHspyuXc/SVCT6CrpxBlSLPhd6LZnNboZ31ljTf\nHrIo5LlK2RPUuKE3uZmebxK3tjwEPaBqUzrcF5ebbpxRN5NBB/PL69I3gkli\npzo8OCEVQQJIKuoec5PB6SUTuhLPFhMwaLB4uVb+AaClo0DkvLKL+H9y+uo1\nD1BQzpH5BcJii2cnef184O3rYBnTbVpnUx/K3EJpPqb/dtb4lj0JjR/Udgla\n17ZZktmuX8Lc7r+9wYRJyB7Cc5RmwN6knMbXrALKHlTSyrd4s3fQnb/Klx3u\nYuJ1\r\n=He/F\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps_3.6.0_1589000308124_0.4904331610486736"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "rc-steps",
+			"version": "4.0.0",
+			"description": "steps ui component for react",
+			"engines": {
+				"node": ">=8.x"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"types": "./lib/index.d.ts",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"email": "afc163@gmail.com",
+					"name": "afc163"
+				},
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "418150596@qq.com",
+					"name": "ddcat1115"
+				},
+				{
+					"email": "yesmeck@gmail.com",
+					"name": "yesmeck"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				},
+				{
+					"email": "abeyuhang@gmail.com",
+					"name": "yuhangge"
+				},
+				{
+					"email": "zhujun87654321@gmail.com",
+					"name": "zhujun24"
+				},
+				{
+					"email": "smith3816@gmail.com",
+					"name": "zombiej"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"license": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"start": "cross-env NODE_ENV=development father doc dev --storybook",
+				"build": "father doc build --storybook",
+				"compile": "father build && lessc assets/index.less assets/index.css",
+				"gh-pages": "npm run build && father doc deploy",
+				"prepublishOnly": "npm run compile && np --yolo --no-publish",
+				"postpublish": "npm run gh-pages",
+				"lint": "eslint src/ --ext .ts,.tsx,.jsx,.js,.md",
+				"prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+				"test": "father test",
+				"coverage": "father test --coverage"
+			},
+			"peerDependencies": {
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0"
+			},
+			"devDependencies": {
+				"@types/classnames": "^2.2.9",
+				"@types/enzyme": "^3.10.5",
+				"@types/jest": "^25.1.0",
+				"@types/react": "^16.9.2",
+				"@types/react-dom": "^16.9.0",
+				"@umijs/fabric": "^2.0.9",
+				"cross-env": "^7.0.0",
+				"enzyme": "^3.1.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.1.2",
+				"eslint": "^7.1.0",
+				"father": "^2.22.0",
+				"less": "^3.11.2",
+				"np": "^6.2.3",
+				"prettier": "^2.0.5",
+				"querystring": "^0.2.0",
+				"rc-dialog": "7.x",
+				"rc-tools": "^9.6.1",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"typescript": "^3.9.3"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.10.2",
+				"classnames": "^2.2.3",
+				"rc-util": "^5.0.1"
+			},
+			"gitHead": "63dead95171e95d2d0f127da2e1619ce3cb8e553",
+			"_id": "rc-steps@4.0.0",
+			"_nodeVersion": "14.0.0",
+			"_npmVersion": "6.14.5",
+			"dist": {
+				"integrity": "sha512-Vy0T2sC+1ElpovEB97mYNVR5GYNYSzMiRJFumera5gZL2bH6FcxYioXcq/HYCPN//YC+b/Fs37x4G/WpGMuaVw==",
+				"shasum": "fee917d749fe1a16bcc920edc098a439e1911774",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-4.0.0.tgz",
+				"fileCount": 21,
+				"unpackedSize": 56008,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe1KWdCRA9TVsSAnZWagAAgIUP/iQr4vITvzkyYAwU4a//\nGdQzrTzVr2/VAr0X0yP2i52QlIHUmezHgiJixz36JluJ4xVJS7KP/irsOxtL\n/W56RePFrMWr7HDLbkurMsOAXstDm6jLeZ7m5Px34+7aNua7msoU6pZ0V/Us\nLUfVltkBJiejEAHNixCUSr6y+3PcNFYzt1FK26vCPWt0QtHl3X1tCNlaxzxb\n9DAMSbQUCIlm51LwEKSEdM+J7H3bzXA11QFEQqkw1dbFAJrj9//OfnfC83dC\n8xHCpC8XOxZDE+M8h1HDPlP1kQm4gLgRHj2ahl4uHhYORZMTSMjYJR+jejUh\n/5zWcLMgkoUuyo9n6XHMfjmfeYPIWdNthvHXMQHzFl7h7xpCMY5fz/H3nzKn\n9OmOYkotw9Zoe9Urv7FCM5QpwxncnyU+n/nFt22VosQnrPa+98UREsfVd8pF\nzUmM/u/oOmEf3VtvSUdXQvtZLcS/AdwadGXGEfHobRO4A/sRNqv3+n9pwfBT\nxKvFNBnkNP1BRELiFmKxFEZ9GDz0HdigMMTomw5biVKtLs8sL+hvtZKFoSsn\n7PPi9eXdJNSJAUz4SXmPhEWsor+fTVQd1ijbFND2NxPNBxhw8kt9Je5yaksO\nlIciygBEiDTzdjN1vldXUc2TBEQBv94Am2va3QxZw4g00F3vJQNK5351VCvS\nSpZ5\r\n=moSb\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps_4.0.0_1590994333341_0.8290517138096509"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.1": {
+			"name": "rc-steps",
+			"version": "4.0.1",
+			"description": "steps ui component for react",
+			"engines": {
+				"node": ">=8.x"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"types": "./lib/index.d.ts",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"email": "afc163@gmail.com",
+					"name": "afc163"
+				},
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "418150596@qq.com",
+					"name": "ddcat1115"
+				},
+				{
+					"email": "yesmeck@gmail.com",
+					"name": "yesmeck"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				},
+				{
+					"email": "abeyuhang@gmail.com",
+					"name": "yuhangge"
+				},
+				{
+					"email": "zhujun87654321@gmail.com",
+					"name": "zhujun24"
+				},
+				{
+					"email": "smith3816@gmail.com",
+					"name": "zombiej"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"license": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"start": "cross-env NODE_ENV=development father doc dev --storybook",
+				"build": "father doc build --storybook",
+				"compile": "father build && lessc assets/index.less assets/index.css",
+				"gh-pages": "npm run build && father doc deploy",
+				"prepublishOnly": "npm run compile && np --yolo --no-publish",
+				"postpublish": "npm run gh-pages",
+				"lint": "eslint src/ --ext .ts,.tsx,.jsx,.js,.md",
+				"prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+				"test": "father test",
+				"coverage": "father test --coverage"
+			},
+			"peerDependencies": {
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0"
+			},
+			"devDependencies": {
+				"@types/classnames": "^2.2.9",
+				"@types/enzyme": "^3.10.5",
+				"@types/jest": "^25.1.0",
+				"@types/react": "^16.9.2",
+				"@types/react-dom": "^16.9.0",
+				"@umijs/fabric": "^2.0.9",
+				"cross-env": "^7.0.0",
+				"enzyme": "^3.1.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.1.2",
+				"eslint": "^7.1.0",
+				"father": "^2.22.0",
+				"less": "^3.11.2",
+				"np": "^6.2.3",
+				"prettier": "^2.0.5",
+				"querystring": "^0.2.0",
+				"rc-dialog": "7.x",
+				"rc-tools": "^9.6.1",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"typescript": "^3.9.3"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.10.2",
+				"classnames": "^2.2.3",
+				"rc-util": "^5.0.1"
+			},
+			"gitHead": "4a631e8377a626a1fa78bcd213cc24534aaf440b",
+			"_id": "rc-steps@4.0.1",
+			"_nodeVersion": "12.14.1",
+			"_npmVersion": "6.14.5",
+			"dist": {
+				"integrity": "sha512-6MuqunJDIZexZj7v5EcHiOF6Q7Xg53+mcxELiIROhvXatssfLxDESpRZJ3zLquecxRjq5epYt92X8xBJ653itg==",
+				"shasum": "a0e52f951b4e370d0cd2df29ae87eb744431d0d1",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-4.0.1.tgz",
+				"fileCount": 21,
+				"unpackedSize": 55480,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe8EYYCRA9TVsSAnZWagAAVyAQAIRuVut9MkDRuyG70x/r\nRCsU0VdTDDFhpO1zjaUSiOkMNPoS1PPZYZVUFn3y6bLobnkSDtvNjOCXidfy\n5qc6epEZMl/vPf9wNKI/oPDXxjO6yLER9NMX639JVJgK7iG7IiKkKLeVQdfb\nWyNp/Sm7br2aNTvh+AX5Sz7C+whchKT07ceyoNzTg9ASNh4gHDwG7HtjpY00\neDGJ3agnq5RoESrwav6kGnUJ3DClmOk6vcrDcDTPFoGOBvPjR6XHyu0HoXvz\nWtvyiGdwlztFh6Ex45DnexH+RxQbGLNrLz6R3ffgbg3xpqTr6A0Ja6a57/m9\nvklTpkVkFR8vtQ/LYC3z9EYGlDt43x8iVp5GZQV5i2SYxMGsfwHerzHQhxL4\nq/UbP1TVYwNpDsBeo18WSJ74K4xEXY6TezE8rZN9S+qrNA7enYbdQp4rCBO4\nyJZGLoSvFMBuPF7iXkWvL4OO1X8S1v3wVK9hgEhpxhA+KuF7dRdRBYWbxLHx\nHSp0CibLX9DXuP3qAANwqUcTYDWtCJBi7aZ2+36Y6aisKZoXacM/4pvvRjW3\nXR83uXr/91whJEZhGoCwH1FjmEQLnK2eemgYnnME+8TZpff/PENWSd51Zqgp\n8+4PevOJKv9vvGJ2ERC0hxRgGaq3zifYOQTP8LOr0JZxujkKZULItNIPM0Zb\nQRI7\r\n=eT/o\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps_4.0.1_1592804888343_0.5198707171719166"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.1.0": {
+			"name": "rc-steps",
+			"version": "4.1.0",
+			"description": "steps ui component for react",
+			"engines": {
+				"node": ">=8.x"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"types": "./lib/index.d.ts",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"email": "afc163@gmail.com",
+					"name": "afc163"
+				},
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "418150596@qq.com",
+					"name": "ddcat1115"
+				},
+				{
+					"email": "yesmeck@gmail.com",
+					"name": "yesmeck"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				},
+				{
+					"email": "abeyuhang@gmail.com",
+					"name": "yuhangge"
+				},
+				{
+					"email": "zhujun87654321@gmail.com",
+					"name": "zhujun24"
+				},
+				{
+					"email": "smith3816@gmail.com",
+					"name": "zombiej"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"license": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"start": "cross-env NODE_ENV=development father doc dev --storybook",
+				"build": "father doc build --storybook",
+				"compile": "father build && lessc assets/index.less assets/index.css",
+				"gh-pages": "npm run build && father doc deploy",
+				"prepublishOnly": "npm run compile && np --yolo --no-publish",
+				"postpublish": "npm run gh-pages",
+				"lint": "eslint src/ --ext .ts,.tsx,.jsx,.js,.md",
+				"prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+				"test": "father test",
+				"coverage": "father test --coverage"
+			},
+			"peerDependencies": {
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0"
+			},
+			"devDependencies": {
+				"@types/classnames": "^2.2.9",
+				"@types/enzyme": "^3.10.5",
+				"@types/jest": "^26.0.5",
+				"@types/react": "^16.9.2",
+				"@types/react-dom": "^16.9.0",
+				"@umijs/fabric": "^2.0.9",
+				"cross-env": "^7.0.0",
+				"enzyme": "^3.1.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.1.2",
+				"eslint": "^7.1.0",
+				"father": "^2.22.0",
+				"less": "^3.11.2",
+				"np": "^6.2.3",
+				"prettier": "^2.0.5",
+				"querystring": "^0.2.0",
+				"rc-dialog": "7.x",
+				"rc-tools": "^9.6.1",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"typescript": "^3.9.3"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.10.2",
+				"classnames": "^2.2.3",
+				"rc-util": "^5.0.1"
+			},
+			"gitHead": "4c7be485a13bc95c6329e0935db7d00cb88f0acc",
+			"_id": "rc-steps@4.1.0",
+			"_nodeVersion": "14.0.0",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-tW7kLqdjdjV1s6YNq1ys8uhvroKLYMB1ded2Bfbqj2yaMB5r8s90XByYqnW0GLW0TBlGwZ7zJi3EQe7hRyGuyw==",
+				"shasum": "631ede2b968c81da1a5f9642081604865d5bb981",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-4.1.0.tgz",
+				"fileCount": 21,
+				"unpackedSize": 56903,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfGtPaCRA9TVsSAnZWagAAFq8P/2SpCb20Mkn3cVDe/2kb\neTyAhrmtthyhYrOKuFSEpnpPDmCECL2V6FAUz0AMelwtRIYbPiWolXLyWKiR\nRAltixrUL5pAser5hmdiu2GY1sGYdjrIhBWDCF39gzg1w7KaPZRIqECkp2VD\n+XQCfgFt7oljckEmIHq7eBeiqyH+MT62G6X+CJjyYV5WXJagorJR+PNyIJyK\njZ5axi+WkbOiEvytnPCULC3IGk/rBZPvtongdjMI3dUnhf42IFguvMdnJSRl\n7l7TOBja5wLtWp4v4zyy6mLB1Fzu1oM+vlnjcVDE3mMlyjVwKCfVMUEIlJLn\ne6daou7VgdIrmZ1vJPql8l/Nf/HRZwH5aB2GryClb9E7Uevzl1+QvuVqIPPD\nj4w3RqPssoBaZxYFnXlf6l/BwcQnwyEHns92lz/K7o1SUn9qTcZDgBk0HFPq\n7Ou7Nzha0IzBV91l0Tm+txrqv0G+L7sM6YLtA/xEsVWTpG/6rxOTPeBhqybj\nQ+bpDiUcdEKKTVkWqdjrHi8nwu4Bjj966hKCgdnDsW83oGqZlvXJ/TvdfoV8\nBXY4EUT+iSPH0R75cmpzpT+2SsLZMp/xu4VIs8lHLiFfU7JLenhseJBJPfh3\nddZkfgmYRgih6zWE0RGjLh5NIQb4efQpIBwY9nuu40Gr2JM5V8YtfzkpFUaK\nLaJw\r\n=cOW0\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps_4.1.0_1595593690286_0.7991483278107878"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.1.2": {
+			"name": "rc-steps",
+			"version": "4.1.2",
+			"description": "steps ui component for react",
+			"engines": {
+				"node": ">=8.x"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"types": "./lib/index.d.ts",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"email": "07akioni2@gmail.com",
+					"name": "07akioni"
+				},
+				{
+					"email": "afc163@gmail.com",
+					"name": "afc163"
+				},
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "418150596@qq.com",
+					"name": "ddcat1115"
+				},
+				{
+					"email": "yesmeck@gmail.com",
+					"name": "yesmeck"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				},
+				{
+					"email": "abeyuhang@gmail.com",
+					"name": "yuhangge"
+				},
+				{
+					"email": "zhujun87654321@gmail.com",
+					"name": "zhujun24"
+				},
+				{
+					"email": "smith3816@gmail.com",
+					"name": "zombiej"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"license": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"start": "cross-env NODE_ENV=development father doc dev --storybook",
+				"build": "father doc build --storybook",
+				"compile": "father build && lessc assets/index.less assets/index.css",
+				"gh-pages": "npm run build && father doc deploy",
+				"prepublishOnly": "npm run compile && np --yolo --no-publish",
+				"postpublish": "npm run gh-pages",
+				"lint": "eslint src/ --ext .ts,.tsx,.jsx,.js,.md",
+				"prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+				"test": "father test",
+				"coverage": "father test --coverage"
+			},
+			"peerDependencies": {
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0"
+			},
+			"devDependencies": {
+				"@types/classnames": "^2.2.9",
+				"@types/enzyme": "^3.10.5",
+				"@types/jest": "^26.0.5",
+				"@types/react": "^16.9.2",
+				"@types/react-dom": "^16.9.0",
+				"@umijs/fabric": "^2.0.9",
+				"cross-env": "^7.0.0",
+				"enzyme": "^3.1.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.1.2",
+				"eslint": "^7.1.0",
+				"father": "^2.22.0",
+				"less": "^3.11.2",
+				"np": "^6.2.3",
+				"prettier": "^2.0.5",
+				"querystring": "^0.2.0",
+				"rc-dialog": "7.x",
+				"rc-tools": "^9.6.1",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"typescript": "^3.9.3"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.10.2",
+				"classnames": "^2.2.3",
+				"rc-util": "^5.0.1"
+			},
+			"gitHead": "72ad685294ea7f75b4da1d7527c0190f28a394f1",
+			"_id": "rc-steps@4.1.2",
+			"_nodeVersion": "12.18.0",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-kTPiojPtJi12Y7whRqlydRgJXQ1u9JlvGchI6xDrmOMZVpCTLpfc/18iu+aHCtCZaSnM2ENU/9lfm/naWVFcRw==",
+				"shasum": "370f4c6b40d3888f03b271f1628953c66eb91c04",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-4.1.2.tgz",
+				"fileCount": 21,
+				"unpackedSize": 56697,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfHrfjCRA9TVsSAnZWagAAYZoP/39WbzJENTx3eOpDw0bt\nuZoZ7kAs8qsqhsHRJOdqOwv6S6xsQsWpwZiP3ilLsONvFIt9y22p03ISf5pN\nJGw8+m4vqPaxd3hBHzLDCO3+eXZ54jcd4INKbQd5glgXnueW512GkqofMPI2\n0c8LE9OYD6mdmj0ozOagT9hZahMcHOBvR4dWWlPEj+SzKWcle2Fjr3PHURsO\nMMtFYeYwX40fpV7GfNPz3Mbcjd7R3fmOtVe9ips31iQ3Bw938o4Z6xZ7R5mK\nxVf+dSZQtHNRQKvPDhbah0J1oHKkDgve6QUOTJQlYKejEtKI8ZfuinFRBuEb\nc1vcnpTtQhKonrz6ryEBMD4Pbf7G0kP6v1RvjN1UxcO2K3H7HGVzQfyGMhyE\nzWHTlesG9EN/1DDmx6jP61wtLWvs5HFF2jtga2sg9dlw/54YBNjVV3ZEmQvc\nZxIk9leMRur+OWWY+2tqCOzuTlsAfXYnyzoxU2b4Sjq+V9mpM+g4NhnNjZXP\nuX9RyM1+gAEca2tlh21L3QeNiOVDPu+0HOAVuRZcRyxYMETg/biRzx4Tfrkv\ny5qe4eqF6JuRqwMgJFTghPo14Q2PrcesCzXjKoTYB/UcB88MgavvXsK9QgNN\noto/mMt9ahwqCwAyTlxHzgRky0AaKVKBYwOwhaVHxa/gdxU6Tr2tZlYOCxfe\n26Sh\r\n=dvVV\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "07akioni",
+				"email": "07akioni2@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps_4.1.2_1595848675430_0.9177126929876642"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.1.3": {
+			"name": "rc-steps",
+			"version": "4.1.3",
+			"description": "steps ui component for react",
+			"engines": {
+				"node": ">=8.x"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"types": "./lib/index.d.ts",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "benjycui",
+					"email": "benjytrys@gmail.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				},
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "ddcat1115",
+					"email": "418150596@qq.com"
+				},
+				{
+					"name": "zombiej",
+					"email": "smith3816@gmail.com"
+				},
+				{
+					"name": "07akioni",
+					"email": "07akioni2@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"license": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"start": "cross-env NODE_ENV=development father doc dev --storybook",
+				"build": "father doc build --storybook",
+				"compile": "father build && lessc assets/index.less assets/index.css",
+				"gh-pages": "npm run build && father doc deploy",
+				"prepublishOnly": "npm run compile && np --yolo --no-publish",
+				"postpublish": "npm run gh-pages",
+				"lint": "eslint src/ --ext .ts,.tsx,.jsx,.js,.md",
+				"prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+				"test": "father test",
+				"coverage": "father test --coverage"
+			},
+			"peerDependencies": {
+				"react": ">=16.9.0",
+				"react-dom": ">=16.9.0"
+			},
+			"devDependencies": {
+				"@types/classnames": "^2.2.9",
+				"@types/enzyme": "^3.10.5",
+				"@types/jest": "^26.0.5",
+				"@types/react": "^16.9.2",
+				"@types/react-dom": "^16.9.0",
+				"@umijs/fabric": "^2.0.9",
+				"cross-env": "^7.0.0",
+				"enzyme": "^3.1.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.1.2",
+				"eslint": "^7.1.0",
+				"father": "^2.22.0",
+				"less": "^3.11.2",
+				"np": "^6.2.3",
+				"prettier": "^2.0.5",
+				"querystring": "^0.2.0",
+				"rc-dialog": "8.x",
+				"rc-tools": "^9.6.1",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"typescript": "^4.0.3"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.10.2",
+				"classnames": "^2.2.3",
+				"rc-util": "^5.0.1"
+			},
+			"gitHead": "200c95da0bcdcf226f753ffe9a7c228d67d39e8b",
+			"_id": "rc-steps@4.1.3",
+			"_nodeVersion": "14.6.0",
+			"_npmVersion": "6.14.6",
+			"dist": {
+				"integrity": "sha512-GXrMfWQOhN3sVze3JnzNboHpQdNHcdFubOETUHyDpa/U3HEKBZC3xJ8XK4paBgF4OJ3bdUVLC+uBPc6dCxvDYA==",
+				"shasum": "208580e22db619e3830ddb7fa41bc886c65d9803",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-4.1.3.tgz",
+				"fileCount": 21,
+				"unpackedSize": 50086,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfkDPNCRA9TVsSAnZWagAArigP/0zicbJQeZ9LSOgra0px\nxw2lEFlWosX8F8E3ETizqvb/5/sECiM3uXwqM17VJ+SmVnSEVz6CXdCzgB77\naVtPi9Zu6grOkPE7vlha8lQYA8trYUrn8BTdK/qvx7FjSIVwDy672II7b7ss\nZOjPjYaFlrjSlJ+C0JaEgEe7TN8kbYwxAezNwwfROA2zYWEXIVSMgomXFN1b\n//3lz4y6pP83bUir3gDLophdlSZS3JrM02bkzBDHVaGj1rKOmRRdAgu9bw77\nn5jKSKjxZa1Vha8+gtiRDPQQvYjVKU7f7mSGxBsnqFWDDy7NVy9gSduMENee\ncrsCoc6kNsLuAvNO4DyF0cVnq9PwhnEA5ryuZjU+oHiMg0dwNpUu3wJi81Lf\n/sJmxXsvbHSCImFAGIb7rF6PcQWGU0rGfLzghGAIDXmWCvbp3p8hudwkeVBu\nfgXV+9FKpWBeVVI10SzHxF4zydGX9HDJwsMwxMrkRODeGls22OX05eOIsL68\nYEIH0KYZe0aXazrCYpH1dYpiwey5ezIL0R2IqxRN6+1V+GxxqZ2X8VGtoInU\nvMtqhyM6tdgEvaVwgULoIK4dbYmYplb3bSzs0HGwRWbcPoAX+r8Efb4fInbX\nYOSLqIxrE/yUF6toEaZpPmqllHr2UtNQ7ruaGUfk+FOm1BGR09Bf3396C2h1\nlU6H\r\n=01kb\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "afc163",
+				"email": "afc163@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps_4.1.3_1603285964712_0.8140077879029488"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.1.4": {
+			"name": "rc-steps",
+			"version": "4.1.4",
+			"description": "steps ui component for react",
+			"engines": {
+				"node": ">=8.x"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-steps"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"types": "./lib/index.d.ts",
+			"homepage": "http://github.com/react-component/steps",
+			"maintainers": [
+				{
+					"name": "benjycui",
+					"email": "benjytrys@gmail.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "zhujun24",
+					"email": "zhujun87654321@gmail.com"
+				},
+				{
+					"name": "afc163",
+					"email": "afc163@gmail.com"
+				},
+				{
+					"name": "yuhangge",
+					"email": "abeyuhang@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "ddcat1115",
+					"email": "418150596@qq.com"
+				},
+				{
+					"name": "zombiej",
+					"email": "smith3816@gmail.com"
+				},
+				{
+					"name": "07akioni",
+					"email": "07akioni2@gmail.com"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/steps.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/steps/issues"
+			},
+			"license": "MIT",
+			"config": {
+				"port": 8002
+			},
+			"scripts": {
+				"start": "cross-env NODE_ENV=development father doc dev --storybook",
+				"build": "father doc build --storybook",
+				"compile": "father build && lessc assets/index.less assets/index.css",
+				"gh-pages": "npm run build && father doc deploy",
+				"prepublishOnly": "npm run compile && np --yolo --no-publish",
+				"postpublish": "npm run gh-pages",
+				"lint": "eslint src/ --ext .ts,.tsx,.jsx,.js,.md",
+				"prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+				"test": "father test",
+				"coverage": "father test --coverage"
+			},
+			"peerDependencies": {
+				"react": ">=16.9.0",
+				"react-dom": ">=16.9.0"
+			},
+			"devDependencies": {
+				"@types/classnames": "^2.2.9",
+				"@types/enzyme": "^3.10.5",
+				"@types/jest": "^26.0.5",
+				"@types/react": "^16.9.2",
+				"@types/react-dom": "^16.9.0",
+				"@umijs/fabric": "^2.0.9",
+				"cross-env": "^7.0.0",
+				"enzyme": "^3.1.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.1.2",
+				"eslint": "^7.1.0",
+				"father": "^2.22.0",
+				"less": "^3.11.2",
+				"np": "^7.0.0",
+				"prettier": "^2.0.5",
+				"querystring": "^0.2.0",
+				"rc-dialog": "8.x",
+				"rc-tools": "^9.6.1",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"typescript": "^4.0.3"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.10.2",
+				"classnames": "^2.2.3",
+				"rc-util": "^5.0.1"
+			},
+			"gitHead": "5cb2b35f88dfa537e51d20cdb08cc3fbb377995b",
+			"_id": "rc-steps@4.1.4",
+			"_nodeVersion": "14.15.1",
+			"_npmVersion": "7.6.0",
+			"dist": {
+				"integrity": "sha512-qoCqKZWSpkh/b03ASGx1WhpKnuZcRWmvuW+ZUu4mvMdfvFzVxblTwUM+9aBd0mlEUFmt6GW8FXhMpHkK3Uzp3w==",
+				"shasum": "0ba82db202d59ca52d0693dc9880dd145b19dc23",
+				"tarball": "https://registry.npmjs.org/rc-steps/-/rc-steps-4.1.4.tgz",
+				"fileCount": 21,
+				"unpackedSize": 50514,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh24BCCRA9TVsSAnZWagAAQUQP/0sEGCL/fSqQtTn4C2Yk\nVrqWDd8umG0JstZzrf6F3lTMi4xUnkKv8AfOw7CMFdDWWJUgqshxQNM+HOIM\nMqFQjw4bMjWzzNTW3XGRk6KJRYn8Ve6luMIW8ZO5Ae5McKlOzW2gnxKJvfj7\nW+UHyp31zYBkHrzh7/SOdjxFYUebnkzbPwnMxTFb0jDTbixYUGEHQxqSNQkm\nMIeOKkWlDh5kovZMN6EpUQEWYbrwDgq0sQZb6630y2c3K3pr6+kNNs6FIc1/\nzMhoWyW/QzB1aUr3qDSvope3+V9o5CigRBTSNlNCZJUcBRoKC5o3WlseXjKE\nwUg3sY6pgQtPCEQWX+HNuGad2q4Wh9trATTzscWaqiNzu786qq5P/AT7TiqW\n0V/DESsZXwFPejOq2KFcdoQKPmoVXIv0JpSbTBuMsPPmGnmaJDXPC+cRkjSq\npoyNluajctO+rCEMx0+Gf+ULK+a14Tjxc34tx8t3CyrkG5OeGESQ9tW866kh\nQVgfA7T0dZCihKfLKhBAmzu7VuZ/cWEjzYDCYwxDzfGnjAtWaloVU5x9r896\nUc2MHkq4wALtR8dfpEuAVxsxmPDyilMlKZLnsSJET6mkvCInaCCNFSBmxmzK\nC77PNwhpuib5WQDuALUeQm/AHhT/jaoz7HhM5FPU0kxfhBg4Tlm+gVXlZ2v8\nZZGG\r\n=bpeQ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-steps_4.1.4_1632734104227_0.8199927928545903"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-01-10T00:39:32.664Z",
+		"created": "2015-06-25T07:18:46.717Z",
+		"1.0.0": "2015-06-25T07:18:46.717Z",
+		"1.0.1": "2015-06-25T07:23:27.653Z",
+		"1.0.2": "2015-06-25T10:12:28.635Z",
+		"1.0.3": "2015-06-26T02:34:52.640Z",
+		"1.1.0": "2015-06-26T08:08:18.140Z",
+		"1.1.1": "2015-07-07T11:35:07.798Z",
+		"1.1.2": "2015-07-07T11:39:18.107Z",
+		"1.1.3": "2015-07-08T07:47:29.415Z",
+		"1.1.4": "2015-07-14T05:41:03.161Z",
+		"1.2.0": "2015-08-31T06:07:07.721Z",
+		"1.2.1": "2015-08-31T10:09:26.949Z",
+		"1.2.2": "2015-09-01T06:41:58.849Z",
+		"1.2.3": "2015-09-01T07:16:50.553Z",
+		"1.2.4": "2015-09-14T10:51:35.882Z",
+		"1.2.5": "2015-09-16T06:34:32.627Z",
+		"1.3.0": "2015-09-16T07:19:11.794Z",
+		"1.3.1": "2015-09-17T06:13:15.658Z",
+		"1.3.2": "2015-09-17T08:20:35.282Z",
+		"1.3.3": "2015-09-17T08:45:55.815Z",
+		"1.3.4": "2015-10-27T02:42:50.976Z",
+		"1.4.0": "2015-10-27T04:05:43.787Z",
+		"1.4.1": "2015-11-05T04:50:19.231Z",
+		"1.4.2": "2016-01-29T03:33:29.076Z",
+		"1.4.3": "2016-02-26T08:08:33.466Z",
+		"1.4.4": "2016-03-04T04:15:56.662Z",
+		"1.5.0": "2016-04-06T08:57:58.738Z",
+		"1.5.1": "2016-04-06T09:38:56.661Z",
+		"1.5.2": "2016-04-06T09:47:40.149Z",
+		"1.5.3": "2016-04-15T09:18:04.976Z",
+		"1.5.4": "2016-04-15T14:36:47.583Z",
+		"2.0.0": "2016-04-15T14:55:02.685Z",
+		"2.1.0": "2016-04-28T08:31:06.153Z",
+		"2.1.1": "2016-05-17T07:10:01.285Z",
+		"2.1.2": "2016-05-19T08:38:22.342Z",
+		"2.1.3": "2016-05-25T13:39:38.123Z",
+		"2.1.4": "2016-07-04T09:36:05.969Z",
+		"2.1.5": "2016-07-07T07:40:45.411Z",
+		"2.2.0": "2016-09-28T11:47:03.779Z",
+		"2.2.1": "2016-12-01T14:01:03.992Z",
+		"2.2.2": "2016-12-06T07:25:21.764Z",
+		"2.2.3": "2016-12-06T12:28:19.303Z",
+		"2.2.4": "2016-12-06T12:30:42.713Z",
+		"2.3.0": "2017-01-17T09:48:58.235Z",
+		"2.4.0": "2017-02-28T06:55:29.112Z",
+		"2.4.1": "2017-02-28T09:46:55.966Z",
+		"2.4.2": "2017-03-13T07:29:59.066Z",
+		"2.4.3": "2017-03-28T12:38:48.118Z",
+		"2.5.0": "2017-04-05T03:45:57.377Z",
+		"2.5.1": "2017-04-14T03:46:36.048Z",
+		"2.5.2": "2017-09-04T10:12:51.155Z",
+		"3.0.0": "2017-09-05T09:34:23.435Z",
+		"3.0.1": "2017-11-27T08:53:02.492Z",
+		"3.1.0": "2018-01-03T02:33:15.231Z",
+		"3.1.1": "2018-03-19T06:28:18.958Z",
+		"3.2.0": "2018-08-22T05:51:43.873Z",
+		"3.2.1": "2018-08-24T07:32:51.863Z",
+		"3.3.0": "2018-08-31T08:05:22.977Z",
+		"3.3.1": "2019-01-02T09:59:14.384Z",
+		"3.4.0": "2019-05-24T05:54:16.423Z",
+		"3.4.1": "2019-05-24T06:22:59.385Z",
+		"3.5.0": "2019-08-02T08:49:35.046Z",
+		"3.6.0": "2020-05-09T04:58:28.306Z",
+		"4.0.0": "2020-06-01T06:52:13.473Z",
+		"4.0.1": "2020-06-22T05:48:08.555Z",
+		"4.1.0": "2020-07-24T12:28:10.383Z",
+		"4.1.2": "2020-07-27T11:17:55.591Z",
+		"4.1.3": "2020-10-21T13:12:44.873Z",
+		"4.1.4": "2021-09-27T09:15:04.384Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.1.4"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"b22cdc121b9bc1142276c5e78cc1b2d5\"",
+			"fetched": 1646835825050
+		}
+	},
+	"_distfiles": {
+		"rc-steps-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.0.0.tgz",
+			"sha": "7a742b71f155598a3d6e57276726bd6ef3e8ac7c",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.0.1.tgz",
+			"sha": "84f4c2d05198d7094fc74d3fd04bfaf7eb5790d6",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.0.2.tgz",
+			"sha": "c855e7961863b151e351d06c3385159466159479",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.0.3.tgz",
+			"sha": "a2a2969bdb6a30a4c258b55cc9837133d21b80d4",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.1.0.tgz",
+			"sha": "bd52957fad5401148c4eab3dba48a88cb5167e00",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.1.1.tgz",
+			"sha": "2de9e94ea144629b77c7d3392fd919404b77eb59",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.1.2.tgz",
+			"sha": "e9ecc97ea0ee845493494d11f5504d83f67ce7cd",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.1.3.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.1.3.tgz",
+			"sha": "98a263776cad7a8282941fea9bf0a6e979e82f96",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.1.4.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.1.4.tgz",
+			"sha": "66361dd8747ec018d99a37e7c9cd2d157192ebfe",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.2.0.tgz",
+			"sha": "7b317bdfecd9752dd39daa8ba71dbe00904fe9b3",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.2.1.tgz",
+			"sha": "bfb5d741b493ca1777657efc6211673794c81dc3",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.2.2.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.2.2.tgz",
+			"sha": "53e97cccfc77168c3fb67588d0334d1442baff43",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.2.3.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.2.3.tgz",
+			"sha": "27ed613da8289f107d17b749b0a5b2516fd19d82",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.2.4.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.2.4.tgz",
+			"sha": "ec5f618e302a7b127ea79e4fcba662d53d3e6ec9",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.3.0.tgz",
+			"sha": "9239b08660f2731e257a979abe4dbecd4f007ac1",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.3.2.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.3.2.tgz",
+			"sha": "63e8f16bf7faa9832fdc72b52abf1b9a0862c235",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.3.3.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.3.3.tgz",
+			"sha": "530e6d0da5786ec26853d82b766112231ac0f896",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.4.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.4.0.tgz",
+			"sha": "68c975f0c936392bee97c2fa958b0b984b960346",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.4.1.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.4.1.tgz",
+			"sha": "468badb4d067da45fdd606eeeda55bbba4f6e427",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.4.2.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.4.2.tgz",
+			"sha": "1f126b148add93f9bc12dee60b45fc68d0d9520e",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.4.3.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.4.3.tgz",
+			"sha": "395f09d5fd87ae262f6de26cf1138496b34e1463",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.4.4.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.4.4.tgz",
+			"sha": "4ab8de18582c8d299362ef99eb87c0a5098aa0d2",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.5.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.5.0.tgz",
+			"sha": "ffaf37c96664eb9a62d4a6b680c392df72e6c6bb",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.5.1.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.5.1.tgz",
+			"sha": "f3099508983d5ccccfd9a37052e5e58a3ac93651",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.5.2.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.5.2.tgz",
+			"sha": "372597b07efadc89087aed3b05e248ea7380f245",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.5.3.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.5.3.tgz",
+			"sha": "193a90d1a7aa1f24ef169fbb751216f4f1941ccf",
+			"registry": "npmjs"
+		},
+		"rc-steps-1.5.4.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-1.5.4.tgz",
+			"sha": "8b02347a640bbda74c2adb05dfa2146d25d3f2c9",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.0.0.tgz",
+			"sha": "47f5708f418a9140c0b49deb85f6c58c8e725979",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.1.0.tgz",
+			"sha": "b154b4a4f2808d86a7a108008f459da6c97412a8",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.1.1.tgz",
+			"sha": "5691faed328883548a6cde96437cda60af23f668",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.1.2.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.1.2.tgz",
+			"sha": "bd5cda0819ac59fd16c809a83c7a4167311ab7ba",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.1.3.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.1.3.tgz",
+			"sha": "f95885d5e6eafdc13594871e56a07f42bd57fe67",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.1.4.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.1.4.tgz",
+			"sha": "21be9077f79d81f089cdf065aba7fab05cd2e3d9",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.1.5.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.1.5.tgz",
+			"sha": "72d50c46c4e37a7beecba939fa6ce86ded9829fe",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.2.0.tgz",
+			"sha": "fa8ae6c05e9b63da4c060f2bd05333bc16adbf98",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.2.1.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.2.1.tgz",
+			"sha": "db72599d865e6cd5455809e92a7aa5dbdf27c916",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.2.2.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.2.2.tgz",
+			"sha": "69bf4796de27ab3f3464e6790c642284b8e9de92",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.2.3.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.2.3.tgz",
+			"sha": "d5bb7127e44f3d5412a0f6201fc63c72a9d5bea7",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.2.4.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.2.4.tgz",
+			"sha": "f1630e2d13e5b1810bd966bed413c52ac53952cf",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.3.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.3.0.tgz",
+			"sha": "78f29b12dca35a76b2ebda00f9bd6efab8297ad9",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.4.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.4.0.tgz",
+			"sha": "7b85d24ede8e1016d66c05188168c02998d620d1",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.4.1.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.4.1.tgz",
+			"sha": "7cb100ff9275ad5db6cd7205f2219228ed9adc1f",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.4.2.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.4.2.tgz",
+			"sha": "9e66cf24f17a884c8bed1c038e0708cc7b1ddb57",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.4.3.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.4.3.tgz",
+			"sha": "1f1d3a4def335e53c626416b62bdf6f55bcd9a3b",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.5.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.5.0.tgz",
+			"sha": "ef7288a2c9de118fa0fe890926d81a53fb774fd0",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.5.1.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.5.1.tgz",
+			"sha": "c3969aea3fb984cecb977a4a96ab634d756a6dc4",
+			"registry": "npmjs"
+		},
+		"rc-steps-2.5.2.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-2.5.2.tgz",
+			"sha": "2ff2e03348ba8cc4114f0568e420add6ee273fae",
+			"registry": "npmjs"
+		},
+		"rc-steps-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.0.0.tgz",
+			"sha": "d53f2314f0677463e54877df63c1d68d21178728",
+			"registry": "npmjs"
+		},
+		"rc-steps-3.0.1.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.0.1.tgz",
+			"sha": "fa886eb93d223173ef9a05396f32186992549535",
+			"registry": "npmjs"
+		},
+		"rc-steps-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.1.0.tgz",
+			"sha": "b204c9ef066287c5cc30dcbe485b2c1bf86e01c6",
+			"registry": "npmjs"
+		},
+		"rc-steps-3.1.1.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.1.1.tgz",
+			"sha": "79583ad808309d82b8e011676321d153fd7ca403",
+			"registry": "npmjs"
+		},
+		"rc-steps-3.2.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.2.0.tgz",
+			"sha": "cc3f1706437d35011a3f8700511a7e226acbf2db",
+			"registry": "npmjs"
+		},
+		"rc-steps-3.2.1.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.2.1.tgz",
+			"sha": "0af066d7c695b6c409f94007ce293249dd3e29cf",
+			"registry": "npmjs"
+		},
+		"rc-steps-3.3.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.3.0.tgz",
+			"sha": "8817c438a6a5648997c7edb51bde727e6f32e132",
+			"registry": "npmjs"
+		},
+		"rc-steps-3.3.1.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.3.1.tgz",
+			"sha": "4877e2897331e3bfdb6b789e88aea78f4f15f732",
+			"registry": "npmjs"
+		},
+		"rc-steps-3.4.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.4.0.tgz",
+			"sha": "367b11348a97afbfa998fa80c7b78e97f4664ce5",
+			"registry": "npmjs"
+		},
+		"rc-steps-3.4.1.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.4.1.tgz",
+			"sha": "7f7d127dd60f9fa92ece27c06035c9319c5cab8e",
+			"registry": "npmjs"
+		},
+		"rc-steps-3.5.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.5.0.tgz",
+			"sha": "36b2a7f1f49907b0d90363884b18623caf9fb600",
+			"registry": "npmjs"
+		},
+		"rc-steps-3.6.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-3.6.0.tgz",
+			"sha": "5a377f6a0a7eacd3152bb96bdf425b654b4a552e",
+			"registry": "npmjs"
+		},
+		"rc-steps-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-4.0.0.tgz",
+			"sha": "fee917d749fe1a16bcc920edc098a439e1911774",
+			"registry": "npmjs"
+		},
+		"rc-steps-4.0.1.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-4.0.1.tgz",
+			"sha": "a0e52f951b4e370d0cd2df29ae87eb744431d0d1",
+			"registry": "npmjs"
+		},
+		"rc-steps-4.1.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-4.1.0.tgz",
+			"sha": "631ede2b968c81da1a5f9642081604865d5bb981",
+			"registry": "npmjs"
+		},
+		"rc-steps-4.1.2.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-4.1.2.tgz",
+			"sha": "370f4c6b40d3888f03b271f1628953c66eb91c04",
+			"registry": "npmjs"
+		},
+		"rc-steps-4.1.3.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-4.1.3.tgz",
+			"sha": "208580e22db619e3830ddb7fa41bc886c65d9803",
+			"registry": "npmjs"
+		},
+		"rc-steps-4.1.4.tgz": {
+			"url": "https://registry.npmjs.org/rc-steps/-/rc-steps-4.1.4.tgz",
+			"sha": "0ba82db202d59ca52d0693dc9880dd145b19dc23",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"rc-steps-4.1.4.tgz": {
+			"shasum": "0ba82db202d59ca52d0693dc9880dd145b19dc23"
+		}
+	},
+	"_rev": "3-c0bc7d623952689e",
+	"_id": "rc-steps",
+	"readme": "# rc-steps\n\n---\n\nReact steps component.\n\n[![NPM version][npm-image]][npm-url]\n[![build status][travis-image]][travis-url]\n[![Test coverage][codecov-image]][codecov-url]\n[![Dependencies][david-image]][david-url]\n[![DevDependencies][david-dev-image]][david-dev-url]\n[![npm download][download-image]][download-url]\n[![bundle size][bundlephobia-image]][bundlephobia-url]\n\n[npm-image]: http://img.shields.io/npm/v/rc-steps.svg?style=flat-square\n[npm-url]: http://npmjs.org/package/rc-steps\n[travis-image]: https://img.shields.io/travis/react-component/steps.svg?style=flat-square\n[travis-url]: https://travis-ci.org/react-component/steps\n[codecov-image]: https://img.shields.io/codecov/c/github/react-component/steps/master.svg?style=flat-square\n[codecov-url]: https://codecov.io/gh/react-component/steps/branch/master\n[david-url]: https://david-dm.org/react-component/steps\n[david-image]: https://david-dm.org/react-component/steps/status.svg?style=flat-square\n[david-dev-url]: https://david-dm.org/react-component/steps?type=dev\n[david-dev-image]: https://david-dm.org/react-component/steps/dev-status.svg?style=flat-square\n[download-image]: https://img.shields.io/npm/dm/rc-steps.svg?style=flat-square\n[download-url]: https://npmjs.org/package/rc-steps\n[bundlephobia-url]: https://bundlephobia.com/result?p=rc-steps\n[bundlephobia-image]: https://badgen.net/bundlephobia/minzip/rc-steps\n\n## Usage\n\n```bash\nnpm install rc-steps\n```\n\n```jsx\n<Steps current={1}>\n  <Steps.Step title=\"first\" />\n  <Steps.Step title=\"second\" />\n  <Steps.Step title=\"third\" />\n</Steps>\n```\n\n## Example\n\nhttps://react-component.github.io/steps/\n\n## API\n\n<table class=\"table table-bordered table-striped\">\n  <thead>\n    <tr>\n      <th style=\"width: 100px;\">name</th>\n      <th style=\"width: 50px;\">type</th>\n      <th style=\"width: 50px;\">default</th>\n      <th>description</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>type</td>\n      <td>string</td>\n      <td>default</td>\n      <td>diretypetion of Steps, enum: `default` or `navigation`</td>\n    </tr>\n    <tr>\n      <td>direction</td>\n      <td>string</td>\n      <td>horizontal</td>\n      <td>direction of Steps, enum: `horizontal` or `vertical`</td>\n    </tr>\n    <tr>\n      <td>current</td>\n      <td>number</td>\n      <td>0</td>\n      <td>index of current step</td>\n    </tr>\n    <tr>\n      <td>initial</td>\n      <td>number</td>\n      <td>0</td>\n      <td>index initial</td>\n    </tr>\n    <tr>\n      <td>size</td>\n      <td>string</td>\n      <td></td>\n      <td>size of Steps, could be `small`</td>\n    </tr>\n    <tr>\n      <td>labelPlacement</td>\n      <td>string</td>\n      <td></td>\n      <td>placement of step title, could be `vertical`</td>\n    </tr>\n    <tr>\n      <td>status</td>\n      <td>string</td>\n      <td>wait</td>\n      <td>status of current Steps, could be `error` `process` `finish` `wait`</td>\n    </tr>\n    <tr>\n      <td>icons</td>\n      <td>{ finish: ReactNode, error: ReactNode }</td>\n      <td></td>\n      <td>specify the default finish icon and error icon</td>\n    </tr>\n    <tr>\n      <td>onChange</td>\n      <td>(current: number) => void</td>\n      <td></td>\n      <td>Trigger when Step changed</td>\n    </tr>\n  </tbody>\n</table>\n\n### Steps.Step\n\n<table class=\"table table-bordered table-striped\">\n  <thead>\n    <tr>\n      <th style=\"width: 100px;\">name</th>\n      <th style=\"width: 50px;\">type</th>\n      <th style=\"width: 50px;\">default</th>\n      <th>description</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>title</td>\n      <td>ReactNode</td>\n      <td></td>\n      <td>title of step item</td>\n    </tr>\n    <tr>\n      <td>subTitle</td>\n      <td>ReactNode</td>\n      <td></td>\n      <td>subTitle of step item</td>\n    </tr>\n    <tr>\n      <td>description</td>\n      <td>ReactNode</td>\n      <td></td>\n      <td>description of step item</td>\n    </tr>\n    <tr>\n      <td>icon</td>\n      <td>ReactNode</td>\n      <td></td>\n      <td>set icon of step item</td>\n    </tr>\n    <tr>\n      <td>status</td>\n      <td>string</td>\n      <td></td>\n      <td>status of current Steps, could be `error` `process` `finish` `wait`</td>\n    </tr>\n    <tr>\n      <td>tailContent</td>\n      <td>ReactNode</td>\n      <td></td>\n      <td>content above tail</td>\n    </tr>\n    <tr>\n      <td>disabled</td>\n      <td>bool</td>\n      <td>false</td>\n      <td>disabled step when onChange exist</td>\n    </tr>\n  </tbody>\n</table>\n\n## Development\n\n```\nnpm install\nnpm start\n```\n\n## License\n\nrc-steps is released under the MIT license."
+}

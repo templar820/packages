@@ -1,0 +1,95 @@
+{
+	"name": "node-domexception",
+	"versions": {
+		"1.0.0": {
+			"name": "node-domexception",
+			"version": "1.0.0",
+			"description": "An implementation of the DOMException class from NodeJS",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jimmywarting/node-domexception.git"
+			},
+			"engines": {
+				"node": ">=10.5.0"
+			},
+			"author": {
+				"name": "Jimmy Wärting"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/jimmywarting/node-domexception/issues"
+			},
+			"homepage": "https://github.com/jimmywarting/node-domexception#readme",
+			"funding": [
+				{
+					"type": "github",
+					"url": "https://github.com/sponsors/jimmywarting"
+				},
+				{
+					"type": "github",
+					"url": "https://paypal.me/jimmywarting"
+				}
+			],
+			"gitHead": "824361dc9b02a78828343075ba3763ee601ac4d2",
+			"_id": "node-domexception@1.0.0",
+			"_nodeVersion": "16.1.0",
+			"_npmVersion": "7.11.2",
+			"dist": {
+				"integrity": "sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==",
+				"shasum": "6888db46a1f71c0b76b3f7555016b63fe64766e5",
+				"tarball": "https://registry.npmjs.org/node-domexception/-/node-domexception-1.0.0.tgz",
+				"fileCount": 42,
+				"unpackedSize": 29162,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgr/tKCRA9TVsSAnZWagAAWsgQAKME3BOqcI3769xP5bf4\nnQtkPStkJ1P1Kf0eS23ehZh0+aJu/aLzr4LAJwufP9Jp2jnbSklzTMtwLNtC\nAOTAYWzgrvw6F2nmNdKsFzRlsC69gdbC/FD2H6nCP6bbvr/rJ+Kc3KbRdRI8\nZX8nR/6YV+gtgo/ng9fe5qHIaS5+sKhf5pIqylq5UrwbLKG1UHf2xO74sB/H\nPG0Xz3BBshZADUzvIub+f2o0dHg9EBRONf6TC3hqmfU3d/q/ZEs4PrbY/Ryr\ncMZqvfjbFNn/ABRAsKWaa1IGN5ee3ZF5N03HzD5F5bU8oFIvN4oiGsfpMrcQ\n/swHHCnEC0l6LYZleREKvTiBANBr3illpfJMUeyV7O61Wu+1NGxZcmnGGsvi\n9OPG3PfILkQjxXBZxj27UEtdu82r9MwRdo8SgjO2l/Hmw/QH72iRaDdEv8cM\nJADSX8DcNbSJhEiCypWXcR2b7mYTkzxNBglQ+USUFie8z8ahRAKK25b+DmzP\nlLmR07d+DHCl5DT/A3aAbUgFczC6GjX3B9ZE9xrviK97+pwvfXLFQPBNnNCj\ngiejUZZIElFGRqIPYXbXWe+KeYDiUf7CoF90xzty2gD93GHpALCToeJU3DTt\niRaWDeKG7HyKw0ht4zm2QTpqEkZ6a8lp8hkCEWT5a/OmeiNitReggGOn0zlG\nKtvB\r\n=Dxq8\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "endless",
+				"email": "jimmy@warting.se"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "endless",
+					"email": "jimmy@warting.se"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node-domexception_1.0.0_1622145866305_0.5682227344226225"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2021-05-27T20:04:26.305Z",
+		"1.0.0": "2021-05-27T20:04:26.418Z",
+		"modified": "2021-05-27T20:04:28.623Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"d91c3259b432f35f529cddd924820597\"",
+			"fetched": 1646835397849
+		}
+	},
+	"_distfiles": {
+		"node-domexception-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/node-domexception/-/node-domexception-1.0.0.tgz",
+			"sha": "6888db46a1f71c0b76b3f7555016b63fe64766e5",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"node-domexception-1.0.0.tgz": {
+			"shasum": "6888db46a1f71c0b76b3f7555016b63fe64766e5"
+		}
+	},
+	"_rev": "3-e86bc4a3ef3f9bb8",
+	"_id": "node-domexception",
+	"readme": "# DOMException\nAn implementation of the DOMException class from NodeJS\n\nNodeJS has DOMException built in, but it's not globally available, and you can't require/import it from somewhere.\n\nThis package exposes the [`DOMException`](https://developer.mozilla.org/en-US/docs/Web/API/DOMException) class that comes from NodeJS itself. (including all of the legacy codes)\n\n<sub>(plz don't depend on this package in any other environment other than node >=10.5)</sub>\n\n```js\nimport DOMException from 'node-domexception'\nimport { MessageChannel } from 'worker_threads'\n\nasync function hello() {\n  const port = new MessageChannel().port1\n  const ab = new ArrayBuffer()\n  port.postMessage(ab, [ab, ab])\n}\n\nhello().catch(err => {\n  console.assert(err.name === 'DataCloneError')\n  console.assert(err.code === 25)\n  console.assert(err instanceof DOMException)\n})\n\nconst e1 = new DOMException('Something went wrong', 'BadThingsError')\nconsole.assert(e1.name === 'BadThingsError')\nconsole.assert(e1.code === 0)\n\nconst e2 = new DOMException('Another exciting error message', 'NoModificationAllowedError')\nconsole.assert(e2.name === 'NoModificationAllowedError')\nconsole.assert(e2.code === 7)\n\nconsole.assert(DOMException.INUSE_ATTRIBUTE_ERR === 10)\n```\n\n# Background\n\nThe only possible way is to use some web-ish tools that have been introduced into NodeJS that throws a DOMException and catch the constructor. This is exactly what this package dose for you and exposes it.<br>\nThis way you will have the same class that NodeJS has and you can check if the error is a instance of DOMException.<br>\nThe instanceof check would not have worked with a custom class such as the DOMException provided by domenic which also is much larger in size since it has to re-construct the hole class from the ground up.\n\nThe DOMException is used in many places such as the Fetch API, File & Blobs, PostMessaging and more. <br>\nWhy they decided to call it **DOM**, I don't know\n\nPlease consider sponsoring if you find this helpful"
+}

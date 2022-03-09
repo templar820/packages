@@ -1,0 +1,350 @@
+{
+	"name": "@jridgewell/sourcemap-codec",
+	"versions": {
+		"1.4.9": {
+			"name": "@jridgewell/sourcemap-codec",
+			"version": "1.4.9",
+			"description": "Encode/decode sourcemap mappings",
+			"keywords": [
+				"sourcemap",
+				"vlq"
+			],
+			"main": "dist/sourcemap-codec.umd.js",
+			"module": "dist/sourcemap-codec.mjs",
+			"typings": "dist/types/sourcemap-codec.d.ts",
+			"exports": {
+				".": {
+					"browser": "./dist/sourcemap-codec.umd.js",
+					"import": "./dist/sourcemap-codec.mjs",
+					"require": "./dist/sourcemap-codec.umd.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"scripts": {
+				"benchmark": "run-s build:rollup benchmark:only",
+				"benchmark:only": "node benchmark/index.js",
+				"build": "run-s -n build:*",
+				"build:rollup": "rollup -c rollup.config.js",
+				"build:ts": "tsc --project tsconfig.build.json",
+				"lint": "run-s -n lint:*",
+				"lint:prettier": "npm run test:lint:prettier -- --write",
+				"lint:ts": "npm run test:lint:ts -- --fix",
+				"prebuild": "rm -rf dist",
+				"prepublishOnly": "npm run preversion",
+				"preversion": "run-s test build",
+				"pretest": "run-s build:rollup",
+				"test": "run-s -n test:lint test:only",
+				"test:debug": "mocha --inspect-brk",
+				"test:lint": "run-s -n test:lint:*",
+				"test:lint:prettier": "prettier --check '{src,test}/**/*.ts'",
+				"test:lint:ts": "eslint '{src,test}/**/*.ts'",
+				"test:only": "mocha",
+				"test:coverage": "c8 mocha",
+				"test:watch": "mocha --watch"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jridgewell/sourcemap-codec.git"
+			},
+			"author": {
+				"name": "Rich Harris"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@rollup/plugin-typescript": "8.3.0",
+				"@types/node": "17.0.15",
+				"@typescript-eslint/eslint-plugin": "5.10.0",
+				"@typescript-eslint/parser": "5.10.0",
+				"benchmark": "2.1.4",
+				"c8": "7.11.0",
+				"eslint": "8.7.0",
+				"eslint-config-prettier": "8.3.0",
+				"mocha": "9.2.0",
+				"npm-run-all": "4.1.5",
+				"prettier": "2.5.1",
+				"rollup": "2.64.0",
+				"source-map": "0.6.1",
+				"source-map-js": "1.0.2",
+				"sourcemap-codec": "1.4.8",
+				"typescript": "4.5.4"
+			},
+			"gitHead": "6e2f9e80f7ba29ad1856f0862ab4ae834be88045",
+			"bugs": {
+				"url": "https://github.com/jridgewell/sourcemap-codec/issues"
+			},
+			"homepage": "https://github.com/jridgewell/sourcemap-codec#readme",
+			"_id": "@jridgewell/sourcemap-codec@1.4.9",
+			"_nodeVersion": "14.18.3",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-iKsUDLGOrC5pSdVTyb8zJI/f55wItTzGtfGWiWPWTc8h2P4oucax7XOGSRq9V2aA1nwE8qMaGvwdXk3PZRtgjg==",
+				"shasum": "6963babca1e1b8a8dc1c379bd4bd2bf9c21c356a",
+				"tarball": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.9.tgz",
+				"fileCount": 9,
+				"unpackedSize": 28436,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh/gJHCRA9TVsSAnZWagAAMDAP/3IJYi21SNJ8AtP6iMzt\nuWZ5MOYxa2Ozzpk6OTSDZDtsSu6ecfLzL5s1gHoYdYIRQoU+4jyHUi4Aa5Ue\nkaEVEsfrq0QclgniIxGYM8PycY+YXXfnFV4IUlYWEUuUBe37uxb5q0z4y1qn\n7KOFsojHATLhB2Z/DXdwCx3NAUsAfu4KHfm+4dftxKiz4bAXujoCDmYYRvYu\n1M+lxaA4Y45Vij1z5HMsXFqRF/Wp4TCbYH8ZxR84jmiJWO7rhUVgsuRl8fq2\nzFYO3H147C3bFc6N22UfM9A/72UXueUi9EGsi57x+UZRb1gE0mZKwROJ2Hde\neB3uPYc+5TFn5YyxSyHfNM1qZWyMk0gHRMglwOiH0nC0HPQ9lfZhV+MFJiaG\nceSaSsG6F0rlj4VESCDuDRa5H9+NEXau/PGG0vEvFCi+wEkdtWnvVJ0U++xz\ntSIxI/MKG3fOTFx8bcA8JUeWMaZxUSR+KphybtVU8mKQc1+tzkFf8OWInDE0\nXKp8vYPbVvdkZeQMF2MzpCwD+/IxH05ZoJamzrMxBHZHymPZe8gLmtPI1N16\nct3bFh8tK5ZdCNs5roJt7hohb7tMSN9HhcLckAm6Rccl4alGynsnZQ/HQboi\nSIv6Tbatlh3jbrbz+bN3wskMvAK5XaMJjPcl8Nf4Yly4BQbmSde0A0tJkc2P\nsWVM\r\n=Uw7z\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "jridgewell",
+				"email": "justin+npm@ridgewell.name"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jridgewell",
+					"email": "justin+npm@ridgewell.name"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/sourcemap-codec_1.4.9_1644036679758_0.8290789718945382"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.4.10": {
+			"name": "@jridgewell/sourcemap-codec",
+			"version": "1.4.10",
+			"description": "Encode/decode sourcemap mappings",
+			"keywords": [
+				"sourcemap",
+				"vlq"
+			],
+			"main": "dist/sourcemap-codec.umd.js",
+			"module": "dist/sourcemap-codec.mjs",
+			"typings": "dist/types/sourcemap-codec.d.ts",
+			"exports": {
+				".": {
+					"browser": "./dist/sourcemap-codec.umd.js",
+					"import": "./dist/sourcemap-codec.mjs",
+					"require": "./dist/sourcemap-codec.umd.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"scripts": {
+				"benchmark": "run-s build:rollup benchmark:only",
+				"benchmark:only": "node benchmark/index.js",
+				"build": "run-s -n build:*",
+				"build:rollup": "rollup -c rollup.config.js",
+				"build:ts": "tsc --project tsconfig.build.json",
+				"lint": "run-s -n lint:*",
+				"lint:prettier": "npm run test:lint:prettier -- --write",
+				"lint:ts": "npm run test:lint:ts -- --fix",
+				"prebuild": "rm -rf dist",
+				"prepublishOnly": "npm run preversion",
+				"preversion": "run-s test build",
+				"pretest": "run-s build:rollup",
+				"test": "run-s -n test:lint test:only",
+				"test:debug": "mocha --inspect-brk",
+				"test:lint": "run-s -n test:lint:*",
+				"test:lint:prettier": "prettier --check '{src,test}/**/*.ts'",
+				"test:lint:ts": "eslint '{src,test}/**/*.ts'",
+				"test:only": "mocha",
+				"test:coverage": "c8 mocha",
+				"test:watch": "mocha --watch"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jridgewell/sourcemap-codec.git"
+			},
+			"author": {
+				"name": "Rich Harris"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@rollup/plugin-typescript": "8.3.0",
+				"@types/node": "17.0.15",
+				"@typescript-eslint/eslint-plugin": "5.10.0",
+				"@typescript-eslint/parser": "5.10.0",
+				"benchmark": "2.1.4",
+				"c8": "7.11.0",
+				"eslint": "8.7.0",
+				"eslint-config-prettier": "8.3.0",
+				"mocha": "9.2.0",
+				"npm-run-all": "4.1.5",
+				"prettier": "2.5.1",
+				"rollup": "2.64.0",
+				"source-map": "0.6.1",
+				"source-map-js": "1.0.2",
+				"sourcemap-codec": "1.4.8",
+				"typescript": "4.5.4"
+			},
+			"gitHead": "2464a2b0da325a4c918ebc6e5668d2104fbac624",
+			"bugs": {
+				"url": "https://github.com/jridgewell/sourcemap-codec/issues"
+			},
+			"homepage": "https://github.com/jridgewell/sourcemap-codec#readme",
+			"_id": "@jridgewell/sourcemap-codec@1.4.10",
+			"_nodeVersion": "16.13.2",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-Ht8wIW5v165atIX1p+JvKR5ONzUyF4Ac8DZIQ5kZs9zrb6M8SJNXpx1zn04rn65VjBMygRoMXcyYwNK0fT7bEg==",
+				"shasum": "baf57b4e2a690d4f38560171f91783656b7f8186",
+				"tarball": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.10.tgz",
+				"fileCount": 8,
+				"unpackedSize": 28791,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh/mDiCRA9TVsSAnZWagAAcVcP/1BMO380a1QMToFhod5y\nF5WCHq6hjABJLkOU8c0K+Af+Ps8KzXl0gWtzH6omeLLU5iDo+D8mbWO9w8/C\nGhpZcbMJGK5ck+iBq21ApP7B5U7fv2/c2OXlLvHJXgE7X4uq+lPz6ppRKRho\nbnpj8NPQJeffDLhWu9D46OiM2MkvI3j9XSSbmqR9+r6GNxCAU3NiDpDb3pDJ\n59sPr3YDUaiCk5iIZs6gjXWaePsO/eipIxLEjlOONzfKMRVz8SRHOgajFjrV\njU047Qr+CYnvFjAV0xGkLszpPHMiw2v92uXVo2jNO0Wfjb2CAMC/O4gDUQjz\nOSWWE3di1zC5vjZX+A4bGe5FG8DUfG+GoAh5Zxq573qKwp+hB1Eg0WbbhmJK\nBUVksyX57fROaoiJ6PJ2Tw/eJd0XlhiAjclEce1Wx0vYiFJsXG0+8rgG/iak\nF31yTtYxDT6yq1seo3Xr04kUYxKKRlvSJxfgjos8EH0N/paha/gkwMohSwVf\noy6tx/XfPGs1PvEClBgbMnFm2sU+RF8FM+dn53FCnV8ZIPt5Wf/DCm6jDuPn\nmqlgLkPiR1Ad4CkxxkurJjcu9KwgJY7mzBrpD75Y4cgqc7mg+ZNgMO2g3Qs+\nRtqrY8BZjMH95nEpaHPvk/1HpzCSPc/nfV0yEaRWlp/0qJywIX3ogNYCEnQh\n1rln\r\n=zPKh\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "jridgewell",
+				"email": "justin+npm@ridgewell.name"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jridgewell",
+					"email": "justin+npm@ridgewell.name"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/sourcemap-codec_1.4.10_1644060897901_0.6871697945298141"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.4.11": {
+			"name": "@jridgewell/sourcemap-codec",
+			"version": "1.4.11",
+			"description": "Encode/decode sourcemap mappings",
+			"keywords": [
+				"sourcemap",
+				"vlq"
+			],
+			"main": "dist/sourcemap-codec.umd.js",
+			"module": "dist/sourcemap-codec.mjs",
+			"typings": "dist/types/sourcemap-codec.d.ts",
+			"exports": {
+				".": {
+					"browser": "./dist/sourcemap-codec.umd.js",
+					"import": "./dist/sourcemap-codec.mjs",
+					"require": "./dist/sourcemap-codec.umd.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"scripts": {
+				"benchmark": "run-s build:rollup benchmark:only",
+				"benchmark:only": "node benchmark/index.js",
+				"build": "run-s -n build:*",
+				"build:rollup": "rollup -c rollup.config.js",
+				"build:ts": "tsc --project tsconfig.build.json",
+				"lint": "run-s -n lint:*",
+				"lint:prettier": "npm run test:lint:prettier -- --write",
+				"lint:ts": "npm run test:lint:ts -- --fix",
+				"prebuild": "rm -rf dist",
+				"prepublishOnly": "npm run preversion",
+				"preversion": "run-s test build",
+				"pretest": "run-s build:rollup",
+				"test": "run-s -n test:lint test:only",
+				"test:debug": "mocha --inspect-brk",
+				"test:lint": "run-s -n test:lint:*",
+				"test:lint:prettier": "prettier --check '{src,test}/**/*.ts'",
+				"test:lint:ts": "eslint '{src,test}/**/*.ts'",
+				"test:only": "mocha",
+				"test:coverage": "c8 mocha",
+				"test:watch": "mocha --watch"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jridgewell/sourcemap-codec.git"
+			},
+			"author": {
+				"name": "Rich Harris"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@rollup/plugin-typescript": "8.3.0",
+				"@types/node": "17.0.15",
+				"@typescript-eslint/eslint-plugin": "5.10.0",
+				"@typescript-eslint/parser": "5.10.0",
+				"benchmark": "2.1.4",
+				"c8": "7.11.0",
+				"eslint": "8.7.0",
+				"eslint-config-prettier": "8.3.0",
+				"mocha": "9.2.0",
+				"npm-run-all": "4.1.5",
+				"prettier": "2.5.1",
+				"rollup": "2.64.0",
+				"source-map": "0.6.1",
+				"source-map-js": "1.0.2",
+				"sourcemap-codec": "1.4.8",
+				"typescript": "4.5.4"
+			},
+			"gitHead": "2e11c3357477c5715fbb139687b9b38da1310b0a",
+			"bugs": {
+				"url": "https://github.com/jridgewell/sourcemap-codec/issues"
+			},
+			"homepage": "https://github.com/jridgewell/sourcemap-codec#readme",
+			"_id": "@jridgewell/sourcemap-codec@1.4.11",
+			"_nodeVersion": "16.13.2",
+			"_npmVersion": "8.1.2",
+			"dist": {
+				"integrity": "sha512-Fg32GrJo61m+VqYSdRSjRXMjQ06j8YIYfcTqndLYVAaHmroZHLJZCydsWBOTDqXS2v+mjxohBWEMfg97GXmYQg==",
+				"shasum": "771a1d8d744eeb71b6adb35808e1a6c7b9b8c8ec",
+				"tarball": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.11.tgz",
+				"fileCount": 8,
+				"unpackedSize": 28905,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiBiDMCRA9TVsSAnZWagAAcGwP/3IskiJbF70fM9yRsUmY\nu3h6KYfMKlkPU0FLkRkSbZ8xYIZecF9SGgTihOnJguErOFnnM+qlOWX+UeIb\nPkamVxr5quu/CkOMEa15atMwbG1/A0OjsXJn1Gdy1Krv/m+hxKOeBe3AoEA8\nPEmD7JztWHZesnGiFfRc9rG5G0FuQoAAsDgP3EaIXZ6359af6a1MLkQ4HS6u\nvYrhlikfw67B8IdTEcZAWo4JGfb8TtxceO0Bt+XWs0HFWiKNtk0PrblBDgXd\nkIhoA/NkysEzDapJgTeXu6skVOQrajB1AIiYOvWVnuNKs+SR7wOJUDOJ54yN\nv3Ul76m+Hc7ZpFIrF+H/IAZ9unH4dYX4Nva2f5X3trr4iTzgUvanoJ1tm2p6\nfrrW/n45fvzxtPJy62dcAShKnIxTJ80uKPO3DG7Bqf/WwGgOPulJrf6Q+gSZ\nMT1Z8VBgk0UV6TWu7UIwlF8xHgcZ6Hgi8W39Dj+CANcsup9MttxANoBmg2ZT\nEJNhxMYKgq0A7Wod1JzHUlFgwcVEvu9zzX/rr4mKzyAnuNzYTGRFYsBHezo/\nK0lqopxSdEWvzqT4WvsULoJgwm6E+PK90uGkR4XS/3abtXLJqvwsL0OdCsC4\n4sn2SZAdIV12KmFljQzaVedGimtrWo8jhgRS/TvdLeXlxbzKvk/OIXepiQuC\nML1N\r\n=Q+sZ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "jridgewell",
+				"email": "justin+npm@ridgewell.name"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jridgewell",
+					"email": "justin+npm@ridgewell.name"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/sourcemap-codec_1.4.11_1644568780215_0.44314274303373513"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2022-02-05T04:51:19.696Z",
+		"1.4.9": "2022-02-05T04:51:19.912Z",
+		"modified": "2022-02-11T08:39:42.206Z",
+		"1.4.10": "2022-02-05T11:34:58.044Z",
+		"1.4.11": "2022-02-11T08:39:40.389Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.4.11"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"03982701adcf4d499a3e93078b7e8d21\"",
+			"fetched": 1646834714957
+		}
+	},
+	"_distfiles": {
+		"sourcemap-codec-1.4.9.tgz": {
+			"url": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.9.tgz",
+			"sha": "6963babca1e1b8a8dc1c379bd4bd2bf9c21c356a",
+			"registry": "npmjs"
+		},
+		"sourcemap-codec-1.4.10.tgz": {
+			"url": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.10.tgz",
+			"sha": "baf57b4e2a690d4f38560171f91783656b7f8186",
+			"registry": "npmjs"
+		},
+		"sourcemap-codec-1.4.11.tgz": {
+			"url": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.11.tgz",
+			"sha": "771a1d8d744eeb71b6adb35808e1a6c7b9b8c8ec",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"sourcemap-codec-1.4.11.tgz": {
+			"shasum": "771a1d8d744eeb71b6adb35808e1a6c7b9b8c8ec"
+		}
+	},
+	"_rev": "7-e5047f48701d5a39",
+	"_id": "@jridgewell/sourcemap-codec",
+	"readme": "# sourcemap-codec\n\nEncode/decode the `mappings` property of a [sourcemap](https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k/edit).\n\n\n## Why?\n\nSourcemaps are difficult to generate and manipulate, because the `mappings` property – the part that actually links the generated code back to the original source – is encoded using an obscure method called [Variable-length quantity](https://en.wikipedia.org/wiki/Variable-length_quantity). On top of that, each segment in the mapping contains offsets rather than absolute indices, which means that you can't look at a segment in isolation – you have to understand the whole sourcemap.\n\nThis package makes the process slightly easier.\n\n\n## Installation\n\n```bash\nnpm install sourcemap-codec\n```\n\n\n## Usage\n\n```js\nimport { encode, decode } from 'sourcemap-codec';\n\nvar decoded = decode( ';EAEEA,EAAE,EAAC,CAAE;ECQY,UACC' );\n\nassert.deepEqual( decoded, [\n\t// the first line (of the generated code) has no mappings,\n\t// as shown by the starting semi-colon (which separates lines)\n\t[],\n\n\t// the second line contains four (comma-separated) segments\n\t[\n\t\t// segments are encoded as you'd expect:\n\t\t// [ generatedCodeColumn, sourceIndex, sourceCodeLine, sourceCodeColumn, nameIndex ]\n\n\t\t// i.e. the first segment begins at column 2, and maps back to the second column\n\t\t// of the second line (both zero-based) of the 0th source, and uses the 0th\n\t\t// name in the `map.names` array\n\t\t[ 2, 0, 2, 2, 0 ],\n\n\t\t// the remaining segments are 4-length rather than 5-length,\n\t\t// because they don't map a name\n\t\t[ 4, 0, 2, 4 ],\n\t\t[ 6, 0, 2, 5 ],\n\t\t[ 7, 0, 2, 7 ]\n\t],\n\n\t// the final line contains two segments\n\t[\n\t\t[ 2, 1, 10, 19 ],\n\t\t[ 12, 1, 11, 20 ]\n\t]\n]);\n\nvar encoded = encode( decoded );\nassert.equal( encoded, ';EAEEA,EAAE,EAAC,CAAE;ECQY,UACC' );\n```\n\n\n# License\n\nMIT"
+}

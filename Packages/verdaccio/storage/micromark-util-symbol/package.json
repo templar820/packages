@@ -1,0 +1,615 @@
+{
+	"name": "micromark-util-symbol",
+	"versions": {
+		"1.0.0-alpha.1": {
+			"name": "micromark-util-symbol",
+			"version": "1.0.0-alpha.1",
+			"description": "micromark utility with symbols",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"symbol"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"type": "module",
+			"exports": {
+				"./codes": "./codes.js",
+				"./codes.js": "./codes.js",
+				"./constants": "./constants.js",
+				"./constants.js": "./constants.js",
+				"./types": "./types.js",
+				"./types.js": "./types.js",
+				"./values": "./values.js",
+				"./values.js": "./values.js"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-symbol@1.0.0-alpha.1",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.15.1",
+			"dist": {
+				"integrity": "sha512-P4EGdS0+PBl/vPiCquoUf3RjySfyzE3IOqJ99pEA67N1CUjANW56qYcR6eRSvlzFy4oomwOwhcwWGNa2y4bipA==",
+				"shasum": "598c21235fbbf94988783052ee6c4373e7e6e749",
+				"tarball": "https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-1.0.0-alpha.1.tgz",
+				"fileCount": 10,
+				"unpackedSize": 36777,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgveZeCRA9TVsSAnZWagAALcwQAJac8wGTE+011pOYONNl\nnygvXNSjva77WkkUrbHnzGQ5LqJxfK9XHj1hsBI8N38EvByLnw8YesS636ns\nbOkIFEtQHP/dbM16xsHA+cQO/9Bznr3M8sdit9xd6U+SWNM7/N2H1qYeLA3d\niJnIAkcSa0tLBgJiSXga+Mrx2mx0HkiJk7r1X+n7isw9mN18k0Tt6UNXGLtI\nNT6c/06L8910iimzNgM1saFDTast2rWI37mm2c8spFstC506nL+effUpZJ0L\n3Mtu36cLaaPLAhf7JXqCVldvjmQb682EVj/J/J2VWx2pQaeJIrzuTtP/+Ba1\nPAHD0OepO1Dj4WLTel3nvNsAhy4eO9XncMFQWRaM506Pxpg79I4YFx+e85rl\n2pOZ0muzzyEp9PU34OCYzx+wsw2KzK1cvGgWj4i768HKpkZON8XY6r/oi5mG\n32iarDO+PXML1YpoM234gakyFpOvkIQkvXrBnAnnb5095/hyV+LVc6LGLjz4\n8lI4QRYaMvDsqpzrHMXvvuibk2vrj80h1KNNfZDII6zbB+KJkPbfFHtTrXaR\nreBqfY21uKEk1oYWH5glUw05RJIcgtghPN++kT1xCr677gk3Ac1ZatrX4Wst\ngCXfRKWLf4REMgU4TVFJ7etyQo6LwKswJRVlFxYLMU9Rt87GJXoOO/vYrXht\n4QPn\r\n=FEW3\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-symbol_1.0.0-alpha.1_1623058014124_0.7025753826081165"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.0-alpha.2": {
+			"name": "micromark-util-symbol",
+			"version": "1.0.0-alpha.2",
+			"description": "micromark utility with symbols",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"symbol"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"exports": {
+				"./codes": "./codes.js",
+				"./codes.js": "./codes.js",
+				"./constants": "./constants.js",
+				"./constants.js": "./constants.js",
+				"./types": "./types.js",
+				"./types.js": "./types.js",
+				"./values": "./values.js",
+				"./values.js": "./values.js"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"readmeFilename": "readme.md",
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-symbol@1.0.0-alpha.2",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.15.1",
+			"dist": {
+				"integrity": "sha512-hE7+N0ZczbgQXIgbXjio5ICf6FH+zd8tgVy1CxpQaB1qA0xDVFspSiKJswWrV1COv4fnDg2Wgb0frvCgQf2ymg==",
+				"shasum": "ffb4c30da7ad403ee982a5507adf49766f1ad12b",
+				"tarball": "https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-1.0.0-alpha.2.tgz",
+				"fileCount": 10,
+				"unpackedSize": 36801,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgviDTCRA9TVsSAnZWagAA7WgQAICJ/aBr0PftdXSx+KJW\n06GMKYiXqFuZjjw5vm45xisYaPyUMgxD3FVkW59DInkk8XgSnu5h6irqsC4g\n+dbBCwY4Q3ZhXW6QcATZwJpOLCq21ek8/rwYSPJkAA9detNrzRGvNFGLbVfu\nDZPdei9GjYV1648+mZ9LCF+hh4Nroa5xx96Csalbpldrmd6G0Z4X44p54Vt4\nqCxG5dJGX48F40X6NZsvWkea6wJKVeBye8zDQ+G8XHBuVPebZ94Pmr1GZgZM\n6wFBAyKG9e3iWqC1SwvLWZcSNMiEreuijOwAqz6sYLv/SbGxD6EsgtcwRU4Y\n2s8HvrDUcskPXUV2PLcF1XJLFWQG7VPNfg4SpIk7wkUhpE+oB90xFFFOxTXG\nw3Trs03raUQckxWXTsz+Sy7qNvHrPOrG5ravQTsCxIldHvW+VtR8n4sIdCw9\nJQW4m80/U2mWta512rkikPJ+edrqHTL/JDBsZfblZxtpAAWOR9+6Qq4aiXGy\nVx0tXMdkxlRPUBWOQ7GvtWgy8JsxiI++QHMi/dauj0qSEdyLUXzyjC+xB6oi\nK4hdhsr20jiJF6hZtr+mkW8ld19cxsqRvAFJxVLVNG+RDmk7ws0MavD8RlPD\nxU82AAV7cT0/+Y/HtR694gKYodsjTjO+9/eSl7zUg78ax2L2iKpOuFMpFf9L\nAMVo\r\n=xWmo\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-symbol_1.0.0-alpha.2_1623072979621_0.726216691391038"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.0-alpha.3": {
+			"name": "micromark-util-symbol",
+			"version": "1.0.0-alpha.3",
+			"description": "micromark utility with symbols",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"symbol"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"exports": {
+				"./codes": "./codes.js",
+				"./codes.js": "./codes.js",
+				"./constants": "./constants.js",
+				"./constants.js": "./constants.js",
+				"./types": "./types.js",
+				"./types.js": "./types.js",
+				"./values": "./values.js",
+				"./values.js": "./values.js"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"readmeFilename": "readme.md",
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-symbol@1.0.0-alpha.3",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.16.0",
+			"dist": {
+				"integrity": "sha512-8TMkkZs9dY0DK+MqsSqj3NscZjkf6+2blprJPqNUMvGt09kJ1+OTij6rUUB3RtyMnzFAkOqhtfr/vlJUMVxldQ==",
+				"shasum": "3d630e4806204c30447850f2b5eef40891c359ff",
+				"tarball": "https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-1.0.0-alpha.3.tgz",
+				"fileCount": 10,
+				"unpackedSize": 36936,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgyjKGCRA9TVsSAnZWagAAqh4P/3jGbeMQkkVl4xEcFE8E\nBpXoy4F9SjAwSCVu/zm1f3TZ3P4lrkdxrKcTP6BeHo0aCoZMew6KZ6dpiwf1\nXJmET+JDJbvSb07nF6pJRXfN757rSMmoCSIWtR1tuvoAQaUCfk0ZNYCX4d8y\nSXJe/n5N6gnVcki4ILj55ovpHmJ245hMVXwUV2/ABB5Exn31ELPQAaOXlmvx\njrQ7Cf+puIgxuYXSYvLypPQbdelQCvuVVyp9dobPXPDOpWqGIAyzKmi05joR\nwD6kguHnoFGEwYGVQVNKNEg/kuNIEyVuUFiFZWzs4KyDn7HSpPgMGCs6kT2K\n2aeFNcCozYxCPdUK7EuwdBIB0k6JVzPEcetAXzdfWJK9DNUYxpvLTGZs02ho\n5iEHQBj8yNNdNR+bGmd7TRtTRdFTp2vdXRXXap303yy3OO+KjlEVXCjdwmyS\nWHVXznDiPIfPjsOwbk4bSYneiTiJMXfsiVCiF4E2vVbV1FUYaCEC22K3AesP\nmXPrA2W5u43YjJQaIWDEi2HzkkDRqT7ywgjdfDW91QYYpajoKwZkkXzvpzRr\nHWEqMvkBWLjkSmcLWHHkn06CzUzsoT2TFBz6Akp/3yx/2DnL31Z0Dg79wDdA\nuxUkHAQwc7WOvAcvvWIZIhQYxuzUkNwXRCUVmQkOlQiM1cWxV5HO44GIrLkx\nenkd\r\n=7U7W\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-symbol_1.0.0-alpha.3_1623863941452_0.8156625781505524"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.0-beta.1": {
+			"name": "micromark-util-symbol",
+			"version": "1.0.0-beta.1",
+			"description": "micromark utility with symbols",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"symbol"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"exports": {
+				"./codes": "./codes.js",
+				"./codes.js": "./codes.js",
+				"./constants": "./constants.js",
+				"./constants.js": "./constants.js",
+				"./types": "./types.js",
+				"./types.js": "./types.js",
+				"./values": "./values.js",
+				"./values.js": "./values.js"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"readmeFilename": "readme.md",
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-symbol@1.0.0-beta.1",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.18.1",
+			"dist": {
+				"integrity": "sha512-bG1SABJP44IySERBJQP9El8HbTaQpekEfGFYi5lENQoAEL6stAxt0XGyaCPGwJcLgrdyo7wywgZS1SjyHStdrw==",
+				"shasum": "80db0083a164e83824819ff538c02f22b18080ec",
+				"tarball": "https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-1.0.0-beta.1.tgz",
+				"fileCount": 10,
+				"unpackedSize": 36935,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgzzD6CRA9TVsSAnZWagAAo0EQAIN3cCDDC2moAs8uMONh\nasA+rVpROgcgB1dxRP5NgcMLCZhDE5sps0gdvWo6oPbjtEM+mETWkuPMiHsd\n1eJL5eftZEKt8RPXwGDSsRz5glgNry3DSUjK2b5MQlF/az1XRoU7XLK81Dza\nLitDEOzctYLvzmtsuUJlDsO5YHYMNU76VVKkJwDvLgbsc5AnM/YJAoBgy8f8\nZvHL/7dsh39QtaM99byCXx4lNI1615wHUTlXFEkbKGc9S0mxts6A3/MHWB+P\nfJMSHcshwISI5MguNjngdY6c18gWVT6SmCiqThIN7gCkRnRqN6Mx3UH74E99\n4SPd6l6tTfPi+LmZ1cOwWqoMi0J0iFEP/YekInEQCxIjmGcw+L3zkJPU7qBp\nj1iWe3KooU2mApFDgxuvQI7xYXkm65NsUDAAiDvTC39jH7+UkCDhmtOe7NCq\nEC1vIulnQBOMNjADf9T2I6Y7VUFOwAVVEGQIr9fDALO8jbhKLIJLuSYfuyQp\n5kBjw+0CBGrlSnw3JcvMYdnJCX12aHYyL+i+FT/NKkzdn+dYN9W3DdfJ6Egp\nyKY8lb2l7FRQ/jMmBzlrd0J7rvwpitbhehIYjQ2EmACqRys+3dKNXmNFFx3z\nNzPv1wqa2RbLDLOxuWhgP4m4jJ9KSG8TD9KUwDPp07XU6xzWD7HzNxht2zyM\n4ABc\r\n=jsbd\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-symbol_1.0.0-beta.1_1624191225808_0.4243665412390565"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.0": {
+			"name": "micromark-util-symbol",
+			"version": "1.0.0",
+			"description": "micromark utility with symbols",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"symbol"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"exports": {
+				"./codes": "./codes.js",
+				"./codes.js": "./codes.js",
+				"./constants": "./constants.js",
+				"./constants.js": "./constants.js",
+				"./types": "./types.js",
+				"./types.js": "./types.js",
+				"./values": "./values.js",
+				"./values.js": "./values.js"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-symbol@1.0.0",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.18.1",
+			"dist": {
+				"integrity": "sha512-NZA01jHRNCt4KlOROn8/bGi6vvpEmlXld7EHcRH+aYWUfL3Wc8JLUNNlqUMKa0hhz6GrpUWsHtzPmKof57v0gQ==",
+				"shasum": "91cdbcc9b2a827c0129a177d36241bcd3ccaa34d",
+				"tarball": "https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-1.0.0.tgz",
+				"fileCount": 10,
+				"unpackedSize": 36928,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg0jRDCRA9TVsSAnZWagAAZKYQAJ5nDB+CMPO+ttkJX9SW\nxHerFSKskv7kjob4AlPEimXh1TCpSkpKIOgmcrN0GtmtQzCr32b3at7yPaHy\nfTzkfnqkum3ju+mC+2dF4R+53ivDFu2gzskvb/2AfzyKkKM9YHzHT7Jli/HA\nQLVUX7dy54rt0JyEKaGf1QYYDcLdql8AELl81L0gJro3QSNOsrpOP4DjYE97\nAB7ndovviL7Ryj5s0ivMeQVpZClTxbx7j7YqBOM7PC5FbpmEIa3n1oHsR08M\n0/jXAbVQbzQZH3qMcXo/11RqPOhKopddCOP1rY3DhFSlyRs8OwxgdejldtBq\nTS/Ch0BbwyHugCO+fpKJNMdOxkRjOYeKC9XoUVT/jINfUcqQpcDHiOsJV6N1\n2V0Vakh1GmpzpN2TevFRfwXli8MN84L2g2DhXG/stBIUkF2i0mN+KN5n3ZvJ\nb+LPd4dkWjgJKiIZYy8n0/jxh8tUqmgw1sqPwuF9RpgjBxGZKajTcb9JGAGo\n85u9YpEge8LbGzej4mM8n8H81CSgX0IiUa/vJ2lFzb+RIzWWvJhrQYzIx2Wg\n9VQtm0d1Im2ZULEWpxzVu2CDl1+CJGh4wohzIwYLWiDGU9J1Bl0+XIrmXJOx\nhrqA0U0W273SYBksAbluZmpnDcHUdsRXeW3NzeO+DoLQbM4LoiQ+lduTz7Uf\nZL+P\r\n=zRpd\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-symbol_1.0.0_1624388674846_0.9082411401636568"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.1": {
+			"name": "micromark-util-symbol",
+			"version": "1.0.1",
+			"description": "micromark utility with symbols",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"symbol"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"exports": {
+				"./codes": "./codes.js",
+				"./codes.js": "./codes.js",
+				"./constants": "./constants.js",
+				"./constants.js": "./constants.js",
+				"./types": "./types.js",
+				"./types.js": "./types.js",
+				"./values": "./values.js",
+				"./values.js": "./values.js"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"gitHead": "1e288d4de2a99bb8974ac0c3977f176973e3ec3f",
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-symbol@1.0.1",
+			"_nodeVersion": "17.0.1",
+			"_npmVersion": "8.1.0",
+			"dist": {
+				"integrity": "sha512-oKDEMK2u5qqAptasDAwWDXq0tG9AssVwAx3E9bBF3t/shRIGsWIRG+cGafs2p/SnDSOecnt6hZPCE2o6lHfFmQ==",
+				"shasum": "b90344db62042ce454f351cf0bebcc0a6da4920e",
+				"tarball": "https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-1.0.1.tgz",
+				"fileCount": 10,
+				"unpackedSize": 37009,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhqfwnCRA9TVsSAnZWagAA3NwP/1GlRfDMOzw/oCKEoSFQ\neFm80cAR+S7Pu4ws6j73ixeDA26aMUnURF5XCtfflF52sTVlU4MLks7QiZ1y\nePKSzCpXkJR5kBi3vet1NHvN5yInZc+DOsIKqui9gpq03jyuxh5sczENag24\nKu5rVHQERILENArC+067cm5BROPq6zFluw5OJj5LR96NYFAm8lahlxgu5/ms\nKdT8cTsUbTObocP235l6L8A/VCkqkLZLE1XM2WqXPyVOeKY1g8TzXi2k7jiV\nW3OeYpw6C2kmEUNpbFLq+IVIpHHM4bTpknlkQXjRKdOXM/b0HRrokBEvF80Y\nmTV5J02QK4L5KR9IrbwTnZcd1oe7m80WzX3TKJLFBA5ua091ebskserNrR0C\n47OpN9s9N38QEeLSac9uLfW/ziMl5lCAS6ARhPF4791r5MErvDmPq2+9WMYA\nVRolmhzABkrVSmudPrA2NDmlky3R1GsAqYW6ZKS1GV1+e1OZbMxgLgFENJsK\nFrNdK7FR0iCoSFm2RvJYL8p56PRj6q3rVGZILYgnKbrtl8EKFl/UxyQTBxKU\nQD3hWpnds+CdnwEaR8CPobvt72xs4VSVPiqfRQne7J2uARg7MoM5lT5SPx+K\nHK+n66VWjl4nAQH0d3gh1Ednf0XwQVKnnl5pJZ1NnXUXkZ6co5iRca1hmBd2\nYlTQ\r\n=X1VO\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-symbol_1.0.1_1638530086916_0.029136168177106736"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"created": "2021-06-07T09:26:54.124Z",
+		"1.0.0-alpha.1": "2021-06-07T09:26:54.296Z",
+		"modified": "2021-12-03T11:14:51.674Z",
+		"1.0.0-alpha.2": "2021-06-07T13:36:19.793Z",
+		"1.0.0-alpha.3": "2021-06-16T17:19:01.792Z",
+		"1.0.0-beta.1": "2021-06-20T12:13:45.948Z",
+		"1.0.0": "2021-06-22T19:04:34.989Z",
+		"1.0.1": "2021-12-03T11:14:47.090Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"next": "1.0.0-beta.1",
+		"latest": "1.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"f2c1fd0a6d902c976f49237c691b2f6b\"",
+			"fetched": 1646835681778
+		}
+	},
+	"_distfiles": {
+		"micromark-util-symbol-1.0.0-alpha.1.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-1.0.0-alpha.1.tgz",
+			"sha": "598c21235fbbf94988783052ee6c4373e7e6e749",
+			"registry": "npmjs"
+		},
+		"micromark-util-symbol-1.0.0-alpha.2.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-1.0.0-alpha.2.tgz",
+			"sha": "ffb4c30da7ad403ee982a5507adf49766f1ad12b",
+			"registry": "npmjs"
+		},
+		"micromark-util-symbol-1.0.0-alpha.3.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-1.0.0-alpha.3.tgz",
+			"sha": "3d630e4806204c30447850f2b5eef40891c359ff",
+			"registry": "npmjs"
+		},
+		"micromark-util-symbol-1.0.0-beta.1.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-1.0.0-beta.1.tgz",
+			"sha": "80db0083a164e83824819ff538c02f22b18080ec",
+			"registry": "npmjs"
+		},
+		"micromark-util-symbol-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-1.0.0.tgz",
+			"sha": "91cdbcc9b2a827c0129a177d36241bcd3ccaa34d",
+			"registry": "npmjs"
+		},
+		"micromark-util-symbol-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-1.0.1.tgz",
+			"sha": "b90344db62042ce454f351cf0bebcc0a6da4920e",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"micromark-util-symbol-1.0.1.tgz": {
+			"shasum": "b90344db62042ce454f351cf0bebcc0a6da4920e"
+		}
+	},
+	"_rev": "3-0a782612c40ec3b6",
+	"_id": "micromark-util-symbol",
+	"readme": "# micromark-util-symbol\n\n[![Build][build-badge]][build]\n[![Coverage][coverage-badge]][coverage]\n[![Downloads][downloads-badge]][downloads]\n[![Size][bundle-size-badge]][bundle-size]\n[![Sponsors][sponsors-badge]][opencollective]\n[![Backers][backers-badge]][opencollective]\n[![Chat][chat-badge]][chat]\n\nmicromark utility with symbols.\n\nIt’s useful to reference these by name instead of value while developing.\n[`micromark-build`][micromark-build] compiles them away for production code.\n\n## Contents\n\n*   [Install](#install)\n*   [Use](#use)\n*   [API](#api)\n*   [Security](#security)\n*   [Contribute](#contribute)\n*   [License](#license)\n\n## Install\n\n[npm][]:\n\n```sh\nnpm install micromark-util-symbol\n```\n\n## Use\n\n```js\nimport {codes} from 'micromark-util-symbol/codes'\nimport {constants} from 'micromark-util-symbol/constants'\nimport {types} from 'micromark-util-symbol/types'\nimport {values} from 'micromark-util-symbol/values'\n\nconsole.log(codes.atSign) // 64\nconsole.log(constants.characterReferenceNamedSizeMax) // 31\nconsole.log(types.definitionDestinationRaw) // 'definitionDestinationRaw'\nconsole.log(values.atSign) // '@'\n```\n\n## API\n\nThis package has four entries in its export map: `micromark-util-symbol/codes`,\n`micromark-util-symbol/constants`, `micromark-util-symbol/types`,\n`micromark-util-symbol/values`.\n\nEach module exports an identifier with the same name (for example,\n`micromark-util-symbol/codes` has `codes`), which is an object mapping strings\nto other values.\n\nTake a peek at the code to learn more!\n\n## Security\n\nSee [`security.md`][securitymd] in [`micromark/.github`][health] for how to\nsubmit a security report.\n\n## Contribute\n\nSee [`contributing.md`][contributing] in [`micromark/.github`][health] for ways\nto get started.\nSee [`support.md`][support] for ways to get help.\n\nThis project has a [code of conduct][coc].\nBy interacting with this repository, organisation, or community you agree to\nabide by its terms.\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[build-badge]: https://github.com/micromark/micromark/workflows/main/badge.svg\n\n[build]: https://github.com/micromark/micromark/actions\n\n[coverage-badge]: https://img.shields.io/codecov/c/github/micromark/micromark.svg\n\n[coverage]: https://codecov.io/github/micromark/micromark\n\n[downloads-badge]: https://img.shields.io/npm/dm/micromark-util-symbol.svg\n\n[downloads]: https://www.npmjs.com/package/micromark-util-symbol\n\n[bundle-size-badge]: https://img.shields.io/bundlephobia/minzip/micromark-util-symbol.svg\n\n[bundle-size]: https://bundlephobia.com/result?p=micromark-util-symbol\n\n[sponsors-badge]: https://opencollective.com/unified/sponsors/badge.svg\n\n[backers-badge]: https://opencollective.com/unified/backers/badge.svg\n\n[opencollective]: https://opencollective.com/unified\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[chat-badge]: https://img.shields.io/badge/chat-discussions-success.svg\n\n[chat]: https://github.com/micromark/micromark/discussions\n\n[license]: https://github.com/micromark/micromark/blob/main/license\n\n[author]: https://wooorm.com\n\n[health]: https://github.com/micromark/.github\n\n[securitymd]: https://github.com/micromark/.github/blob/HEAD/security.md\n\n[contributing]: https://github.com/micromark/.github/blob/HEAD/contributing.md\n\n[support]: https://github.com/micromark/.github/blob/HEAD/support.md\n\n[coc]: https://github.com/micromark/.github/blob/HEAD/code-of-conduct.md\n\n[micromark-build]: https://github.com/micromark/micromark/tree/main/packages/micromark-build"
+}

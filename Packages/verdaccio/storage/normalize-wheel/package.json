@@ -1,0 +1,129 @@
+{
+	"name": "normalize-wheel",
+	"versions": {
+		"1.0.0": {
+			"name": "normalize-wheel",
+			"version": "1.0.0",
+			"description": "Mouse wheel normalization across multiple multiple browsers.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [
+				"mouse wheel",
+				"normalization",
+				"browser"
+			],
+			"author": {
+				"name": "Bas Stottelaar"
+			},
+			"license": "BSD-3-Clause",
+			"gitHead": "af9d3a77cf785326f269f5a326ada3f6b82a3055",
+			"_id": "normalize-wheel@1.0.0",
+			"_shasum": "ba310667dcaa9b57a62a14a93e70f626d57e4200",
+			"_from": ".",
+			"_npmVersion": "3.9.3",
+			"_nodeVersion": "6.2.1",
+			"_npmUser": {
+				"name": "basilfx",
+				"email": "basstottelaar@gmail.com"
+			},
+			"dist": {
+				"shasum": "ba310667dcaa9b57a62a14a93e70f626d57e4200",
+				"tarball": "https://registry.npmjs.org/normalize-wheel/-/normalize-wheel-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "basilfx",
+					"email": "basstottelaar@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/normalize-wheel-1.0.0.tgz_1465192625066_0.10385456890799105"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "normalize-wheel",
+			"version": "1.0.1",
+			"description": "Mouse wheel normalization across multiple multiple browsers.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [
+				"mouse wheel",
+				"normalization",
+				"browser"
+			],
+			"author": {
+				"name": "Bas Stottelaar"
+			},
+			"license": "BSD-3-Clause",
+			"gitHead": "a1b69f0096ee4fca1436241e493f7d7919242cc7",
+			"_id": "normalize-wheel@1.0.1",
+			"_shasum": "aec886affdb045070d856447df62ecf86146ec45",
+			"_from": ".",
+			"_npmVersion": "3.9.3",
+			"_nodeVersion": "6.2.1",
+			"_npmUser": {
+				"name": "basilfx",
+				"email": "basstottelaar@gmail.com"
+			},
+			"dist": {
+				"shasum": "aec886affdb045070d856447df62ecf86146ec45",
+				"tarball": "https://registry.npmjs.org/normalize-wheel/-/normalize-wheel-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "basilfx",
+					"email": "basstottelaar@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/normalize-wheel-1.0.1.tgz_1466114102875_0.11990849394351244"
+			},
+			"directories": {},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2017-11-26T10:28:06.056Z",
+		"created": "2016-06-06T05:57:06.767Z",
+		"1.0.0": "2016-06-06T05:57:06.767Z",
+		"1.0.1": "2016-06-16T21:55:05.355Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5eb6d7e8c696fe895689b97e1ac34dc4\"",
+			"fetched": 1646829420729
+		}
+	},
+	"_distfiles": {
+		"normalize-wheel-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/normalize-wheel/-/normalize-wheel-1.0.0.tgz",
+			"sha": "ba310667dcaa9b57a62a14a93e70f626d57e4200",
+			"registry": "npmjs"
+		},
+		"normalize-wheel-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/normalize-wheel/-/normalize-wheel-1.0.1.tgz",
+			"sha": "aec886affdb045070d856447df62ecf86146ec45",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"normalize-wheel-1.0.1.tgz": {
+			"shasum": "aec886affdb045070d856447df62ecf86146ec45"
+		}
+	},
+	"_rev": "2-1b6815f15ed3c7de",
+	"_id": "normalize-wheel",
+	"readme": "# Normalize Wheel\nMouse wheel normalization across multiple multiple browsers.\n\n## Original source\nThis code is extracted and from Facebook's [Fixed Data Table](https://github.com/facebook/fixed-data-table). Apart from import fixes, the code is unmodified.\n\n## Usage\nJust add it as an dependency in npm.\n\nYou can use it as follows:\n\n```js\nimport normalizeWheel from 'normalize-wheel';\n\ndocument.addEventListener('mousewheel', function (event) {\n    const normalized = normalizeWheel(event);\n\n    console.log(normalized.pixelX, normalized.pixelY);\n});\n```\n\n## License\nSee the `LICENSE` file."
+}

@@ -1,0 +1,492 @@
+{
+	"name": "micromark-util-html-tag-name",
+	"versions": {
+		"1.0.0-alpha.1": {
+			"name": "micromark-util-html-tag-name",
+			"version": "1.0.0-alpha.1",
+			"description": "micromark utility with list of html tag names",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"html",
+				"tag",
+				"name"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"type": "module",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"exports": "./index.js",
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-html-tag-name@1.0.0-alpha.1",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.15.1",
+			"dist": {
+				"integrity": "sha512-zUwmbBAoFwRBru9CmEJSsNPwPmQwOCgGBuDy4JZvK3C0CvWdDwF/6msjFb3h6+mQ3hVNLfMWD1FWUbo/C2BimQ==",
+				"shasum": "6d4fc4af6dc916c3a3c6ac6c0376df8df178f6a6",
+				"tarball": "https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-1.0.0-alpha.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 7615,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgveY/CRA9TVsSAnZWagAA7gIP/iHHMW6TlH56cpMAuxDk\nyRrbn4O9qKWfwXlt2n/aymTCdFw0OSGSYPY2baw2ngo/ZkPELeUi4eW4hLAd\nfDpPXSK0uq9RODDNKVso8M9nKX3ERAEGn7tSES0sU3jFIGRZ8ojxk5RaFI/Q\nfy0SOKe3IZWFwvTj21jn6PKEEZihgAUE7SSy9IBOp9JCk6oHwtexP/Uk22Uo\nx/LpH85X11deQRBSyCL0FCMWumFD0hqzYDiXuYCeTeRCalMtiwC0gIzhR0GP\nqGAO/pzVcW9B2S2H5XYc1fcJgHJkPAGUG0g26+qQ8EOdAgZ38Z0bbx08Ipvx\nLk1C+CUHWjQEjE71b2x4J/WO/B+MFp3rlJU01rdxTS9XBG7HrxE/PMAYIA+3\niXQLA1bejejWnS03WaoeAXOmLsRUmcmzOGnbcGw3xGHqFaM314aQy0olaS1u\n2IAhqjLAHxvIE78S+dNihcgx7wk8yvamLA7AiLTDu0rQmlS8gbVyrPGEZ+id\nGS9rO57SjsMbJ0zzrQ0UJ86RFAsDSv+k+iO4a+MJbXHfJC4r7PpLqw6wOWj9\nygKjwIHzpsIhN2TZNQv1c3geO1hsRSA5weEqT5vjROuAJkD+fBHtW/3aY0P/\ntNPEnRLzIrjjwri+fcnbXCxOoY7hLJ8KJLCU3wg4r5/TOQcLc3iiD1Fkx5rE\nx9hB\r\n=ARHk\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-html-tag-name_1.0.0-alpha.1_1623057983404_0.29513248988046636"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.0-alpha.2": {
+			"name": "micromark-util-html-tag-name",
+			"version": "1.0.0-alpha.2",
+			"description": "micromark utility with list of html tag names",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"html",
+				"tag",
+				"name"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"exports": "./index.js",
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"readmeFilename": "readme.md",
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-html-tag-name@1.0.0-alpha.2",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.15.1",
+			"dist": {
+				"integrity": "sha512-j5JnsAwNyiP+UzVDJUkxRIzN6E4OJz4EDyTDEe9JfcZafqdb1XJGqkVULoL/tO4Daz/gDKqLHtUPjD225RmBUA==",
+				"shasum": "7780bbb26d7308fa26ad7b372ce9862c230c8ddc",
+				"tarball": "https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-1.0.0-alpha.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 7639,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgviDECRA9TVsSAnZWagAABYEP+gNo+rmyFX8gDGy1evIv\nRaIBqFLCwV+X2DRtx+RNx7zXUkQnWaUyoyGDpOqPWuc/+dgvx7W8Qk5hmJtc\nYID1gPzRNWailon9fvWya6tu8wyvlnyQiSNH4ICudupRq2J1PbMa2fEnJyZN\nvoovyz1oIVx4yElMXCYpTJ4WF81sa4NVgbcDYj6gsxYTqmzUmeam7xd3DnBq\ncZAq3lnPpT5vqJ/mllHxeE2evkYxdhSfMkwIiiL2yLRVmLXHoeAaMZpYmUlV\nPSpuibJW/I7EIYvkCrNzdG1IGTTfj99QSP3PpSe5mvTOcHGhpMJA6mQKGLxX\nRjBWh9sWURF9a1a+2Xt8cmE0GQ9/G5WFSdM+yfFsuolPfveboExsBJX0Q7Cf\nxruUeV/P8p4bRmK7AsoQa/GBOhTHI6EkAF5TaCOIriMuBvjOn5Vn3xJQNu9b\nxRF2A74WaWambXITXzKCo6Y6k9FEUxWGUMG0MJazowQsw9/QvTvCAh+h14NT\n3SKq4mGdx7dcut0suIy5Jj221pp4rL+QoupadiZLtUPeCTO35KWmWb5pZEGK\ny2XYUOUitclM7/pwBwWY6tRH5+Bp4tHViMGqG54uKR6E7J4yhdgMJL04Yelj\nJVsfGNxMM5+4L8HQJ1Z2WsMEbr5oUOKehEqR6a02uPlUg7d18eAv9mq7+m5W\nsxbB\r\n=tg7p\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-html-tag-name_1.0.0-alpha.2_1623072964176_0.34740814604669246"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.0-alpha.3": {
+			"name": "micromark-util-html-tag-name",
+			"version": "1.0.0-alpha.3",
+			"description": "micromark utility with list of html tag names",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"html",
+				"tag",
+				"name"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"exports": "./index.js",
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"readmeFilename": "readme.md",
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-html-tag-name@1.0.0-alpha.3",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.16.0",
+			"dist": {
+				"integrity": "sha512-ks3CDdtx+39IaqoBgPTy0EF38HrxC5zrWT10npi2L5kQVqiHml/qy00BsXJ3ixlMJ4O7zN4Ce/ReJnfWll4xLA==",
+				"shasum": "2d91ef263720fc4a20c74082535e1bed456dafcd",
+				"tarball": "https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-1.0.0-alpha.3.tgz",
+				"fileCount": 4,
+				"unpackedSize": 7639,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgyjJyCRA9TVsSAnZWagAAzucQAIhETeLQ7nTo+Jx4lvqr\n6R2XQ2i5WMQVfNT8kkXzbRg2veBpyvfvhLhUQCUfM8mEiaGz1g8BZMybQ9C3\nV4ApqGXqx4ny0VwQagpLfrTFDuJMrP0LiceX5kTB22UL8IhNxU23fdYegX2R\nc9uf3ivYWHngbBxNesRa9uodM+c+H4yIfaSURmCpTum/9evkv5ux1bPu4c6E\nqI4oiTuuCh0OKsGmesaM5WeqLzW1Ln6ZhqeOt9wvQsum73+rEv0w5/F+4qRG\n534/Rco7Zs8ppzAUazLWovHvi4xMn0n80MhrttpgFHoHgqIpOqxK+a1sOfyd\nxtXvc57jEYHuJ6pI5UaV3L9MM/X2MppFsCj6yHjTLVm8L+004ZaubRY4+B+T\nzsbVQypMFk1Si2/DwpF5nS64cw54EKD/doNcGJQ5hIk92oS3XsLsSRFud0FI\nfa5/+TFhCEagzlZ/29c7jMRyVMzYD0abZp6SEzpz1B6cKTEy2cSpUhqFY1xB\nbzag5IprNv8YvNgP7DPySrGy4EV8xGfzBgMGfKbFVMd6NNxHqNerTkjgZXkM\nwToUUFrAqUyr60M5EGdEGdwcO10EuSouaWjHQqf0lZMPckiM52baF+mUa5KC\n+CZ5gwxeCJYEOL+0uy5+HVw6a5VM/scdRZkw6snpcKCLvhzf48sYyVdNOkri\nmBO7\r\n=KV1p\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-html-tag-name_1.0.0-alpha.3_1623863922161_0.5050164619510418"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.0-beta.1": {
+			"name": "micromark-util-html-tag-name",
+			"version": "1.0.0-beta.1",
+			"description": "micromark utility with list of html tag names",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"html",
+				"tag",
+				"name"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"exports": "./index.js",
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"readmeFilename": "readme.md",
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-html-tag-name@1.0.0-beta.1",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.18.1",
+			"dist": {
+				"integrity": "sha512-PgduU8bWFlfPaGNdzPuPzD0WGCW53IKdCCRZJjjCeTnDSu4DuMggmm5ONT5JBbbxG0mr3H7xY8k/4IuxGSM7Rw==",
+				"shasum": "934e50e6c08aab36ddbb3271f9cfee948a4fea40",
+				"tarball": "https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-1.0.0-beta.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 7638,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgzzDmCRA9TVsSAnZWagAAruIP/iBOu7PfFwrtlSybFnKa\nrpIJ9rBI9QFks+jUBBkcl+SjgVr6bZfmaQEkf4s9asDmc8aqCHMNFzi0O6tc\nGjXIWv/g1YOCIP6IhZHH8rEYUyHOqSjZNsdLWn8YRwAU0WsBziRGxBdCtYA/\ndj1SW+KVzVBxKLFMDoGjpk0wnsrIiDgsAeh1Zt+RcqkH4bBQJsYVeVqmhhZk\nW/gw/OpGfmAoHNrtWRACpTWOMzlzz74FuG1E/lkK70ZutLGziLVp68eG1fnz\nJOJs+cGqCGGQaZC3iF3kXN50hxNCPptGMYTA3i3it6EQiQvM4JquvFjpEbj/\nH2wnr8Uj7HHu8g+xH1hIaQOUU+KpoTpJXxas77TjYPnbJetqu5z6gRV93Qgl\nHbiWf3AoJ7DiEaBimJWwYiomVgOtl+MSKQqggym9IwSXHNy7Yy3RJUp8Do9H\nuZqGIaQLcarX6Et5K5XJ4f/Pjp86mbhcm1xyP0LV2PGHgllNOP3D2iDuBas9\nU+Mt1Jdd7Wje04pQRHQi7h/jpFstWCxQxe7+jOLzKE36oyqCZJ/o5K5OQg60\nwCsBZnAljwFVyA7Y4vhzwnGQNtxRcB6VqLOIVW0WLEC2lRkr62qBL6lgOR+f\nJjub0jZmbvsKI0lnk2RCVek7lmH3WBUPpKr+/7UqRrX5RtDSwMhA8UKWLzqI\nEKQp\r\n=mUH1\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-html-tag-name_1.0.0-beta.1_1624191205931_0.40188745851016017"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.0": {
+			"name": "micromark-util-html-tag-name",
+			"version": "1.0.0",
+			"description": "micromark utility with list of html tag names",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"html",
+				"tag",
+				"name"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"exports": "./index.js",
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-html-tag-name@1.0.0",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.18.1",
+			"dist": {
+				"integrity": "sha512-NenEKIshW2ZI/ERv9HtFNsrn3llSPZtY337LID/24WeLqMzeZhBEE6BQ0vS2ZBjshm5n40chKtJ3qjAbVV8S0g==",
+				"shasum": "75737e92fef50af0c6212bd309bc5cb8dbd489ed",
+				"tarball": "https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-1.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 7631,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg0jQvCRA9TVsSAnZWagAAIU8P/1X83t7VoChNlPwb7iXo\nf5zfYEoH6EZHXcd4wsO7WH9yDcp5z62+03aC22IX7bzoGD8EtlKtd/yTG8ar\nZwWiRAOk+CW670sNy4d2SzgNr2ajQ0+7ldhVkXsexngfS+2thQq6wm+sBL0P\n4UadUIP3f1vLjniqdyGad8KGlxa1K5qx46/TdsTGKa8C1Y79pbJeIHHw06e0\n7Q7vEnsE2vpUdpc02j/B6aLHlRlGdNNr2ok13blOaXLbYUm4i/1zFVUeE4gF\nATUjhrXX4G7CECVKv/lse2D6fTECnDMWa9CwldQ0O0ni4aajOy4x3NzDbZdO\nZtzGmf2KZbFObGcCVHjyZWpULNN9t0Mr0oa81Z8nLUyYyknRMXRSek9rWTgA\nLuSy550ou39FVfPWFJUTb1x5wWEGBsqUIkQQXfM0qoUV0DPJp+X91N++rSMh\nqmaKNXWk8ljN5hkWfwRq5yo9HV7n3KSZTbdIWtUwxoIOc0p01J0ZIzNRuwk5\n1KN8JERG7+rt1K/ECkgmsWdPQEcQFrd+wvnl3E9lFvG1YApmkKcslyUMuK3s\nXKILky+1vyaigfg9Jlhpj3dxAw+CFnlZMTWU7llrKHOBzRBOFoRjqVWQPHva\n5IureqMl5kxbmt8SlQd9kyU0KPngMTvDX+3wZOz9F2ps0We0u69gIwUnsFAu\nR0vk\r\n=+YdJ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-html-tag-name_1.0.0_1624388654787_0.878285345682799"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"created": "2021-06-07T09:26:23.404Z",
+		"1.0.0-alpha.1": "2021-06-07T09:26:23.522Z",
+		"modified": "2021-06-22T19:04:17.415Z",
+		"1.0.0-alpha.2": "2021-06-07T13:36:04.327Z",
+		"1.0.0-alpha.3": "2021-06-16T17:18:42.323Z",
+		"1.0.0-beta.1": "2021-06-20T12:13:26.292Z",
+		"1.0.0": "2021-06-22T19:04:14.922Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"next": "1.0.0-beta.1",
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"6e40bf27ca980e42e8780206184bdfa4\"",
+			"fetched": 1646835683592
+		}
+	},
+	"_distfiles": {
+		"micromark-util-html-tag-name-1.0.0-alpha.1.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-1.0.0-alpha.1.tgz",
+			"sha": "6d4fc4af6dc916c3a3c6ac6c0376df8df178f6a6",
+			"registry": "npmjs"
+		},
+		"micromark-util-html-tag-name-1.0.0-alpha.2.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-1.0.0-alpha.2.tgz",
+			"sha": "7780bbb26d7308fa26ad7b372ce9862c230c8ddc",
+			"registry": "npmjs"
+		},
+		"micromark-util-html-tag-name-1.0.0-alpha.3.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-1.0.0-alpha.3.tgz",
+			"sha": "2d91ef263720fc4a20c74082535e1bed456dafcd",
+			"registry": "npmjs"
+		},
+		"micromark-util-html-tag-name-1.0.0-beta.1.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-1.0.0-beta.1.tgz",
+			"sha": "934e50e6c08aab36ddbb3271f9cfee948a4fea40",
+			"registry": "npmjs"
+		},
+		"micromark-util-html-tag-name-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-1.0.0.tgz",
+			"sha": "75737e92fef50af0c6212bd309bc5cb8dbd489ed",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"micromark-util-html-tag-name-1.0.0.tgz": {
+			"shasum": "75737e92fef50af0c6212bd309bc5cb8dbd489ed"
+		}
+	},
+	"_rev": "3-283e8a79a9d4edc8",
+	"_id": "micromark-util-html-tag-name",
+	"readme": "# micromark-util-html-tag-name\n\n[![Build][build-badge]][build]\n[![Coverage][coverage-badge]][coverage]\n[![Downloads][downloads-badge]][downloads]\n[![Size][bundle-size-badge]][bundle-size]\n[![Sponsors][sponsors-badge]][opencollective]\n[![Backers][backers-badge]][opencollective]\n[![Chat][chat-badge]][chat]\n\nmicromark utility with list of html tag names.\n\n## Contents\n\n*   [Install](#install)\n*   [Use](#use)\n*   [API](#api)\n    *   [`htmlBlockNames`](#htmlblocknames)\n    *   [`htmlRawNames`](#htmlrawnames)\n*   [Security](#security)\n*   [Contribute](#contribute)\n*   [License](#license)\n\n## Install\n\n[npm][]:\n\n```sh\nnpm install micromark-util-html-tag-name\n```\n\n## Use\n\n```js\nimport {htmlBlockNames, htmlRawNames} from 'micromark-util-html-tag-name'\n\nconsole.log(htmlBlockNames) // ['address', 'article', …]\nconsole.log(htmlRawNames) // ['pre', 'script', …]\n```\n\n## API\n\nThis module exports the following identifiers: `htmlBlockNames`,\n`htmlRawNames`.\nThere is no default export.\n\n### `htmlBlockNames`\n\nList of lowercase HTML tag names (`string[]`) which when parsing HTML (flow),\nresult in more relaxed rules (condition 6): because they are known blocks, the\nHTML-like syntax doesn’t have to be strictly parsed.\nFor tag names not in this list, a more strict algorithm (condition 7) is used\nto detect whether the HTML-like syntax is seen as HTML (flow) or not.\n\nThis is copied from: <https://spec.commonmark.org/0.29/#html-blocks>.\n\n### `htmlRawNames`\n\nList of lowercase HTML tag names (`string[]`) which when parsing HTML (flow),\nresult in HTML that can include lines w/o exiting, until a closing tag also in\nthis list is found (condition 1).\n\nThis is copied from:\n<https://spec.commonmark.org/0.29/#html-blocks>.\n\nNote that `textarea` is not available in `CommonMark@0.29` but has been merged\nto the primary branch and is slated to be released in the next release of\nCommonMark.\n\n## Security\n\nSee [`security.md`][securitymd] in [`micromark/.github`][health] for how to\nsubmit a security report.\n\n## Contribute\n\nSee [`contributing.md`][contributing] in [`micromark/.github`][health] for ways\nto get started.\nSee [`support.md`][support] for ways to get help.\n\nThis project has a [code of conduct][coc].\nBy interacting with this repository, organisation, or community you agree to\nabide by its terms.\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[build-badge]: https://github.com/micromark/micromark/workflows/main/badge.svg\n\n[build]: https://github.com/micromark/micromark/actions\n\n[coverage-badge]: https://img.shields.io/codecov/c/github/micromark/micromark.svg\n\n[coverage]: https://codecov.io/github/micromark/micromark\n\n[downloads-badge]: https://img.shields.io/npm/dm/micromark-util-html-tag-name.svg\n\n[downloads]: https://www.npmjs.com/package/micromark-util-html-tag-name\n\n[bundle-size-badge]: https://img.shields.io/bundlephobia/minzip/micromark-util-html-tag-name.svg\n\n[bundle-size]: https://bundlephobia.com/result?p=micromark-util-html-tag-name\n\n[sponsors-badge]: https://opencollective.com/unified/sponsors/badge.svg\n\n[backers-badge]: https://opencollective.com/unified/backers/badge.svg\n\n[opencollective]: https://opencollective.com/unified\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[chat-badge]: https://img.shields.io/badge/chat-discussions-success.svg\n\n[chat]: https://github.com/micromark/micromark/discussions\n\n[license]: https://github.com/micromark/micromark/blob/main/license\n\n[author]: https://wooorm.com\n\n[health]: https://github.com/micromark/.github\n\n[securitymd]: https://github.com/micromark/.github/blob/HEAD/security.md\n\n[contributing]: https://github.com/micromark/.github/blob/HEAD/contributing.md\n\n[support]: https://github.com/micromark/.github/blob/HEAD/support.md\n\n[coc]: https://github.com/micromark/.github/blob/HEAD/code-of-conduct.md"
+}

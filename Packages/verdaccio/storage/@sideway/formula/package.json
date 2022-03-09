@@ -1,0 +1,96 @@
+{
+	"name": "@sideway/formula",
+	"versions": {
+		"3.0.0": {
+			"name": "@sideway/formula",
+			"description": "Math and string formula parser.",
+			"version": "3.0.0",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sideway/formula.git"
+			},
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"keywords": [
+				"formula",
+				"parser",
+				"math",
+				"string"
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"typescript": "4.0.x",
+				"@hapi/code": "8.x.x",
+				"@hapi/lab": "24.x.x"
+			},
+			"scripts": {
+				"test": "lab -a @hapi/code -t 100 -L -Y",
+				"test-cov-html": "lab -a @hapi/code -t 100 -L -r html -o coverage.html"
+			},
+			"license": "BSD-3-Clause",
+			"gitHead": "41ae98e0421913b100886adb0107a25d552d9e1a",
+			"bugs": {
+				"url": "https://github.com/sideway/formula/issues"
+			},
+			"homepage": "https://github.com/sideway/formula#readme",
+			"_id": "@sideway/formula@3.0.0",
+			"_nodeVersion": "14.4.0",
+			"_npmVersion": "7.0.5",
+			"dist": {
+				"integrity": "sha512-vHe7wZ4NOXVfkoRb8T5otiENVlT7a3IAiw7H5M2+GO+9CDgcVUUsX1zalAztCmwyOr2RUTGJdgB+ZvSVqmdHmg==",
+				"shasum": "fe158aee32e6bd5de85044be615bc08478a0a13c",
+				"tarball": "https://registry.npmjs.org/@sideway/formula/-/formula-3.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 16937,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfk85yCRA9TVsSAnZWagAA4mgP/1Fj8kLjU71wGS9o0M+3\n5f75pMf31zPJydyAWP51XoVyrqREl/9UJ0w+R/MhFez6R4g3VdtusRIAxcM4\n1dM4ebPSCcs3MAfGKZvgf558faqs9cv0bfxJ6nqjY7ofJMx9i/BbaQzo9r5b\ncwRFhXy/ELHTMuVrmXxfW6FhLXNQTkfIReA8PXTpA69+hyjEA3kBYtd7X9cg\nTPv4J+6q+HVrXn/XiimTuN7FRgflADq2AO1kU7QPiIIOv/EaR8HylNkIIwxo\nVEzKti82MYKJu5Bt02XMgdVeU4rTXcp6Ky9VWCd2onQ3MeF4q8xYJnQeNenx\nY10KGkALHcQRE2/8lbovdam5OU+2+VXYWLksP9mwqm2Pz5kFdwGAAEhS5SP0\nvEcHURasri1POGEgzgTqAzCxGxV2s+e8kiVr8RXR9S0J0OdQhCLahrOzauHd\ngTl2eJZwo7jfMuIeBnQ0BZsuuJ484oxH3eS0rWNFTZhAyI0z7z6YeM1l0X2t\nVXqUPEkUUIrOaLmmDw8CjwC4YpPJS4P6TnRFfZbvo/HPkslQieOhrF2FGKoc\np2FLR/r63tpT8I53m5jVOU3cNM+P45kL0rNNZLiuFF35L3SsDQ3GTGppdF/s\neL4PpX6xtKBoR5G4S+9EghmEXpkHc15Pv2UIOLG0LZ+641We6Mmd8j2poOWR\njSQG\r\n=cfiQ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "hueniverse",
+					"email": "eran@hammer.io"
+				}
+			],
+			"_npmUser": {
+				"name": "hueniverse",
+				"email": "eran@hammer.io"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/formula_3.0.0_1603522162455_0.9906089169658288"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2020-10-24T06:49:22.363Z",
+		"3.0.0": "2020-10-24T06:49:22.571Z",
+		"modified": "2020-10-24T06:49:24.887Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "3.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"bb1983069020d27e947feadfaab749e5\"",
+			"fetched": 1646835664962
+		}
+	},
+	"_distfiles": {
+		"formula-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@sideway/formula/-/formula-3.0.0.tgz",
+			"sha": "fe158aee32e6bd5de85044be615bc08478a0a13c",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"formula-3.0.0.tgz": {
+			"shasum": "fe158aee32e6bd5de85044be615bc08478a0a13c"
+		}
+	},
+	"_rev": "3-60f8adf062dcdf6e",
+	"_id": "@sideway/formula",
+	"readme": "# @sideway/formula\n\n#### Math and string formula parser.\n\n**formula** is part of the **joi** ecosystem.\n\n### Visit the [joi.dev](https://joi.dev) Developer Portal for tutorials, documentation, and support\n\n## Useful resources\n\n- [Documentation and API](https://joi.dev/module/formula/)\n- [Version status](https://joi.dev/resources/status/#formula) (builds, dependencies, node versions, licenses, eol)\n- [Changelog](https://joi.dev/module/formula/changelog/)\n- [Project policies](https://joi.dev/policies/)\n\n## Acknowledgements\n\nInspired by [**fparse**](https://github.com/bylexus/fparse), copyright 2012-2018 Alexander Schenkel <alex@alexi.ch>"
+}

@@ -1,0 +1,230 @@
+{
+	"name": "micromark-util-decode-numeric-character-reference",
+	"versions": {
+		"1.0.0-beta.1": {
+			"name": "micromark-util-decode-numeric-character-reference",
+			"version": "1.0.0-beta.1",
+			"description": "micromark utility to decode numeric character references",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"decode",
+				"numeric",
+				"number",
+				"character",
+				"reference"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "dev/index.d.ts",
+			"exports": {
+				"development": "./dev/index.js",
+				"default": "./index.js"
+			},
+			"dependencies": {
+				"micromark-util-symbol": "^1.0.0-beta.1"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" \"{dev/,lib/}**/*.d.ts\" && tsc && micromark-build && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-decode-numeric-character-reference@1.0.0-beta.1",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.18.1",
+			"dist": {
+				"integrity": "sha512-L8mQuflRob68cwmaokU15ieGsTsHrzTU3B/GyU7yc8+msr04RYzLe00UdVnc5hg4GXLVbSH9g0V42zWPPcv5rg==",
+				"shasum": "1d100502608ef6f7e2366e69a2fbee95647bfc80",
+				"tarball": "https://registry.npmjs.org/micromark-util-decode-numeric-character-reference/-/micromark-util-decode-numeric-character-reference-1.0.0-beta.1.tgz",
+				"fileCount": 6,
+				"unpackedSize": 7614,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgzzDfCRA9TVsSAnZWagAAD28P+gJTdB9RuCgAqCDnnaTZ\nrNO5l8ETLBwxOotyr2UvKJFDeSAP+6KrN0JIWZsXMFIhwRToedYaANZ6T7wv\nrJzBR9FkTYcevF40KDqiwhF846p2L+e/ETN6mNz+Huvn+3UfPBx3kKp2cZMk\nNCuze70zEPgO4negn/YITzJLVpx9cU678uXxSZiGhKSfYEEt0mjc+4VID196\n9WuNc8sH+atPyBNwb0i246nl32daCe6WWpZ10bsswm0tZVMZW48q83/4yCC+\n5dJpOzSNqVew744qc8jCgegmZnB6l5w5RGH8CXxnCDTSjJdwsOaBZ/6FQb+e\nt2X7QfnKa5cs/JLFatkMP77FDSDT25kcs7jfrm4P5YMyAMnLj1d1c7DaG//S\njk9g4MyI9Xqvywn5BtcSWy24dUtoMosgPiHfsV6VAbaipzGs/kEg/kA9beKd\nHwfUXvBMnUnS+qtGoxhSeZlFOmyA0XVa3yKWauReB5EebryGzQVGWVY0lJ56\nBDrn7IQXDh0S1E7EmQS62WqhYRovzEhH9q0tMaxdDkKfOZnT5oqzDBIWifQC\nzplQmlpttrp7loCFu3DiFB6izV4VZOQ4D4yKPblJdrzbHfbr6T1KX+dvL4xp\nuaPgVjZb8WvmtSBhPtPlhq0ExZWafFaNxUfgukW6J3rYQkMieUfy7/wVMOpo\nklFD\r\n=I1hn\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-decode-numeric-character-reference_1.0.0-beta.1_1624191198586_0.8325799731114902"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.0": {
+			"name": "micromark-util-decode-numeric-character-reference",
+			"version": "1.0.0",
+			"description": "micromark utility to decode numeric character references",
+			"license": "MIT",
+			"keywords": [
+				"micromark",
+				"util",
+				"utility",
+				"decode",
+				"numeric",
+				"number",
+				"character",
+				"reference"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/micromark/micromark.git#main"
+			},
+			"bugs": {
+				"url": "https://github.com/micromark/micromark/issues"
+			},
+			"funding": [
+				{
+					"type": "GitHub Sponsors",
+					"url": "https://github.com/sponsors/unifiedjs"
+				},
+				{
+					"type": "OpenCollective",
+					"url": "https://opencollective.com/unified"
+				}
+			],
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "dev/index.d.ts",
+			"exports": {
+				"development": "./dev/index.js",
+				"default": "./index.js"
+			},
+			"dependencies": {
+				"micromark-util-symbol": "^1.0.0"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" \"{dev/,lib/}**/*.d.ts\" && tsc && micromark-build && type-coverage"
+			},
+			"xo": false,
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"homepage": "https://github.com/micromark/micromark/tree/main#readme",
+			"_id": "micromark-util-decode-numeric-character-reference@1.0.0",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.18.1",
+			"dist": {
+				"integrity": "sha512-OzO9AI5VUtrTD7KSdagf4MWgHMtET17Ua1fIpXTpuhclCqD8egFWo85GxSGvxgkGS74bEahvtM0WP0HjvV0e4w==",
+				"shasum": "dcc85f13b5bd93ff8d2868c3dba28039d490b946",
+				"tarball": "https://registry.npmjs.org/micromark-util-decode-numeric-character-reference/-/micromark-util-decode-numeric-character-reference-1.0.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 7600,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg0jQoCRA9TVsSAnZWagAA5k4QAIpcQzpazfcPKkH1QGTY\nzy7cdbJNoEOK9DkJFH27N9HngFdTbC1pDUNqEpbS+2TR6y4lO/2+kWTomfFE\naUqIZcJ72KTzxz63T2B8hkYEVRSGQlGg5+6MMPd4SfgSZfLK2Ud/TDHUs164\nI/66n0mowRl2+vp0Kh0O2/PN0B2LIqrUub3rToRBwyh+7Pj3kyd2vk4qG3TC\nCVlhGmeZcmBRzBiKpr6msWbItRVyY2GONviUX46tCiVoCzEzOt7SGfzzPTdQ\ns9schpxmZFjds443R5jSMgGYKL5iZsfHeUkaEGOoePK8Dh1cKHjc6WsbfhpH\n1gTYeSLUm8fnQnFGllq9lFRmD12+jbyeyTs5btz/mdMR+4NYF7CPQre+lII9\nYGBYzRaR+8AgVVuuYw3oYprAEPOdJ2YADSN+zakKvuAPsc/ttiChKIyiywLs\nawoU9jz2AT1GrecuQvu2J0qriLrSoF5XlflT5hyKUOYcgdpR0gSIeeSkIDlL\n6O8ZdRFmM2zTBLlXXDiCk66Y3oQSAx/nC/Ny8ElpTpzimhSx6Od3n5WFVdor\n3pQBe2r8NNlha6m9y1+51zmH1rUCuADORUIoTBZvKVt3eixe+pCgAnTEjL4E\nZJVYtD02wbJPl4KTLldcK+Nn/O8SmlE3EPEBr5VolJc6Jyt7RfQ7DMP1sj1W\nSQcV\r\n=5oGE\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/micromark-util-decode-numeric-character-reference_1.0.0_1624388647458_0.38278795698855994"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"created": "2021-06-20T12:13:18.586Z",
+		"1.0.0-beta.1": "2021-06-20T12:13:18.702Z",
+		"modified": "2021-06-22T19:04:10.059Z",
+		"1.0.0": "2021-06-22T19:04:07.792Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"next": "1.0.0-beta.1",
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"44bd9c1ad00fb68769b962640a216301\"",
+			"fetched": 1646835681837
+		}
+	},
+	"_distfiles": {
+		"micromark-util-decode-numeric-character-reference-1.0.0-beta.1.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-decode-numeric-character-reference/-/micromark-util-decode-numeric-character-reference-1.0.0-beta.1.tgz",
+			"sha": "1d100502608ef6f7e2366e69a2fbee95647bfc80",
+			"registry": "npmjs"
+		},
+		"micromark-util-decode-numeric-character-reference-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/micromark-util-decode-numeric-character-reference/-/micromark-util-decode-numeric-character-reference-1.0.0.tgz",
+			"sha": "dcc85f13b5bd93ff8d2868c3dba28039d490b946",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"micromark-util-decode-numeric-character-reference-1.0.0.tgz": {
+			"shasum": "dcc85f13b5bd93ff8d2868c3dba28039d490b946"
+		}
+	},
+	"_rev": "3-abd2f0c00c0fea72",
+	"_id": "micromark-util-decode-numeric-character-reference",
+	"readme": "# micromark-util-decode-numeric-character-reference\n\n[![Build][build-badge]][build]\n[![Coverage][coverage-badge]][coverage]\n[![Downloads][downloads-badge]][downloads]\n[![Size][bundle-size-badge]][bundle-size]\n[![Sponsors][sponsors-badge]][opencollective]\n[![Backers][backers-badge]][opencollective]\n[![Chat][chat-badge]][chat]\n\nmicromark utility to decode numeric character references.\n\n## Contents\n\n*   [Install](#install)\n*   [Use](#use)\n*   [API](#api)\n    *   [`decodeNumericCharacterReference(value)`](#decodenumericcharacterreferencevalue)\n*   [Security](#security)\n*   [Contribute](#contribute)\n*   [License](#license)\n\n## Install\n\n[npm][]:\n\n```sh\nnpm install micromark-util-decode-numeric-character-reference\n```\n\n## Use\n\n```js\nimport {decodeNumericCharacterReference} from 'micromark-util-decode-numeric-character-reference'\n\ndecodeNumericCharacterReference('41', 16) // 'A'\ndecodeNumericCharacterReference('65', 10) // 'A'\ndecodeNumericCharacterReference('A', 16) // '\\n'\ndecodeNumericCharacterReference('7F', 16) // '�' - Control\ndecodeNumericCharacterReference('110000', 16) // '�' - Out of range\n```\n\n## API\n\nThis module exports the following identifiers:\n`decodeNumericCharacterReference`.\nThere is no default export.\n\n### `decodeNumericCharacterReference(value)`\n\nSort of like `String.fromCharCode(Number.parseInt(value, base))`,\nbut makes non-characters and control characters safe.\n\n###### Parameters\n\n*   `value` (`string`) — Value to decode.\n*   `base` (`number`, probably `10` or `16`) — Numeric base.\n\n###### Returns\n\n`string` — Character code.\n\n## Security\n\nSee [`security.md`][securitymd] in [`micromark/.github`][health] for how to\nsubmit a security report.\n\n## Contribute\n\nSee [`contributing.md`][contributing] in [`micromark/.github`][health] for ways\nto get started.\nSee [`support.md`][support] for ways to get help.\n\nThis project has a [code of conduct][coc].\nBy interacting with this repository, organisation, or community you agree to\nabide by its terms.\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[build-badge]: https://github.com/micromark/micromark/workflows/main/badge.svg\n\n[build]: https://github.com/micromark/micromark/actions\n\n[coverage-badge]: https://img.shields.io/codecov/c/github/micromark/micromark.svg\n\n[coverage]: https://codecov.io/github/micromark/micromark\n\n[downloads-badge]: https://img.shields.io/npm/dm/micromark-util-normalize-identifier.svg\n\n[downloads]: https://www.npmjs.com/package/micromark-util-normalize-identifier\n\n[bundle-size-badge]: https://img.shields.io/bundlephobia/minzip/micromark-util-normalize-identifier.svg\n\n[bundle-size]: https://bundlephobia.com/result?p=micromark-util-normalize-identifier\n\n[sponsors-badge]: https://opencollective.com/unified/sponsors/badge.svg\n\n[backers-badge]: https://opencollective.com/unified/backers/badge.svg\n\n[opencollective]: https://opencollective.com/unified\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[chat-badge]: https://img.shields.io/badge/chat-discussions-success.svg\n\n[chat]: https://github.com/micromark/micromark/discussions\n\n[license]: https://github.com/micromark/micromark/blob/main/license\n\n[author]: https://wooorm.com\n\n[health]: https://github.com/micromark/.github\n\n[securitymd]: https://github.com/micromark/.github/blob/HEAD/security.md\n\n[contributing]: https://github.com/micromark/.github/blob/HEAD/contributing.md\n\n[support]: https://github.com/micromark/.github/blob/HEAD/support.md\n\n[coc]: https://github.com/micromark/.github/blob/HEAD/code-of-conduct.md"
+}

@@ -1,0 +1,767 @@
+{
+	"name": "rc-input",
+	"versions": {
+		"0.0.1-alpha.0": {
+			"name": "rc-input",
+			"version": "0.0.1-alpha.0",
+			"description": "React input component",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-input",
+				"input",
+				"antd",
+				"ant-design"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"homepage": "https://github.com/react-component/input",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/input.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/input/issues"
+			},
+			"license": "MIT",
+			"scripts": {
+				"start": "dumi dev",
+				"docs:build": "dumi build",
+				"docs:deploy": "gh-pages -d .doc",
+				"compile": "father build && lessc assets/index.less assets/index.css",
+				"gh-pages": "npm run docs:build && father doc deploy",
+				"prepublishOnly": "npm run compile && np --yolo --no-publish && npm run gh-pages",
+				"lint": "eslint src/ --ext .ts,.tsx,.jsx,.js,.md",
+				"prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+				"pretty-quick": "pretty-quick",
+				"test": "father test",
+				"coverage": "father test --coverage"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.11.1",
+				"classnames": "^2.2.1",
+				"rc-util": "^5.18.1"
+			},
+			"devDependencies": {
+				"@testing-library/jest-dom": "^5.16.2",
+				"@testing-library/react": "^12.1.3",
+				"@testing-library/user-event": "^14.0.0-beta",
+				"@types/classnames": "^2.2.9",
+				"@types/enzyme": "^3.10.9",
+				"@types/jest": "^26.0.24",
+				"@types/react": "^17.0.39",
+				"@types/react-dom": "^17.0.11",
+				"@umijs/fabric": "^2.0.8",
+				"coveralls": "^3.0.6",
+				"cross-env": "^7.0.2",
+				"dumi": "^1.1.0",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.4.0",
+				"eslint": "^7.0.0",
+				"father": "^2.13.4",
+				"father-build": "^1.18.6",
+				"gh-pages": "^3.1.0",
+				"husky": "^4.2.5",
+				"less": "^3.10.3",
+				"np": "^7.0.0",
+				"prettier": "^2.0.5",
+				"pretty-quick": "^3.0.0",
+				"react": "^17.0.2",
+				"react-dom": "^17.0.2",
+				"react-test-renderer": "^16.0.0",
+				"typescript": "^4.0.5"
+			},
+			"peerDependencies": {
+				"react": ">=16.0.0",
+				"react-dom": ">=16.0.0"
+			},
+			"husky": {
+				"hooks": {
+					"pre-commit": "pretty-quick --staged"
+				}
+			},
+			"cnpm": {
+				"mode": "npm"
+			},
+			"tnpm": {
+				"mode": "npm"
+			},
+			"types": "./lib/index.d.ts",
+			"gitHead": "7756461087bfd615f94b52d1e53f0929cb17ef92",
+			"_id": "rc-input@0.0.1-alpha.0",
+			"_nodeVersion": "17.3.0",
+			"_npmVersion": "8.3.0",
+			"dist": {
+				"integrity": "sha512-P/mqVkkxJKEiTiNL8mAo86Y/d+ojPBVux39xxeAEjPbhPUTzFWpyGxz5jUKfrNkOpI00Wdq1PldoxVrVr8zqCg==",
+				"shasum": "37457ead2066449ba5ba4a86ffd274a40ddbf9b0",
+				"tarball": "https://registry.npmjs.org/rc-input/-/rc-input-0.0.1-alpha.0.tgz",
+				"fileCount": 29,
+				"unpackedSize": 48636,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiF3P5ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmo7mg//TFL8NCLXdgvum1+BCNLZKUprBsHlrp0M+DkAKSPz/ryJbW3u\r\nRNk8V23k4NmOclnRVZmaGcs1s66+6BbPm8bO1DhKBxwfpItw7tc3A0/ubHGW\r\nQQfE2egj0Ue5+zZCavEV05mMs6aBu7/89UXL1GbVpF93eKc7OJNVeM/ALejg\r\nx9+rtYP/G2teYECAFEJ1DkO1AOjsIMy8H9/F4Y78XzzwiupFPGlaUgFX2A5W\r\neTi7Frmnxbl2O91SkHYmLQ6MFEhvknchncvLSPCrUdTuotvgRQR3ByV5yif6\r\nDa5wC7qMNy1AX695KdIeX3Vk3rer18idls0BDxl9j4CtoOiKAT82Se+I9zJm\r\nTV8h48yiftP22gEjXbQ82Apr1Cn0YBVnHQLzw2rPb3m7CiamXgmtzAUp3bUo\r\nj97OHZpP0pZ64Vk6ib9yxCoVkKT0MC4ZF74hwaQhxflu32HwHMK0fnisQxfE\r\nrCCVmUCh+sE9/MKpJRxoXNcAcV1QWSoUPi+1e1Gs17AjB0ip1emUgJ3blUNm\r\nuwjsllREekw5Z3bjNJX6nPuprODJudcOPiUm2AIdbKzj5C16sS43cFkde2lr\r\n6stTBQtqNz0k0dZWvRv0Y+4O00i8wxnDgiKeAIKJWUVJQJnE5U5n781O0eFI\r\nHYkUO581DE62/5JOGgsoY2WmUuO5EMUNXX8=\r\n=HaXG\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "madccc",
+				"email": "1075746765@qq.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "madccc",
+					"email": "1075746765@qq.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-input_0.0.1-alpha.0_1645704185131_0.863487268533196"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1-alpha.1": {
+			"name": "rc-input",
+			"version": "0.0.1-alpha.1",
+			"description": "React input component",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-input",
+				"input",
+				"antd",
+				"ant-design"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"homepage": "https://github.com/react-component/input",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/input.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/input/issues"
+			},
+			"license": "MIT",
+			"scripts": {
+				"start": "dumi dev",
+				"docs:build": "dumi build",
+				"docs:deploy": "gh-pages -d .doc",
+				"compile": "father build && lessc assets/index.less assets/index.css",
+				"gh-pages": "npm run docs:build && father doc deploy",
+				"prepublishOnly": "npm run compile && np --yolo --no-publish && npm run gh-pages",
+				"lint": "eslint src/ --ext .ts,.tsx,.jsx,.js,.md",
+				"prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+				"pretty-quick": "pretty-quick",
+				"test": "father test",
+				"coverage": "father test --coverage"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.11.1",
+				"classnames": "^2.2.1",
+				"rc-util": "^5.18.1"
+			},
+			"devDependencies": {
+				"@testing-library/jest-dom": "^5.16.2",
+				"@testing-library/react": "^12.1.3",
+				"@testing-library/user-event": "^14.0.0-beta",
+				"@types/classnames": "^2.2.9",
+				"@types/enzyme": "^3.10.9",
+				"@types/jest": "^26.0.24",
+				"@types/react": "^17.0.39",
+				"@types/react-dom": "^17.0.11",
+				"@umijs/fabric": "^2.0.8",
+				"coveralls": "^3.0.6",
+				"cross-env": "^7.0.2",
+				"dumi": "^1.1.0",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.4.0",
+				"eslint": "^7.0.0",
+				"father": "^2.13.4",
+				"father-build": "^1.18.6",
+				"gh-pages": "^3.1.0",
+				"husky": "^4.2.5",
+				"less": "^3.10.3",
+				"np": "^7.0.0",
+				"prettier": "^2.0.5",
+				"pretty-quick": "^3.0.0",
+				"react": "^17.0.2",
+				"react-dom": "^17.0.2",
+				"react-test-renderer": "^16.0.0",
+				"typescript": "^4.0.5"
+			},
+			"peerDependencies": {
+				"react": ">=16.0.0",
+				"react-dom": ">=16.0.0"
+			},
+			"husky": {
+				"hooks": {
+					"pre-commit": "pretty-quick --staged"
+				}
+			},
+			"cnpm": {
+				"mode": "npm"
+			},
+			"tnpm": {
+				"mode": "npm"
+			},
+			"types": "./lib/index.d.ts",
+			"gitHead": "45c4c3e294b5fd555cd5c4143523e8ee6ea13ac7",
+			"_id": "rc-input@0.0.1-alpha.1",
+			"_nodeVersion": "17.3.0",
+			"_npmVersion": "8.3.0",
+			"dist": {
+				"integrity": "sha512-/xs3LbNAL+plrWzEEHQVOvNrb0XZNsIChbb6IGtKjWU0TJHe6j8HKWjLjUvB2/GamIx2HPRbOQWaqEWywCYGnw==",
+				"shasum": "ff6b8a12fce60e63bdfc846122993d3586b4b003",
+				"tarball": "https://registry.npmjs.org/rc-input/-/rc-input-0.0.1-alpha.1.tgz",
+				"fileCount": 29,
+				"unpackedSize": 48770,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiF5FnACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmorXxAAmI1bOPHT1q2J1QXLJPMSAFkHG1OjuMZOIgJza+xec/xmALQl\r\npSFEIYMqEwu/FZV2ves/t/ZGWLvFYztpZcyjAuq5n5lpllze0pfVJcp42YXz\r\nGQjVDNSq/hw80HVF1jY83tKCgm3EZ8TCSL9RWranjXP/GPcx980nT7bgEPBW\r\nyrCAoD0/eUuzyzP8HmEF/Z9ZmNgA6jj9ynwH/Sv4Lx4yaA2LoGj8aHrmhrlo\r\nGBW4WLOQV2tolVa3hrE7cQlhopWM0bpskZFqGNWlDNni89NXPJXU4hgHieva\r\n5CTGOJXJASeX3DwUSlLzwwrthadPhQULRA2pMI4CVeeEAn2YVGMRrRVYa98q\r\nhSoMmMo5GWiW9cvr2Kq5Sbd2Jmbynf1B9AARsSSi9Pk5NmrR1qnny67lFUp7\r\nT1qRAs15XcLdKUHGlN+kDVDy1j2L+7E1GfN0W9SDl2Rzc8e3TCOV6sqfok2s\r\n0yag7CCxldQrC65yO5os2T9KVAiPeuHqVP9FqgAlCqp6Tsangzm5hywLnV86\r\nBSxIHyMsQ0ymXcbOymenxR8oCShYVbBHZik74fRh9aiTUdRfIkXaZxzianb1\r\nCCFv+GI2J8H3GJnNS6P8xxMXiOdEx5qwFCXK7j1GCVLlx4u9dRSC+aj8CqxE\r\nuIz5XpguS5tWqCdRPxD5lVJRjVubDDw9PZc=\r\n=PQk5\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "madccc",
+				"email": "1075746765@qq.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "madccc",
+					"email": "1075746765@qq.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-input_0.0.1-alpha.1_1645711719339_0.00009124494904577674"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1-alpha.2": {
+			"name": "rc-input",
+			"version": "0.0.1-alpha.2",
+			"description": "React input component",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-input",
+				"input",
+				"antd",
+				"ant-design"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"homepage": "https://github.com/react-component/input",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/input.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/input/issues"
+			},
+			"license": "MIT",
+			"scripts": {
+				"start": "dumi dev",
+				"docs:build": "dumi build",
+				"docs:deploy": "gh-pages -d .doc",
+				"compile": "father build && lessc assets/index.less assets/index.css",
+				"gh-pages": "npm run docs:build && father doc deploy",
+				"prepublishOnly": "npm run compile && np --yolo --no-publish && npm run gh-pages",
+				"lint": "eslint src/ --ext .ts,.tsx,.jsx,.js,.md",
+				"prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+				"pretty-quick": "pretty-quick",
+				"test": "father test",
+				"coverage": "father test --coverage"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.11.1",
+				"classnames": "^2.2.1",
+				"rc-util": "^5.18.1"
+			},
+			"devDependencies": {
+				"@testing-library/jest-dom": "^5.16.2",
+				"@testing-library/react": "^12.1.3",
+				"@testing-library/user-event": "^14.0.0-beta",
+				"@types/classnames": "^2.2.9",
+				"@types/enzyme": "^3.10.9",
+				"@types/jest": "^26.0.24",
+				"@types/react": "^17.0.39",
+				"@types/react-dom": "^17.0.11",
+				"@umijs/fabric": "^2.0.8",
+				"coveralls": "^3.0.6",
+				"cross-env": "^7.0.2",
+				"dumi": "^1.1.0",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.4.0",
+				"eslint": "^7.0.0",
+				"father": "^2.13.4",
+				"father-build": "^1.18.6",
+				"gh-pages": "^3.1.0",
+				"husky": "^4.2.5",
+				"less": "^3.10.3",
+				"np": "^7.0.0",
+				"prettier": "^2.0.5",
+				"pretty-quick": "^3.0.0",
+				"react": "^17.0.2",
+				"react-dom": "^17.0.2",
+				"react-test-renderer": "^16.0.0",
+				"typescript": "^4.0.5"
+			},
+			"peerDependencies": {
+				"react": ">=16.0.0",
+				"react-dom": ">=16.0.0"
+			},
+			"husky": {
+				"hooks": {
+					"pre-commit": "pretty-quick --staged"
+				}
+			},
+			"cnpm": {
+				"mode": "npm"
+			},
+			"tnpm": {
+				"mode": "npm"
+			},
+			"types": "./lib/index.d.ts",
+			"gitHead": "b4e4127164195ac48314f22041744e06f194d86b",
+			"_id": "rc-input@0.0.1-alpha.2",
+			"_nodeVersion": "17.3.0",
+			"_npmVersion": "8.3.0",
+			"dist": {
+				"integrity": "sha512-3HoYZ2ejkcvz2ez9khSZcUWg1cT969CPB9SFXKb2O6lwDW59Nm6Z4MuD2oENlFYgw6FDPV75MY0i+23oGrU26w==",
+				"shasum": "617053ea85a7bd3afe9129807395a000748a6426",
+				"tarball": "https://registry.npmjs.org/rc-input/-/rc-input-0.0.1-alpha.2.tgz",
+				"fileCount": 29,
+				"unpackedSize": 48794,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiGFGeACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmq27g/+KpqgMQkKwBjC+Mg2qEhWh8/e2pKrGBmoRZ/9pEfnTrgresHI\r\ns70rXNoCOOVjU/cCevSSnkKv2Ml+MYY1DVFnNpuCetTXytRh/up/KiD2dCv/\r\nXTfZx/o29GQ8nl91kwaRvbXp0s1gl71S42SWz+UXSQ2cgiwGF/NB5UKvx4fS\r\nNaFljNF5/RspFQ4W5LxKEa6TxM1uMuBOoOBf0oRzFCMqez/S2rvEbTL8buBi\r\nN1GAZtmwxud5Pm++VO01yAsnNyzMO2/7rhlSOLoIDlYtJrBHxiyCW5rdaFzn\r\nQZOyT4UAEXuFNsNsi/MEoTRVP4DX6DGxpxMJfmjPn6y3Kla27zhDZ4DdqmTe\r\n2TtLMu0zPkosM81Q8428LP0HN0BMb0O1uyZX6FA0We72gD7b3/qwovVzD7NZ\r\nabFMpFBzvqzm/ZSiGyoQxmD68t/aI+PHW3MFi+Df3D0j7immIHKEs+KwgYbq\r\nArBG27Npn1gC4qXy4xFKgw/W2mG46iYjI90LjsH1x3KzaLb4PId6O0CfD9XY\r\n0ARxTQxIijusi7mZnuoGWXMdLArrH+V0AG8BHSkwWPycBBzzBZSBWMdzmewp\r\nVLNUnXZ8xWN7dnpIoLHjijl5rNiJIwcUk8qEwPrWDpMyj3SMN0S8uAN9RGS1\r\n9EqtA+o982U80ISur7Vb8IAhTzTUy5pKTm4=\r\n=BTY4\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "madccc",
+				"email": "1075746765@qq.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "madccc",
+					"email": "1075746765@qq.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-input_0.0.1-alpha.2_1645760926549_0.3161250814069567"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1-alpha.3": {
+			"name": "rc-input",
+			"version": "0.0.1-alpha.3",
+			"description": "React input component",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-input",
+				"input",
+				"antd",
+				"ant-design"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"homepage": "https://github.com/react-component/input",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/input.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/input/issues"
+			},
+			"license": "MIT",
+			"scripts": {
+				"start": "dumi dev",
+				"docs:build": "dumi build",
+				"docs:deploy": "gh-pages -d .doc",
+				"compile": "father build && lessc assets/index.less assets/index.css",
+				"gh-pages": "npm run docs:build && father doc deploy",
+				"prepublishOnly": "npm run compile && np --yolo --no-publish && npm run gh-pages",
+				"lint": "eslint src/ --ext .ts,.tsx,.jsx,.js,.md",
+				"prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+				"pretty-quick": "pretty-quick",
+				"test": "father test",
+				"coverage": "father test --coverage"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.11.1",
+				"classnames": "^2.2.1",
+				"rc-util": "^5.18.1"
+			},
+			"devDependencies": {
+				"@testing-library/jest-dom": "^5.16.2",
+				"@testing-library/react": "^12.1.3",
+				"@testing-library/user-event": "^14.0.0-beta",
+				"@types/classnames": "^2.2.9",
+				"@types/enzyme": "^3.10.9",
+				"@types/jest": "^26.0.24",
+				"@types/react": "^17.0.39",
+				"@types/react-dom": "^17.0.11",
+				"@umijs/fabric": "^2.0.8",
+				"coveralls": "^3.0.6",
+				"cross-env": "^7.0.2",
+				"dumi": "^1.1.0",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.4.0",
+				"eslint": "^7.0.0",
+				"father": "^2.13.4",
+				"father-build": "^1.18.6",
+				"gh-pages": "^3.1.0",
+				"husky": "^4.2.5",
+				"less": "^3.10.3",
+				"np": "^7.0.0",
+				"prettier": "^2.0.5",
+				"pretty-quick": "^3.0.0",
+				"react": "^17.0.2",
+				"react-dom": "^17.0.2",
+				"react-test-renderer": "^16.0.0",
+				"typescript": "^4.0.5"
+			},
+			"peerDependencies": {
+				"react": ">=16.0.0",
+				"react-dom": ">=16.0.0"
+			},
+			"husky": {
+				"hooks": {
+					"pre-commit": "pretty-quick --staged"
+				}
+			},
+			"cnpm": {
+				"mode": "npm"
+			},
+			"tnpm": {
+				"mode": "npm"
+			},
+			"types": "./lib/index.d.ts",
+			"gitHead": "fb5c3f62b7dab62cb51637486f805adf59e1f8be",
+			"_id": "rc-input@0.0.1-alpha.3",
+			"_nodeVersion": "17.3.0",
+			"_npmVersion": "8.3.0",
+			"dist": {
+				"integrity": "sha512-b7qrfOZf7w48TsSL/Eo0s+jA0JZcJ7n6wI9LrkOuhLUgdqrJiDurJRz2sNFblflpnCJ3jbcoKw/7ELo4qnzLwA==",
+				"shasum": "4114074fd8b6d681adb3147b708709b8c039ff34",
+				"tarball": "https://registry.npmjs.org/rc-input/-/rc-input-0.0.1-alpha.3.tgz",
+				"fileCount": 29,
+				"unpackedSize": 48794,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiHHoZACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqB5Q//fo/FCN3s1/uHOmhejSe5CSqz4rpEKOObCsoXycp0dW5rlnP0\r\nDrUH6AxJFH5Vzun+txpEr/QqG4GIfMc5dU0BBrxRofX5hrBG2MxFs40LY7J5\r\nJUiqeyl9cceuGCDhbfsxGo/Gf6ODd8C1OzQ8d9HUBbR3MRfBei+oaicFig01\r\nhktH9VzdnseEIpkvfy6tBU1Q34/7wg4O7VtUidzmMXDBdq8scYT+3SFIeFyz\r\nwpnlhG9C86F5bwTnu09fJJsU8VbNvmJspa5Byx+uc/ONp0n6d+FQsuukHzZM\r\nF4HISWtjXdy75nwbCi50OYApAGiYT1b6PoTyK8a7oxO2CBRa5a/thb6zl4U3\r\nh6OWgOmd4DxRe43wtrqd/15V/EZATgdcIu6y+DU644ta/xPnGBLV5GUPozbz\r\nBD+smP+D1HQ4w+LNyAlnlF9RZm8rlV2goKjwsf78MPhZC1nmzViojcTHwo/m\r\ngJARjccoiyxS7uoTqRtEhk/M5nSXIGOqxC5g1MXogJAo9EBGBXq5EePnEhzd\r\n2YTe40C4aoYLndof3k2xxa6P+Grbfyb/LcrBndaoheD9w+a4Tl4Kx7dhnUVt\r\nPZL/3QhbQKCat3/WJxdFdBHpnRkphzZQLAkgR2NAIuk0LXWfLLynydFyXXtP\r\n0i0mbGjXIuV+TLuOZaQum10kbrf9yLlog9o=\r\n=eH9V\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "madccc",
+				"email": "1075746765@qq.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "madccc",
+					"email": "1075746765@qq.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-input_0.0.1-alpha.3_1646033433627_0.010631983389882915"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1-alpha.4": {
+			"name": "rc-input",
+			"version": "0.0.1-alpha.4",
+			"description": "React input component",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-input",
+				"input",
+				"antd",
+				"ant-design"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"homepage": "https://github.com/react-component/input",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/input.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/input/issues"
+			},
+			"license": "MIT",
+			"scripts": {
+				"start": "dumi dev",
+				"docs:build": "dumi build",
+				"docs:deploy": "gh-pages -d .doc",
+				"compile": "father build && lessc assets/index.less assets/index.css",
+				"gh-pages": "npm run docs:build && father doc deploy",
+				"prepublishOnly": "npm run compile && np --yolo --no-publish && npm run gh-pages",
+				"lint": "eslint src/ --ext .ts,.tsx,.jsx,.js,.md",
+				"prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+				"pretty-quick": "pretty-quick",
+				"test": "father test",
+				"coverage": "father test --coverage"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.11.1",
+				"classnames": "^2.2.1",
+				"rc-util": "^5.18.1"
+			},
+			"devDependencies": {
+				"@testing-library/jest-dom": "^5.16.2",
+				"@testing-library/react": "^12.1.3",
+				"@testing-library/user-event": "^14.0.0-beta",
+				"@types/classnames": "^2.2.9",
+				"@types/enzyme": "^3.10.9",
+				"@types/jest": "^26.0.24",
+				"@types/react": "^17.0.39",
+				"@types/react-dom": "^17.0.11",
+				"@umijs/fabric": "^2.0.8",
+				"coveralls": "^3.0.6",
+				"cross-env": "^7.0.2",
+				"dumi": "^1.1.0",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.4.0",
+				"eslint": "^7.0.0",
+				"father": "^2.13.4",
+				"father-build": "^1.18.6",
+				"gh-pages": "^3.1.0",
+				"husky": "^4.2.5",
+				"less": "^3.10.3",
+				"np": "^7.0.0",
+				"prettier": "^2.0.5",
+				"pretty-quick": "^3.0.0",
+				"react": "^17.0.2",
+				"react-dom": "^17.0.2",
+				"react-test-renderer": "^16.0.0",
+				"typescript": "^4.0.5"
+			},
+			"peerDependencies": {
+				"react": ">=16.0.0",
+				"react-dom": ">=16.0.0"
+			},
+			"husky": {
+				"hooks": {
+					"pre-commit": "pretty-quick --staged"
+				}
+			},
+			"cnpm": {
+				"mode": "npm"
+			},
+			"tnpm": {
+				"mode": "npm"
+			},
+			"types": "./lib/index.d.ts",
+			"gitHead": "96782af423361aa452ec676868fecc5c71bccdff",
+			"_id": "rc-input@0.0.1-alpha.4",
+			"_nodeVersion": "17.3.0",
+			"_npmVersion": "8.3.0",
+			"dist": {
+				"integrity": "sha512-YCxZnloZoXu1OoxoGr4dQAtyyuNv29iK0aqteEK+eZjxWw14ZEfqzLfltSJRvCSvtrQQZzmJ1/ftQy+DbOlmrg==",
+				"shasum": "df5dadea58fd165cfd6bf0d09f2586d330c71e67",
+				"tarball": "https://registry.npmjs.org/rc-input/-/rc-input-0.0.1-alpha.4.tgz",
+				"fileCount": 29,
+				"unpackedSize": 48554,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiIYRjACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmq0hA//Rm1HkAPk5YSeyJF8NFbWVxrAl545QquBWHBcwif1T5RZ2etR\r\nOqrciHDR/bVpsfprW84TcvEkW7HZZynGhHy0iKJjKQnrlA5WZ2Lkh84pwGaZ\r\n2p695Z0GJQhWbUvJyOjYmnoU+Tb6R49Nm+KGmsqAKw/wFV/NH5NcEUfV6m56\r\nB2USBsn8sV7Euojo/Ql6jTC//AgJx2kmC1JsgIhs/A5jgsaEhXgFB5u/D1aQ\r\nhzYvMkOTvj4STIhNADZup5z49Y1/lchn7qY3MtJfdfUNP7vbv6SXeYmny3gX\r\noFT03ssYiq7aKbbSGRgi/aZIDQlTsx71l5uEhsZS3f7aHT/xG4eJW3yF76Q3\r\n5MXJWBApg9BzgV5cXSct7hTJDWTIdXRvDQGH6pS7IWRFy5T9MF6eq6lLbTH/\r\n/jM3PM9d1X1VEXQQ+8DTsfOZUDaTfRTfNSPT0hx5HFYZsJBxYaCBa20zLk5M\r\nBdOA7OaJhRA0AjFEjFhzxNBeBctBf1xbl+kCgCN2Rhx+orZWhYt4Cii/0wXf\r\nlHMWQoSGgZZoR8Kb+zD9FJPNiCtlWz4ToHhpK1ddrbFhmCpR5qoHnmUqKoyd\r\nrLDEjB/bPFBjy9OsxW3ZIUndTCBO1y9jdSTC2uJ1MZiB6gqGgDtXOuke2ELm\r\nVEJ66h9o64NmMTafosbj0qMk9zi9qGw22jE=\r\n=k8vJ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "madccc",
+				"email": "1075746765@qq.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "madccc",
+					"email": "1075746765@qq.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-input_0.0.1-alpha.4_1646363747338_0.6219266590873282"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1-alpha.5": {
+			"name": "rc-input",
+			"version": "0.0.1-alpha.5",
+			"description": "React input component",
+			"keywords": [
+				"react",
+				"react-component",
+				"react-input",
+				"input",
+				"antd",
+				"ant-design"
+			],
+			"main": "./lib/index",
+			"module": "./es/index",
+			"homepage": "https://github.com/react-component/input",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/input.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/input/issues"
+			},
+			"license": "MIT",
+			"scripts": {
+				"start": "dumi dev",
+				"docs:build": "dumi build",
+				"docs:deploy": "gh-pages -d .doc",
+				"compile": "father build && lessc assets/index.less assets/index.css",
+				"gh-pages": "npm run docs:build && father doc deploy",
+				"prepublishOnly": "npm run compile && np --yolo --no-publish && npm run gh-pages",
+				"lint": "eslint src/ --ext .ts,.tsx,.jsx,.js,.md",
+				"prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+				"pretty-quick": "pretty-quick",
+				"test": "father test",
+				"coverage": "father test --coverage"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.11.1",
+				"classnames": "^2.2.1",
+				"rc-util": "^5.18.1"
+			},
+			"devDependencies": {
+				"@testing-library/jest-dom": "^5.16.2",
+				"@testing-library/react": "^12.1.3",
+				"@testing-library/user-event": "^14.0.0-beta",
+				"@types/classnames": "^2.2.9",
+				"@types/enzyme": "^3.10.9",
+				"@types/jest": "^26.0.24",
+				"@types/react": "^17.0.39",
+				"@types/react-dom": "^17.0.11",
+				"@umijs/fabric": "^2.0.8",
+				"coveralls": "^3.0.6",
+				"cross-env": "^7.0.2",
+				"dumi": "^1.1.0",
+				"enzyme": "^3.0.0",
+				"enzyme-adapter-react-16": "^1.0.1",
+				"enzyme-to-json": "^3.4.0",
+				"eslint": "^7.0.0",
+				"father": "^2.13.4",
+				"father-build": "^1.18.6",
+				"gh-pages": "^3.1.0",
+				"husky": "^4.2.5",
+				"less": "^3.10.3",
+				"np": "^7.0.0",
+				"prettier": "^2.0.5",
+				"pretty-quick": "^3.0.0",
+				"react": "^17.0.2",
+				"react-dom": "^17.0.2",
+				"react-test-renderer": "^16.0.0",
+				"typescript": "^4.0.5"
+			},
+			"peerDependencies": {
+				"react": ">=16.0.0",
+				"react-dom": ">=16.0.0"
+			},
+			"husky": {
+				"hooks": {
+					"pre-commit": "pretty-quick --staged"
+				}
+			},
+			"cnpm": {
+				"mode": "npm"
+			},
+			"tnpm": {
+				"mode": "npm"
+			},
+			"types": "./lib/index.d.ts",
+			"gitHead": "244a280b1ab21ef356adc743708d23a3fb2aaa0f",
+			"_id": "rc-input@0.0.1-alpha.5",
+			"_nodeVersion": "17.3.0",
+			"_npmVersion": "8.3.0",
+			"dist": {
+				"integrity": "sha512-RHvNweOVWFbbx2l/y6hgnSAdOg5fXc1D1VGhX2RNkGGyGr6cemnvyiYMxwZJjcXs0al3YK9jMObm20+DgH/mpw==",
+				"shasum": "cc043c44570c651f4d10d9809b3d634ed12537e6",
+				"tarball": "https://registry.npmjs.org/rc-input/-/rc-input-0.0.1-alpha.5.tgz",
+				"fileCount": 29,
+				"unpackedSize": 48969,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiJju+ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpZuA/9E81Yz6N5xaY84i7Qx67MTCm4YtJwgaSZhM32zG0wYZXCDVGR\r\nKKWRw7XgT21e9KYw9vgkfkwL9ckDcsI7n0GV6I49Xs53YeHAsN4iFnN8fDQy\r\nCRL75tnxn21fXBXLqgWRu/22+aIXDCeSTR8KzdZ+4TzjGhAwSfitalMnd7t9\r\nzGi4Nc8GJEmDPe7V7vrBWfY8VYIL7CMwyz9XCkQfT5AYsWt2OBWHI6uVURIR\r\n/2Trx+GDQ3dL66IkJEGv0KH3On+d7Spqj13efKav9zjFNhBjifrKpVcSd2+m\r\nUFn2sPy5N1iFXhGUtmkAt076tlcSoddpfskdICVB5kS5Ghu+ioa+SIWyn3Xq\r\nLEsR9I04/wdaa/a/UhKnpPrROdsMZcLLTyz77fYfyrM7r4LQ8L/jB596DrlL\r\nfaonn7xI8hH5iCcH72DaNp8OuvwuPtUYvK9SMTsn01CZXxv5EXEION8GvkOp\r\ny0yaSWAJdFOFQ+8AONGcfaDN6uqmtfFcDiqHJJ63EadXo9oWiozipOlQnco2\r\nerpQNvmTu5mFzgyEIG5ELAyHPN0qyzcBzf6IGr3sIIhowOXqRY1icRWcxphf\r\nQGWgmzBgoRw84V2n+955D8jw90pUbxP/P8Eg/nZOSI5zfhbAotIIuvwo4lqc\r\nq4EhyZ4YST83Ly/0YogYXq4/LU+Q4O87a/Q=\r\n=o8KT\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "madccc",
+				"email": "1075746765@qq.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "madccc",
+					"email": "1075746765@qq.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-input_0.0.1-alpha.5_1646672830107_0.17999102010064294"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2022-02-24T12:03:05.129Z",
+		"0.0.1-alpha.0": "2022-02-24T12:03:05.337Z",
+		"modified": "2022-03-07T17:07:10.354Z",
+		"0.0.1-alpha.1": "2022-02-24T14:08:39.484Z",
+		"0.0.1-alpha.2": "2022-02-25T03:48:46.740Z",
+		"0.0.1-alpha.3": "2022-02-28T07:30:33.778Z",
+		"0.0.1-alpha.4": "2022-03-04T03:15:47.543Z",
+		"0.0.1-alpha.5": "2022-03-07T17:07:10.312Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.0.1-alpha.5"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"fe36f5065731237af5a8ae132c9d1000\"",
+			"fetched": 1646835825469
+		}
+	},
+	"_distfiles": {
+		"rc-input-0.0.1-alpha.0.tgz": {
+			"url": "https://registry.npmjs.org/rc-input/-/rc-input-0.0.1-alpha.0.tgz",
+			"sha": "37457ead2066449ba5ba4a86ffd274a40ddbf9b0",
+			"registry": "npmjs"
+		},
+		"rc-input-0.0.1-alpha.1.tgz": {
+			"url": "https://registry.npmjs.org/rc-input/-/rc-input-0.0.1-alpha.1.tgz",
+			"sha": "ff6b8a12fce60e63bdfc846122993d3586b4b003",
+			"registry": "npmjs"
+		},
+		"rc-input-0.0.1-alpha.2.tgz": {
+			"url": "https://registry.npmjs.org/rc-input/-/rc-input-0.0.1-alpha.2.tgz",
+			"sha": "617053ea85a7bd3afe9129807395a000748a6426",
+			"registry": "npmjs"
+		},
+		"rc-input-0.0.1-alpha.3.tgz": {
+			"url": "https://registry.npmjs.org/rc-input/-/rc-input-0.0.1-alpha.3.tgz",
+			"sha": "4114074fd8b6d681adb3147b708709b8c039ff34",
+			"registry": "npmjs"
+		},
+		"rc-input-0.0.1-alpha.4.tgz": {
+			"url": "https://registry.npmjs.org/rc-input/-/rc-input-0.0.1-alpha.4.tgz",
+			"sha": "df5dadea58fd165cfd6bf0d09f2586d330c71e67",
+			"registry": "npmjs"
+		},
+		"rc-input-0.0.1-alpha.5.tgz": {
+			"url": "https://registry.npmjs.org/rc-input/-/rc-input-0.0.1-alpha.5.tgz",
+			"sha": "cc043c44570c651f4d10d9809b3d634ed12537e6",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"rc-input-0.0.1-alpha.5.tgz": {
+			"shasum": "cc043c44570c651f4d10d9809b3d634ed12537e6"
+		}
+	},
+	"_rev": "3-11f5c3f1919589a4",
+	"_id": "rc-input",
+	"readme": "# rc-input ⌨️\n\n[![NPM version][npm-image]][npm-url] [![npm download][download-image]][download-url] [![dumi](https://img.shields.io/badge/docs%20by-dumi-blue?style=flat-square)](https://github.com/umijs/dumi) [![build status][github-actions-image]][github-actions-url] [![Codecov][codecov-image]][codecov-url] [![Dependencies][david-image]](david-url) [![DevDependencies][david-dev-image]][david-dev-url] [![bundle size][bundlephobia-image]][bundlephobia-url]\n\n[npm-image]: http://img.shields.io/npm/v/rc-input.svg?style=flat-square\n[npm-url]: http://npmjs.org/package/rc-input\n[github-actions-image]: https://github.com/react-component/input/workflows/CI/badge.svg\n[github-actions-url]: https://github.com/react-component/input/actions\n[codecov-image]: https://img.shields.io/codecov/c/github/react-component/input/master.svg?style=flat-square\n[codecov-url]: https://codecov.io/gh/react-component/input/branch/master\n[david-url]: https://david-dm.org/react-component/input\n[david-image]: https://david-dm.org/react-component/input/status.svg?style=flat-square\n[david-dev-url]: https://david-dm.org/react-component/input?type=dev\n[david-dev-image]: https://david-dm.org/react-component/input/dev-status.svg?style=flat-square\n[download-image]: https://img.shields.io/npm/dm/rc-input.svg?style=flat-square\n[download-url]: https://npmjs.org/package/rc-input\n[bundlephobia-url]: https://bundlephobia.com/result?p=rc-input\n[bundlephobia-image]: https://badgen.net/bundlephobia/minzip/rc-input\n\n## Install\n\n[![rc-input](https://nodei.co/npm/rc-input.png)](https://npmjs.org/package/rc-input)\n\n## Usage\n\n```js\nimport Input from 'rc-input';\nimport { render } from 'react-dom';\n\nrender(<Input placeholder=\"input\" allowClear />, mountNode);\n```\n\n## API\n\n| Property              | Type                                                                               | Default  | Description                                                                                                                                                         |\n| --------------------- | ---------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| prefixCls             | string                                                                             | rc-input |                                                                                                                                                                     |\n| className             | string                                                                             | ''       | additional class name of input                                                                                                                                      |\n| style                 | React.CSSProperties                                                                |          | style properties of input                                                                                                                                           |\n| affixWrapperClassName | string                                                                             | -        | className with 'rc-input-affix-wrapper'                                                                                                                             |\n| groupClassName        | string                                                                             | -        | className with 'rc-input-group-wrapper'                                                                                                                             |\n| wrapperClassName      | string                                                                             | -        | className with 'rc-input-wrapper'                                                                                                                                   |\n| clearIcon             | ReactNode                                                                          | -        | clear icon displayed with `allowClear`                                                                                                                              |\n| addonAfter            | ReactNode                                                                          | -        | The label text displayed after (on the right side of) the input field                                                                                               |\n| addonBefore           | ReactNode                                                                          | -        | The label text displayed before (on the left side of) the input field                                                                                               |\n| allowClear            | boolean                                                                            | false    | If allow to remove input content with clear icon                                                                                                                    |\n| bordered              | boolean                                                                            | true     | Whether has border style                                                                                                                                            |\n| defaultValue          | string                                                                             | -        | The initial input content                                                                                                                                           |\n| disabled              | boolean                                                                            | false    | Whether the input is disabled                                                                                                                                       |\n| id                    | string                                                                             | -        | The ID for input                                                                                                                                                    |\n| maxLength             | number                                                                             | -        | The max length                                                                                                                                                      |\n| showCount             | boolean &#124; { formatter: ({ count: number, maxLength?: number }) => ReactNode } | false    | Whether show text count                                                                                                                                             |\n| prefix                | ReactNode                                                                          | -        | The prefix icon for the Input                                                                                                                                       |\n| suffix                | ReactNode                                                                          | -        | The suffix icon for the Input                                                                                                                                       |\n| type                  | string                                                                             | `text`   | The type of input, see: [MDN](https://developer.mozilla.org/docs/Web/HTML/Element/input#Form_%3Cinput%3E_types)( use `Input.TextArea` instead of `type=\"textarea\"`) |\n| value                 | string                                                                             | -        | The input content value                                                                                                                                             |\n| onChange              | function(e)                                                                        | -        | Callback when user input                                                                                                                                            |\n| onPressEnter          | function(e)                                                                        | -        | The callback function that is triggered when Enter key is pressed                                                                                                   |\n\n## Development\n\n```\nnpm install\nnpm start\n```\n\n## License\n\nrc-input is released under the MIT license."
+}

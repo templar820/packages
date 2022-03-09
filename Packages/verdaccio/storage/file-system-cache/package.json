@@ -1,0 +1,464 @@
+{
+	"name": "file-system-cache",
+	"versions": {
+		"1.0.0": {
+			"name": "file-system-cache",
+			"version": "1.0.0",
+			"description": "A super-fast, promise-based cache that reads and writes to the file-system.",
+			"main": "./lib/index.js",
+			"dependencies": {
+				"bluebird": "^2.10.0",
+				"fs-extra": "^0.24.0",
+				"ramda": "^0.17.1"
+			},
+			"devDependencies": {
+				"babel": "^5.6.14",
+				"babel-core": "^5.6.18",
+				"babel-eslint": "^3.1.23",
+				"gulp": "^3.9.0",
+				"gulp-eslint": "^0.15.0",
+				"gulp-babel": "^5.2.0",
+				"eslint": "^0.24.1",
+				"mocha": "^2.2.1",
+				"chai": "^2.2.0"
+			},
+			"scripts": {
+				"start": "node .",
+				"test": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel/register",
+				"tdd": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel/register --watch",
+				"prepublish": "gulp build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/philcockfield/file-system-cache.git"
+			},
+			"keywords": [
+				"cache,fs"
+			],
+			"author": {
+				"name": "Phil Cockfield",
+				"email": "phil@cockfield.net",
+				"url": "https://github.com/philcockfield"
+			},
+			"homepage": "https://github.com/philcockfield/file-system-cache",
+			"license": "MIT",
+			"gitHead": "2dbaba21242ff932dc4a5a99550d3e82afe62586",
+			"bugs": {
+				"url": "https://github.com/philcockfield/file-system-cache/issues"
+			},
+			"_id": "file-system-cache@1.0.0",
+			"_shasum": "818917197e7fedd2f865dc8c87ca674d68bc0cf5",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "philcockfield",
+				"email": "phil@cockfield.net"
+			},
+			"dist": {
+				"shasum": "818917197e7fedd2f865dc8c87ca674d68bc0cf5",
+				"tarball": "https://registry.npmjs.org/file-system-cache/-/file-system-cache-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "philcockfield",
+					"email": "phil@cockfield.net"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "file-system-cache",
+			"version": "1.0.1",
+			"description": "A super-fast, promise-based cache that reads and writes to the file-system.",
+			"main": "./lib/index.js",
+			"dependencies": {
+				"bluebird": "^2.10.0",
+				"fs-extra": "^0.24.0",
+				"ramda": "^0.17.1"
+			},
+			"devDependencies": {
+				"babel": "^5.6.14",
+				"babel-core": "^5.6.18",
+				"babel-eslint": "^3.1.23",
+				"gulp": "^3.9.0",
+				"gulp-eslint": "^0.15.0",
+				"gulp-babel": "^5.2.0",
+				"eslint": "^0.24.1",
+				"mocha": "^2.2.1",
+				"chai": "^2.2.0"
+			},
+			"scripts": {
+				"start": "node .",
+				"test": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel/register",
+				"tdd": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel/register --watch",
+				"prepublish": "gulp build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/philcockfield/file-system-cache.git"
+			},
+			"keywords": [
+				"cache,fs,file-system"
+			],
+			"author": {
+				"name": "Phil Cockfield",
+				"email": "phil@cockfield.net",
+				"url": "https://github.com/philcockfield"
+			},
+			"homepage": "https://github.com/philcockfield/file-system-cache",
+			"license": "MIT",
+			"gitHead": "65ad1e8f0960d02c67a3f93c2a76a9a43531e235",
+			"bugs": {
+				"url": "https://github.com/philcockfield/file-system-cache/issues"
+			},
+			"_id": "file-system-cache@1.0.1",
+			"_shasum": "d328de1a3b8898a146717ddce66533e303d32782",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "philcockfield",
+				"email": "phil@cockfield.net"
+			},
+			"dist": {
+				"shasum": "d328de1a3b8898a146717ddce66533e303d32782",
+				"tarball": "https://registry.npmjs.org/file-system-cache/-/file-system-cache-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "philcockfield",
+					"email": "phil@cockfield.net"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "file-system-cache",
+			"version": "1.0.2",
+			"description": "A super-fast, promise-based cache that reads and writes to the file-system.",
+			"main": "./lib/index.js",
+			"dependencies": {
+				"bluebird": "^2.10.0",
+				"fs-extra": "^0.24.0",
+				"ramda": "^0.17.1"
+			},
+			"devDependencies": {
+				"babel": "^5.6.14",
+				"babel-core": "^5.6.18",
+				"babel-eslint": "^3.1.23",
+				"gulp": "^3.9.0",
+				"gulp-eslint": "^0.15.0",
+				"gulp-babel": "^5.2.0",
+				"eslint": "^0.24.1",
+				"mocha": "^2.2.1",
+				"chai": "^2.2.0"
+			},
+			"scripts": {
+				"start": "node .",
+				"test": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel/register",
+				"tdd": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel/register --watch",
+				"prepublish": "gulp build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/philcockfield/file-system-cache.git"
+			},
+			"keywords": [
+				"cache,fs,file-system"
+			],
+			"author": {
+				"name": "Phil Cockfield",
+				"email": "phil@cockfield.net",
+				"url": "https://github.com/philcockfield"
+			},
+			"homepage": "https://github.com/philcockfield/file-system-cache",
+			"license": "MIT",
+			"gitHead": "94f6c58faa759062e615cbf2d0e7ddb44963db42",
+			"bugs": {
+				"url": "https://github.com/philcockfield/file-system-cache/issues"
+			},
+			"_id": "file-system-cache@1.0.2",
+			"_shasum": "5e4d733fba261853107d918649604a6b6480081c",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "philcockfield",
+				"email": "phil@cockfield.net"
+			},
+			"dist": {
+				"shasum": "5e4d733fba261853107d918649604a6b6480081c",
+				"tarball": "https://registry.npmjs.org/file-system-cache/-/file-system-cache-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "philcockfield",
+					"email": "phil@cockfield.net"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.3": {
+			"name": "file-system-cache",
+			"version": "1.0.3",
+			"description": "A super-fast, promise-based cache that reads and writes to the file-system.",
+			"main": "./lib/index.js",
+			"scripts": {
+				"test": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register",
+				"tdd": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register --watch",
+				"lint": "eslint ./src",
+				"build": "babel src --out-dir lib --source-maps",
+				"build:watch": "npm run build -- --watch",
+				"prepublish": "npm test && npm run lint && npm build"
+			},
+			"dependencies": {
+				"bluebird": "^3.1.4",
+				"fs-extra": "^0.26.4",
+				"ramda": "^0.19.1"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"js-babel": "^6.0.0",
+				"js-babel-dev": "^6.0.0",
+				"mocha": "^2.3.4"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/philcockfield/file-system-cache.git"
+			},
+			"keywords": [
+				"cache",
+				"fs",
+				"file-system"
+			],
+			"author": {
+				"name": "Phil Cockfield",
+				"email": "phil@cockfield.net",
+				"url": "https://github.com/philcockfield"
+			},
+			"homepage": "https://github.com/philcockfield/file-system-cache",
+			"license": "MIT",
+			"gitHead": "6281dc2565f211366aa689b6a6db750fe3c945bf",
+			"bugs": {
+				"url": "https://github.com/philcockfield/file-system-cache/issues"
+			},
+			"_id": "file-system-cache@1.0.3",
+			"_shasum": "3fce1709c0f1a9b4b2f3713cf3ad8486e20d5b78",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.5.0",
+			"_npmUser": {
+				"name": "philcockfield",
+				"email": "phil@cockfield.net"
+			},
+			"dist": {
+				"shasum": "3fce1709c0f1a9b4b2f3713cf3ad8486e20d5b78",
+				"tarball": "https://registry.npmjs.org/file-system-cache/-/file-system-cache-1.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "philcockfield",
+					"email": "phil@cockfield.net"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.4": {
+			"name": "file-system-cache",
+			"version": "1.0.4",
+			"description": "A super-fast, promise-based cache that reads and writes to the file-system.",
+			"main": "./lib/index.js",
+			"scripts": {
+				"test": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register",
+				"tdd": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register --watch",
+				"lint": "eslint ./src",
+				"build": "babel src --out-dir lib --source-maps",
+				"build:watch": "npm run build -- --watch",
+				"prepublish": "npm test && npm run lint && npm run build"
+			},
+			"dependencies": {
+				"bluebird": "^3.1.4",
+				"fs-extra": "^0.26.4",
+				"ramda": "^0.19.1"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"js-babel": "^6.0.0",
+				"js-babel-dev": "^6.0.0",
+				"mocha": "^2.3.4"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/philcockfield/file-system-cache.git"
+			},
+			"keywords": [
+				"cache",
+				"fs",
+				"file-system"
+			],
+			"author": {
+				"name": "Phil Cockfield",
+				"email": "phil@cockfield.net",
+				"url": "https://github.com/philcockfield"
+			},
+			"homepage": "https://github.com/philcockfield/file-system-cache",
+			"license": "MIT",
+			"gitHead": "74f2d2b7286965be6d55d5e6efc1ac7e3b48a74b",
+			"bugs": {
+				"url": "https://github.com/philcockfield/file-system-cache/issues"
+			},
+			"_id": "file-system-cache@1.0.4",
+			"_shasum": "cf8eb14fec857455801707c88108577bf0782446",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.5.0",
+			"_npmUser": {
+				"name": "philcockfield",
+				"email": "phil@cockfield.net"
+			},
+			"dist": {
+				"shasum": "cf8eb14fec857455801707c88108577bf0782446",
+				"tarball": "https://registry.npmjs.org/file-system-cache/-/file-system-cache-1.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "philcockfield",
+					"email": "phil@cockfield.net"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.5": {
+			"name": "file-system-cache",
+			"version": "1.0.5",
+			"description": "A super-fast, promise-based cache that reads and writes to the file-system.",
+			"main": "./lib/index.js",
+			"scripts": {
+				"test": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register",
+				"tdd": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register --watch",
+				"lint": "eslint ./src",
+				"build": "babel src --out-dir lib --source-maps",
+				"build:watch": "npm run build -- --watch",
+				"prepublish": "npm test && npm run lint && npm run build"
+			},
+			"dependencies": {
+				"bluebird": "^3.3.5",
+				"fs-extra": "^0.30.0",
+				"ramda": "^0.21.0"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"js-babel": "^6.0.4",
+				"js-babel-dev": "^6.0.5",
+				"mocha": "^2.4.5"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/philcockfield/file-system-cache.git"
+			},
+			"keywords": [
+				"cache",
+				"fs",
+				"file-system"
+			],
+			"author": {
+				"name": "Phil Cockfield",
+				"email": "phil@cockfield.net",
+				"url": "https://github.com/philcockfield"
+			},
+			"homepage": "https://github.com/philcockfield/file-system-cache",
+			"license": "MIT",
+			"gitHead": "6f77449ef06ecde59e431251032ca6febcf9b0ae",
+			"bugs": {
+				"url": "https://github.com/philcockfield/file-system-cache/issues"
+			},
+			"_id": "file-system-cache@1.0.5",
+			"_shasum": "84259b36a2bbb8d3d6eb1021d3132ffe64cfff4f",
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_nodeVersion": "5.10.1",
+			"_npmUser": {
+				"name": "philcockfield",
+				"email": "phil@cockfield.net"
+			},
+			"dist": {
+				"shasum": "84259b36a2bbb8d3d6eb1021d3132ffe64cfff4f",
+				"tarball": "https://registry.npmjs.org/file-system-cache/-/file-system-cache-1.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "philcockfield",
+					"email": "phil@cockfield.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/file-system-cache-1.0.5.tgz_1462575173168_0.34434167412109673"
+			},
+			"directories": {},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2016-10-30T16:41:59.629Z",
+		"created": "2015-09-28T00:57:33.597Z",
+		"1.0.0": "2015-09-28T00:57:33.597Z",
+		"1.0.1": "2015-11-25T07:23:47.873Z",
+		"1.0.2": "2015-11-25T07:24:54.325Z",
+		"1.0.3": "2016-01-25T20:20:53.869Z",
+		"1.0.4": "2016-01-26T19:39:36.778Z",
+		"1.0.5": "2016-05-06T22:52:53.647Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.5"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"a8428612e4e5438a551010ed5d2bde21\"",
+			"fetched": 1646836882229
+		}
+	},
+	"_distfiles": {
+		"file-system-cache-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/file-system-cache/-/file-system-cache-1.0.0.tgz",
+			"sha": "818917197e7fedd2f865dc8c87ca674d68bc0cf5",
+			"registry": "npmjs"
+		},
+		"file-system-cache-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/file-system-cache/-/file-system-cache-1.0.1.tgz",
+			"sha": "d328de1a3b8898a146717ddce66533e303d32782",
+			"registry": "npmjs"
+		},
+		"file-system-cache-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/file-system-cache/-/file-system-cache-1.0.2.tgz",
+			"sha": "5e4d733fba261853107d918649604a6b6480081c",
+			"registry": "npmjs"
+		},
+		"file-system-cache-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/file-system-cache/-/file-system-cache-1.0.3.tgz",
+			"sha": "3fce1709c0f1a9b4b2f3713cf3ad8486e20d5b78",
+			"registry": "npmjs"
+		},
+		"file-system-cache-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/file-system-cache/-/file-system-cache-1.0.4.tgz",
+			"sha": "cf8eb14fec857455801707c88108577bf0782446",
+			"registry": "npmjs"
+		},
+		"file-system-cache-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/file-system-cache/-/file-system-cache-1.0.5.tgz",
+			"sha": "84259b36a2bbb8d3d6eb1021d3132ffe64cfff4f",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-748e40b68dbadd74",
+	"_id": "file-system-cache",
+	"readme": "# file-system-cache\n[![Build Status](https://travis-ci.org/philcockfield/file-system-cache.svg)](https://travis-ci.org/philcockfield/file-system-cache)\n\nA super-fast, promise-based cache that reads and writes to the file-system.\n\n\n## Installation\n\n    npm install --save file-system-cache\n\n## Usage (API)\n\nCreate an instance of the cache optionally giving it a folder location to store files within.\n\n```js\nimport Cache from \"file-system-cache\";\n\nconst cache = Cache({\n  basePath: \"./.cache\", // Optional. Path where cache files are stored (default).\n  ns: \"my-namespace\" // Optional. A grouping namespace for items.\n});\n```\n\nThe optional `ns` (\"namespace\") allows for multiple groupings of files to reside within the one cache folder.  When you have multiple caches with different namespaces you can re-use the same keys and they will not collide.\n\n\n#### get(key, defaultValue)\nRetrieves the contents of a cached file.\n\n```js\ncache.get(\"foo\")\n  .then(result => /* Success */)\n  .catch(err => /* Fail */);\n```\n\nUse `getSync` for a synchronous version.  Pass a `defaultValue` parameter to have that value returned if nothing exists within the cache.\n\n\n#### set(key, value)\nWrite a value to the cache.\n\n```js\ncache.set(\"foo\", \"...value...\")\n  .then(result => /* Success */)\n```\n\nValue types are stored and respected on subsequent calls to `get`.  For examples, passing in Object will return that in it's parsed object state.\n\nUse `setSync` for a synchronous version.\n\n\n#### remove(key)\nDeletes the specified cache item from the file-system.\n```js\ncache.remove(\"foo\")\n  .then(() => /* Removed */)\n```\n\n#### clear()\nClears all cached items from the file-system.\n```js\ncache.clear()\n  .then(() => /* All items deleted */)\n```\n\n\n#### save()\nSaves (sets) several items to the cache in one operation.\n```js\ncache.save([{ key:\"one\", value:\"hello\" }, { key:\"two\", value:222 }])\n  .then(result => /* All items saved. */)\n```\n\n#### load()\nLoads all files within the cache's namespace.\n```js\ncache.load()\n  .then(result => /* The complete of cached files (for the ns). */)\n```\n\n\n\n## Test\n    # Run tests.\n    npm test\n\n    # Watch and re-run tests.\n    npm run tdd"
+}

@@ -1,0 +1,423 @@
+{
+	"name": "toggle-selection",
+	"versions": {
+		"1.0.0": {
+			"name": "toggle-selection",
+			"version": "1.0.0",
+			"description": "Toggle current selected content in browser",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [
+				"selection",
+				"toggle",
+				"browser",
+				"deselect"
+			],
+			"author": {
+				"name": "sudodoki",
+				"email": "smd.deluzion@gmail.com",
+				"url": "sudodoki.name"
+			},
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Aleksej Shvajka",
+					"url": "https://github.com/shvaikalesh"
+				}
+			],
+			"gitHead": "60be6fddd584697747f222a359c36e53590f4f84",
+			"_id": "toggle-selection@1.0.0",
+			"_shasum": "eb6b1dc046b4b3b13703afcc396fb338292b14e3",
+			"_from": ".",
+			"_npmVersion": "2.11.3",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "sudodoki",
+				"email": "smd.deluzion@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sudodoki",
+					"email": "smd.deluzion@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "eb6b1dc046b4b3b13703afcc396fb338292b14e3",
+				"tarball": "https://registry.npmjs.org/toggle-selection/-/toggle-selection-1.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "toggle-selection",
+			"version": "1.0.1",
+			"description": "Toggle current selected content in browser",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [
+				"selection",
+				"toggle",
+				"browser",
+				"deselect"
+			],
+			"author": {
+				"name": "sudodoki",
+				"email": "smd.deluzion@gmail.com",
+				"url": "sudodoki.name"
+			},
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Aleksej Shvajka",
+					"url": "https://github.com/shvaikalesh"
+				}
+			],
+			"gitHead": "e2d13e4370e67b5320493bab1be9e2545c572bfa",
+			"_id": "toggle-selection@1.0.1",
+			"_shasum": "bb5f4b05ccd2b309d45a222d4b3ed18b11dcf0ce",
+			"_from": ".",
+			"_npmVersion": "2.11.3",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "sudodoki",
+				"email": "smd.deluzion@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sudodoki",
+					"email": "smd.deluzion@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "bb5f4b05ccd2b309d45a222d4b3ed18b11dcf0ce",
+				"tarball": "https://registry.npmjs.org/toggle-selection/-/toggle-selection-1.0.1.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "toggle-selection",
+			"version": "1.0.2",
+			"description": "Toggle current selected content in browser",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [
+				"selection",
+				"toggle",
+				"browser",
+				"deselect"
+			],
+			"author": {
+				"name": "sudodoki",
+				"email": "smd.deluzion@gmail.com",
+				"url": "sudodoki.name"
+			},
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Aleksej Shvajka",
+					"url": "https://github.com/shvaikalesh"
+				}
+			],
+			"gitHead": "7464dce4f04668b5f07f0648aaa858679dcdbc9b",
+			"_id": "toggle-selection@1.0.2",
+			"_shasum": "c5ecc6f21cd960a9e5c4e5e1d10eb4fc915413c2",
+			"_from": ".",
+			"_npmVersion": "2.14.1",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "sudodoki",
+				"email": "smd.deluzion@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sudodoki",
+					"email": "smd.deluzion@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "c5ecc6f21cd960a9e5c4e5e1d10eb4fc915413c2",
+				"tarball": "https://registry.npmjs.org/toggle-selection/-/toggle-selection-1.0.2.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "toggle-selection",
+			"version": "1.0.3",
+			"description": "Toggle current selected content in browser",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [
+				"selection",
+				"toggle",
+				"browser",
+				"deselect"
+			],
+			"author": {
+				"name": "sudodoki",
+				"email": "smd.deluzion@gmail.com",
+				"url": "sudodoki.name"
+			},
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Aleksej Shvajka",
+					"url": "https://github.com/shvaikalesh"
+				}
+			],
+			"gitHead": "6b2e03662f048ca7858e84fc73d533ce2e1e0136",
+			"_id": "toggle-selection@1.0.3",
+			"_shasum": "4b3113445d8b662226236f00941f92cb6bed093c",
+			"_from": ".",
+			"_npmVersion": "2.14.1",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "sudodoki",
+				"email": "smd.deluzion@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sudodoki",
+					"email": "smd.deluzion@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "4b3113445d8b662226236f00941f92cb6bed093c",
+				"tarball": "https://registry.npmjs.org/toggle-selection/-/toggle-selection-1.0.3.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.4": {
+			"name": "toggle-selection",
+			"version": "1.0.4",
+			"description": "Toggle current selected content in browser",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [
+				"selection",
+				"toggle",
+				"browser",
+				"deselect"
+			],
+			"author": {
+				"name": "sudodoki",
+				"email": "smd.deluzion@gmail.com",
+				"url": "sudodoki.name"
+			},
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Aleksej Shvajka",
+					"url": "https://github.com/shvaikalesh"
+				}
+			],
+			"gitHead": "5622207c041799e253617b4a11ac660bebac2598",
+			"_id": "toggle-selection@1.0.4",
+			"_shasum": "1ce8f6f2955ecc1143dcbb9a952af797dad1d9b1",
+			"_from": ".",
+			"_npmVersion": "3.3.5",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "sudodoki",
+				"email": "smd.deluzion@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sudodoki",
+					"email": "smd.deluzion@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "1ce8f6f2955ecc1143dcbb9a952af797dad1d9b1",
+				"tarball": "https://registry.npmjs.org/toggle-selection/-/toggle-selection-1.0.4.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.5": {
+			"name": "toggle-selection",
+			"version": "1.0.5",
+			"description": "Toggle current selected content in browser",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [
+				"selection",
+				"toggle",
+				"browser",
+				"deselect"
+			],
+			"author": {
+				"name": "sudodoki",
+				"email": "smd.deluzion@gmail.com",
+				"url": "sudodoki.name"
+			},
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Aleksej Shvajka",
+					"url": "https://github.com/shvaikalesh"
+				}
+			],
+			"gitHead": "b15f96b4f2a5dcd0cf801f3056d59cb2b6f1c7a3",
+			"_id": "toggle-selection@1.0.5",
+			"_shasum": "726c703de607193a73c32c7df49cd24950fc574f",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "sudodoki",
+				"email": "smd.deluzion@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sudodoki",
+					"email": "smd.deluzion@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "726c703de607193a73c32c7df49cd24950fc574f",
+				"tarball": "https://registry.npmjs.org/toggle-selection/-/toggle-selection-1.0.5.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/toggle-selection-1.0.5.tgz_1469565844835_0.009588070679455996"
+			},
+			"directories": {}
+		},
+		"1.0.6": {
+			"name": "toggle-selection",
+			"version": "1.0.6",
+			"description": "Toggle current selected content in browser",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sudodoki/toggle-selection.git"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [
+				"selection",
+				"toggle",
+				"browser",
+				"deselect"
+			],
+			"author": {
+				"name": "sudodoki",
+				"email": "smd.deluzion@gmail.com",
+				"url": "sudodoki.name"
+			},
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Aleksej Shvajka",
+					"url": "https://github.com/shvaikalesh"
+				}
+			],
+			"gitHead": "466460c75ca40630d8de940490718247fce79a3e",
+			"bugs": {
+				"url": "https://github.com/sudodoki/toggle-selection/issues"
+			},
+			"homepage": "https://github.com/sudodoki/toggle-selection#readme",
+			"_id": "toggle-selection@1.0.6",
+			"_shasum": "6e45b1263f2017fa0acc7d89d78b15b8bf77da32",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.9.0",
+			"_npmUser": {
+				"name": "sudodoki",
+				"email": "smd.deluzion@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sudodoki",
+					"email": "smd.deluzion@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "6e45b1263f2017fa0acc7d89d78b15b8bf77da32",
+				"tarball": "https://registry.npmjs.org/toggle-selection/-/toggle-selection-1.0.6.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/toggle-selection-1.0.6.tgz_1500922210905_0.8898821899201721"
+			},
+			"directories": {}
+		}
+	},
+	"time": {
+		"modified": "2017-07-24T18:50:13.231Z",
+		"created": "2015-09-02T22:01:49.257Z",
+		"1.0.0": "2015-09-02T22:01:49.257Z",
+		"1.0.1": "2015-09-02T22:06:49.819Z",
+		"1.0.2": "2015-09-02T22:51:04.339Z",
+		"1.0.3": "2015-09-02T23:20:27.097Z",
+		"1.0.4": "2015-10-10T06:46:20.281Z",
+		"1.0.5": "2016-07-26T20:44:07.158Z",
+		"1.0.6": "2017-07-24T18:50:13.231Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.6"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"e4c1425d67c1e65dc59da77198d778a4\"",
+			"fetched": 1646835826409
+		}
+	},
+	"_distfiles": {
+		"toggle-selection-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/toggle-selection/-/toggle-selection-1.0.0.tgz",
+			"sha": "eb6b1dc046b4b3b13703afcc396fb338292b14e3",
+			"registry": "npmjs"
+		},
+		"toggle-selection-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/toggle-selection/-/toggle-selection-1.0.1.tgz",
+			"sha": "bb5f4b05ccd2b309d45a222d4b3ed18b11dcf0ce",
+			"registry": "npmjs"
+		},
+		"toggle-selection-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/toggle-selection/-/toggle-selection-1.0.2.tgz",
+			"sha": "c5ecc6f21cd960a9e5c4e5e1d10eb4fc915413c2",
+			"registry": "npmjs"
+		},
+		"toggle-selection-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/toggle-selection/-/toggle-selection-1.0.3.tgz",
+			"sha": "4b3113445d8b662226236f00941f92cb6bed093c",
+			"registry": "npmjs"
+		},
+		"toggle-selection-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/toggle-selection/-/toggle-selection-1.0.4.tgz",
+			"sha": "1ce8f6f2955ecc1143dcbb9a952af797dad1d9b1",
+			"registry": "npmjs"
+		},
+		"toggle-selection-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/toggle-selection/-/toggle-selection-1.0.5.tgz",
+			"sha": "726c703de607193a73c32c7df49cd24950fc574f",
+			"registry": "npmjs"
+		},
+		"toggle-selection-1.0.6.tgz": {
+			"url": "https://registry.npmjs.org/toggle-selection/-/toggle-selection-1.0.6.tgz",
+			"sha": "6e45b1263f2017fa0acc7d89d78b15b8bf77da32",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"toggle-selection-1.0.6.tgz": {
+			"shasum": "6e45b1263f2017fa0acc7d89d78b15b8bf77da32"
+		}
+	},
+	"_rev": "3-81a05be4773ba5a0",
+	"_id": "toggle-selection",
+	"readme": "# Toggle Selection\n\nSimple module exposing function that deselects current browser selection and returns function that restores selection.\n\n```\nvar deselect = require('toggle-selection');\nvar reselect = deselect(); // remove all selection\n// … \n// do something with current selection, text, etc;\n// …\nreselect(); // restore selection\n```\n\nAll credits go to [@shvaikalesh](https://github.com/shvaikalesh).\n\n# [Example](https://github.com/sudodoki/toggle-selection/blob/master/example)\n\n![example recording](http://g.recordit.co/YPu6mHvcKe.gif)"
+}

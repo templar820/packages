@@ -1,0 +1,527 @@
+{
+	"name": "filelist",
+	"versions": {
+		"0.0.1": {
+			"name": "filelist",
+			"version": "0.0.1",
+			"description": "Lazy-evaluating list of files, based on globs or regex patterns",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mde/filelist.git"
+			},
+			"keywords": [
+				"file",
+				"utility",
+				"glob"
+			],
+			"author": {
+				"name": "Matthew Eernisse",
+				"email": "mde@fleegix.org",
+				"url": "http://fleegix.org"
+			},
+			"license": "Apache 2",
+			"bugs": {
+				"url": "https://github.com/mde/filelist/issues"
+			},
+			"homepage": "https://github.com/mde/filelist",
+			"_id": "filelist@0.0.1",
+			"_shasum": "da1f551068525891d6fe99effa2ecabdf719978b",
+			"_resolved": "pkg/filelist-v0.0.1.tar.gz",
+			"_from": "pkg/filelist-v0.0.1.tar.gz",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "mde",
+				"email": "mde@fleegix.org"
+			},
+			"maintainers": [
+				{
+					"name": "mde",
+					"email": "mde@fleegix.org"
+				}
+			],
+			"dist": {
+				"shasum": "da1f551068525891d6fe99effa2ecabdf719978b",
+				"tarball": "https://registry.npmjs.org/filelist/-/filelist-0.0.1.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.2": {
+			"name": "filelist",
+			"version": "0.0.2",
+			"description": "Lazy-evaluating list of files, based on globs or regex patterns",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mde/filelist.git"
+			},
+			"keywords": [
+				"file",
+				"utility",
+				"glob"
+			],
+			"author": {
+				"name": "Matthew Eernisse",
+				"email": "mde@fleegix.org",
+				"url": "http://fleegix.org"
+			},
+			"license": "Apache 2",
+			"bugs": {
+				"url": "https://github.com/mde/filelist/issues"
+			},
+			"homepage": "https://github.com/mde/filelist",
+			"dependencies": {
+				"minimatch": "^0.3.0",
+				"utilities": "0.0.37"
+			},
+			"_id": "filelist@0.0.2",
+			"_shasum": "d599226b2189b41b18bb711a08b810202b0e1e1f",
+			"_resolved": "pkg/FileList-v0.0.2.tar.gz",
+			"_from": "pkg/FileList-v0.0.2.tar.gz",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "mde",
+				"email": "mde@fleegix.org"
+			},
+			"maintainers": [
+				{
+					"name": "mde",
+					"email": "mde@fleegix.org"
+				}
+			],
+			"dist": {
+				"shasum": "d599226b2189b41b18bb711a08b810202b0e1e1f",
+				"tarball": "https://registry.npmjs.org/filelist/-/filelist-0.0.2.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.3": {
+			"name": "filelist",
+			"version": "0.0.3",
+			"description": "Lazy-evaluating list of files, based on globs or regex patterns",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mde/filelist.git"
+			},
+			"keywords": [
+				"file",
+				"utility",
+				"glob"
+			],
+			"author": {
+				"name": "Matthew Eernisse",
+				"email": "mde@fleegix.org",
+				"url": "http://fleegix.org"
+			},
+			"license": "Apache 2",
+			"bugs": {
+				"url": "https://github.com/mde/filelist/issues"
+			},
+			"homepage": "https://github.com/mde/filelist",
+			"dependencies": {
+				"minimatch": "^0.3.0",
+				"utilities": "0.0.37"
+			},
+			"_id": "filelist@0.0.3",
+			"_shasum": "47bb21d003bc5dfcfcdad498b5bba22e0f3d081b",
+			"_resolved": "pkg/FileList-v0.0.3.tar.gz",
+			"_from": "pkg/FileList-v0.0.3.tar.gz",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "mde",
+				"email": "mde@fleegix.org"
+			},
+			"maintainers": [
+				{
+					"name": "mde",
+					"email": "mde@fleegix.org"
+				}
+			],
+			"dist": {
+				"shasum": "47bb21d003bc5dfcfcdad498b5bba22e0f3d081b",
+				"tarball": "https://registry.npmjs.org/filelist/-/filelist-0.0.3.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.4": {
+			"name": "filelist",
+			"version": "0.0.4",
+			"description": "Lazy-evaluating list of files, based on globs or regex patterns",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mde/filelist.git"
+			},
+			"keywords": [
+				"file",
+				"utility",
+				"glob"
+			],
+			"author": {
+				"name": "Matthew Eernisse",
+				"email": "mde@fleegix.org",
+				"url": "http://fleegix.org"
+			},
+			"license": "Apache 2",
+			"bugs": {
+				"url": "https://github.com/mde/filelist/issues"
+			},
+			"homepage": "https://github.com/mde/filelist",
+			"dependencies": {
+				"minimatch": "0.3.0",
+				"utilities": "0.0.37"
+			},
+			"_id": "filelist@0.0.4",
+			"_shasum": "d7d65a03748b788906676996fc45a0c680ded8d5",
+			"_resolved": "file:pkg/FileList-v0.0.4.tar.gz",
+			"_from": "pkg/FileList-v0.0.4.tar.gz",
+			"_npmVersion": "2.1.11",
+			"_nodeVersion": "0.10.33",
+			"_npmUser": {
+				"name": "mde",
+				"email": "mde@fleegix.org"
+			},
+			"maintainers": [
+				{
+					"name": "mde",
+					"email": "mde@fleegix.org"
+				}
+			],
+			"dist": {
+				"shasum": "d7d65a03748b788906676996fc45a0c680ded8d5",
+				"tarball": "https://registry.npmjs.org/filelist/-/filelist-0.0.4.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.5": {
+			"name": "filelist",
+			"version": "0.0.5",
+			"description": "Lazy-evaluating list of files, based on globs or regex patterns",
+			"main": "index.js",
+			"scripts": {
+				"test": "jake test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mde/filelist.git"
+			},
+			"keywords": [
+				"file",
+				"utility",
+				"glob"
+			],
+			"author": {
+				"name": "Matthew Eernisse",
+				"email": "mde@fleegix.org",
+				"url": "http://fleegix.org"
+			},
+			"license": "Apache 2",
+			"bugs": {
+				"url": "https://github.com/mde/filelist/issues"
+			},
+			"homepage": "https://github.com/mde/filelist",
+			"dependencies": {
+				"minimatch": "3.0.3",
+				"utilities": "0.0.37"
+			},
+			"_id": "filelist@0.0.5",
+			"_shasum": "470f88c86945d67f0e6931555da8bce91b39e950",
+			"_resolved": "file:pkg/FileList-v0.0.5.tar.gz",
+			"_from": "pkg/FileList-v0.0.5.tar.gz",
+			"_npmVersion": "2.15.1",
+			"_nodeVersion": "4.4.4",
+			"_npmUser": {
+				"name": "mde",
+				"email": "mde@fleegix.org"
+			},
+			"dist": {
+				"shasum": "470f88c86945d67f0e6931555da8bce91b39e950",
+				"tarball": "https://registry.npmjs.org/filelist/-/filelist-0.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mde",
+					"email": "mde@fleegix.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/filelist-0.0.5.tgz_1480368823180_0.11342322244308889"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.6": {
+			"name": "filelist",
+			"version": "0.0.6",
+			"description": "Lazy-evaluating list of files, based on globs or regex patterns",
+			"main": "index.js",
+			"scripts": {
+				"test": "jake test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mde/filelist.git"
+			},
+			"keywords": [
+				"file",
+				"utility",
+				"glob"
+			],
+			"author": {
+				"name": "Matthew Eernisse",
+				"email": "mde@fleegix.org",
+				"url": "http://fleegix.org"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/mde/filelist/issues"
+			},
+			"homepage": "https://github.com/mde/filelist",
+			"dependencies": {
+				"minimatch": "^3.0.3",
+				"utilities": "^0.0.37"
+			},
+			"_id": "filelist@0.0.6",
+			"_shasum": "58a641ad1f57574a27fe87a440ef318834b55719",
+			"_resolved": "file:pkg/FileList-v0.0.6.tar.gz",
+			"_from": "pkg/FileList-v0.0.6.tar.gz",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "mde",
+				"email": "mde@fleegix.org"
+			},
+			"dist": {
+				"shasum": "58a641ad1f57574a27fe87a440ef318834b55719",
+				"tarball": "https://registry.npmjs.org/filelist/-/filelist-0.0.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mde",
+					"email": "mde@fleegix.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/filelist-0.0.6.tgz_1481406700693_0.6611499860882759"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "filelist",
+			"version": "1.0.1",
+			"description": "Lazy-evaluating list of files, based on globs or regex patterns",
+			"main": "index.js",
+			"scripts": {
+				"test": "jake test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mde/filelist.git"
+			},
+			"keywords": [
+				"file",
+				"utility",
+				"glob"
+			],
+			"author": {
+				"name": "Matthew Eernisse",
+				"email": "mde@fleegix.org",
+				"url": "http://fleegix.org"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/mde/filelist/issues"
+			},
+			"homepage": "https://github.com/mde/filelist",
+			"dependencies": {
+				"minimatch": "^3.0.4"
+			},
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:pkg/FileList-v1.0.1.tar.gz",
+			"_id": "filelist@1.0.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.13.0",
+			"_npmUser": {
+				"name": "mde",
+				"email": "mde@fleegix.org"
+			},
+			"dist": {
+				"integrity": "sha512-8zSK6Nu0DQIC08mUC46sWGXi+q3GGpKydAG36k+JDba6VRpkevvOWUW5a/PhShij4+vHT9M+ghgG7eM+a9JDUQ==",
+				"shasum": "f10d1a3ae86c1694808e8f20906f43d4c9132dbb",
+				"tarball": "https://registry.npmjs.org/filelist/-/filelist-1.0.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 15875,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeokL6CRA9TVsSAnZWagAAMIMQAIxMo2ub1alM1grn4Erj\nZ4jq2+SuDfDNZQkbMsntB0T+zhWPfAWydAiGP50SEb/hiy5imuRmdsur+OsW\nLS3T0wcD1Nzn61EYofC2kal8G4GBbQkeZbex72t1kJMrIqg3U0ry3Hbj34n6\nU8U7+7EVh/BH0e4fnHTFDWsZajI0lv3hjuqGN23o4ojU9U42FQIons9PS+Lg\nUBuQ1ZTw8v5O1AVE7aBG9KdHGrhIuQBg7MESK62waQNs23klnTF7KpHIeX2m\naWKd1UPYn8VbiOqqvcr5vTu1vSZLtxxaM3ZpOoywI9VTgDlfCSdKP3YdVP+S\n8rg+iO3EfNH8owfMp+0fSXL+87RoGgsw3uDm1o7mAcXUqd6vVBfhcBjgOZy0\nsqyhNeSeNrU2JrMq3mW5B/WndBMz7/K3C7zAyR3xrDeC80hhw7D7wZx5UDfl\nMxm/SuHGzXm0oCKM89vlFh6h4ST9yUeIUkP62fga0MvFe+Ak1iwhiNH6naQL\nzoHtYyTdsvQx8VY4AdC8Z2/s4PxoakgJ+AciwrSYa6+F2ejfIxA7KIwS1n1F\n30OVhS31XOj5iiup6SdJ0py9Jr4cK8KVJQBoajfOkoOCZrFuoqiC63Y0U3yG\nLCijuVUOACC7bj2Y18y74Di9f7pHjSn21Z64ktKp3KTglo91rCgY/chSJies\njUo5\r\n=9f9H\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mde",
+					"email": "mde@fleegix.org"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/filelist_1.0.1_1587692282405_0.6587787544409176"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "filelist",
+			"version": "1.0.2",
+			"description": "Lazy-evaluating list of files, based on globs or regex patterns",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"scripts": {
+				"test": "jake test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mde/filelist.git"
+			},
+			"keywords": [
+				"file",
+				"utility",
+				"glob"
+			],
+			"author": {
+				"name": "Matthew Eernisse",
+				"email": "mde@fleegix.org",
+				"url": "http://fleegix.org"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/mde/filelist/issues"
+			},
+			"homepage": "https://github.com/mde/filelist",
+			"dependencies": {
+				"minimatch": "^3.0.4"
+			},
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:pkg/FileList-v1.0.2.tar.gz",
+			"_id": "filelist@1.0.2",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.13.0",
+			"_npmUser": {
+				"name": "mde",
+				"email": "mde@fleegix.org"
+			},
+			"dist": {
+				"integrity": "sha512-z7O0IS8Plc39rTCq6i6iHxk43duYOn8uFJiWSewIq0Bww1RNybVHSCjahmcC87ZqAm4OTvFzlzeGu3XAzG1ctQ==",
+				"shasum": "80202f21462d4d1c2e214119b1807c1bc0380e5b",
+				"tarball": "https://registry.npmjs.org/filelist/-/filelist-1.0.2.tgz",
+				"fileCount": 6,
+				"unpackedSize": 18917,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgHvRtCRA9TVsSAnZWagAAPWcP/R6tgys9AnuieW0Cvr6c\nqQFlMahktBPYtPgHxW7JqJV5uq6c+EfA2BVARaSrPlBP+Yt+jXL4qSm/54Bc\nzttDWNwXTk3vqCP8uo8/LvF28U9vJ/uEIumeOUY6URWiUSxZ6oQOaMSGUhzk\nziDKgT1x77ygJeIP5tyN79ehdCMuvHjGyMUR30Mf3FhtWj5mk9rzBHxuiMpZ\nLw/OC/bv9UDKThir5dRkdBKsCfEtrXoDXShMYso7pmqUYiH+RbLx48rb31Pr\nq30O0LmA2MlzRNrSEKSfcM8cD70klPukbJSXmdKztCKIM/GFkstBXoHJAZOb\nnOl+2Df20S9fBC8eS1zeqqG4pGVV7dOTAQfbXBoxpfSKKV03c1qRQMtBh0dy\nt1ajjJvx3XtD89KxwzqrcskLpe54H/D9FPW6A5xaXQ7TfTnp4vZMz7cQvb9e\n/z8cmK4rPWlcn2T3CKpgAY+RtidyA6wEr+3svXZd5JBvAnjpZ6IFkWFD/QB7\nlH0LpWFZF3bKrI2OF1LRfGAgnzDRQJnKijXG63d5XOJGWZPmKSWuettQ9MLF\n9/rwcQDojgAMFI6qHAVPh7Wp1fcsXo3KpHYTKMRuUF3LKT0L+maGuBabUPo2\nZ0EUTeRVqOcLJBPKsOBbufABW84TtK1g9Yo6vOtxjfB7SZqRFfQj1bXtQibd\n5iuk\r\n=WOOW\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "mde",
+					"email": "mde@fleegix.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/filelist_1.0.2_1612641388829_0.6562219278503181"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2021-02-06T19:56:31.248Z",
+		"created": "2014-06-14T06:02:51.689Z",
+		"0.0.1": "2014-06-14T06:02:51.689Z",
+		"0.0.2": "2014-06-14T06:24:38.491Z",
+		"0.0.3": "2014-06-24T01:20:53.757Z",
+		"0.0.4": "2015-02-25T19:27:20.757Z",
+		"0.0.5": "2016-11-28T21:33:44.958Z",
+		"0.0.6": "2016-12-10T21:51:40.916Z",
+		"1.0.1": "2020-04-24T01:38:02.564Z",
+		"1.0.2": "2021-02-06T19:56:29.016Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"8f3eea2b9f1342e1428bdc577be51741\"",
+			"fetched": 1646834741825
+		}
+	},
+	"_distfiles": {
+		"filelist-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/filelist/-/filelist-0.0.1.tgz",
+			"sha": "da1f551068525891d6fe99effa2ecabdf719978b",
+			"registry": "npmjs"
+		},
+		"filelist-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/filelist/-/filelist-0.0.2.tgz",
+			"sha": "d599226b2189b41b18bb711a08b810202b0e1e1f",
+			"registry": "npmjs"
+		},
+		"filelist-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/filelist/-/filelist-0.0.3.tgz",
+			"sha": "47bb21d003bc5dfcfcdad498b5bba22e0f3d081b",
+			"registry": "npmjs"
+		},
+		"filelist-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/filelist/-/filelist-0.0.4.tgz",
+			"sha": "d7d65a03748b788906676996fc45a0c680ded8d5",
+			"registry": "npmjs"
+		},
+		"filelist-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/filelist/-/filelist-0.0.5.tgz",
+			"sha": "470f88c86945d67f0e6931555da8bce91b39e950",
+			"registry": "npmjs"
+		},
+		"filelist-0.0.6.tgz": {
+			"url": "https://registry.npmjs.org/filelist/-/filelist-0.0.6.tgz",
+			"sha": "58a641ad1f57574a27fe87a440ef318834b55719",
+			"registry": "npmjs"
+		},
+		"filelist-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/filelist/-/filelist-1.0.1.tgz",
+			"sha": "f10d1a3ae86c1694808e8f20906f43d4c9132dbb",
+			"registry": "npmjs"
+		},
+		"filelist-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/filelist/-/filelist-1.0.2.tgz",
+			"sha": "80202f21462d4d1c2e214119b1807c1bc0380e5b",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"filelist-1.0.2.tgz": {
+			"shasum": "80202f21462d4d1c2e214119b1807c1bc0380e5b"
+		}
+	},
+	"_rev": "6-446f4cbbac35f49d",
+	"_id": "filelist",
+	"readme": "## FileList\n\nA FileList is a lazy-evaluated list of files. When given a list\nof glob patterns for possible files to be included in the file\nlist, instead of searching the file structures to find the files,\na FileList holds the pattern for latter use.\n\nThis allows you to define a FileList to match any number of\nfiles, but only search out the actual files when then FileList\nitself is actually used. The key is that the first time an\nelement of the FileList/Array is requested, the pending patterns\nare resolved into a real list of file names.\n\n### Usage\n\nAdd files to the list with the `include` method. You can add glob\npatterns, individual files, or RegExp objects. When the Array\nmethods are invoked on the FileList, these items are resolved to\nan actual list of files.\n\n```javascript\nvar fl = new FileList();\nfl.include('test/*.js');\nfl.exclude('test/helpers.js');\n```\n\nUse the `exclude` method to override inclusions. You can use this\nwhen your inclusions are too broad.\n\n### Array methods\n\nFileList has lazy-evaluated versions of most of the array\nmethods, including the following:\n\n* join\n* pop\n* push\n* concat\n* reverse\n* shift\n* unshift\n* slice\n* splice\n* sort\n* filter\n* forEach\n* some\n* every\n* map\n* indexOf\n* lastIndexOf\n* reduce\n* reduceRight\n\nWhen you call one of these methods, the items in the FileList\nwill be resolved to the full list of files, and the method will\nbe invoked on that result.\n\n### Special `length` method\n\n`length`: FileList includes a length *method* (instead of a\nproperty) which returns the number of actual files in the list\nonce it's been resolved.\n\n### FileList-specific methods\n\n`include`: Add a filename/glob/regex to the list\n\n`exclude`: Override inclusions by excluding a filename/glob/regex\n\n`resolve`: Resolve the items in the FileList to the full list of\nfiles. This method is invoked automatically when one of the array\nmethods is called.\n\n`toArray`: Immediately resolves the list of items, and returns an\nactual array of filepaths.\n\n`clearInclusions`: Clears any pending items -- must be used\nbefore resolving the list.\n\n`clearExclusions`: Clears the list of exclusions rules."
+}

@@ -1,0 +1,413 @@
+{
+	"name": "@wry/trie",
+	"versions": {
+		"0.2.0": {
+			"name": "@wry/trie",
+			"version": "0.2.0",
+			"author": {
+				"name": "Ben Newman",
+				"email": "ben@eloper.dev"
+			},
+			"description": "https://en.wikipedia.org/wiki/Trie",
+			"license": "MIT",
+			"main": "lib/trie.js",
+			"module": "lib/trie.esm.js",
+			"types": "lib/trie.d.ts",
+			"keywords": [
+				"trie",
+				"prefix",
+				"weak",
+				"dictionary",
+				"lexicon"
+			],
+			"homepage": "https://github.com/benjamn/wryware",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/benjamn/wryware.git"
+			},
+			"bugs": {
+				"url": "https://github.com/benjamn/wryware/issues"
+			},
+			"scripts": {
+				"clean": "../../node_modules/.bin/rimraf lib",
+				"tsc": "../../node_modules/.bin/tsc",
+				"rollup": "../../node_modules/.bin/rollup -c",
+				"build": "npm run clean && npm run tsc && npm run rollup",
+				"mocha": "../../scripts/test.sh lib/tests.js",
+				"prepublish": "npm run build",
+				"test": "npm run build && npm run mocha"
+			},
+			"dependencies": {
+				"tslib": "^1.14.1"
+			},
+			"gitHead": "c80cc87d7c01c19b4c2dd808e5a71835e8c82fb1",
+			"_id": "@wry/trie@0.2.0",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.9",
+			"dist": {
+				"integrity": "sha512-xYrk54TCLIs+aGyHHYBswzlCVZbDv8pz7eWD6Zc/AM6CZnAhzCGIuPNK4KVhbqCGyWqkZfmwVft6RcJKT6O7Ww==",
+				"shasum": "190bcb3efea13272ef62464fc31b501cd0ac06cf",
+				"tarball": "https://registry.npmjs.org/@wry/trie/-/trie-0.2.0.tgz",
+				"fileCount": 10,
+				"unpackedSize": 13570,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf2j1NCRA9TVsSAnZWagAAXrQP/3wce2VYD76W6YsFE054\nsPiJymw25te8R3zyj2XhDO5PoGbdnewZehJrkiOea/c/X92o+tIw9+A7Dtsm\nQ4FP0cs3jZ98t/rMNpj0aSupI6voPZy0nekFO1rKi9b2LUMlZ4zAcpBbvwR7\n3cTNQzbEZVlOVfIfiSC0Kk/kZQjfC4cVaLRWiPQhwtmP5m/CzRQVz57tVdik\n4yUeZyPS9SQ8Fb4eSl/Hl03RCZhBRhW9yvIBSCciUdhuXjk7PPQh17xRV/dg\nXZhVKMrEau+LcLGCs2Ew5oNnuQSCFEpdJc8xmNxpq1nazki0UXJVKLWzBhEq\nFDYgFS/cwK5xhphfv+h05JJiP9j35Y6QF1ljng8ZkpoQ5fS2xL7b6+qh0jQH\n6GnoNRZlqBXcIFnIk1Z3Nr8BTYdMzBL8Flc3MsyR5Opsm7jgI6IWc4oI3lM4\nZd6iKn8+WpwWSul+oUfh7tYa4ceKBc1VaeV7BTbLRR0tJl6Y3YscmdELTC6O\nWUT3Y6tkiVb/zQqJuDM9JiNsdF7xcRpiNhgSWjq7ccV2gER92VSgx3202SVk\nCsF4g1+/L/KC57NRshO6i4VOttvOpuroj+8weChvjk78nrUBrROxt5UUtd7i\nEh1C78raHfJ2usVFDGXK+7FIzsBDznbXeN2EJM7hrGfclq+X4XhX6+E6ycWG\nM/6y\r\n=HCrs\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "benjamn",
+				"email": "ben@benjamn.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "benjamn",
+					"email": "ben@benjamn.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/trie_0.2.0_1608138060791_0.002215785541244575"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.1": {
+			"name": "@wry/trie",
+			"version": "0.2.1",
+			"author": {
+				"name": "Ben Newman",
+				"email": "ben@eloper.dev"
+			},
+			"description": "https://en.wikipedia.org/wiki/Trie",
+			"license": "MIT",
+			"main": "lib/trie.js",
+			"module": "lib/trie.esm.js",
+			"types": "lib/trie.d.ts",
+			"keywords": [
+				"trie",
+				"prefix",
+				"weak",
+				"dictionary",
+				"lexicon"
+			],
+			"homepage": "https://github.com/benjamn/wryware",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/benjamn/wryware.git"
+			},
+			"bugs": {
+				"url": "https://github.com/benjamn/wryware/issues"
+			},
+			"scripts": {
+				"clean": "../../node_modules/.bin/rimraf lib",
+				"tsc": "../../node_modules/.bin/tsc",
+				"rollup": "../../node_modules/.bin/rollup -c",
+				"build": "npm run clean && npm run tsc && npm run rollup",
+				"mocha": "../../scripts/test.sh lib/tests.js",
+				"prepublish": "npm run build",
+				"test": "npm run build && npm run mocha"
+			},
+			"dependencies": {
+				"tslib": "^1.14.1"
+			},
+			"gitHead": "886df9d6df8f7c0525a789b91a262ec0f993ef2a",
+			"_id": "@wry/trie@0.2.1",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "lerna/3.22.1/node@v14.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-sYkuXZqArky2MLQCv4tLW6hX3N8AfTZ5ZMBc8jC6Yy35WYr82UYLLtjS7k/uRGHOA0yTSjuNadG6QQ6a5CS5hQ==",
+				"shasum": "4191e1d4a85dd77dfede383d65563138ed82fc47",
+				"tarball": "https://registry.npmjs.org/@wry/trie/-/trie-0.2.1.tgz",
+				"fileCount": 11,
+				"unpackedSize": 14892,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf2j5MCRA9TVsSAnZWagAAgXAP/jI0dsfw+1pLFCl0bYK8\njbLzTOlvyeQoZX51QPev+JXhqgmdJtHZq14g/TT/HpTdVzfYjJfgeezcr6HN\nCtiJJTn3MiWjOho2I9kPR8si+OXd3TquE9H223K/yZWgM/1YZ0no2XDJiECu\n3BTNJYuGpDccWqW/JhDorrB8OlDE2STMs+iU1Bzsgh3i5UltNja7UpL65Diu\nkc59dyVTdVBGQffcThoSFKE7dANbnyzV79/MiWR5iC7qZxwdLiKWs7BkuxC9\n9jc7VSMqC14wuiEbhP74DKsmYqk/hib72RkVECKt+ye8Z9arp8kP64vTTTGc\nV6xOec0ovjaZ61DLCUGXTOt6udnJdBQyr5tM2xvVXYRhV/zXyYk8HWUD4eBh\na5wVn6NexicNQuN+sugtYBkrlQKl8V2XDm/n1dzZdOsQvFxKV9vLpJnO5qjy\nHRDCEqxGdnQEsz9oF4kefnbv4W2LEfhm6reR7JMPzEk5nU/8QCmEpWw49Bv4\ngitY/ldGZIKocG5Hrk317C57oOwYZJHwbd6jCoFbvq/2hIansME21gMGz4UC\nrBCj6XWWAIMaWICjX4JL9yQakRdsRnNM1WEwsq97zNwGnTTq6CXILu5dHDA7\nnyMxxpKy46wxRXM7+7LdqIdbu0YqcOXS8AbhUHkn3AV5SMKvze3MGqKoEZC7\no8kK\r\n=E0WK\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "benjamn",
+				"email": "ben@benjamn.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "benjamn",
+					"email": "ben@benjamn.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/trie_0.2.1_1608138315806_0.20928761934317675"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.2": {
+			"name": "@wry/trie",
+			"version": "0.2.2",
+			"author": {
+				"name": "Ben Newman",
+				"email": "ben@eloper.dev"
+			},
+			"description": "https://en.wikipedia.org/wiki/Trie",
+			"license": "MIT",
+			"main": "lib/trie.js",
+			"module": "lib/trie.esm.js",
+			"types": "lib/trie.d.ts",
+			"keywords": [
+				"trie",
+				"prefix",
+				"weak",
+				"dictionary",
+				"lexicon"
+			],
+			"homepage": "https://github.com/benjamn/wryware",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/benjamn/wryware.git"
+			},
+			"bugs": {
+				"url": "https://github.com/benjamn/wryware/issues"
+			},
+			"scripts": {
+				"clean": "../../node_modules/.bin/rimraf lib",
+				"tsc": "../../node_modules/.bin/tsc",
+				"rollup": "../../node_modules/.bin/rollup -c",
+				"build": "npm run clean && npm run tsc && npm run rollup",
+				"mocha": "../../scripts/test.sh lib/tests.js",
+				"prepublish": "npm run build",
+				"test": "npm run build && npm run mocha"
+			},
+			"dependencies": {
+				"tslib": "^1.14.1"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"gitHead": "cc69712aee6b758cbe078c9a49532533334dee9c",
+			"_id": "@wry/trie@0.2.2",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "lerna/3.22.1/node@v14.15.4+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-OxqBB39x6MfHaa2HpMiRMfhuUnQTddD32Ko020eBeJXq87ivX6xnSSnzKHVbA21p7iqBASz8n/07b6W5wW1BVQ==",
+				"shasum": "99f20f0fcbbcda17006069b155c826cbabfc402f",
+				"tarball": "https://registry.npmjs.org/@wry/trie/-/trie-0.2.2.tgz",
+				"fileCount": 11,
+				"unpackedSize": 14930,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgItsUCRA9TVsSAnZWagAA1DQQAJwFY4hST4nL00Mc8l/d\nB8MmtswGyk3Vx2sFqmwtFJHFnku+FKDtRHq/eSjjW8p0IlFukRPPmQH1PIzc\n8/2uSc8wkf8O+EE0LNNTdgdGlbXHT3/SGJKKcbefWixfEz3n0rKZdCSUOZQz\nvNa/j7uBc/cZYsaasNouQhbyJGrRJg9x8+cVj1wWmO7CpFrKuKoKQY+05cnO\npMkTDpcYuvYinB+WV8hsp4yqog6ND4QOPjtf1PFPqBsCLl/iV6iNmqY3d3zA\nrQ+QwSdCwHZiSDn5tTBhSmgbD2xUeJ6jvEAgbFSLt1AmeyRlJSK1mdu6rSBb\npO9uiHgT5UU1wP1x9JU63WkMHoTK1zvXeHa7jAsZFJ2jrCdNTAvvpLDR34/l\nbSV8jPupSwadlcGtED02FPVLjuhMLXYM+MQ9qgkyIm92GR4ICx9jRcXR7QxP\nTg9uFMHnqUfYNMBdtn+Wyad1hrTDc9T7yWd39yUF3QbyrzFKWun7hjp5nAxm\neD6/V/zBNHs152o37hU3MzyRjLNy8ZB8iuh+KrMTA03+8QxgxpkAEcKNTJiR\no9xBRDJtm6CLBu6bsBQ1PK9mPJTr/scGJqOekCApbHs8IIlHDbgSQyFcyzEd\ndfEWZ0tfTiz8BHQ026zQ67QCMjAenYiXdlbN95v7yQjM4VhUt6EaexXSCqYU\n+fhD\r\n=w6Y9\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "benjamn",
+				"email": "ben@benjamn.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "benjamn",
+					"email": "ben@benjamn.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/trie_0.2.2_1612897043791_0.5935411849541417"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0": {
+			"name": "@wry/trie",
+			"version": "0.3.0",
+			"author": {
+				"name": "Ben Newman",
+				"email": "ben@eloper.dev"
+			},
+			"description": "https://en.wikipedia.org/wiki/Trie",
+			"license": "MIT",
+			"main": "lib/trie.js",
+			"module": "lib/trie.esm.js",
+			"types": "lib/trie.d.ts",
+			"keywords": [
+				"trie",
+				"prefix",
+				"weak",
+				"dictionary",
+				"lexicon"
+			],
+			"homepage": "https://github.com/benjamn/wryware",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/benjamn/wryware.git"
+			},
+			"bugs": {
+				"url": "https://github.com/benjamn/wryware/issues"
+			},
+			"scripts": {
+				"clean": "../../node_modules/.bin/rimraf lib",
+				"tsc": "../../node_modules/.bin/tsc",
+				"rollup": "../../node_modules/.bin/rollup -c",
+				"build": "npm run clean && npm run tsc && npm run rollup",
+				"mocha": "../../scripts/test.sh lib/tests.js",
+				"prepublish": "npm run build",
+				"test": "npm run build && npm run mocha"
+			},
+			"dependencies": {
+				"tslib": "^2.1.0"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"gitHead": "41f90c1a6e1103645d608a298999092dde6d62ad",
+			"_id": "@wry/trie@0.3.0",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.4+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-Yw1akIogPhAT6XPYsRHlZZIS0tIGmAl9EYXHi2scf7LPKKqdqmow/Hu4kEqP2cJR3EjaU/9L0ZlAjFf3hFxmug==",
+				"shasum": "3245e74988c4e3033299e479a1bf004430752463",
+				"tarball": "https://registry.npmjs.org/@wry/trie/-/trie-0.3.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 14951,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgU66xCRA9TVsSAnZWagAAS1EQAIpAiE8v3qJSFaVWSE6f\n6XtYtxHOVq/KIWqNv2Qc7d49aqP+u8wvPiKHM4kO+QkMUzfAfNBvUQI3ATJ3\nCCeuxWyhkYWCjhpYsZwuneO4trr5utlQ16SKsQ/9iyYPT6V45SEky9L9+k5Q\ni/VFddP4acbwv5VEi1uvOucmH+cvaG1oR/W80rXSxxeP+HWlSoqxbmJ+S+p6\nbLH5BH0Vq7EBOS+PsFU37uciCCKeOskh6OnDzMAI6+ymAib1t1gIHoFul29n\nqayUpTnrDeNk0FVlw4mPqMkCeBCdvCgZEiS/j8myUNgufnpqAW72r/QatOpY\nLWRZNh6/yfoljrwjhPDMA/YPnEYmRT42/BFgNDHkEaX+UgA/wJbO5DIVItlh\nUBcILkdOFD+0ZX7Zm0runcHHk9HKAoMI8Y3h6Urpa6vspuGXSFGkwJp18qxO\nz8i6gCzEv60ihqN1sDvvh4RovoxkOOAtjjKnyr7/2vVKManRkb8kJXFYEs7s\np2MbXhWis6wR4wRcaNeNkZRg0yIQ3h7VolkTUZ3ZyGRZY0VRyy5b7jlmLOC7\nY0mJb5ESXmCWhE0d2e9y8tGloKGkbHjmfQ5r90KKweXusAxBcHaX11cB6h9p\n8oVuymuZ9VAq5Xlt4/Ktszz+louj2jHRWeU8ouBl4DkAxLyQw3FGihBxqJwc\nqI6Y\r\n=dew/\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "benjamn",
+				"email": "ben@benjamn.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "benjamn",
+					"email": "ben@benjamn.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/trie_0.3.0_1616096944967_0.4401601115311151"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.1": {
+			"name": "@wry/trie",
+			"version": "0.3.1",
+			"author": {
+				"name": "Ben Newman",
+				"email": "ben@eloper.dev"
+			},
+			"description": "https://en.wikipedia.org/wiki/Trie",
+			"license": "MIT",
+			"main": "lib/trie.js",
+			"module": "lib/trie.esm.js",
+			"types": "lib/trie.d.ts",
+			"keywords": [
+				"trie",
+				"prefix",
+				"weak",
+				"dictionary",
+				"lexicon"
+			],
+			"homepage": "https://github.com/benjamn/wryware",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/benjamn/wryware.git"
+			},
+			"bugs": {
+				"url": "https://github.com/benjamn/wryware/issues"
+			},
+			"scripts": {
+				"clean": "../../node_modules/.bin/rimraf lib",
+				"tsc": "../../node_modules/.bin/tsc",
+				"rollup": "../../node_modules/.bin/rollup -c",
+				"build": "npm run clean && npm run tsc && npm run rollup",
+				"mocha": "../../scripts/test.sh lib/tests.js",
+				"prepare": "npm run build",
+				"test": "npm run build && npm run mocha"
+			},
+			"dependencies": {
+				"tslib": "^2.3.0"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"gitHead": "91655122045a99ad445aa330e88905feb3775db6",
+			"_id": "@wry/trie@0.3.1",
+			"_nodeVersion": "16.6.1",
+			"_npmVersion": "lerna/4.0.0/node@v16.6.1+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-WwB53ikYudh9pIorgxrkHKrQZcCqNM/Q/bDzZBffEaGUKGuHrRb3zZUT9Sh2qw9yogC7SsdRmQ1ER0pqvd3bfw==",
+				"shasum": "2279b790f15032f8bcea7fc944d27988e5b3b139",
+				"tarball": "https://registry.npmjs.org/@wry/trie/-/trie-0.3.1.tgz",
+				"fileCount": 11,
+				"unpackedSize": 14948,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhDEycCRA9TVsSAnZWagAAh7gP/ixWvgK/x9lsdk761WzH\n2A/sUAedt1kBxyNzM9/iM4t+g3m0RY8rK8MFnYX1SuGGAsaU/xqHRoz2g5hM\nCMN12jZMahDMY98LJL5jPycHRg1k19HNqOIY+xDTdO2kuYlw8rY0ELz32Er9\nB56t0N97WY8LI8cdI4LKliLToC0tw3q9w0XiPGWFwn2X2GQNUsN0CGZPHFVn\nf4TmKKHB+6x47mJr0/CTw8uaSKj84MNVmulZV3LvQ9pUXOf35vUjES2N8RKh\nEvx6k4OCTISz0mjZKaiHNy8lbLnxftR/GpU41NgbzKU/bhegYJa2SrTKXdV+\nzwNOqj50buN7wETq9MBcGZrb+E7Qvp529IYlmqC1p0+VpqOj8csMw400qiAq\nUyIlWSBTwsQmkkOAgnmV3ImUJQbbUpvY4gxjYm8C73SmANLZ98cWzcOw/az6\n1Hfbqz3MW6CRsQFfTWZ/07w51At8nT9N/PnnirU4ItCZUT+JAZHmsFb+KKIP\nQuPssMLwe4SflHBP6w0wNOY7LUQfjs6IqtoFWKzVRU44t3MlWg6GPFLjXSL7\nkB8th4KHc1ORy4oboRFvnArRlDHptEG/IUTzF7hGA4pBawcKsTOnLoYOQuUI\ntsukuf0fOVOibEAKPFhCrQEuGKgPqy02w7UhbyruXiW5fJjXdsAZxCHTglQ/\nSkRq\r\n=HJza\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "benjamn",
+				"email": "ben@benjamn.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "benjamn",
+					"email": "ben@benjamn.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/trie_0.3.1_1628195996220_0.8425138354929207"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2020-12-16T17:01:00.604Z",
+		"0.2.0": "2020-12-16T17:01:00.938Z",
+		"modified": "2021-08-05T20:39:58.259Z",
+		"0.2.1": "2020-12-16T17:05:15.949Z",
+		"0.2.2": "2021-02-09T18:57:23.932Z",
+		"0.3.0": "2021-03-18T19:49:05.136Z",
+		"0.3.1": "2021-08-05T20:39:56.389Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.3.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"089847785e38a70adf54e5848e415854\"",
+			"fetched": 1646835762879
+		}
+	},
+	"_distfiles": {
+		"trie-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@wry/trie/-/trie-0.2.0.tgz",
+			"sha": "190bcb3efea13272ef62464fc31b501cd0ac06cf",
+			"registry": "npmjs"
+		},
+		"trie-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/@wry/trie/-/trie-0.2.1.tgz",
+			"sha": "4191e1d4a85dd77dfede383d65563138ed82fc47",
+			"registry": "npmjs"
+		},
+		"trie-0.2.2.tgz": {
+			"url": "https://registry.npmjs.org/@wry/trie/-/trie-0.2.2.tgz",
+			"sha": "99f20f0fcbbcda17006069b155c826cbabfc402f",
+			"registry": "npmjs"
+		},
+		"trie-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/@wry/trie/-/trie-0.3.0.tgz",
+			"sha": "3245e74988c4e3033299e479a1bf004430752463",
+			"registry": "npmjs"
+		},
+		"trie-0.3.1.tgz": {
+			"url": "https://registry.npmjs.org/@wry/trie/-/trie-0.3.1.tgz",
+			"sha": "2279b790f15032f8bcea7fc944d27988e5b3b139",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"trie-0.3.1.tgz": {
+			"shasum": "2279b790f15032f8bcea7fc944d27988e5b3b139"
+		}
+	},
+	"_rev": "3-512b64b5e55b5202",
+	"_id": "@wry/trie",
+	"readme": "# @wry/trie\n\nA [trie](https://en.wikipedia.org/wiki/Trie) data structure that holds\nobject keys weakly, yet can also hold non-object keys, unlike `WeakMap`."
+}

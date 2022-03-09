@@ -1,0 +1,2105 @@
+{
+	"name": "coa",
+	"versions": {
+		"0.0.1": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.0.1",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {},
+			"engines": [
+				"node ~0.4.0"
+			],
+			"licenses": [
+				{
+					"type": "AS IS"
+				}
+			],
+			"_id": "coa@0.0.1",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.16",
+			"_nodeVersion": "v0.4.3",
+			"files": [
+				""
+			],
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "d149600ed37dd6295246ae3fa5b6ca9b893da83e",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.0.1.tgz"
+			},
+			"contributors": []
+		},
+		"0.0.2": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.0.2",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {},
+			"engines": [
+				"node ~0.4.0"
+			],
+			"licenses": [
+				{
+					"type": "AS IS"
+				}
+			],
+			"_id": "coa@0.0.2",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.16",
+			"_nodeVersion": "v0.4.3",
+			"files": [
+				""
+			],
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "98cd8fba4a4d313fb0eff89b0d24747eed2554ff",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.0.2.tgz"
+			},
+			"contributors": []
+		},
+		"0.0.4": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.0.4",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {},
+			"engines": [
+				"node ~0.4.0"
+			],
+			"licenses": [
+				{
+					"type": "AS IS"
+				}
+			],
+			"_id": "coa@0.0.4",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.16",
+			"_nodeVersion": "v0.4.11",
+			"files": [
+				""
+			],
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "c8cca760bd9439c6622233ab4dc9571cce4cbd20",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.0.4.tgz"
+			},
+			"contributors": []
+		},
+		"0.0.5": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.0.5",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {},
+			"engines": [
+				"node ~0.4.0"
+			],
+			"licenses": [
+				{
+					"type": "AS IS"
+				}
+			],
+			"_id": "coa@0.0.5",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.16",
+			"_nodeVersion": "v0.4.11",
+			"files": [
+				""
+			],
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "9e1551c5b6d46e59671e6070297df5bfd3cb6c36",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.0.5.tgz"
+			},
+			"contributors": []
+		},
+		"0.0.6": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.0.6",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {
+				"q": ">=0.7.1"
+			},
+			"engines": [
+				"node ~0.4.0"
+			],
+			"licenses": [
+				{
+					"type": "AS IS"
+				}
+			],
+			"_id": "coa@0.0.6",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.16",
+			"_nodeVersion": "v0.4.11",
+			"files": [
+				""
+			],
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "c391f9bce2f7ba5f21bb29e24c58591b6cbcdee5",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.0.6.tgz"
+			},
+			"contributors": []
+		},
+		"0.1.0": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.1.0",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {
+				"q": ">=0.7.1"
+			},
+			"engines": [
+				"node ~0.4.0"
+			],
+			"licenses": [
+				{
+					"type": "AS IS"
+				}
+			],
+			"_id": "coa@0.1.0",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.17",
+			"_nodeVersion": "v0.4.12",
+			"files": [
+				""
+			],
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "e2d412a2889e11224ad09d802004c2c751ffc692",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.1.0.tgz"
+			},
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.1.1",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {
+				"q": ">=0.7.1"
+			},
+			"engines": [
+				"node ~0.4.0"
+			],
+			"licenses": [
+				{
+					"type": "AS IS"
+				}
+			],
+			"_id": "coa@0.1.1",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.17",
+			"_nodeVersion": "v0.4.12",
+			"files": [
+				""
+			],
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "c8ef8b4ebe6770b560a5228a5b5af573cda9482c",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.1.1.tgz"
+			},
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.2.0",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {
+				"q": ">=0.7.1"
+			},
+			"devDependencies": {
+				"vows": ">=0.5.12"
+			},
+			"engines": [
+				"node ~0.4.0"
+			],
+			"licenses": [
+				{
+					"type": "AS IS"
+				}
+			],
+			"_npmUser": {
+				"name": "veged",
+				"email": "veged@mail.ru"
+			},
+			"_id": "coa@0.2.0",
+			"_engineSupported": true,
+			"_npmVersion": "1.0.103",
+			"_nodeVersion": "v0.4.11",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "acd479e5acfbf1c8d69a1289071b9eb6ed41d62a",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.2.0.tgz"
+			},
+			"contributors": []
+		},
+		"0.2.1": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.2.1",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				},
+				{
+					"name": "arikon",
+					"email": "peimei@ya.ru"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {
+				"q": ">=0.7.1"
+			},
+			"devDependencies": {
+				"vows": ">=0.5.12"
+			},
+			"engines": {
+				"node": ">=0.4.0 <0.7.0"
+			},
+			"licenses": [
+				{
+					"type": "AS IS"
+				}
+			],
+			"_npmUser": {
+				"name": "arikon",
+				"email": "peimei@ya.ru"
+			},
+			"_id": "coa@0.2.1",
+			"_engineSupported": true,
+			"_npmVersion": "1.0.104",
+			"_nodeVersion": "v0.6.0",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "b60be00b40dc49416483a0d418ca87b4e260154c",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.2.1.tgz"
+			},
+			"contributors": []
+		},
+		"0.3.0": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.3.0",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				},
+				{
+					"name": "arikon",
+					"email": "peimei@ya.ru"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {
+				"q": ">=0.7.1"
+			},
+			"devDependencies": {
+				"vows": ">=0.5.12"
+			},
+			"engines": {
+				"node": ">=0.4.0 <0.7.0"
+			},
+			"licenses": [
+				{
+					"type": "AS IS"
+				}
+			],
+			"_npmUser": {
+				"name": "arikon",
+				"email": "peimei@ya.ru"
+			},
+			"_id": "coa@0.3.0",
+			"_engineSupported": true,
+			"_npmVersion": "1.0.105",
+			"_nodeVersion": "v0.6.0",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "808acf4cda2993a2a940391144d5eab724717bab",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.3.0.tgz"
+			}
+		},
+		"0.3.1": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.3.1",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				},
+				{
+					"name": "arikon",
+					"email": "peimei@ya.ru"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {
+				"q": ">=0.7.1"
+			},
+			"devDependencies": {
+				"vows": ">=0.5.12"
+			},
+			"engines": {
+				"node": ">=0.4.0 <0.7.0"
+			},
+			"licenses": [
+				{
+					"type": "AS IS"
+				}
+			],
+			"_npmUser": {
+				"name": "arikon",
+				"email": "peimei@ya.ru"
+			},
+			"_id": "coa@0.3.1",
+			"_engineSupported": true,
+			"_npmVersion": "1.0.105",
+			"_nodeVersion": "v0.6.0",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "567a213d978a01f70f7b8669904eda9c0254a843",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.3.1.tgz"
+			}
+		},
+		"0.3.2": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.3.2",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				},
+				{
+					"name": "arikon",
+					"email": "peimei@ya.ru"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {
+				"q": ">=0.7.1"
+			},
+			"devDependencies": {
+				"vows": ">=0.5.12"
+			},
+			"engines": {
+				"node": ">=0.4.0 <0.7.0"
+			},
+			"licenses": [
+				{
+					"type": "AS IS"
+				}
+			],
+			"_npmUser": {
+				"name": "arikon",
+				"email": "peimei@ya.ru"
+			},
+			"_id": "coa@0.3.2",
+			"_engineSupported": true,
+			"_npmVersion": "1.0.106",
+			"_nodeVersion": "v0.6.6",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "10b5a55efc5b988e4f24f775c1ec25aab3b492b0",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.3.2.tgz"
+			}
+		},
+		"0.3.3": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.3.3",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				},
+				{
+					"name": "arikon",
+					"email": "peimei@ya.ru"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {
+				"q": ">=0.7.1"
+			},
+			"devDependencies": {
+				"vows": ">=0.5.12"
+			},
+			"engines": {
+				"node": ">=0.4.0 <0.7.0"
+			},
+			"licenses": [
+				{
+					"type": "AS IS"
+				}
+			],
+			"optionalDependencies": {},
+			"_npmUser": {
+				"name": "arikon",
+				"email": "peimei@ya.ru"
+			},
+			"_id": "coa@0.3.3",
+			"_engineSupported": true,
+			"_npmVersion": "1.1.0-3",
+			"_nodeVersion": "v0.6.9",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "55e46edaa5621ce2a60a6c1543127ece34349411",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.3.3.tgz"
+			}
+		},
+		"0.3.4": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.3.4",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				},
+				{
+					"name": "arikon",
+					"email": "peimei@ya.ru"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {
+				"q": "~0.7.2"
+			},
+			"devDependencies": {
+				"vows": "~0.5.12"
+			},
+			"engines": {
+				"node": ">=0.4.0 <0.7.0"
+			},
+			"licenses": [
+				{
+					"type": "AS IS"
+				}
+			],
+			"optionalDependencies": {},
+			"_npmUser": {
+				"name": "arikon",
+				"email": "peimei@ya.ru"
+			},
+			"_id": "coa@0.3.4",
+			"_engineSupported": true,
+			"_npmVersion": "1.1.0-3",
+			"_nodeVersion": "v0.6.9",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "5b959d741fc520f05a7813a6d2e28b589a77d74a",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.3.4.tgz"
+			}
+		},
+		"0.3.5": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.3.5",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				},
+				{
+					"name": "arikon",
+					"email": "peimei@ya.ru"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {
+				"q": "~0.7.2"
+			},
+			"devDependencies": {
+				"vows": "~0.5.12"
+			},
+			"engines": {
+				"node": ">=0.4.0"
+			},
+			"licenses": [
+				{
+					"type": "AS IS"
+				}
+			],
+			"optionalDependencies": {},
+			"_npmUser": {
+				"name": "arikon",
+				"email": "peimei@ya.ru"
+			},
+			"_id": "coa@0.3.5",
+			"_engineSupported": true,
+			"_npmVersion": "1.1.25",
+			"_nodeVersion": "v0.6.19",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "c9bc909db5b3d055f8f8cc8b1739dffed6f0e71d",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.3.5.tgz"
+			}
+		},
+		"0.3.6": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.3.6",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				},
+				{
+					"name": "arikon",
+					"email": "peimei@ya.ru"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {
+				"q": "~0.8.8"
+			},
+			"devDependencies": {
+				"vows": "~0.6.4"
+			},
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"licenses": [
+				{
+					"type": "MIT"
+				}
+			],
+			"optionalDependencies": {},
+			"_id": "coa@0.3.6",
+			"dist": {
+				"shasum": "c3af47771f4588e8d37e021a0da11cce660718fa",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.3.6.tgz"
+			},
+			"_npmVersion": "1.1.62",
+			"_npmUser": {
+				"name": "arikon",
+				"email": "peimei@ya.ru"
+			}
+		},
+		"0.3.7": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.3.7",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				},
+				{
+					"name": "arikon",
+					"email": "peimei@ya.ru"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"main": "./lib/coa.js",
+			"dependencies": {
+				"q": "~0.8.8"
+			},
+			"devDependencies": {
+				"coffee-script": "~1.3.3",
+				"vows": "~0.6.4"
+			},
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"licenses": [
+				{
+					"type": "MIT"
+				}
+			],
+			"optionalDependencies": {},
+			"_id": "coa@0.3.7",
+			"dist": {
+				"shasum": "529b7a33b295b1e3244836b7add994d8c970098b",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.3.7.tgz"
+			},
+			"_npmVersion": "1.1.63",
+			"_npmUser": {
+				"name": "arikon",
+				"email": "peimei@ya.ru"
+			}
+		},
+		"0.3.8": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.3.8",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				},
+				{
+					"name": "arikon",
+					"email": "peimei@ya.ru"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"dependencies": {
+				"q": "~0.8.10"
+			},
+			"devDependencies": {
+				"coffee-script": "~1.4.0",
+				"istanbul": "~0.1.11",
+				"mocha-as-promised": "*",
+				"mocha-istanbul": "*",
+				"mocha": "~1.6.0",
+				"chai": "~1.3.0"
+			},
+			"scripts": {
+				"test": "make test",
+				"coverage": "make coverage"
+			},
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"licenses": [
+				{
+					"type": "MIT"
+				}
+			],
+			"optionalDependencies": {},
+			"_id": "coa@0.3.8",
+			"dist": {
+				"shasum": "adeee46375ffef0d4235425f3b7d29306e62c5d1",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.3.8.tgz"
+			},
+			"_npmVersion": "1.1.65",
+			"_npmUser": {
+				"name": "arikon",
+				"email": "peimei@ya.ru"
+			}
+		},
+		"0.3.9": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.3.9",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				},
+				{
+					"name": "arikon",
+					"email": "peimei@ya.ru"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"dependencies": {
+				"q": "~0.8.10"
+			},
+			"devDependencies": {
+				"coffee-script": "~1.4.0",
+				"istanbul": "~0.1.11",
+				"mocha-as-promised": "*",
+				"mocha-istanbul": "*",
+				"mocha": "~1.6.0",
+				"chai": "~1.3.0"
+			},
+			"scripts": {
+				"test": "make test",
+				"coverage": "make coverage"
+			},
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"licenses": [
+				{
+					"type": "MIT"
+				}
+			],
+			"optionalDependencies": {},
+			"_id": "coa@0.3.9",
+			"dist": {
+				"shasum": "7e3d20d30af70b80862e95d4d49b715183be9604",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.3.9.tgz"
+			},
+			"_npmVersion": "1.1.65",
+			"_npmUser": {
+				"name": "arikon",
+				"email": "peimei@ya.ru"
+			}
+		},
+		"0.4.0": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.4.0",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				},
+				{
+					"name": "arikon",
+					"email": "peimei@ya.ru"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"dependencies": {
+				"q": "~0.9.6"
+			},
+			"devDependencies": {
+				"coffee-script": "~1.6.3",
+				"istanbul": "~0.1.40",
+				"mocha-as-promised": "*",
+				"mocha-istanbul": "*",
+				"mocha": "~1.12.0",
+				"chai": "~1.7.2"
+			},
+			"scripts": {
+				"test": "make test",
+				"coverage": "make coverage"
+			},
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"licenses": [
+				{
+					"type": "MIT"
+				}
+			],
+			"optionalDependencies": {},
+			"bugs": {
+				"url": "https://github.com/veged/coa/issues"
+			},
+			"_id": "coa@0.4.0",
+			"dist": {
+				"shasum": "252bc1be9740af15d826e490e8b1393c2fe2a062",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.4.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.1",
+			"_npmUser": {
+				"name": "arikon",
+				"email": "peimei@ya.ru"
+			}
+		},
+		"0.4.1": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "0.4.1",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				},
+				{
+					"name": "arikon",
+					"email": "peimei@ya.ru"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"dependencies": {
+				"q": "~0.9.6"
+			},
+			"devDependencies": {
+				"coffee-script": "~1.6.3",
+				"istanbul": "~0.1.40",
+				"mocha-as-promised": "*",
+				"mocha-istanbul": "*",
+				"mocha": "~1.12.0",
+				"chai": "~1.7.2"
+			},
+			"scripts": {
+				"test": "make test",
+				"coverage": "make coverage"
+			},
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"licenses": [
+				{
+					"type": "MIT"
+				}
+			],
+			"optionalDependencies": {},
+			"bugs": {
+				"url": "https://github.com/veged/coa/issues"
+			},
+			"_id": "coa@0.4.1",
+			"dist": {
+				"shasum": "baf6f49c7ad9f20c597af39b3fc1e5090fe8838b",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-0.4.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.6",
+			"_npmUser": {
+				"name": "arikon",
+				"email": "arikon@yandex-team.ru"
+			}
+		},
+		"1.0.0": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "1.0.0",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				},
+				{
+					"name": "arikon",
+					"email": "peimei@ya.ru"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"dependencies": {
+				"q": "^1.1.2"
+			},
+			"devDependencies": {
+				"coffee-script": "~1.6.3",
+				"istanbul": "~0.1.40",
+				"mocha-istanbul": "*",
+				"mocha": "~1.21.4",
+				"chai": "~1.7.2"
+			},
+			"scripts": {
+				"test": "make test",
+				"coverage": "make coverage"
+			},
+			"engines": {
+				"node": ">= 0.8.0"
+			},
+			"licenses": [
+				{
+					"type": "MIT"
+				}
+			],
+			"optionalDependencies": {},
+			"gitHead": "93e0968e275f2cc6dd8d836cf0630a3caa1cb68c",
+			"bugs": {
+				"url": "https://github.com/veged/coa/issues"
+			},
+			"_id": "coa@1.0.0",
+			"_shasum": "a46eb475afadb327cf49fa6b6ec0657f9cc48604",
+			"_from": ".",
+			"_npmVersion": "2.0.0-alpha-5",
+			"_npmUser": {
+				"name": "veged",
+				"email": "veged@ya.ru"
+			},
+			"dist": {
+				"shasum": "a46eb475afadb327cf49fa6b6ec0657f9cc48604",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-1.0.0.tgz"
+			}
+		},
+		"1.0.1": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "1.0.1",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"name": "veged",
+					"email": "veged@mail.ru"
+				},
+				{
+					"name": "arikon",
+					"email": "peimei@ya.ru"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"dependencies": {
+				"q": "^1.1.2"
+			},
+			"devDependencies": {
+				"coffee-script": "~1.6.3",
+				"istanbul": "~0.1.40",
+				"mocha-istanbul": "*",
+				"mocha": "~1.21.4",
+				"chai": "~1.7.2"
+			},
+			"scripts": {
+				"test": "make test",
+				"coverage": "make coverage"
+			},
+			"engines": {
+				"node": ">= 0.8.0"
+			},
+			"licenses": [
+				{
+					"type": "MIT"
+				}
+			],
+			"optionalDependencies": {},
+			"gitHead": "ec694e82e7fb2c79fc114c9b23625a90c57e81fe",
+			"bugs": {
+				"url": "https://github.com/veged/coa/issues"
+			},
+			"_id": "coa@1.0.1",
+			"_shasum": "7f959346cfc8719e3f7233cd6852854a7c67d8a3",
+			"_from": ".",
+			"_npmVersion": "2.0.0-alpha-5",
+			"_npmUser": {
+				"name": "veged",
+				"email": "veged@ya.ru"
+			},
+			"dist": {
+				"shasum": "7f959346cfc8719e3f7233cd6852854a7c67d8a3",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-1.0.1.tgz"
+			}
+		},
+		"1.0.2": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "1.0.2",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"email": "zxqfox@gmail.com",
+					"name": "qfox"
+				},
+				{
+					"email": "veged@ya.ru",
+					"name": "veged"
+				},
+				{
+					"email": "peimei@ya.ru",
+					"name": "arikon"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"files": [
+				"lib/",
+				"index.js",
+				"README.ru.md"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"dependencies": {
+				"q": "^1.1.2"
+			},
+			"devDependencies": {
+				"chai": "~1.7.2",
+				"coveralls": "^2.11.16",
+				"eslint": "^3.15.0",
+				"eslint-config-pedant": "^0.8.0",
+				"mocha": "~1.21.4",
+				"nyc": "^10.1.2"
+			},
+			"scripts": {
+				"clean": "rm -r .nyc_output coverage",
+				"coverage": "nyc --reporter=text --reporter=html mocha; echo; echo 'Open coverage/index.html file in your browser'",
+				"coveralls": "nyc report --reporter=text-lcov | coveralls",
+				"lint": "eslint .",
+				"pretest": "npm run lint",
+				"test": "nyc mocha"
+			},
+			"engines": {
+				"node": ">= 4.0"
+			},
+			"license": "MIT",
+			"gitHead": "2fd2cdca033a5b408bc26c05d5829a712d507933",
+			"bugs": {
+				"url": "https://github.com/veged/coa/issues"
+			},
+			"_id": "coa@1.0.2",
+			"_shasum": "2ba9fec3b4aa43d7a49d7e6c3561e92061b6bcec",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.10.2",
+			"_npmUser": {
+				"name": "qfox",
+				"email": "zxqfox@gmail.com"
+			},
+			"dist": {
+				"shasum": "2ba9fec3b4aa43d7a49d7e6c3561e92061b6bcec",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-1.0.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/coa-1.0.2.tgz_1495538271547_0.40722783259116113"
+			},
+			"deprecated": "Please upgrade to 1.0.4 for node 0.10, 0.12, or to 2.0+ for node 4+"
+		},
+		"1.0.3": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "1.0.3",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"email": "zxqfox@gmail.com",
+					"name": "qfox"
+				},
+				{
+					"email": "veged@ya.ru",
+					"name": "veged"
+				},
+				{
+					"email": "peimei@ya.ru",
+					"name": "arikon"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"files": [
+				"lib/",
+				"index.js",
+				"README.ru.md"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"dependencies": {
+				"q": "^1.1.2"
+			},
+			"devDependencies": {
+				"chai": "~1.7.2",
+				"coveralls": "^2.11.16",
+				"eslint": "^3.15.0",
+				"eslint-config-pedant": "^0.8.0",
+				"mocha": "~1.21.4",
+				"nyc": "^10.1.2"
+			},
+			"scripts": {
+				"clean": "rm -r .nyc_output coverage",
+				"coverage": "nyc --reporter=text --reporter=html mocha; echo; echo 'Open coverage/index.html file in your browser'",
+				"coveralls": "nyc report --reporter=text-lcov | coveralls",
+				"lint": "eslint .",
+				"pretest": "npm run lint",
+				"test": "nyc mocha"
+			},
+			"engines": {
+				"node": ">= 4.0"
+			},
+			"license": "MIT",
+			"gitHead": "28619b115419ea7af033c634eaf25fe303ac0810",
+			"bugs": {
+				"url": "https://github.com/veged/coa/issues"
+			},
+			"_id": "coa@1.0.3",
+			"_shasum": "1b54a5e1dcf77c990455d4deea98c564416dc893",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.11.0",
+			"_npmUser": {
+				"name": "qfox",
+				"email": "zxqfox@gmail.com"
+			},
+			"dist": {
+				"shasum": "1b54a5e1dcf77c990455d4deea98c564416dc893",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-1.0.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/coa-1.0.3.tgz_1497125320322_0.1592370483558625"
+			},
+			"deprecated": "Please upgrade to 1.0.4 for node 0.10, 0.12, or to 2.0+ for node 4+"
+		},
+		"1.0.4": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "1.0.4",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"email": "zxqfox@gmail.com",
+					"name": "qfox"
+				},
+				{
+					"email": "veged@ya.ru",
+					"name": "veged"
+				},
+				{
+					"email": "peimei@ya.ru",
+					"name": "arikon"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"dependencies": {
+				"q": "^1.1.2"
+			},
+			"devDependencies": {
+				"coffee-script": "~1.6.3",
+				"istanbul": "~0.1.40",
+				"mocha-istanbul": "*",
+				"mocha": "~1.21.4",
+				"chai": "~1.7.2"
+			},
+			"scripts": {
+				"test": "make test",
+				"coverage": "make coverage"
+			},
+			"engines": {
+				"node": ">= 0.8.0"
+			},
+			"licenses": [
+				{
+					"type": "MIT"
+				}
+			],
+			"optionalDependencies": {},
+			"gitHead": "43f5e1e5c59750f326c3628fc138acaa157c8274",
+			"bugs": {
+				"url": "https://github.com/veged/coa/issues"
+			},
+			"_id": "coa@1.0.4",
+			"_shasum": "a9ef153660d6a86a8bdec0289a5c684d217432fd",
+			"_from": ".",
+			"_npmVersion": "2.11.3",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "qfox",
+				"email": "zxqfox@gmail.com"
+			},
+			"dist": {
+				"shasum": "a9ef153660d6a86a8bdec0289a5c684d217432fd",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-1.0.4.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/coa-1.0.4.tgz_1499459076941_0.4137393257115036"
+			}
+		},
+		"2.0.0": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "2.0.0",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"email": "zxqfox@gmail.com",
+					"name": "qfox"
+				},
+				{
+					"email": "veged@ya.ru",
+					"name": "veged"
+				},
+				{
+					"email": "peimei@ya.ru",
+					"name": "arikon"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"files": [
+				"lib/",
+				"index.js",
+				"README.ru.md"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"dependencies": {
+				"q": "^1.1.2"
+			},
+			"devDependencies": {
+				"chai": "~1.7.2",
+				"coveralls": "^2.11.16",
+				"eslint": "^3.15.0",
+				"eslint-config-pedant": "^0.8.0",
+				"mocha": "~1.21.4",
+				"nyc": "^10.1.2"
+			},
+			"scripts": {
+				"clean": "rm -r .nyc_output coverage",
+				"coverage": "nyc --reporter=text --reporter=html mocha; echo; echo 'Open coverage/index.html file in your browser'",
+				"coveralls": "nyc report --reporter=text-lcov | coveralls",
+				"lint": "eslint .",
+				"pretest": "npm run lint",
+				"test": "nyc mocha"
+			},
+			"engines": {
+				"node": ">= 4.0"
+			},
+			"license": "MIT",
+			"gitHead": "05bd8dd95703ce2284169928b52dfe28204b72e7",
+			"bugs": {
+				"url": "https://github.com/veged/coa/issues"
+			},
+			"_id": "coa@2.0.0",
+			"_shasum": "af881ebe214fc29bee4e9e76b4956b6132295546",
+			"_from": ".",
+			"_npmVersion": "2.11.3",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "qfox",
+				"email": "zxqfox@gmail.com"
+			},
+			"dist": {
+				"shasum": "af881ebe214fc29bee4e9e76b4956b6132295546",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-2.0.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/coa-2.0.0.tgz_1499459201813_0.8034041561186314"
+			}
+		},
+		"2.0.1": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "2.0.1",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"email": "zxqfox@gmail.com",
+					"name": "qfox"
+				},
+				{
+					"email": "veged@ya.ru",
+					"name": "veged"
+				},
+				{
+					"email": "peimei@ya.ru",
+					"name": "arikon"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"files": [
+				"lib/",
+				"index.js",
+				"README.ru.md"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"dependencies": {
+				"q": "^1.1.2"
+			},
+			"devDependencies": {
+				"chai": "~1.7.2",
+				"coveralls": "^2.11.16",
+				"eslint": "^4.15.0",
+				"eslint-config-pedant": "^1.0.0",
+				"mocha": "~1.21.4",
+				"nyc": "^10.1.2"
+			},
+			"scripts": {
+				"clean": "rm -r .nyc_output coverage",
+				"coverage": "nyc --reporter=text --reporter=html mocha; echo; echo 'Open coverage/index.html file in your browser'",
+				"coveralls": "nyc report --reporter=text-lcov | coveralls",
+				"lint": "eslint .",
+				"pretest": "npm run lint",
+				"test": "nyc mocha"
+			},
+			"engines": {
+				"node": ">= 4.0"
+			},
+			"license": "MIT",
+			"gitHead": "ac7a43c2df69f081d464ad2de165afd6b29c9d67",
+			"bugs": {
+				"url": "https://github.com/veged/coa/issues"
+			},
+			"_id": "coa@2.0.1",
+			"_npmVersion": "5.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "qfox",
+				"email": "zxqfox@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-5wfTTO8E2/ja4jFSxePXlG5nRu5bBtL/r1HCIpJW/lzT6yDtKl0u0Z4o/Vpz32IpKmBn7HerheEZQgA9N2DarQ==",
+				"shasum": "f3f8b0b15073e35d70263fb1042cb2c023db38af",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-2.0.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/coa-2.0.1.tgz_1515617123731_0.6208295265678316"
+			}
+		},
+		"2.0.2": {
+			"name": "coa",
+			"description": "Command-Option-Argument: Yet another parser for command line options.",
+			"version": "2.0.2",
+			"homepage": "http://github.com/veged/coa",
+			"author": {
+				"name": "Sergey Berezhnoy",
+				"email": "veged@ya.ru",
+				"url": "http://github.com/veged"
+			},
+			"maintainers": [
+				{
+					"email": "peimei@ya.ru",
+					"name": "arikon"
+				},
+				{
+					"email": "zxqfox@gmail.com",
+					"name": "qfox"
+				},
+				{
+					"email": "veged@ya.ru",
+					"name": "veged"
+				}
+			],
+			"contributors": [
+				{
+					"name": "Sergey Belov",
+					"email": "peimei@ya.ru",
+					"url": "http://github.com/arikon"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/veged/coa.git"
+			},
+			"directories": {
+				"lib": "./lib"
+			},
+			"dependencies": {
+				"@types/q": "^1.5.1",
+				"chalk": "^2.4.1",
+				"q": "^1.1.2"
+			},
+			"devDependencies": {
+				"chai": "~1.7.2",
+				"coveralls": "^2.11.16",
+				"eslint": "^4.15.0",
+				"eslint-config-pedant": "^1.0.0",
+				"mocha": "~1.21.4",
+				"nyc": "^10.1.2"
+			},
+			"scripts": {
+				"clean": "rm -r .nyc_output coverage",
+				"coverage": "nyc --reporter=text --reporter=html mocha; echo; echo 'Open coverage/index.html file in your browser'",
+				"coveralls": "nyc report --reporter=text-lcov | coveralls",
+				"lint": "eslint .",
+				"pretest": "npm run lint",
+				"test": "nyc mocha"
+			},
+			"engines": {
+				"node": ">= 4.0"
+			},
+			"types": "./coa.d.ts",
+			"license": "MIT",
+			"gitHead": "e891bbf583a4e22395f877bfd03dd2ff64bdc73b",
+			"bugs": {
+				"url": "https://github.com/veged/coa/issues"
+			},
+			"_id": "coa@2.0.2",
+			"_npmVersion": "6.2.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "qfox",
+				"email": "zxqfox@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-q5/jG+YQnSy4nRTV4F7lPepBJZ8qBNJJDBuJdoejDyLXgmL7IEo+Le2JDZudFTFt7mrCqIRaSjws4ygRCTCAXA==",
+				"shasum": "43f6c21151b4ef2bf57187db0d73de229e3e7ec3",
+				"tarball": "https://registry.npmjs.org/coa/-/coa-2.0.2.tgz",
+				"fileCount": 15,
+				"unpackedSize": 72481,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcDxPnCRA9TVsSAnZWagAAN/QQAI93uleHQQ8d8AhrPrGa\nxQEcXS7JjZgIuzvnkdLE5GMp7a4jA6Cp1ZtPOR3w6G5tx5JqMXAWlunccdyn\nyPWm1B6tIrKF4CNWxQWfsRR8yWrVZiMnry8nN8MFdkR/GAsMz3g1PQg9EAkI\n168jnliVFhbjJkmbyF6R8k8m3YBuYoZ1ae9nAvqTisRLitURddhMcdiPfQHy\nYokKh1lA5qL1GM9p9TkHuzxIO6bqvrRYl6BmYv8HzKBEdRPw5+Txtx0HtEND\nLbwF8J/6y9Ol6ehr0n7Lc6e/bQZtj3YsL9TaDuW+46Lt/t2YMApsq5sr+RZY\nAQROy0TtAjgyDd7aJrY6/cxYsszOUxnzOEnvyzYO4H1+jHNRRg/TiJBM8Ico\nHPfF5VU8A/nVUKOy9yP2/CawWB9jz37IRyb/hWoirSWOmL86bRchrKBc1qLV\nMF09/JLx8zxrYKOwYTbaDRDJhWFMeAh0w4RVvYK0q7/BGmd7dKI3PgwlW+wO\nOpP5vH3HqrRF8ruGqBZ6nRHc6boGhdg3/hqtNWdjmn+2ehSYa/O6MhH3wQyl\no7lSaeAN8nY1iihcW+pSd9FghSJ+9z0OqktmcwSViexnDhv3wYEQllbwGsFO\nXkbm/rG7uA7rCSUJUaGTyycCeHtl+2kBmpYwh7tSB8FU5JWJDx73gVG03Ibm\ngIqq\r\n=bMDZ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/coa_2.0.2_1544492007264_0.26485019339350546"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2021-11-23T13:12:23.076Z",
+		"created": "2011-07-19T22:07:50.546Z",
+		"0.0.1": "2011-07-19T22:07:51.027Z",
+		"0.0.2": "2011-07-19T23:51:51.957Z",
+		"0.0.4": "2011-08-27T23:44:12.888Z",
+		"0.0.5": "2011-08-31T00:11:29.480Z",
+		"0.0.6": "2011-09-17T20:48:40.969Z",
+		"0.1.0": "2011-09-27T10:21:53.565Z",
+		"0.1.1": "2011-09-29T21:43:35.652Z",
+		"0.2.0": "2011-10-28T14:54:20.863Z",
+		"0.2.1": "2011-11-09T15:25:27.265Z",
+		"0.3.0": "2011-11-11T15:25:26.639Z",
+		"0.3.1": "2011-11-11T19:29:48.758Z",
+		"0.3.2": "2011-12-21T19:53:25.943Z",
+		"0.3.3": "2012-01-31T11:01:17.275Z",
+		"0.3.4": "2012-02-12T18:45:44.093Z",
+		"0.3.5": "2012-06-12T20:43:30.784Z",
+		"0.3.6": "2012-10-03T21:24:18.783Z",
+		"0.3.7": "2012-10-19T22:20:24.948Z",
+		"0.3.8": "2012-11-07T13:07:57.643Z",
+		"0.3.9": "2012-12-02T23:09:02.686Z",
+		"0.4.0": "2013-07-10T13:46:55.407Z",
+		"0.4.1": "2014-05-27T08:56:35.578Z",
+		"1.0.0": "2015-02-17T09:49:35.830Z",
+		"1.0.1": "2015-03-30T10:53:56.038Z",
+		"1.0.2": "2017-05-23T11:17:52.640Z",
+		"1.0.3": "2017-06-10T20:08:41.410Z",
+		"1.0.4": "2017-07-07T20:24:38.249Z",
+		"2.0.0": "2017-07-07T20:26:42.901Z",
+		"2.0.1": "2018-01-10T20:45:24.906Z",
+		"2.0.2": "2018-12-11T01:33:27.419Z",
+		"2.0.3": "2021-11-04T13:02:34.339Z",
+		"2.1.3": "2021-11-04T13:02:53.478Z",
+		"3.1.3": "2021-11-04T13:03:01.361Z",
+		"2.0.4": "2021-11-04T13:46:55.274Z",
+		"2.1.1": "2021-11-04T13:47:53.715Z",
+		"3.0.1": "2021-11-04T13:48:07.353Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.0.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"4b483843b43478c63ea8bb32aaf46f46\"",
+			"fetched": 1646835673550
+		}
+	},
+	"_distfiles": {
+		"coa-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.0.1.tgz",
+			"sha": "d149600ed37dd6295246ae3fa5b6ca9b893da83e",
+			"registry": "npmjs"
+		},
+		"coa-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.0.2.tgz",
+			"sha": "98cd8fba4a4d313fb0eff89b0d24747eed2554ff",
+			"registry": "npmjs"
+		},
+		"coa-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.0.4.tgz",
+			"sha": "c8cca760bd9439c6622233ab4dc9571cce4cbd20",
+			"registry": "npmjs"
+		},
+		"coa-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.0.5.tgz",
+			"sha": "9e1551c5b6d46e59671e6070297df5bfd3cb6c36",
+			"registry": "npmjs"
+		},
+		"coa-0.0.6.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.0.6.tgz",
+			"sha": "c391f9bce2f7ba5f21bb29e24c58591b6cbcdee5",
+			"registry": "npmjs"
+		},
+		"coa-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.1.0.tgz",
+			"sha": "e2d412a2889e11224ad09d802004c2c751ffc692",
+			"registry": "npmjs"
+		},
+		"coa-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.1.1.tgz",
+			"sha": "c8ef8b4ebe6770b560a5228a5b5af573cda9482c",
+			"registry": "npmjs"
+		},
+		"coa-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.2.0.tgz",
+			"sha": "acd479e5acfbf1c8d69a1289071b9eb6ed41d62a",
+			"registry": "npmjs"
+		},
+		"coa-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.2.1.tgz",
+			"sha": "b60be00b40dc49416483a0d418ca87b4e260154c",
+			"registry": "npmjs"
+		},
+		"coa-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.3.0.tgz",
+			"sha": "808acf4cda2993a2a940391144d5eab724717bab",
+			"registry": "npmjs"
+		},
+		"coa-0.3.1.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.3.1.tgz",
+			"sha": "567a213d978a01f70f7b8669904eda9c0254a843",
+			"registry": "npmjs"
+		},
+		"coa-0.3.2.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.3.2.tgz",
+			"sha": "10b5a55efc5b988e4f24f775c1ec25aab3b492b0",
+			"registry": "npmjs"
+		},
+		"coa-0.3.3.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.3.3.tgz",
+			"sha": "55e46edaa5621ce2a60a6c1543127ece34349411",
+			"registry": "npmjs"
+		},
+		"coa-0.3.4.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.3.4.tgz",
+			"sha": "5b959d741fc520f05a7813a6d2e28b589a77d74a",
+			"registry": "npmjs"
+		},
+		"coa-0.3.5.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.3.5.tgz",
+			"sha": "c9bc909db5b3d055f8f8cc8b1739dffed6f0e71d",
+			"registry": "npmjs"
+		},
+		"coa-0.3.6.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.3.6.tgz",
+			"sha": "c3af47771f4588e8d37e021a0da11cce660718fa",
+			"registry": "npmjs"
+		},
+		"coa-0.3.7.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.3.7.tgz",
+			"sha": "529b7a33b295b1e3244836b7add994d8c970098b",
+			"registry": "npmjs"
+		},
+		"coa-0.3.8.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.3.8.tgz",
+			"sha": "adeee46375ffef0d4235425f3b7d29306e62c5d1",
+			"registry": "npmjs"
+		},
+		"coa-0.3.9.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.3.9.tgz",
+			"sha": "7e3d20d30af70b80862e95d4d49b715183be9604",
+			"registry": "npmjs"
+		},
+		"coa-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.4.0.tgz",
+			"sha": "252bc1be9740af15d826e490e8b1393c2fe2a062",
+			"registry": "npmjs"
+		},
+		"coa-0.4.1.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-0.4.1.tgz",
+			"sha": "baf6f49c7ad9f20c597af39b3fc1e5090fe8838b",
+			"registry": "npmjs"
+		},
+		"coa-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-1.0.0.tgz",
+			"sha": "a46eb475afadb327cf49fa6b6ec0657f9cc48604",
+			"registry": "npmjs"
+		},
+		"coa-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-1.0.1.tgz",
+			"sha": "7f959346cfc8719e3f7233cd6852854a7c67d8a3",
+			"registry": "npmjs"
+		},
+		"coa-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-1.0.2.tgz",
+			"sha": "2ba9fec3b4aa43d7a49d7e6c3561e92061b6bcec",
+			"registry": "npmjs"
+		},
+		"coa-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-1.0.3.tgz",
+			"sha": "1b54a5e1dcf77c990455d4deea98c564416dc893",
+			"registry": "npmjs"
+		},
+		"coa-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-1.0.4.tgz",
+			"sha": "a9ef153660d6a86a8bdec0289a5c684d217432fd",
+			"registry": "npmjs"
+		},
+		"coa-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-2.0.0.tgz",
+			"sha": "af881ebe214fc29bee4e9e76b4956b6132295546",
+			"registry": "npmjs"
+		},
+		"coa-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-2.0.1.tgz",
+			"sha": "f3f8b0b15073e35d70263fb1042cb2c023db38af",
+			"registry": "npmjs"
+		},
+		"coa-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/coa/-/coa-2.0.2.tgz",
+			"sha": "43f6c21151b4ef2bf57187db0d73de229e3e7ec3",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"coa-2.0.2.tgz": {
+			"shasum": "43f6c21151b4ef2bf57187db0d73de229e3e7ec3"
+		}
+	},
+	"_rev": "9-fcf541b3a37ca4e0",
+	"_id": "coa",
+	"readme": ""
+}

@@ -1,0 +1,515 @@
+{
+	"name": "@svgr/babel-plugin-add-jsx-attribute",
+	"versions": {
+		"4.0.0": {
+			"name": "@svgr/babel-plugin-add-jsx-attribute",
+			"description": "Add JSX attribute",
+			"version": "4.0.0",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:smooth-code/svgr.git"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"engines": {
+				"node": ">=8"
+			},
+			"license": "MIT",
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+				"prepublishOnly": "yarn run build"
+			},
+			"gitHead": "d6beadaa9943157b59c085f03a45813897cc337c",
+			"_id": "@svgr/babel-plugin-add-jsx-attribute@4.0.0",
+			"dist": {
+				"shasum": "5acf239cd2747b1a36ec7e708de05d914cb9b948",
+				"integrity": "sha512-PDvHV2WhSGCSExp+eIMEKxYd1Q0SBvXLb4gAOXbdh0dswHFFgXWzxGjCmx5aln4qGrhkuN81khzYzR/44DYaMA==",
+				"tarball": "https://registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4909,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb3w2KCRA9TVsSAnZWagAA5QwQAJQ/vWHDGGjaN//JeyBj\nsnmb4+d1wGFjrU1xEE4ak2TRmaKbfafBXtGFkP2Yb65yDAp52XX7gCwhbu/X\nkvR2ONB3YwfxykhxCYC56cqPA0iKhtaxohyhDcZN9WWh+orxuAyZEwMKXOt3\nooipgRoKr9TaKd7yRGcBQnserBwNZs4FvOOKhGbDqvNOPW52UutpqZj5cncD\nNqFVTRXGGa0sBIjxl40vONHHhQwFhh5GNOMeSdR67CSJvuOHcVz5IrT+QU38\nfAzyX4DZZwgWlm3TTX8p5HGPN+DgoacXDkPx23mFNT1Wo2jpZFE0zNvuBEVb\n4YxlFczwXHDD1WaXzQfwJnOw/dvT03pa38dbgrQQbgXY0hQNh255DlX2h1W7\nl59qwuVn91vRGdZt41ZXBcuTC4YcyimrfLr0Mq978Pq/tS6a/qUVkKvkx6cU\nGTCYVkRThERfj61YqDkj2wlXn75pu5Q4/4UaIkb712QupFfwvR98M0mSC/pB\ncPew+Uid+fWHEoMNpbdXVSDVGtbHywEbKkQEI2vRA5HgscpYFHdDXGjjYwxY\nmdvqzNO8Ch3UhVU0SMnrXzV7h5GgOZUWore5AZlEhWaWyd9bqsP8YBmBWh1c\nbFCWbQJqu7VQaZrpS0kZVs2ONLi54qrfAgh0xmyI9jO6xnhzAvKutyqzuFO2\nbDE5\r\n=nzeW\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-add-jsx-attribute_4.0.0_1541344650080_0.2583498985383048"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.2.0": {
+			"name": "@svgr/babel-plugin-add-jsx-attribute",
+			"description": "Add JSX attribute",
+			"version": "4.2.0",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/smooth-code/svgr/tree/master/packages/babel-plugin-add-jsx-attribute"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"engines": {
+				"node": ">=8"
+			},
+			"license": "MIT",
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+				"prepublishOnly": "yarn run build"
+			},
+			"gitHead": "35d3f4d446e5402902ee922a3f9984000bb74920",
+			"_id": "@svgr/babel-plugin-add-jsx-attribute@4.2.0",
+			"_nodeVersion": "10.14.2",
+			"_npmVersion": "lerna/3.13.2/node@v10.14.2+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-j7KnilGyZzYr/jhcrSYS3FGWMZVaqyCG0vzMCwzvei0coIkczuYMcniK07nI0aHJINciujjH11T72ICW5eL5Ig==",
+				"shasum": "dadcb6218503532d6884b210e7f3c502caaa44b1",
+				"tarball": "https://registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-4.2.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5180,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcruZXCRA9TVsSAnZWagAAS0QP/jG/Bey3EFbRzL7mSLIf\nN8hBFcvKgu5JQlsy1h0TKJR+HG86JysptUsQBPLbyLKxE6OGOgUhWLftToZ8\neLZlDNDuu2F15ZIMFWBqe+pmwlTrQNrir0J8E9wOVZA/65jL41dUDQPrs1k1\nrzUREOHSQ0H9B3ixPWC4seKHvH8ATrbSwkK0sJ6F/EpcfbkeaG1sXyoEx3m5\nS1IHemKlUj5tQnrShTaG8eiKAnZyw2nQHVhyeiwM8pagGtBBuvTpj4ztS7Ym\nPRWPKeuOeahcA/sjFtPU9cz2zQZaQ8vFaVV40sbZmO/gCIFiNfmjcDbNb443\nh/lKUB2+L04gsBP9zhss9abbf0GMSQtYXJjq8aBtAJ+2FsUBLRM+IqZZgtVG\nUlVkJgnd7tWuc/eqLNuqtUfhE1Ey2oeGZYBc1JFRbbjkHczwQ//4a6nD4uZY\nsS/ycZP1elCD4qjbCt10pqtBoBLMsjSnKVK14h4ul9tPwNAZk9cSYgglH5mT\n2rWQK9wA/Fk7RSCL5DYnHkTVWszrB4mOTj/GkQFO/b/eba72gIdhkjrIk9ru\nDHpC9Yf8t8i32heuiVADPsKoGeWUJOpuGH56sE1M1eJLEiZ8m8gRuPYzJcKo\ngqx4Uc+pzhhDa9eZup2JeBpYLe6YRaJdqmjDVpo6SYT/yx+V+qX9k7rJFrkS\nJdp1\r\n=OY9N\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-add-jsx-attribute_4.2.0_1554966103185_0.8844114420818061"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.0": {
+			"name": "@svgr/babel-plugin-add-jsx-attribute",
+			"description": "Add JSX attribute",
+			"version": "5.0.0",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/smooth-code/svgr/tree/master/packages/babel-plugin-add-jsx-attribute"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"engines": {
+				"node": ">=8"
+			},
+			"license": "MIT",
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+				"prepublishOnly": "yarn run build"
+			},
+			"gitHead": "cfc0fc2786024820ea476739eda6cca342cf4230",
+			"_id": "@svgr/babel-plugin-add-jsx-attribute@5.0.0",
+			"_nodeVersion": "12.14.0",
+			"_npmVersion": "lerna/3.19.0/node@v12.14.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-VFzRCLXdNWsAB+tHN7y9hnc/MU9TATFTOZz5+9Ih7KkryhrmZv35hCeRFAb20n5xdtRy5e2GbIIN/CuZB44t4A==",
+				"shasum": "c185a92efed99f0967f5f2542f7faccfa0850e4b",
+				"tarball": "https://registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-5.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5180,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeAMn4CRA9TVsSAnZWagAANK0P/2sET+0EJ98cfK6HCA8L\nT1TDqGrKKZCpckSqzIUiBtbdiwpBJBLisTuu40v96aX1ZpzDPk4ELEl7AksW\nW/SsDVCG/N8vIys20tRY9xNvWFjGFtsOnt7+3GO12Tr8+KgfQ+AcXfaoLfLc\nzMu+Y2xD5vngPIAdnZyDJi+AOgFWLU0rLLW+qiIi74F0eRy6+u/xkPM0/6WB\nohoR25PRm7iCUPpx9w2mPKJJ0mUSAHfTbJNv6oPnc4oxuTMj+5sK9mODc1ne\nnVcokpzt50iogf2TZfgwrsrv7ng97MwjCMh7GGZIdX68thi+rzLdpZxMUKd9\nH5pNn0tzH74VyTYPPyAUZsusrW38Lyc0ITsyE23jSe5byAgMslGXgI6ItJsM\n87vAvok+ocsbmiPmlHO9BKindEXTjHEG/iMjuJCW0iPpSIhNcoqRJA3VgJlm\nsUsN6p1SJIIabwugHTx4u5GW3sV7yRk79FbV4XsvAnsdIPNek7P5syq3ubm8\nD1xeMd8dMTPaNoww3wQ8C+jX/TRJlKmKkDksDrWa2rQM2ZV3IWizZsgAusJF\nLAVHKEt2lvOK3OwAkyiWJZBryfa6ZZzPP6Lej88TNBzLnYd74c4z0aVaG2Cb\nK4MpY03+fQGpl2pEoUr8u27gKMNH0f7QJhFT1rANt2raslqErOuTbeX0PXU9\nR1Gz\r\n=RoG7\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-add-jsx-attribute_5.0.0_1577110008142_0.37757013349122803"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.1": {
+			"name": "@svgr/babel-plugin-add-jsx-attribute",
+			"description": "Add JSX attribute",
+			"version": "5.0.1",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-add-jsx-attribute"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"engines": {
+				"node": ">=10"
+			},
+			"homepage": "https://react-svgr.com",
+			"funding": {
+				"type": "github",
+				"url": "https://github.com/sponsors/gregberge"
+			},
+			"license": "MIT",
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+				"prepublishOnly": "yarn run build"
+			},
+			"gitHead": "2c0863b6821ef6b86bd7ad1a0267ba7e07b163ff",
+			"_id": "@svgr/babel-plugin-add-jsx-attribute@5.0.1",
+			"_nodeVersion": "12.14.0",
+			"_npmVersion": "lerna/3.19.0/node@v12.14.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-av76JbSudaN2CUOGuKQp5BVqLFidtojg4ApRTg1PBOVsskXK2ORwKnBYhIu0JLA6ynmuNDprlHNCD6IwLiYidw==",
+				"shasum": "744853b6533e83ce712d41d1873200b3e0a0b6fc",
+				"tarball": "https://registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-5.0.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5640,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeCHIXCRA9TVsSAnZWagAA5rcQAI6F7IFrj44RYCinVbQ3\nSPMjLH+di17iTyCNDX2vPe4PKAsPlL46rEzuMtyx0d6/q0GKzyE+giYBkzb6\n+byQuWKEiHLNY+ucr8vZUPnXyJkIAFoqrdUX7HTUCGSrKzB24VMUx/0t/wMm\nLMkYWRCi6nGqdDxGToGWFlynjh8kd0NmUWBo18EhG6iGBXOYNSv1tXvM78Qf\n5Zsqe4TsK42FMjtr5WAFOs3OZG0xeUnTGMKK9wIejeUrCMmMHPvKmqB1gnE7\nmc9hFya+Kq2ZzWlUJFVBa2GwLsGilcdPzPvdZnzMaEjmCaNDbMtkAAXjadsi\nk2Y99ebez/m05uryBtsRAfQPVofaL6G7kDCFxTyB8H7uTwKHR2MDRq+haXaQ\ni246aSG0Q3KRgho4G+vHXkK/SuScSKJmS71J8jJlBnm5obfr1TbIyHbtt7DF\n3eo/yXBn15lDvwJ3rZf6I3T/fIutfTQBPNY5dseCwmUyHDwWYQAzjKdv7ZLy\nQAFj3Y0yULcEh3NX7fo0gJzCk+yOrkyrzc2rfBJSNpxkCnERyT6uZ4q71T0H\nlxrHM6ium+fpEOm62YkqSjSGnabrA6bJGlRaWS8Tbd4ZSS5yp8ZlTUb0dN+l\nqaTV9q6Iv5+nXwYgL1soDWDAoDcO+nnfuNggvMixCSDe+51qpJxoqtCJOBOV\ncUw8\r\n=NC6f\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-add-jsx-attribute_5.0.1_1577611799323_0.623379346020708"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.4.0": {
+			"name": "@svgr/babel-plugin-add-jsx-attribute",
+			"description": "Add JSX attribute",
+			"version": "5.4.0",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-add-jsx-attribute"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"engines": {
+				"node": ">=10"
+			},
+			"homepage": "https://react-svgr.com",
+			"funding": {
+				"type": "github",
+				"url": "https://github.com/sponsors/gregberge"
+			},
+			"license": "MIT",
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+				"prepublishOnly": "yarn run build"
+			},
+			"gitHead": "e9c9d2fbfbce7a6879c90cd8522101caf2406d42",
+			"_id": "@svgr/babel-plugin-add-jsx-attribute@5.4.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.20.2/node@v10.15.0+x64 (darwin)",
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-ZFf2gs/8/6B8PnSofI0inYXr2SDNTDScPXhN7k5EqD4aZ3gi6u+rbmZHVB8IM3wDyx8ntKACZbtXSm7oZGRqVg==",
+				"shasum": "81ef61947bb268eb9d50523446f9c638fb355906",
+				"tarball": "https://registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-5.4.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5857,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJepz58CRA9TVsSAnZWagAAr+gP+weTOOpZvshgonbQ1bhi\nvPJWFY3Qbt9cn1FgXbaMuF/UwuF3/BHeTZAyNgQ0LOQcaM2UXr0qQ1XJA0lc\n9xxpAjoJE4dNY3GsOHoeANagSj433koCI7xr1JkwYOP8g1VdC5DKE0c0hrUH\nD07/GRAhbcKdR2sfAPcDGTd4Wo+v53OT8749qMFUefyv0F9Mzs1ZHDX5fHIG\nZIO0q0Wyn0BjwpXm8JP3ftD3NYm9FpPdC+O7PO13hB/gKbXw+OLOWey1m8fO\nrD9/rNSFNmb6QQXrQXoMQKYfveg7C5FNWK7LjK7Iyvq/BJiqSZrnZIQk0Oiv\nbIFTBAkRsrDxVrYFY/RPP4wYps54AQx58L+r5PMQOeLrxjwdkgsxNOEulNnl\nVAM/XRA/bEgCeQDyaoKLNFvjQgCLvVKFx+XMalWkI415g0gAOsdMgySHdOHk\nXndOI9EHhyqdiJZhgAguCnMK5w7tu8Qf1PxYw8sqqbAxqtrT+OilmRhhNXXg\nD0GUWJBT4xbWWum0ZUVYQA3F+5LE/oBKFAhlwVl/4lrv2G6Cf5WVi9KrfBqo\ndTGGUeWNZzp11h7JJAgqLANiDevWVCzzo3aGIRQ8ldTIfJvkd8bTdvBXdgw3\nuZe5K4QVTkcbLvVyGeGBSALYkYG24HORlFI2oZj6xcuffN7xki8HPzOcDVYZ\nt8xA\r\n=R0Sn\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-add-jsx-attribute_5.4.0_1588018812189_0.565371722001071"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0-alpha.1": {
+			"name": "@svgr/babel-plugin-add-jsx-attribute",
+			"description": "Add JSX attribute",
+			"version": "6.0.0-alpha.1",
+			"main": "./dist/index.js",
+			"exports": "./dist/index.js",
+			"typings": "./dist/index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gregberge/svgr.git#master"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"engines": {
+				"node": ">=10"
+			},
+			"homepage": "https://react-svgr.com",
+			"funding": {
+				"type": "github",
+				"url": "https://github.com/sponsors/gregberge"
+			},
+			"license": "MIT",
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"scripts": {
+				"reset": "rm -rf dist",
+				"build": "rollup -c ../../build/rollup.config.js",
+				"prepublishOnly": "npm run reset && npm run build"
+			},
+			"gitHead": "22e2736665552263fff88683e1551b8ad852b150",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/gregberge/svgr/issues"
+			},
+			"_id": "@svgr/babel-plugin-add-jsx-attribute@6.0.0-alpha.1",
+			"_nodeVersion": "16.13.0",
+			"_npmVersion": "lerna/4.0.0/node@v16.13.0+arm64 (darwin)",
+			"dist": {
+				"integrity": "sha512-nmQKOptngoL6PvVaqPmmU9P5TuhcXLOQPMstPNUKrYAUXDdVLFmRMkYIp34fme/7ntM8vuGZOkP7I92lrqgBVA==",
+				"shasum": "4b6a1ddff5a527819a64d8ccbf0f68b05e27a3ce",
+				"tarball": "https://registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-6.0.0-alpha.1.tgz",
+				"fileCount": 8,
+				"unpackedSize": 10932
+			},
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-add-jsx-attribute_6.0.0-alpha.1_1635670716999_0.385711332128128"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0": {
+			"name": "@svgr/babel-plugin-add-jsx-attribute",
+			"description": "Add JSX attribute",
+			"version": "6.0.0",
+			"main": "./dist/index.js",
+			"exports": "./dist/index.js",
+			"typings": "./dist/index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gregberge/svgr.git#master"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"engines": {
+				"node": ">=10"
+			},
+			"homepage": "https://react-svgr.com",
+			"funding": {
+				"type": "github",
+				"url": "https://github.com/sponsors/gregberge"
+			},
+			"license": "MIT",
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"scripts": {
+				"reset": "rm -rf dist",
+				"build": "rollup -c ../../build/rollup.config.js",
+				"prepublishOnly": "npm run reset && npm run build"
+			},
+			"gitHead": "af9a6cbd4387180c7d6683713330a7ffcfb600e9",
+			"bugs": {
+				"url": "https://github.com/gregberge/svgr/issues"
+			},
+			"_id": "@svgr/babel-plugin-add-jsx-attribute@6.0.0",
+			"_nodeVersion": "16.13.0",
+			"_npmVersion": "lerna/4.0.0/node@v16.13.0+arm64 (darwin)",
+			"dist": {
+				"integrity": "sha512-MdPdhdWLtQsjd29Wa4pABdhWbaRMACdM1h31BY+c6FghTZqNGT7pEYdBoaGeKtdTOBC/XNFQaKVj+r/Ei2ryWA==",
+				"shasum": "bd6d1ff32a31b82b601e73672a789cc41e84fe18",
+				"tarball": "https://registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-6.0.0.tgz",
+				"fileCount": 8,
+				"unpackedSize": 10924,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJho//DCRA9TVsSAnZWagAA9WsP/ir9X7l7/9dFY1AG8mUa\nt2YoOP53tFBmJYfKQ+8cVjadsHKKBFF2mz4kWovJEAP6HBOybSq1qckzkr3G\nwwnC19wvciQXI8T1zJbscc+kZpk7/CnQcqi8xfdgz/iGV+RA/vsFBhfHT1xS\nqcSXcnU8+meZUoSIULWW/lWGkhIUz7PH6dh4kvEoPeTSCmNKI5lAaXfoTNVq\nf7a+h3bal1116Qr2Eacf5jCuwQ4N+hWEj9EiNuu+jQ0GGYfUKrhIHjSvD1UZ\nozLV+o8j+hBtIZe1Sbalme1cmxIir5jfgN+b5ioXZJ6/Xzxynbfw5mFYMn3y\nd6vQFkXewtdLDMl0bkrO/CXnMINVq6NPyGOST+LMgcTG39S/xQjq6D7o2iQ5\noCHR5Xt9G/uJ9kt1EJT3b1apYBEWVn+8eCoaOnHK94doBgKx58f2GYVutBsm\njTKmqByBRQvvxFnb7fwXEpk1FrtSUUWD6t9Vp7LtPlJJNoLtmCTkGe7GukQN\nlAXaiDRtxmyVjcWmEJlQasc+SGxZbItJyg1uPq3jXc9qbsSuiD+Y3lmnFDm0\nw35UaKc8rhOU1POZQ8otgjMMPjJFCojiEN+zbx0vZXy1lWsGPCttcHPw0r3x\nc7of7LbXph+FPpM2Folivn2dSdjKAMtuclNeVpiKEEM62k3FQFgz+gX3y9Ni\nO/ud\r\n=0NYw\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-add-jsx-attribute_6.0.0_1638137795675_0.9933141698642851"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-11-04T15:17:30.004Z",
+		"4.0.0": "2018-11-04T15:17:30.201Z",
+		"modified": "2021-11-28T22:16:40.804Z",
+		"4.2.0": "2019-04-11T07:01:43.308Z",
+		"5.0.0": "2019-12-23T14:06:48.294Z",
+		"5.0.1": "2019-12-29T09:29:59.460Z",
+		"5.4.0": "2020-04-27T20:20:12.280Z",
+		"6.0.0-alpha.1": "2021-10-31T08:58:37.118Z",
+		"6.0.0": "2021-11-28T22:16:35.866Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.0.0",
+		"next": "6.0.0-alpha.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"88e8d24181a79a1aae28f8408a4d6f19\"",
+			"fetched": 1646835672979
+		}
+	},
+	"_distfiles": {
+		"babel-plugin-add-jsx-attribute-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-4.0.0.tgz",
+			"sha": "5acf239cd2747b1a36ec7e708de05d914cb9b948",
+			"registry": "npmjs"
+		},
+		"babel-plugin-add-jsx-attribute-4.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-4.2.0.tgz",
+			"sha": "dadcb6218503532d6884b210e7f3c502caaa44b1",
+			"registry": "npmjs"
+		},
+		"babel-plugin-add-jsx-attribute-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-5.0.0.tgz",
+			"sha": "c185a92efed99f0967f5f2542f7faccfa0850e4b",
+			"registry": "npmjs"
+		},
+		"babel-plugin-add-jsx-attribute-5.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-5.0.1.tgz",
+			"sha": "744853b6533e83ce712d41d1873200b3e0a0b6fc",
+			"registry": "npmjs"
+		},
+		"babel-plugin-add-jsx-attribute-5.4.0.tgz": {
+			"url": "https://registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-5.4.0.tgz",
+			"sha": "81ef61947bb268eb9d50523446f9c638fb355906",
+			"registry": "npmjs"
+		},
+		"babel-plugin-add-jsx-attribute-6.0.0-alpha.1.tgz": {
+			"url": "https://registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-6.0.0-alpha.1.tgz",
+			"sha": "4b6a1ddff5a527819a64d8ccbf0f68b05e27a3ce",
+			"registry": "npmjs"
+		},
+		"babel-plugin-add-jsx-attribute-6.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-6.0.0.tgz",
+			"sha": "bd6d1ff32a31b82b601e73672a789cc41e84fe18",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"babel-plugin-add-jsx-attribute-5.4.0.tgz": {
+			"shasum": "81ef61947bb268eb9d50523446f9c638fb355906"
+		},
+		"babel-plugin-add-jsx-attribute-6.0.0.tgz": {
+			"shasum": "bd6d1ff32a31b82b601e73672a789cc41e84fe18"
+		}
+	},
+	"_rev": "10-17de014bd067383d",
+	"_id": "@svgr/babel-plugin-add-jsx-attribute",
+	"readme": "# @svgr/babel-plugin-add-jsx-attribute\n\n## Install\n\n```\b\nnpm install --save-dev @svgr/babel-plugin-add-jsx-attribute\n```\n\n## Usage\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\n    [\n      \"@svgr/babel-plugin-add-jsx-attribute\",\n      {\n        \"elements\": [\"svg\"],\n        \"attributes\": [\n          {\n            \"name\": \"width\",\n            \"value\": \"200\",\n            \"spread\": false,\n            \"literal\": false,\n            \"position\": \"end\"\n          }\n        ]\n      }\n    ]\n  ]\n}\n```\n\n## License\n\nMIT"
+}
